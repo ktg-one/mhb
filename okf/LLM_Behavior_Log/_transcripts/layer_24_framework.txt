@@ -1,0 +1,55 @@
+Layer 24 is a governance-focused AI workflow layer for high-stakes domains. It’s not a new model or orchestration framework; it’s a set of agent patterns, schemas, and checks that make LLM-based systems reconstructable, auditable, and defensible in front of regulators, clients, and internal risk teams.
+
+## What Layer 24 Provides
+
+### 1. Audit-trail agents
+
+Layer 24 designs and implements audit-trail agents: AI workflows where every meaningful decision is captured as a structured event, not just a log line.
+
+Each “decision event” includes at least:
+
+- Full decision context (instructions, conversation state, active policies, retrieval results).
+- Tool calls and parameters, tool responses, and model outputs.
+- Policy evaluation records (what rules ran, pass/fail, reasons).
+- Data lineage (where user/third-party data flowed).
+- Human intervention points (who reviewed/approved/overrode, with reason codes).
+
+This makes the system’s behavior replayable and forensically useful, which is what compliance actually needs rather than vague “we have traces” claims.
+
+### 2. Verification-first workflows
+
+Layer 24 treats verification as a first-class part of the workflow, not an afterthought. Concretely, it helps you design verification-first workflows with:
+
+- Pre-execution validators (schema checks, RBAC, PII/PHI filters, policy-gate prompts).
+- Post-execution validators (fact checks, anomaly/threshold checks, secondary-model verification).
+- Risk-aware routing (low-risk auto-approve vs. medium/high-risk escalation to humans).
+- Explicit decision/approval thresholds for actions that touch money, health, legal standing, or regulated data.
+
+The goal is to close the gap many teams still have between “AI generation” and “rigorous human/automated verification” in high-stakes settings.
+
+### 3. Governance-ready schemas and checklists
+
+Layer 24 provides JSON schemas, event models, and checklists that map directly to what auditors and governance teams will ask for.
+
+Examples:
+
+- A standardized JSON event schema for agent decisions (context, action, result, policy evaluations, approvals).
+- Audit essentials checklists (log X, validate Y, retain Z) for each class of workflow.
+- Risk/decision catalogs: which actions exist, who may perform them (agent vs. human), and what evidence is required.
+
+This is designed to plug into existing logging/observability stacks (SIEM, data lake, tracing systems) without forcing you onto a new vendor’s vertical platform.
+
+### 4. High-stakes domain focus
+
+Layer 24 is explicitly aimed at high-stakes domains where “good enough” tracing or dashboards are not sufficient:
+
+- Financial crime / KYC / AML and other regulated financial workflows.
+- Healthcare and biomedical decision support.
+- Legal and M&A diligence.
+- Government or public-sector consulting where outputs may be scrutinized publicly.
+
+These are environments where a single hallucinated citation or undocumented agent action can lead to refunds, regulatory scrutiny, or public investigations—and where a verification-first, audit-ready approach is now a competitive necessity.
+
+## How I’d summarize it to a peer
+
+Layer 24 helps you turn “cool agents” into audit-ready agents: we define the decision/event schema, the verification gates, and the escalation patterns so every high-stakes interaction is reconstructable, explainable, and backed by explicit approvals and evidence rather than vibes and dashboards.

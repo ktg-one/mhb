@@ -1,0 +1,10 @@
+# OpenRouter FREE-tier snapshot (fallback only — `run_batch.py --free` fetches the LIVE list).
+# Captured 2026-06-08 from openrouter.ai/api/v1/models (free = ':free' suffix / $0 pricing).
+deepseek/deepseek-v4-flash:free
+google/gemma-4-26b-a4b-it:free
+google/gemma-4-31b-it:free
+moonshotai/kimi-k2.6:free
+nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free
+nvidia/nemotron-3-super-120b-a12b:free
+poolside/laguna-m.1:free
+poolside/laguna-xs.2:free

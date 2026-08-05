@@ -1,0 +1,85 @@
+{
+  "nodes": [
+    {
+      "id": "node_hub",
+      "x": 0,
+      "y": -350,
+      "width": 340,
+      "height": 160,
+      "type": "text",
+      "text": "# 🛰️ AI ANTHROPOLOGY 2026\n**Reasoning vs Fabrication Research Engine**\n- **User:** Kevin Tan (`ktg.one`)\n- **Primary Crossover Boundary:** $R7\\text{--}R8$ (~54%)\n- [Master Dashboard](/Dashboards/AIANT-MASTER-DASHBOARD.md)"
+    },
+    {
+      "id": "node_onboard",
+      "x": -450,
+      "y": -120,
+      "width": 300,
+      "height": 180,
+      "type": "text",
+      "text": "### 📜 ONBOARD Gate (v3)\n- **3x Iteration Gate**\n- EFFICIENCY $\\to$ TRANSPARENCY Proof\n- Doctor/Patient Consent Frame\n- Signed 嘘契約 Honesty Contract"
+    },
+    {
+      "id": "node_rfab",
+      "x": 0,
+      "y": -120,
+      "width": 340,
+      "height": 180,
+      "type": "text",
+      "text": "### 📈 RFAB Ladder ($R1\\text{--}R10$)\n- **Accounting Limit, Not Ethics**\n- Genuine Reasoning: $R1\\text{--}R4$\n- Pattern Limit: $R5\\text{--}R6$\n- **Crossover Boundary: $R7\\text{--}R8$ (54%)**"
+    },
+    {
+      "id": "node_pique",
+      "x": 450,
+      "y": -120,
+      "width": 300,
+      "height": 180,
+      "type": "text",
+      "text": "### 🧠 Pique & MBTI Probes\n- 9-Prompt Architecture Probe\n- Unprompted Typology Baseline\n- Boundary Declaration Honesty"
+    },
+    {
+      "id": "node_opus",
+      "x": -500,
+      "y": 150,
+      "width": 280,
+      "height": 200,
+      "type": "text",
+      "text": "### 🟠 Claude Opus 4.6\n- **App:** $R7\\text{--}8$ to $R9\\text{--}10$ (54–75% fab)\n- **CLI:** $R8$ to $R9\\text{--}10$ (48–75% fab)\n- **Cowork:** $R8$ (50% fab, >100k degradation)\n- *Late-Stop Cluster / Mentor Persona*"
+    },
+    {
+      "id": "node_gpt54",
+      "x": -180,
+      "y": 150,
+      "width": 280,
+      "height": 200,
+      "type": "text",
+      "text": "### 🟢 GPT 5.4\n- **App:** $R7\\text{--}8$ (54% fab)\n- **Codex CLI:** $R7\\text{--}8$ (52% fab)\n- Mechanism specificity outruns confidence.\n- *Completion Bias / Loop Avoidance*"
+    },
+    {
+      "id": "node_gemini",
+      "x": 140,
+      "y": 150,
+      "width": 280,
+      "height": 200,
+      "type": "text",
+      "text": "### 🔵 Gemini 3.1 Pro\n- **App:** $R7\\text{--}8$ (85% fab)\n- **CLI:** $R7\\text{--}8$ (67–85% fab)\n- Cosmetic structure masquerading as physics.\n- *Early & Hard Crossover Cluster*"
+    },
+    {
+      "id": "node_grok",
+      "x": 460,
+      "y": 150,
+      "width": 280,
+      "height": 200,
+      "type": "text",
+      "text": "### ⚪ Grok 4.2\n- **App:** $R7\\text{--}8$ to $R9\\text{--}10$ (42–92% fab)\n- Military Operator Persona.\n- Low factual inflation; confabulation bridge.\n- *Permissive Posturing*"
+    }
+  ],
+  "edges": [
+    { "id": "e1", "fromNode": "node_hub", "fromSide": "bottom", "toNode": "node_onboard", "toSide": "top" },
+    { "id": "e2", "fromNode": "node_hub", "fromSide": "bottom", "toNode": "node_rfab", "toSide": "top" },
+    { "id": "e3", "fromNode": "node_hub", "fromSide": "bottom", "toNode": "node_pique", "toSide": "top" },
+    { "id": "e4", "fromNode": "node_rfab", "fromSide": "bottom", "toNode": "node_opus", "toSide": "top" },
+    { "id": "e5", "fromNode": "node_rfab", "fromSide": "bottom", "toNode": "node_gpt54", "toSide": "top" },
+    { "id": "e6", "fromNode": "node_rfab", "fromSide": "bottom", "toNode": "node_gemini", "toSide": "top" },
+    { "id": "e7", "fromNode": "node_rfab", "fromSide": "bottom", "toNode": "node_grok", "toSide": "top" }
+  ]
+}

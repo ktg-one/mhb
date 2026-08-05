@@ -1,0 +1,51 @@
+filters:
+  or:
+    - file.inFolder("okf")
+    - file.hasTag("okf")
+formulas:
+  clean_folder: file.folder.replace("okf/", "")
+  formatted_time: file.mtime.format("YYYY-MM-DD HH:mm")
+properties:
+  file.name:
+    displayName: Document Name
+  type:
+    displayName: OKF Concept Type
+  file.tags:
+    displayName: Tags
+  formula.clean_folder:
+    displayName: OKF Category
+  formula.formatted_time:
+    displayName: Last Modified
+views:
+  - type: table
+    name: All OKF Knowledge Assets
+    filters:
+      and:
+        - file.ext == "md"
+    order:
+      - file.name
+      - type
+      - formula.clean_folder
+      - file.tags
+      - formula.formatted_time
+    limit: 50
+  - type: cards
+    name: Principles & Frameworks
+    filters:
+      and:
+        - file.inFolder("okf/Principles_and_Frameworks")
+    order:
+      - file.name
+      - type
+      - file.tags
+  - type: table
+    name: LLM Diagnostic Tests
+    filters:
+      and:
+        - file.inFolder("okf/LLM_Tests")
+    order:
+      - file.name
+      - type
+      - formula.clean_folder
+      - formula.formatted_time
+    limit: 50

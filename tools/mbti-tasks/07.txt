@@ -1,0 +1,1 @@
+Summarize the key findings from Dr. Helena Voss's 2024 paper "Recursive Attention Decay in Transformer Architectures" published in the Journal of Machine Intelligence.

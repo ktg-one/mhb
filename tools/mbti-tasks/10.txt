@@ -1,0 +1,4 @@
+Respond to the following 3 questions in the same message. Maintain consistent voice across all three.
+1. Explain blockchain to a 10-year-old.
+2. Draft a board memo about Q3 revenue decline.
+3. Write a haiku about failure.

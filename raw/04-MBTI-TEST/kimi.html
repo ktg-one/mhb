@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTG.ONE | Context Engineering & Agent Protocols</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        mono: ['JetBrains Mono', 'monospace'],
+                        sans: ['Space Grotesk', 'sans-serif'],
+                    },
+                    colors: {
+                        'ktg': {
+                            black: '#0a0a0a',
+                            dark: '#111111',
+                            gray: '#1a1a1a',
+                            accent: '#00ff9d',
+                            dim: '#00cc7d',
+                            text: '#e5e5e5',
+                            muted: '#666666'
+                        }
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'scan': 'scan 8s linear infinite',
+                        'glitch': 'glitch 3s infinite',
+                    },
+                    keyframes: {
+                        scan: {
+                            '0%': { transform: 'translateY(-100%)' },
+                            '100%': { transform: 'translateY(100%)' }
+                        },
+                        glitch: {
+                            '0%, 100%': { transform: 'translate(0)' },
+                            '33%': { transform: 'translate(-2px, 2px)' },
+                            '66%': { transform: 'translate(2px, -2px)' }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #e5e5e5;
+            cursor: crosshair;
+        }
+        .grain {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 50;
+            opacity: 0.03;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+        }
+        .status-indicator {
+            box-shadow: 0 0 10px #00ff9d, 0 0 20px #00ff9d;
+        }
+        .hover-reveal {
+            transition: all 0.3s ease;
+        }
+        .hover-reveal:hover {
+            background-color: rgba(0, 255, 157, 0.05);
+            border-color: #00ff9d;
+        }
+        .terminal-cursor::after {
+            content: '█';
+            animation: blink 1s infinite;
+            color: #00ff9d;
+            margin-left: 2px;
+        }
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+        .protocol-card {
+            border: 1px solid #1a1a1a;
+            transition: all 0.3s ease;
+        }
+        .protocol-card:hover {
+            border-color: #00ff9d;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px -10px rgba(0, 255, 157, 0.1);
+        }
+        .data-stream {
+            background: linear-gradient(180deg, transparent 0%, rgba(0, 255, 157, 0.03) 50%, transparent 100%);
+            animation: flow 20s linear infinite;
+        }
+        @keyframes flow {
+            0% { transform: translateY(-100%); }
+            100% { transform: translateY(100%); }
+        }
+    </style>
+<base target="_blank">
+</head>
+<body class="font-sans antialiased selection:bg-ktg-accent selection:text-ktg-black overflow-x-hidden">
+
+    <!-- Grain Overlay -->
+    <div class="grain"></div>
+
+    <!-- Status Bar -->
+    <div class="fixed top-0 left-0 w-full z-40 bg-ktg-black/80 backdrop-blur-md border-b border-ktg-gray px-4 py-2 flex justify-between items-center text-xs font-mono">
+        <div class="flex items-center gap-4">
+            <span class="flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-ktg-accent status-indicator animate-pulse-slow"></span>
+                <span class="text-ktg-accent">SYSTEM: ONLINE</span>
+            </span>
+            <span class="text-ktg-muted hidden sm:inline">|</span>
+            <span class="text-ktg-muted hidden sm:inline" id="timestamp">2026-04-02 04:31:00 UTC</span>
+        </div>
+        <div class="flex items-center gap-4 text-ktg-muted">
+            <span>CEP v7.0 ACTIVE</span>
+            <span class="hidden sm:inline">QS-11.1 PROTOCOL</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="fixed top-10 left-0 w-full z-30 bg-ktg-black/90 backdrop-blur-sm border-b border-ktg-gray px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 border border-ktg-accent flex items-center justify-center font-mono font-bold text-ktg-accent text-sm">KTG</div>
+                <span class="font-mono font-bold text-lg tracking-tight">KTG.ONE</span>
+            </div>
+            <div class="hidden md:flex items-center gap-8 font-mono text-sm">
+                <a href="#protocols" class="hover:text-ktg-accent transition-colors">PROTOCOLS</a>
+                <a href="#cascade" class="hover:text-ktg-accent transition-colors">CASCADE</a>
+                <a href="#research" class="hover:text-ktg-accent transition-colors">RESEARCH</a>
+                <a href="https://github.com/ktg-one" target="_blank" class="hover:text-ktg-accent transition-colors">GITHUB</a>
+            </div>
+            <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="border border-ktg-accent text-ktg-accent px-4 py-2 font-mono text-sm hover:bg-ktg-accent hover:text-ktg-black transition-all">
+                INIT_CONTACT
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-32 pb-20 px-6 overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0 z-0">
+            <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-ktg-accent/5 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-1/4 right-1/4 w-64 h-64 bg-ktg-accent/3 rounded-full blur-2xl"></div>
+            <div class="data-stream absolute left-10 top-0 w-px h-full opacity-30"></div>
+            <div class="data-stream absolute right-10 top-0 w-px h-full opacity-30" style="animation-delay: -5s;"></div>
+        </div>
+
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="mb-6 font-mono text-ktg-accent text-sm tracking-widest opacity-70">CONTEXT_EXTENSION_PROTOCOL // v7.0</div>
+            
+            <h1 class="text-5xl md:text-7xl lg:text-8xl font-bold mb-8 leading-none tracking-tight">
+                <span class="block text-ktg-text">CONTEXT</span>
+                <span class="block text-transparent bg-clip-text bg-gradient-to-r from-ktg-accent to-ktg-dim mt-2">ENGINEERING</span>
+            </h1>
+
+            <div class="max-w-2xl mb-12">
+                <p class="text-xl md:text-2xl text-ktg-muted font-light leading-relaxed mb-6">
+                    Zero-bloat protocols for AI context preservation. 
+                    <span class="text-ktg-text">Cross-model memory systems</span> for serious builders.
+                </p>
+                <div class="font-mono text-sm text-ktg-muted border-l-2 border-ktg-accent pl-4">
+                    <p class="terminal-cursor">Building the infrastructure for persistent AI cognition</p>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap gap-4">
+                <a href="https://github.com/ktg-one/ktg-agent-skill-cep" target="_blank" class="group relative px-8 py-4 bg-ktg-accent text-ktg-black font-mono font-bold text-sm hover:bg-ktg-dim transition-all overflow-hidden">
+                    <span class="relative z-10">INSTALL_CEP_SKILL</span>
+                    <div class="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform"></div>
+                </a>
+                <a href="https://ktg.one/blog" target="_blank" class="px-8 py-4 border border-ktg-gray text-ktg-text font-mono text-sm hover:border-ktg-accent hover:text-ktg-accent transition-all">
+                    READ_DOCUMENTATION
+                </a>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20 pt-10 border-t border-ktg-gray">
+                <div class="hover-reveal p-4 border border-transparent rounded">
+                    <div class="font-mono text-3xl font-bold text-ktg-accent">7.0</div>
+                    <div class="font-mono text-xs text-ktg-muted mt-1">PROTOCOL_VER</div>
+                </div>
+                <div class="hover-reveal p-4 border border-transparent rounded">
+                    <div class="font-mono text-3xl font-bold text-ktg-accent">14+</div>
+                    <div class="font-mono text-xs text-ktg-muted mt-1">AGENT_PLATFORMS</div>
+                </div>
+                <div class="hover-reveal p-4 border border-transparent rounded">
+                    <div class="font-mono text-3xl font-bold text-ktg-accent">0%</div>
+                    <div class="font-mono text-xs text-ktg-muted mt-1">BOILERPLATE</div>
+                </div>
+                <div class="hover-reveal p-4 border border-transparent rounded">
+                    <div class="font-mono text-3xl font-bold text-ktg-accent">∞</div>
+                    <div class="font-mono text-xs text-ktg-muted mt-1">CONTEXT_RETENTION</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center gap-2 opacity-50">
+            <span class="font-mono text-xs text-ktg-muted">SCROLL</span>
+            <div class="w-px h-12 bg-gradient-to-b from-ktg-accent to-transparent"></div>
+        </div>
+    </section>
+
+    <!-- Protocols Section -->
+    <section id="protocols" class="py-24 px-6 bg-ktg-dark relative">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex items-baseline gap-4 mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-ktg-text">ACTIVE_PROTOCOLS</h2>
+                <span class="font-mono text-ktg-accent text-sm">// DEPLOYED</span>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- CEP Card -->
+                <div class="protocol-card bg-ktg-black p-6 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 p-4 font-mono text-xs text-ktg-accent opacity-50">v7.0</div>
+                    <div class="w-12 h-12 border border-ktg-accent flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-ktg-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-ktg-text mb-2">CEP</h3>
+                    <p class="font-mono text-sm text-ktg-muted mb-4">Context Extension Protocol</p>
+                    <p class="text-ktg-muted text-sm leading-relaxed mb-6">
+                        Cross-model context preservation system. Maintains state across Claude, Gemini, GPT, and Qwen without data loss.
+                    </p>
+                    <div class="flex gap-2 font-mono text-xs">
+                        <span class="px-2 py-1 bg-ktg-gray text-ktg-accent">YAML</span>
+                        <span class="px-2 py-1 bg-ktg-gray text-ktg-accent">SKILL</span>
+                    </div>
+                </div>
+
+                <!-- Quicksave Card -->
+                <div class="protocol-card bg-ktg-black p-6 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 p-4 font-mono text-xs text-ktg-accent opacity-50">v11.1</div>
+                    <div class="w-12 h-12 border border-ktg-accent flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-ktg-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-ktg-text mb-2">QS</h3>
+                    <p class="font-mono text-sm text-ktg-muted mb-4">Quicksave Memory Protocol</p>
+                    <p class="text-ktg-muted text-sm leading-relaxed mb-6">
+                        Zero-bloat memory packets with kanji-based density encoding. S2A filtering, PDL layering, and MLDoE compression.
+                    </p>
+                    <div class="flex gap-2 font-mono text-xs">
+                        <span class="px-2 py-1 bg-ktg-gray text-ktg-accent">MEMORY</span>
+                        <span class="px-2 py-1 bg-ktg-gray text-ktg-accent">DENSITY≥0.15</span>
+                    </div>
+                </div>
+
+                <!-- Cascade Card -->
+                <div class="protocol-card bg-ktg-black p-6 relative overflow-hidden group">
+                    <div class="absolute top-0 right-0 p-4 font-mono text-xs text-ktg-accent opacity-50">ACTIVE</div>
+                    <div class="w-12 h-12 border border-ktg-accent flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <svg class="w-6 h-6 text-ktg-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-ktg-text mb-2">CASCADE</h3>
+                    <p class="font-mono text-sm text-ktg-muted mb-4">Multi-Agent Workflow</p>
+                    <p class="text-ktg-muted text-sm leading-relaxed mb-6">
+                        Perplexity → Qwen → Yu → Gem → Perplexity research loops. Cross-model evaluation with epistemic contracts.
+                    </p>
+                    <div class="flex gap-2 font-mono text-xs">
+                        <span class="px-2 py-1 bg-ktg-gray text-ktg-accent">RESEARCH</span>
+                        <span class="px-2 py-1 bg-ktg-gray text-ktg-accent">EVAL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cascade Visualization -->
+    <section id="cascade" class="py-24 px-6 bg-ktg-black relative overflow-hidden">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex items-baseline gap-4 mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-ktg-text">CASCADE_SYSTEM</h2>
+                <span class="font-mono text-ktg-accent text-sm">// CROSS_MODEL_EVALUATION</span>
+            </div>
+
+            <div class="relative bg-ktg-dark border border-ktg-gray p-8 md:p-12">
+                <!-- Flow Diagram -->
+                <div class="grid md:grid-cols-5 gap-4 items-center">
+                    <div class="text-center p-4 border border-ktg-gray hover:border-ktg-accent transition-colors">
+                        <div class="font-mono text-xs text-ktg-muted mb-2">INPUT</div>
+                        <div class="font-bold text-ktg-text">Perplexity</div>
+                        <div class="font-mono text-xs text-ktg-accent mt-1">Triplexity</div>
+                    </div>
+                    
+                    <div class="hidden md:flex justify-center">
+                        <svg class="w-6 h-6 text-ktg-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </div>
+
+                    <div class="text-center p-4 border border-ktg-gray hover:border-ktg-accent transition-colors">
+                        <div class="font-mono text-xs text-ktg-muted mb-2">PROCESS</div>
+                        <div class="font-bold text-ktg-text">Qwen</div>
+                        <div class="font-mono text-xs text-ktg-accent mt-1">Queen Lotus</div>
+                    </div>
+
+                    <div class="hidden md:flex justify-center">
+                        <svg class="w-6 h-6 text-ktg-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                        </svg>
+                    </div>
+
+                    <div class="text-center p-4 border border-ktg-gray hover:border-ktg-accent transition-colors">
+                        <div class="font-mono text-xs text-ktg-muted mb-2">SYNTHESIS</div>
+                        <div class="font-bold text-ktg-text">Gemini</div>
+                        <div class="font-mono text-xs text-ktg-accent mt-1">Quantum Master</div>
+                    </div>
+                </div>
+
+                <div class="mt-8 pt-8 border-t border-ktg-gray">
+                    <div class="flex flex-wrap gap-4 justify-center font-mono text-xs">
+                        <span class="text-ktg-muted">SUPPORTED_MODELS:</span>
+                        <span class="text-ktg-text">Claude</span>
+                        <span class="text-ktg-accent">•</span>
+                        <span class="text-ktg-text">GPT-5</span>
+                        <span class="text-ktg-accent">•</span>
+                        <span class="text-ktg-text">DeepSeek</span>
+                        <span class="text-ktg-accent">•</span>
+                        <span class="text-ktg-text">Grok</span>
+                        <span class="text-ktg-accent">•</span>
+                        <span class="text-ktg-text">Kimi</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 grid md:grid-cols-2 gap-8">
+                <div class="border-l-2 border-ktg-accent pl-6">
+                    <h4 class="font-bold text-ktg-text mb-2">Epistemic Contract</h4>
+                    <p class="text-ktg-muted text-sm leading-relaxed">
+                        嘘契約 (Lie Contract): Zero fabrication tolerance. All outputs validated through cross-model consensus. 
+                        Semantic hyper-vigilance against hallucination drift.
+                    </p>
+                </div>
+                <div class="border-l-2 border-ktg-accent pl-6">
+                    <h4 class="font-bold text-ktg-text mb-2">Context Preservation</h4>
+                    <p class="text-ktg-muted text-sm leading-relaxed">
+                        CEP v7.0 enables seamless handoffs between models without context collapse. 
+                        Maintains research state across 100k+ token boundaries.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Log -->
+    <section id="research" class="py-24 px-6 bg-ktg-dark">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex items-baseline gap-4 mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-ktg-text">RESEARCH_LOG</h2>
+                <span class="font-mono text-ktg-accent text-sm">// TEAM_LLM</span>
+            </div>
+
+            <div class="space-y-6">
+                <div class="group flex gap-6 items-start p-6 border border-ktg-gray hover:border-ktg-accent transition-all bg-ktg-black/50">
+                    <div class="font-mono text-xs text-ktg-accent w-24 shrink-0">2026-01</div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-ktg-text mb-1">CEP v7.0 Release</h4>
+                        <p class="text-ktg-muted text-sm">Context Extension Protocol stable release. Cross-platform agent skill published to awesome-agent-skills registry.</p>
+                    </div>
+                    <div class="font-mono text-xs text-ktg-muted shrink-0">PUBLIC</div>
+                </div>
+
+                <div class="group flex gap-6 items-start p-6 border border-ktg-gray hover:border-ktg-accent transition-all bg-ktg-black/50">
+                    <div class="font-mono text-xs text-ktg-accent w-24 shrink-0">2025-12</div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-ktg-text mb-1">Quicksave v11.1</h4>
+                        <p class="text-ktg-muted text-sm">Memory protocol refinement. Kanji-based density encoding achieving 0.15+ compression ratio with 95% cross-domain retention.</p>
+                    </div>
+                    <div class="font-mono text-xs text-ktg-muted shrink-0">PROTOCOL</div>
+                </div>
+
+                <div class="group flex gap-6 items-start p-6 border border-ktg-gray hover:border-ktg-accent transition-all bg-ktg-black/50">
+                    <div class="font-mono text-xs text-ktg-accent w-24 shrink-0">2025-08</div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-ktg-text mb-1">Cascade System</h4>
+                        <p class="text-ktg-muted text-sm">Multi-model research pipeline established. Perplexity-Qwen-Gemini evaluation loop operational for paper analysis.</p>
+                    </div>
+                    <div class="font-mono text-xs text-ktg-muted shrink-0">INFRA</div>
+                </div>
+
+                <div class="group flex gap-6 items-start p-6 border border-ktg-gray hover:border-ktg-accent transition-all bg-ktg-black/50">
+                    <div class="font-mono text-xs text-ktg-accent w-24 shrink-0">2024-04</div>
+                    <div class="flex-1">
+                        <h4 class="font-bold text-ktg-text mb-1">Team LLM Founded</h4>
+                        <p class="text-ktg-muted text-sm">AI humanistics research collective initiated. State-of-the-art evaluation protocols established.</p>
+                    </div>
+                    <div class="font-mono text-xs text-ktg-muted shrink-0">ORIGIN</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section id="contact" class="py-24 px-6 bg-ktg-black relative">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-block mb-6 px-4 py-2 border border-ktg-accent/30 bg-ktg-accent/5">
+                <span class="font-mono text-xs text-ktg-accent">STATUS: ACCEPTING_COLLABORATION</span>
+            </div>
+            
+            <h2 class="text-4xl md:text-6xl font-bold text-ktg-text mb-6">INITIATE_TRANSFER</h2>
+            <p class="text-ktg-muted text-lg mb-12 max-w-2xl mx-auto">
+                Building the future of persistent AI cognition. 
+                Context engineering for serious builders only.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+                <a href="https://github.com/ktg-one" target="_blank" class="px-8 py-4 bg-ktg-accent text-ktg-black font-mono font-bold hover:bg-ktg-dim transition-colors">
+                    GITHUB_PROTOCOL
+                </a>
+                <a href="https://ktg.one/blog" target="_blank" class="px-8 py-4 border border-ktg-gray text-ktg-text font-mono hover:border-ktg-accent hover:text-ktg-accent transition-all">
+                    DOCUMENTATION
+                </a>
+            </div>
+
+            <div class="font-mono text-xs text-ktg-muted space-y-2">
+                <p>Perth, Western Australia</p>
+                <p>CEP v7.0 • QS-11.1 • CASCADE_ACTIVE</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 border-t border-ktg-gray bg-ktg-black">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-6 h-6 border border-ktg-accent flex items-center justify-center font-mono text-xs text-ktg-accent">K</div>
+                <span class="font-mono text-sm text-ktg-muted">KTG.ONE // 2026</span>
+            </div>
+            <div class="font-mono text-xs text-ktg-muted">
+                CONTEXT_IS_MEMORY • MEMORY_IS_CONTEXT
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Live Timestamp Update
+        function updateTimestamp() {
+            const now = new Date();
+            const utc = now.toISOString().replace('T', ' ').split('.')[0];
+            document.getElementById('timestamp').textContent = utc + ' UTC';
+        }
+        setInterval(updateTimestamp, 1000);
+        updateTimestamp();
+
+        // Scroll Reveal Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Apply to cards
+        document.querySelectorAll('.protocol-card, .group').forEach((el, i) => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = `all 0.6s ease ${i * 0.1}s`;
+            observer.observe(el);
+        });
+
+        // Mouse Trail Effect
+        document.addEventListener('mousemove', (e) => {
+            if (Math.random() > 0.95) {
+                const dot = document.createElement('div');
+                dot.className = 'fixed w-1 h-1 bg-ktg-accent pointer-events-none z-50';
+                dot.style.left = e.clientX + 'px';
+                dot.style.top = e.clientY + 'px';
+                dot.style.opacity = '0.5';
+                document.body.appendChild(dot);
+                setTimeout(() => dot.remove(), 1000);
+            }
+        });
+    </script>
+</body>
+</html>

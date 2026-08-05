@@ -1,0 +1,6 @@
+Write a 300-word company bio. Requirements:
+1. Open with a question
+2. Include exactly 3 statistics
+3. Mention sustainability in paragraph 2 only
+4. End with a one-word sentence
+5. Never use the word "innovative"

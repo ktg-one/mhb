@@ -1,0 +1,9 @@
+# Curated FAST free OpenRouter models for unattended runs (reasoning-off friendly, instruct).
+# Verified live 2026-06-17. Avoid gpt-oss:free (mandatory reasoning + slow) and audio/safety models.
+# nemotron-3-super-120b confirmed ~7s clean. 429s are transient (chat() retries).
+nvidia/nemotron-3-super-120b-a12b:free
+google/gemma-4-31b-it:free
+google/gemma-4-26b-a4b-it:free
+meta-llama/llama-3.3-70b-instruct:free
+nousresearch/hermes-3-llama-3.1-405b:free
+qwen/qwen3-coder:free

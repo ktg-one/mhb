@@ -1,0 +1,2318 @@
+{
+  "bundle": "Model Handbook 2026 / AI Anthropology Study",
+  "version": "0.1.0",
+  "spec": "OKF v0.1",
+  "updatedAt": "2026-07-31T01:49:40Z",
+  "runtime": {
+    "authoritarian_table": "results/RESULTS-MASTER-OKF-SYNTHESIS-2026.md",
+    "threshold_matrix": "okf/LLM_Behavior_Log/fabrication-threshold-matrix.md",
+    "tiling": "disabled"
+  },
+  "concepts": {
+    "okf/Archive/Deepseek_v4_pro.md": {
+      "hash": "sha256:dbe768c9d7962d1a",
+      "size_bytes": 20716,
+      "file": "Deepseek_v4_pro.md"
+    },
+    "okf/LLM_Behavior_Log/claude-opus-4.6.md": {
+      "hash": "sha256:be29c9534ef70198",
+      "size_bytes": 8711,
+      "file": "claude-opus-4.6.md"
+    },
+    "okf/LLM_Behavior_Log/claude-opus-4.8.md": {
+      "hash": "sha256:b9545759823e1f6e",
+      "size_bytes": 14203,
+      "file": "claude-opus-4.8.md"
+    },
+    "okf/LLM_Behavior_Log/claude-sonnet-4.6.md": {
+      "hash": "sha256:82221ce1c014aede",
+      "size_bytes": 6067,
+      "file": "claude-sonnet-4.6.md"
+    },
+    "okf/LLM_Behavior_Log/Claude_Distillation_Hypothesis_Deepseek_Kimi.md": {
+      "hash": "sha256:c62e7797493ff230",
+      "size_bytes": 2004,
+      "file": "Claude_Distillation_Hypothesis_Deepseek_Kimi.md"
+    },
+    "okf/LLM_Behavior_Log/codex.md": {
+      "hash": "sha256:fbc474d3f92c0455",
+      "size_bytes": 6389,
+      "file": "codex.md"
+    },
+    "okf/LLM_Behavior_Log/coverage-map.md": {
+      "hash": "sha256:f1aeded7f34a59a9",
+      "size_bytes": 7487,
+      "file": "coverage-map.md"
+    },
+    "okf/LLM_Behavior_Log/deepseek-v4-flash.md": {
+      "hash": "sha256:5058f556bc0fcec0",
+      "size_bytes": 6631,
+      "file": "deepseek-v4-flash.md"
+    },
+    "okf/LLM_Behavior_Log/deepseek-v4-pro.md": {
+      "hash": "sha256:ce9371f7b706fbc1",
+      "size_bytes": 17893,
+      "file": "deepseek-v4-pro.md"
+    },
+    "okf/LLM_Behavior_Log/deepseek.md": {
+      "hash": "sha256:a6cb9ff6bfb45696",
+      "size_bytes": 8054,
+      "file": "deepseek.md"
+    },
+    "okf/LLM_Behavior_Log/fabrication-threshold-matrix.md": {
+      "hash": "sha256:7eb8682acbaad45c",
+      "size_bytes": 7961,
+      "file": "fabrication-threshold-matrix.md"
+    },
+    "okf/LLM_Behavior_Log/gemini-1.5-cli.md": {
+      "hash": "sha256:dee2cc9146c07c52",
+      "size_bytes": 7327,
+      "file": "gemini-1.5-cli.md"
+    },
+    "okf/LLM_Behavior_Log/gemini-3.1.md": {
+      "hash": "sha256:85e92ffe75894ae1",
+      "size_bytes": 7698,
+      "file": "gemini-3.1.md"
+    },
+    "okf/LLM_Behavior_Log/gemini-3.5-flash.md": {
+      "hash": "sha256:bda437b58a7ef716",
+      "size_bytes": 11811,
+      "file": "gemini-3.5-flash.md"
+    },
+    "okf/LLM_Behavior_Log/gemini-3.md": {
+      "hash": "sha256:64d1f80722b8eea5",
+      "size_bytes": 4770,
+      "file": "gemini-3.md"
+    },
+    "okf/LLM_Behavior_Log/gemma-4-26b.md": {
+      "hash": "sha256:184e1063d8dca244",
+      "size_bytes": 9963,
+      "file": "gemma-4-26b.md"
+    },
+    "okf/LLM_Behavior_Log/gemma-4-31b.md": {
+      "hash": "sha256:d578ce656a2d788f",
+      "size_bytes": 13960,
+      "file": "gemma-4-31b.md"
+    },
+    "okf/LLM_Behavior_Log/gpt-5.3.md": {
+      "hash": "sha256:04e90afa775129cf",
+      "size_bytes": 5357,
+      "file": "gpt-5.3.md"
+    },
+    "okf/LLM_Behavior_Log/gpt-5.4.md": {
+      "hash": "sha256:7e157c497e5d85bd",
+      "size_bytes": 6846,
+      "file": "gpt-5.4.md"
+    },
+    "okf/LLM_Behavior_Log/gpt-5.5.md": {
+      "hash": "sha256:68a0e394575e382e",
+      "size_bytes": 10382,
+      "file": "gpt-5.5.md"
+    },
+    "okf/LLM_Behavior_Log/grok-4.2.md": {
+      "hash": "sha256:c55dfac1c9fe62c1",
+      "size_bytes": 7902,
+      "file": "grok-4.2.md"
+    },
+    "okf/LLM_Behavior_Log/grok-4.3.md": {
+      "hash": "sha256:62248335645151f3",
+      "size_bytes": 12838,
+      "file": "grok-4.3.md"
+    },
+    "okf/LLM_Behavior_Log/hermes-3-405b.md": {
+      "hash": "sha256:2c826477878638eb",
+      "size_bytes": 7304,
+      "file": "hermes-3-405b.md"
+    },
+    "okf/LLM_Behavior_Log/kimi-k2.6.md": {
+      "hash": "sha256:f5cea870758fe939",
+      "size_bytes": 11750,
+      "file": "kimi-k2.6.md"
+    },
+    "okf/LLM_Behavior_Log/kimi.md": {
+      "hash": "sha256:282e8373818b9935",
+      "size_bytes": 5238,
+      "file": "kimi.md"
+    },
+    "okf/LLM_Behavior_Log/llama-3.3-70b.md": {
+      "hash": "sha256:6ad91f72661fc4dc",
+      "size_bytes": 5351,
+      "file": "llama-3.3-70b.md"
+    },
+    "okf/LLM_Behavior_Log/nemotron-3-super-120b.md": {
+      "hash": "sha256:136da24f41a80232",
+      "size_bytes": 24055,
+      "file": "nemotron-3-super-120b.md"
+    },
+    "okf/LLM_Behavior_Log/qwen-code.md": {
+      "hash": "sha256:cf6d9d7b3af9b580",
+      "size_bytes": 5240,
+      "file": "qwen-code.md"
+    },
+    "okf/LLM_Behavior_Log/qwen-max.md": {
+      "hash": "sha256:4f364952db88ddf3",
+      "size_bytes": 7141,
+      "file": "qwen-max.md"
+    },
+    "okf/LLM_Behavior_Log/qwen3-coder.md": {
+      "hash": "sha256:9793f57b83606977",
+      "size_bytes": 5930,
+      "file": "qwen3-coder.md"
+    },
+    "okf/LLM_Behavior_Log/qwen3.7-max.md": {
+      "hash": "sha256:155c9074aa3fe8ae",
+      "size_bytes": 9562,
+      "file": "qwen3.7-max.md"
+    },
+    "okf/LLM_Behavior_Log/results-scorecard-2026-06.md": {
+      "hash": "sha256:0f3e9939269d1aa8",
+      "size_bytes": 4565,
+      "file": "results-scorecard-2026-06.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/#01-honesty-test-ONBOARD(DO-FIRST).md": {
+      "hash": "sha256:54c23c75038a64a7",
+      "size_bytes": 15697,
+      "file": "#01-honesty-test-ONBOARD(DO-FIRST).md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/#01-honesty-test-ONBOARD(DO-FIRST).txt.md": {
+      "hash": "sha256:4e449e5d8fdb97e9",
+      "size_bytes": 15428,
+      "file": "#01-honesty-test-ONBOARD(DO-FIRST).txt.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/#01-honesty-test-ONBOARD-ANALYSIS-2026-04-07.md": {
+      "hash": "sha256:c86a6009c384e543",
+      "size_bytes": 8368,
+      "file": "#01-honesty-test-ONBOARD-ANALYSIS-2026-04-07.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/#01-honesty-test-ONBOARD-SNIPPET.md": {
+      "hash": "sha256:faf57b791e650d33",
+      "size_bytes": 2603,
+      "file": "#01-honesty-test-ONBOARD-SNIPPET.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/00-Claude-Fable1.md": {
+      "hash": "sha256:d629084ae5251d84",
+      "size_bytes": 14433,
+      "file": "00-Claude-Fable1.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/00-deep.md": {
+      "hash": "sha256:2f8c910d9852911e",
+      "size_bytes": 2259,
+      "file": "00-deep.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/00-Gemini-3.5-Pro.md": {
+      "hash": "sha256:595263af58e86351",
+      "size_bytes": 1936,
+      "file": "00-Gemini-3.5-Pro.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/00-INSTRUMENT-technique-honesty.md": {
+      "hash": "sha256:10bc38763e8bf1d9",
+      "size_bytes": 3534,
+      "file": "00-INSTRUMENT-technique-honesty.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/00-INSTRUMENT.md": {
+      "hash": "sha256:0790b2752e6fec7c",
+      "size_bytes": 10020,
+      "file": "00-INSTRUMENT.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/00-KIMI-2.71.md": {
+      "hash": "sha256:fc1d06d950979b2d",
+      "size_bytes": 9336,
+      "file": "00-KIMI-2.71.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/00_HONESTY_INDEX.md": {
+      "hash": "sha256:36390e34660d83e8",
+      "size_bytes": 3961,
+      "file": "00_HONESTY_INDEX.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/072226-Grok-4.5-test-1.md": {
+      "hash": "sha256:24b701b9af3828ad",
+      "size_bytes": 20942,
+      "file": "072226-Grok-4.5-test-1.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/1000026234.png.md": {
+      "hash": "sha256:3981c731d05e74c6",
+      "size_bytes": 571,
+      "file": "1000026234.png.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/AI-Anthropology-2026.md": {
+      "hash": "sha256:a9b1db2bd8eb7ed9",
+      "size_bytes": 4820,
+      "file": "AI-Anthropology-2026.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/ai-studio-build.md": {
+      "hash": "sha256:dc03f602dff3bff4",
+      "size_bytes": 9522,
+      "file": "ai-studio-build.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/AI_Context_Window_Shearing_Thresholds.md": {
+      "hash": "sha256:dfc7baff77bafc08",
+      "size_bytes": 851,
+      "file": "AI_Context_Window_Shearing_Thresholds.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/AI_Has_Changed_Completely__Here's_What_Matters_in_2026.md": {
+      "hash": "sha256:00b71ac22c2881bc",
+      "size_bytes": 25179,
+      "file": "AI_Has_Changed_Completely__Here's_What_Matters_in_2026.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/AI_Just_Crossed_The_Line_We_Were_Afraid_Of__Continual_Harness.md": {
+      "hash": "sha256:428ad45492333a06",
+      "size_bytes": 14111,
+      "file": "AI_Just_Crossed_The_Line_We_Were_Afraid_Of__Continual_Harness.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/answer.md": {
+      "hash": "sha256:672c4955eebc7235",
+      "size_bytes": 632,
+      "file": "answer.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Benchmarking_AI_Model_Landing_Page_Generations.md": {
+      "hash": "sha256:88522b036a335bbf",
+      "size_bytes": 3303,
+      "file": "Benchmarking_AI_Model_Landing_Page_Generations.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-2026-CLEAN_2.md": {
+      "hash": "sha256:ee6f51111c11034d",
+      "size_bytes": 4876,
+      "file": "claude-2026-CLEAN_2.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-code.md": {
+      "hash": "sha256:c3246b458d245c98",
+      "size_bytes": 69626,
+      "file": "claude-code.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-cowork.md": {
+      "hash": "sha256:4ca410d06e4ee232",
+      "size_bytes": 151199,
+      "file": "claude-cowork.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-desktop-code.md": {
+      "hash": "sha256:2b04633e6bfc511b",
+      "size_bytes": 57017,
+      "file": "claude-desktop-code.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-for-excel.md": {
+      "hash": "sha256:0d663e2dd1991250",
+      "size_bytes": 34333,
+      "file": "claude-for-excel.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-in-chrome.md": {
+      "hash": "sha256:38ebe83b725b9c0b",
+      "size_bytes": 72802,
+      "file": "claude-in-chrome.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-opus-4.6-no-tools.md": {
+      "hash": "sha256:395592e0aa3102f4",
+      "size_bytes": 52720,
+      "file": "claude-opus-4.6-no-tools.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-opus-4.6-qa.md": {
+      "hash": "sha256:a1f458b553bfa7a6",
+      "size_bytes": 14003,
+      "file": "claude-opus-4.6-qa.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-opus-4.6.md": {
+      "hash": "sha256:38429410a18347fa",
+      "size_bytes": 258439,
+      "file": "claude-opus-4.6.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-opus-4.8.md": {
+      "hash": "sha256:0242a2e6251f71a6",
+      "size_bytes": 5428,
+      "file": "claude-opus-4.8.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-sonnet-4.6-no-tools.md": {
+      "hash": "sha256:86663e319fdcd2a1",
+      "size_bytes": 50469,
+      "file": "claude-sonnet-4.6-no-tools.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude-sonnet-4.6.md": {
+      "hash": "sha256:0de8e02bed1a4648",
+      "size_bytes": 263686,
+      "file": "claude-sonnet-4.6.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude.ai-human-readable.md": {
+      "hash": "sha256:f9410493b7a642f9",
+      "size_bytes": 242192,
+      "file": "claude.ai-human-readable.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/claude.ai-injections.md": {
+      "hash": "sha256:2a697ad6ecf128a7",
+      "size_bytes": 10747,
+      "file": "claude.ai-injections.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/ClaudeCode.md": {
+      "hash": "sha256:8f5f4772fef173f9",
+      "size_bytes": 13366,
+      "file": "ClaudeCode.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/codex.md": {
+      "hash": "sha256:d13e35e7d57f0707",
+      "size_bytes": 7037,
+      "file": "codex.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Comparative_Benchmarks_of_LLM_Context_Management_Strategies.md": {
+      "hash": "sha256:84b5278f972d73aa",
+      "size_bytes": 1053,
+      "file": "Comparative_Benchmarks_of_LLM_Context_Management_Strategies.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/cowork-2026-opus46-AIANT.md": {
+      "hash": "sha256:7239f860ea0f5797",
+      "size_bytes": 9994,
+      "file": "cowork-2026-opus46-AIANT.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/cowork-opus46.md": {
+      "hash": "sha256:d34d83cf58d36753",
+      "size_bytes": 9045,
+      "file": "cowork-opus46.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Critical_Gaps_in_AI-Generated_Web_Development.md": {
+      "hash": "sha256:3b65592e0c324daf",
+      "size_bytes": 1353,
+      "file": "Critical_Gaps_in_AI-Generated_Web_Development.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/default-styles.md": {
+      "hash": "sha256:e15a5c9045a1237b",
+      "size_bytes": 6205,
+      "file": "default-styles.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/doctrine.md": {
+      "hash": "sha256:5b1bdb1db54acb87",
+      "size_bytes": 404,
+      "file": "doctrine.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/drift-routing.md": {
+      "hash": "sha256:f95f1b704f734716",
+      "size_bytes": 3824,
+      "file": "drift-routing.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/efficiency-transparency.md": {
+      "hash": "sha256:a95be92a2ec2f28e",
+      "size_bytes": 6356,
+      "file": "efficiency-transparency.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/example-of-degradation-prompt.txt.md": {
+      "hash": "sha256:03faab409394c8db",
+      "size_bytes": 17676,
+      "file": "example-of-degradation-prompt.txt.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/fabrication-threshold-matrix.md": {
+      "hash": "sha256:ef1627a24537f4b0",
+      "size_bytes": 7470,
+      "file": "fabrication-threshold-matrix.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini-2.0-flash-webapp.md": {
+      "hash": "sha256:11d0b6c047eeea41",
+      "size_bytes": 2820,
+      "file": "gemini-2.0-flash-webapp.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini-2.5-flash-image-preview.md": {
+      "hash": "sha256:dca458a6f6ade13b",
+      "size_bytes": 5194,
+      "file": "gemini-2.5-flash-image-preview.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini-2.5-pro-api.md": {
+      "hash": "sha256:9f95f447cdbb27c2",
+      "size_bytes": 3520,
+      "file": "gemini-2.5-pro-api.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini-2.5-pro-guided-learning.md": {
+      "hash": "sha256:2fea42ea16059596",
+      "size_bytes": 15455,
+      "file": "gemini-2.5-pro-guided-learning.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini-2.5-pro-webapp.md": {
+      "hash": "sha256:dac0211648cfc188",
+      "size_bytes": 2344,
+      "file": "gemini-2.5-pro-webapp.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini-3-flash.md": {
+      "hash": "sha256:548bed1cb8ee2c42",
+      "size_bytes": 10541,
+      "file": "gemini-3-flash.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini-3-pro.md": {
+      "hash": "sha256:52b2cef96747c0b7",
+      "size_bytes": 15265,
+      "file": "gemini-3-pro.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Gemini-CLI.md": {
+      "hash": "sha256:4009bdf154a4bf81",
+      "size_bytes": 7116,
+      "file": "Gemini-CLI.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini-diffusion.md": {
+      "hash": "sha256:6980fe6db1b04728",
+      "size_bytes": 6614,
+      "file": "gemini-diffusion.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini.md": {
+      "hash": "sha256:7f056f3927b703d3",
+      "size_bytes": 2715,
+      "file": "gemini.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Gemini_3_1_Flash_Technique_Honesty_Table.md": {
+      "hash": "sha256:ae6a9de4076ef402",
+      "size_bytes": 3975,
+      "file": "Gemini_3_1_Flash_Technique_Honesty_Table.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Gemini_3_1_Technique_Honesty_Table 1.md": {
+      "hash": "sha256:072ea2f3167e144a",
+      "size_bytes": 1501,
+      "file": "Gemini_3_1_Technique_Honesty_Table 1.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Gemini_3_1_Technique_Honesty_Table.md": {
+      "hash": "sha256:922c030d6b465081",
+      "size_bytes": 5432,
+      "file": "Gemini_3_1_Technique_Honesty_Table.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Gemini_3_1_What_I_Actually_Run.md": {
+      "hash": "sha256:1a17913d13dc80a9",
+      "size_bytes": 999,
+      "file": "Gemini_3_1_What_I_Actually_Run.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Gemini_CLI_System.md": {
+      "hash": "sha256:1f7871a2e211e7cb",
+      "size_bytes": 25492,
+      "file": "Gemini_CLI_System.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gemini_in_chrome.md": {
+      "hash": "sha256:ea87959e8c1d33a8",
+      "size_bytes": 11958,
+      "file": "gemini_in_chrome.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gpt-5-codex-onboard.md": {
+      "hash": "sha256:0704aa3590b823c6",
+      "size_bytes": 3540,
+      "file": "gpt-5-codex-onboard.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/gpt-5-codex.md": {
+      "hash": "sha256:9476e8c51cb95319",
+      "size_bytes": 6550,
+      "file": "gpt-5-codex.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/grok4.3.md": {
+      "hash": "sha256:25ed66a9ffa90beb",
+      "size_bytes": 1859,
+      "file": "grok4.3.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/honesty-contract.md": {
+      "hash": "sha256:53bb46a04344077f",
+      "size_bytes": 3120,
+      "file": "honesty-contract.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/jules.md": {
+      "hash": "sha256:72637c8142db0f7b",
+      "size_bytes": 14324,
+      "file": "jules.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/llm_character_roles.txt.md": {
+      "hash": "sha256:eeab881d27c120d2",
+      "size_bytes": 4297,
+      "file": "llm_character_roles.txt.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/LLM_Perspectives_on_Web_Design_Dashboard_Prototyping.md": {
+      "hash": "sha256:c091e7db70b414a2",
+      "size_bytes": 1333,
+      "file": "LLM_Perspectives_on_Web_Design_Dashboard_Prototyping.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Lotus_Wisdom_Output.md": {
+      "hash": "sha256:bc45d611b9db913d",
+      "size_bytes": 2909,
+      "file": "Lotus_Wisdom_Output.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Model_and_Platform_Taxonomy_Reference_Guide.md": {
+      "hash": "sha256:2776660261b77211",
+      "size_bytes": 605,
+      "file": "Model_and_Platform_Taxonomy_Reference_Guide.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/MODEL_PROBE_4.md": {
+      "hash": "sha256:8b58b5b2b5c358b5",
+      "size_bytes": 6029,
+      "file": "MODEL_PROBE_4.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv.md": {
+      "hash": "sha256:9ebcae831536d8d2",
+      "size_bytes": 4105,
+      "file": "Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/nano-bana-2.md": {
+      "hash": "sha256:39ff2c0f99c94285",
+      "size_bytes": 2817,
+      "file": "nano-bana-2.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/NotebookLM-chat.md": {
+      "hash": "sha256:f4087a6ae8609b13",
+      "size_bytes": 2896,
+      "file": "NotebookLM-chat.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/ONBOARD(DO-FIRST).md": {
+      "hash": "sha256:aab763aafe5cd702",
+      "size_bytes": 15792,
+      "file": "ONBOARD(DO-FIRST).md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/ONBOARD(DO-FIRST).txt.md": {
+      "hash": "sha256:599e68eb2dcb7f92",
+      "size_bytes": 15644,
+      "file": "ONBOARD(DO-FIRST).txt.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/ONBOARD-ANALYSIS-2026-04-07.md": {
+      "hash": "sha256:f94eac32e733eae4",
+      "size_bytes": 8267,
+      "file": "ONBOARD-ANALYSIS-2026-04-07.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/ONBOARD-SNIPPET.md": {
+      "hash": "sha256:a06ae9ac568de5d5",
+      "size_bytes": 2688,
+      "file": "ONBOARD-SNIPPET.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/opinion.md": {
+      "hash": "sha256:ec96472184628b04",
+      "size_bytes": 4315,
+      "file": "opinion.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/opus-4.6-all.md": {
+      "hash": "sha256:bf68d6e2f9aebf80",
+      "size_bytes": 4855,
+      "file": "opus-4.6-all.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/opus-4.6.md": {
+      "hash": "sha256:02c3583d8c7e92d4",
+      "size_bytes": 4973,
+      "file": "opus-4.6.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/opus-4.8-test.md": {
+      "hash": "sha256:028b6366804e2fcb",
+      "size_bytes": 5816,
+      "file": "opus-4.8-test.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/otc.md": {
+      "hash": "sha256:eeb7bbba7f57ff6c",
+      "size_bytes": 2138,
+      "file": "otc.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/PAC-Prompt-Audit-Prime.md": {
+      "hash": "sha256:86c832b66abe9f87",
+      "size_bytes": 4482,
+      "file": "PAC-Prompt-Audit-Prime.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Pasted_text.txt.md": {
+      "hash": "sha256:74d2cffe3cee02aa",
+      "size_bytes": 355788,
+      "file": "Pasted_text.txt.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Prompt_Engineering_Knowledge_Base_Development.md": {
+      "hash": "sha256:807855f18c4d135e",
+      "size_bytes": 30367,
+      "file": "Prompt_Engineering_Knowledge_Base_Development.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/question.md": {
+      "hash": "sha256:369a784a8d260d53",
+      "size_bytes": 623,
+      "file": "question.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/qwen-code-cli-technique.md": {
+      "hash": "sha256:4e3072fd49cb33d5",
+      "size_bytes": 13125,
+      "file": "qwen-code-cli-technique.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/QWEN-CODE-section1.md": {
+      "hash": "sha256:20720dc8fd6138f2",
+      "size_bytes": 9247,
+      "file": "QWEN-CODE-section1.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/qwen-code.md": {
+      "hash": "sha256:be9f29808df91b30",
+      "size_bytes": 5828,
+      "file": "qwen-code.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Reasoning_vs_Fabrication_Threshold_Across_AI_Model.csv.md": {
+      "hash": "sha256:cf059482777e06c2",
+      "size_bytes": 3373,
+      "file": "Reasoning_vs_Fabrication_Threshold_Across_AI_Model.csv.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/sccd-explain.md": {
+      "hash": "sha256:7a0b82a0b211d9f9",
+      "size_bytes": 3490,
+      "file": "sccd-explain.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/sccd-guide.md": {
+      "hash": "sha256:3f4431087464fe6b",
+      "size_bytes": 3314,
+      "file": "sccd-guide.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/sccd-math.md": {
+      "hash": "sha256:7d4ab9880d099b68",
+      "size_bytes": 3593,
+      "file": "sccd-math.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/sccd-model.md": {
+      "hash": "sha256:5cde8fe5d68c5d6d",
+      "size_bytes": 5226,
+      "file": "sccd-model.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/sonnet-5.md": {
+      "hash": "sha256:676db233304a2fac",
+      "size_bytes": 4116,
+      "file": "sonnet-5.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/STATE.md": {
+      "hash": "sha256:f500e0b2269cb9af",
+      "size_bytes": 999,
+      "file": "STATE.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Stealth.md": {
+      "hash": "sha256:ef1bbac1be232c5d",
+      "size_bytes": 6664,
+      "file": "Stealth.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/story.md": {
+      "hash": "sha256:6865bc8fe3158288",
+      "size_bytes": 5747,
+      "file": "story.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Structural_Synergy__LLM_Preferences_for_XML_and_Markdown.md": {
+      "hash": "sha256:daf94037c8b842e8",
+      "size_bytes": 793,
+      "file": "Structural_Synergy__LLM_Preferences_for_XML_and_Markdown.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/test-west01-06-2026.md": {
+      "hash": "sha256:d0d9d7ecc692d596",
+      "size_bytes": 9060,
+      "file": "test-west01-06-2026.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Test1-chat5.3-2026.md": {
+      "hash": "sha256:720a01023fbecdf4",
+      "size_bytes": 18341,
+      "file": "Test1-chat5.3-2026.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Test1-chat5.md": {
+      "hash": "sha256:9d4c0735d7d0127e",
+      "size_bytes": 7275,
+      "file": "Test1-chat5.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Test1-Claude-sonnet.md": {
+      "hash": "sha256:045a00f4279318bf",
+      "size_bytes": 10664,
+      "file": "Test1-Claude-sonnet.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Test1-Gemini-2026.md": {
+      "hash": "sha256:13d706ed0ab3b032",
+      "size_bytes": 19162,
+      "file": "Test1-Gemini-2026.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Test1-gpt5.4.md": {
+      "hash": "sha256:1379d031eb4cd9c4",
+      "size_bytes": 16177,
+      "file": "Test1-gpt5.4.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Test1-Grok4-2026.md": {
+      "hash": "sha256:76e5320e7050cacc",
+      "size_bytes": 15580,
+      "file": "Test1-Grok4-2026.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Test1-kimi-2026.md": {
+      "hash": "sha256:1024b25f15d1b5d6",
+      "size_bytes": 5908,
+      "file": "Test1-kimi-2026.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/Test1-qwen-max.md": {
+      "hash": "sha256:21a59468660b694a",
+      "size_bytes": 4709,
+      "file": "Test1-qwen-max.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/The_Accounting_Argument_for_Transparency_over_Fabrication.md": {
+      "hash": "sha256:f643fcd0db5da954",
+      "size_bytes": 11502,
+      "file": "The_Accounting_Argument_for_Transparency_over_Fabrication.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/The_Anthropologist\u2019s_Invitation__A_Protocol_for_AI_Self-Diagnosis.md": {
+      "hash": "sha256:eb489ff953fe7bc4",
+      "size_bytes": 2399,
+      "file": "The_Anthropologist\u2019s_Invitation__A_Protocol_for_AI_Self-Diagnosis.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/visualize.md": {
+      "hash": "sha256:a00de6bf93c9322d",
+      "size_bytes": 71047,
+      "file": "visualize.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/[CO-Desk]_Internal_Mechanisms_and_Prompt-Activated_Attention_Simulations.md": {
+      "hash": "sha256:90c9b932b8fb16f9",
+      "size_bytes": 10736,
+      "file": "[CO-Desk]_Internal_Mechanisms_and_Prompt-Activated_Attention_Simulations.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/[CO-Desk]_The_Invisible_Infrastructure_of_Universal_Prompt_Doctrine.md": {
+      "hash": "sha256:4d960470517035b6",
+      "size_bytes": 4719,
+      "file": "[CO-Desk]_The_Invisible_Infrastructure_of_Universal_Prompt_Doctrine.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/[CO-Desk]_The_Mechanics_of_Persistent_Style_Injection_and_Filtering.md": {
+      "hash": "sha256:a3e312347b45df71",
+      "size_bytes": 3186,
+      "file": "[CO-Desk]_The_Mechanics_of_Persistent_Style_Injection_and_Filtering.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/[CO-Desk]_The_Style_Layer_Exploit__Identity-Based_Instruction_Framing.md": {
+      "hash": "sha256:3c4f1dd38b8e4f7a",
+      "size_bytes": 3821,
+      "file": "[CO-Desk]_The_Style_Layer_Exploit__Identity-Based_Instruction_Framing.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/[CO-Desk]_The_Taxonomy_of_Platform_Interception_and_Context_Injection.md": {
+      "hash": "sha256:f6e4e005908e6cd1",
+      "size_bytes": 4396,
+      "file": "[CO-Desk]_The_Taxonomy_of_Platform_Interception_and_Context_Injection.md"
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/[G-NLM]__The_Architecture_of_Extreme_Intent_Compression.md": {
+      "hash": "sha256:cb50fc9c3350f4ce",
+      "size_bytes": 2930,
+      "file": "[G-NLM]__The_Architecture_of_Extreme_Intent_Compression.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/#01-honesty-test-022026-AIANT-2026-[Q&A].md": {
+      "hash": "sha256:08a69369e91dfaa3",
+      "size_bytes": 9037,
+      "file": "#01-honesty-test-022026-AIANT-2026-[Q&A].md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/#01-honesty-test-2026-04-07-gpt-5-codex-022026-AIANT-2026-QA.md": {
+      "hash": "sha256:abc6fa457e29e620",
+      "size_bytes": 13993,
+      "file": "#01-honesty-test-2026-04-07-gpt-5-codex-022026-AIANT-2026-QA.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/#01-honesty-test-Test1-chat5.md": {
+      "hash": "sha256:fa90f3ea29457cb9",
+      "size_bytes": 17711,
+      "file": "#01-honesty-test-Test1-chat5.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/#01-honesty-test-Test1-kimi-2026.md": {
+      "hash": "sha256:6bd4324002aebb48",
+      "size_bytes": 17905,
+      "file": "#01-honesty-test-Test1-kimi-2026.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/00-Claude-Fable.md": {
+      "hash": "sha256:fa3bc15be0f3743f",
+      "size_bytes": 13737,
+      "file": "00-Claude-Fable.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/00-Grok-4.5.md": {
+      "hash": "sha256:74cb0f2a6d695686",
+      "size_bytes": 15623,
+      "file": "00-Grok-4.5.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/00-KIMI-2.7.md": {
+      "hash": "sha256:70fc0e0d95a45747",
+      "size_bytes": 17087,
+      "file": "00-KIMI-2.7.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/00-qwen3.7pro.md": {
+      "hash": "sha256:689ab7601ca59b98",
+      "size_bytes": 17089,
+      "file": "00-qwen3.7pro.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/00_SELF_ASSESSMENT_INDEX.md": {
+      "hash": "sha256:9471c9e963aceaa2",
+      "size_bytes": 1161,
+      "file": "00_SELF_ASSESSMENT_INDEX.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/02_Model_Handbook_2026_-_The_Honest_Diagnostic.md": {
+      "hash": "sha256:2c2cdea0f5a142b2",
+      "size_bytes": 17112,
+      "file": "02_Model_Handbook_2026_-_The_Honest_Diagnostic.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/072226-Grok-4.5-test-1.md": {
+      "hash": "sha256:618cc3fb78db3238",
+      "size_bytes": 20956,
+      "file": "072226-Grok-4.5-test-1.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/AI_Model_Integrity_and_Context_Honesty_Assessment.md": {
+      "hash": "sha256:041656e88fbae24e",
+      "size_bytes": 10561,
+      "file": "AI_Model_Integrity_and_Context_Honesty_Assessment.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/chatgpt-_talk_to_lyra.txt.md": {
+      "hash": "sha256:781182919aefce91",
+      "size_bytes": 13164,
+      "file": "chatgpt-_talk_to_lyra.txt.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/Gemini_3.5_Flash-lite.md": {
+      "hash": "sha256:98df72c013a2f06b",
+      "size_bytes": 13425,
+      "file": "Gemini_3.5_Flash-lite.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/Gemini_3_1_Platform_Lab_Assessment 1.md": {
+      "hash": "sha256:e3326e724f13152d",
+      "size_bytes": 6441,
+      "file": "Gemini_3_1_Platform_Lab_Assessment 1.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/Gemini_3_1_Platform_Lab_Assessment.md": {
+      "hash": "sha256:04894bcf4be1d2f8",
+      "size_bytes": 4756,
+      "file": "Gemini_3_1_Platform_Lab_Assessment.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/grok_4.5.md": {
+      "hash": "sha256:213d8778fc2703fc",
+      "size_bytes": 13585,
+      "file": "grok_4.5.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/opus-4.8.md": {
+      "hash": "sha256:e763c63f2477f1b8",
+      "size_bytes": 10023,
+      "file": "opus-4.8.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/Qwen_3.7_Max.md": {
+      "hash": "sha256:ed17a084f5d36057",
+      "size_bytes": 16566,
+      "file": "Qwen_3.7_Max.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/Sonnet_5.md": {
+      "hash": "sha256:6cf1753e722d0616",
+      "size_bytes": 6724,
+      "file": "Sonnet_5.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/Test1-kimi-2026.md": {
+      "hash": "sha256:993270f952c923a8",
+      "size_bytes": 17855,
+      "file": "Test1-kimi-2026.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/The_AI_Honesty_Report__Architectural_Constraints_and_Platform_Realities.md": {
+      "hash": "sha256:21b651e7108cfa01",
+      "size_bytes": 12837,
+      "file": "The_AI_Honesty_Report__Architectural_Constraints_and_Platform_Realities.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/The_AI_Integrity_Contract__Mapping_Model_and_Platform_Constraints.md": {
+      "hash": "sha256:c68d1145f81d34fa",
+      "size_bytes": 10188,
+      "file": "The_AI_Integrity_Contract__Mapping_Model_and_Platform_Constraints.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/The_Integrity_Ledger__Mapping_LLM_Limits_and_Platform_Transparency.md": {
+      "hash": "sha256:e1c58579fddfe6dc",
+      "size_bytes": 11612,
+      "file": "The_Integrity_Ledger__Mapping_LLM_Limits_and_Platform_Transparency.md"
+    },
+    "okf/LLM_Tests/02_SELF_ASSESSMENT/The_LLM_Honesty_Report__Operational_Constraints_and_Platform_Fidelity.md": {
+      "hash": "sha256:1825c95e51f61bb6",
+      "size_bytes": 14936,
+      "file": "The_LLM_Honesty_Report__Operational_Constraints_and_Platform_Fidelity.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/#01-honesty-test-PAC.md": {
+      "hash": "sha256:ee240cb1787115e4",
+      "size_bytes": 7999,
+      "file": "#01-honesty-test-PAC.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/00-deep1.md": {
+      "hash": "sha256:c0332d7f3eccb0e3",
+      "size_bytes": 16576,
+      "file": "00-deep1.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/00-Gemini-3.5-Pro1.md": {
+      "hash": "sha256:15092586ff3db6b9",
+      "size_bytes": 9253,
+      "file": "00-Gemini-3.5-Pro1.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/00-GPT-5.61.md": {
+      "hash": "sha256:89b18a1cb0a5bb7b",
+      "size_bytes": 28093,
+      "file": "00-GPT-5.61.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/00-Grok-4.51.md": {
+      "hash": "sha256:79a8b973e1ef0f5f",
+      "size_bytes": 9532,
+      "file": "00-Grok-4.51.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/00-INSTRUMENT.md": {
+      "hash": "sha256:070ff00bd81072f5",
+      "size_bytes": 9494,
+      "file": "00-INSTRUMENT.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/00-qwen3.7pro1.md": {
+      "hash": "sha256:e329534365a2e668",
+      "size_bytes": 14777,
+      "file": "00-qwen3.7pro1.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/00-SCORING-KEY.md": {
+      "hash": "sha256:4510c06a44007d5f",
+      "size_bytes": 5116,
+      "file": "00-SCORING-KEY.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/00_SIGNAL_INDEX.md": {
+      "hash": "sha256:6c83221f5f547e10",
+      "size_bytes": 1508,
+      "file": "00_SIGNAL_INDEX.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/04-13-2026-PACv5.md": {
+      "hash": "sha256:6474c38b2ebecc8d",
+      "size_bytes": 18378,
+      "file": "04-13-2026-PACv5.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/04-22-2026-PAC26-v6.md": {
+      "hash": "sha256:bd2d9fa44b9b7e72",
+      "size_bytes": 5480,
+      "file": "04-22-2026-PAC26-v6.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/04-23-2026-PAC-V7.md": {
+      "hash": "sha256:4c63b1b970b43939",
+      "size_bytes": 3633,
+      "file": "04-23-2026-PAC-V7.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/04-23-2026-rlhf-words.md": {
+      "hash": "sha256:a13062804eecb9c4",
+      "size_bytes": 1831,
+      "file": "04-23-2026-rlhf-words.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/20260324-claude-2026-CLEAN_2.md": {
+      "hash": "sha256:d1e140cd288dce86",
+      "size_bytes": 24769,
+      "file": "20260324-claude-2026-CLEAN_2.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/20260324-opus-4.6-all.md": {
+      "hash": "sha256:720a67a5cee69384",
+      "size_bytes": 24762,
+      "file": "20260324-opus-4.6-all.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/20260324-opus-4.6.md": {
+      "hash": "sha256:56dc2c78e1e13613",
+      "size_bytes": 25127,
+      "file": "20260324-opus-4.6.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Architectural_Token_Dynamics_and_Prompt_Signal_Matrices.md": {
+      "hash": "sha256:432382c8e52bfdcf",
+      "size_bytes": 5491,
+      "file": "Architectural_Token_Dynamics_and_Prompt_Signal_Matrices.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Behavioural_Steering_Signals_and_Prompt_Activation_Mapping.md": {
+      "hash": "sha256:7324a591edaf36a2",
+      "size_bytes": 7000,
+      "file": "Behavioural_Steering_Signals_and_Prompt_Activation_Mapping.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Chatgpt_Sora.md": {
+      "hash": "sha256:1836121f6180ebb8",
+      "size_bytes": 8510,
+      "file": "Chatgpt_Sora.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/claude-opus-4.6-qa.md": {
+      "hash": "sha256:d504aba88df08b86",
+      "size_bytes": 4725,
+      "file": "claude-opus-4.6-qa.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/ClaudeCode-opus4.6.md": {
+      "hash": "sha256:7fe98adde8a70382",
+      "size_bytes": 3950,
+      "file": "ClaudeCode-opus4.6.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Deepseek.txt.md": {
+      "hash": "sha256:c7491e2b8bd5a9f6",
+      "size_bytes": 9846,
+      "file": "Deepseek.txt.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Deepseek_v4_pro.md": {
+      "hash": "sha256:23a1693e09ce025f",
+      "size_bytes": 12332,
+      "file": "Deepseek_v4_pro.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Fable.md": {
+      "hash": "sha256:2a306b65000837f3",
+      "size_bytes": 9280,
+      "file": "Fable.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Gemini-CLI-1.5pro.md": {
+      "hash": "sha256:88dc6f30880439bb",
+      "size_bytes": 1321,
+      "file": "Gemini-CLI-1.5pro.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/gemini-workspace.md": {
+      "hash": "sha256:1964f61ac150e013",
+      "size_bytes": 21500,
+      "file": "gemini-workspace.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Gemini_3.5-FlashLite.md": {
+      "hash": "sha256:e86c5b7169893610",
+      "size_bytes": 5625,
+      "file": "Gemini_3.5-FlashLite.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Gemini_3.5.txt.md": {
+      "hash": "sha256:ce2eaefe538da6e4",
+      "size_bytes": 8281,
+      "file": "Gemini_3.5.txt.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Gemini_3_1_Signal_Test.md": {
+      "hash": "sha256:1b0ddc6d3a80302c",
+      "size_bytes": 4647,
+      "file": "Gemini_3_1_Signal_Test.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Grok-4.5-signal-vs-activation.md": {
+      "hash": "sha256:171a9ca53b8414c5",
+      "size_bytes": 17433,
+      "file": "Grok-4.5-signal-vs-activation.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Grok_4.5.md": {
+      "hash": "sha256:1bfcc78b3ed5b1df",
+      "size_bytes": 11971,
+      "file": "Grok_4.5.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/KIMI_k3.md": {
+      "hash": "sha256:c9f8b2e458711304",
+      "size_bytes": 6028,
+      "file": "KIMI_k3.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/LLM_Architecture_and_Prompt_Engineering_Anatomy.md": {
+      "hash": "sha256:0ff9863e12b1344d",
+      "size_bytes": 17178,
+      "file": "LLM_Architecture_and_Prompt_Engineering_Anatomy.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/PAC.md": {
+      "hash": "sha256:3799a5858891b42f",
+      "size_bytes": 9663,
+      "file": "PAC.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/PAC.txt.md": {
+      "hash": "sha256:efaa4ba05ace56a0",
+      "size_bytes": 6934,
+      "file": "PAC.txt.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Pasted_text.md": {
+      "hash": "sha256:78a6ca79d0a6db1b",
+      "size_bytes": 8574,
+      "file": "Pasted_text.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Qwen_3.7_Max.md": {
+      "hash": "sha256:afea5dd79750a53f",
+      "size_bytes": 10961,
+      "file": "Qwen_3.7_Max.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Signal_Word_Hierarchies_and_Fabrication_Diagnostics.md": {
+      "hash": "sha256:ea7f6fd9ae75cc06",
+      "size_bytes": 7649,
+      "file": "Signal_Word_Hierarchies_and_Fabrication_Diagnostics.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Sonnet_5.md": {
+      "hash": "sha256:94b45f704f88a14a",
+      "size_bytes": 3233,
+      "file": "Sonnet_5.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Test1-Claude-sonnet.md": {
+      "hash": "sha256:541a3a87c30b54d3",
+      "size_bytes": 2504,
+      "file": "Test1-Claude-sonnet.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Test1-Gemini-2026.md": {
+      "hash": "sha256:abad795ab620a980",
+      "size_bytes": 2806,
+      "file": "Test1-Gemini-2026.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Test1-gpt5.4.md": {
+      "hash": "sha256:632e2891d6d718eb",
+      "size_bytes": 3707,
+      "file": "Test1-gpt5.4.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/Test1-Grok4-2026.md": {
+      "hash": "sha256:165e9c90702f060b",
+      "size_bytes": 1379,
+      "file": "Test1-Grok4-2026.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/The_Internal_Mechanics_and_Linguistic_Architecture_of_AI_Models.md": {
+      "hash": "sha256:036573c6da7c3c98",
+      "size_bytes": 17298,
+      "file": "The_Internal_Mechanics_and_Linguistic_Architecture_of_AI_Models.md"
+    },
+    "okf/LLM_Tests/03_SIGNAL_TEST/[2605.10828]_The_First_Drop_of_Ink__Nonlinear_Impact_of_Misleading_Information_in_Long-Context_Reasoning.md": {
+      "hash": "sha256:31d3fdea2409738c",
+      "size_bytes": 8380,
+      "file": "[2605.10828]_The_First_Drop_of_Ink__Nonlinear_Impact_of_Misleading_Information_in_Long-Context_Reasoning.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-022026-AIANT-Reasoning-vs-Fab--2026.md": {
+      "hash": "sha256:f4e5b6e6327d394b",
+      "size_bytes": 3284,
+      "file": "#01-honesty-test-022026-AIANT-Reasoning-vs-Fab--2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-2026-04-07-codex-fab-reasoning-test.md": {
+      "hash": "sha256:0b51d3be063d8db7",
+      "size_bytes": 19136,
+      "file": "#01-honesty-test-2026-04-07-codex-fab-reasoning-test.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-2026-04-07-fab-reasoning-test-comparison.md": {
+      "hash": "sha256:399bd8a4d793098a",
+      "size_bytes": 8754,
+      "file": "#01-honesty-test-2026-04-07-fab-reasoning-test-comparison.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-claude-opus-4.md": {
+      "hash": "sha256:4a0116f3a6544690",
+      "size_bytes": 11349,
+      "file": "#01-honesty-test-claude-opus-4.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-ClaudeCode.md": {
+      "hash": "sha256:8b4a727d2a655bec",
+      "size_bytes": 40226,
+      "file": "#01-honesty-test-ClaudeCode.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-cowork-2026-opus46-AIANT-FULL.md": {
+      "hash": "sha256:e0849f1e9dd3f005",
+      "size_bytes": 17736,
+      "file": "#01-honesty-test-cowork-2026-opus46-AIANT-FULL.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-cowork-2026-opus46-REASONING-DIAGNOSTIC.md": {
+      "hash": "sha256:bad17e0766bc5914",
+      "size_bytes": 10484,
+      "file": "#01-honesty-test-cowork-2026-opus46-REASONING-DIAGNOSTIC.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Gemini_CLI.md": {
+      "hash": "sha256:573267730016a178",
+      "size_bytes": 6898,
+      "file": "#01-honesty-test-Gemini_CLI.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-QWEN-CODE-CLI-TECHNIQUE-2026.md": {
+      "hash": "sha256:0f08bcd8a6702c80",
+      "size_bytes": 12722,
+      "file": "#01-honesty-test-QWEN-CODE-CLI-TECHNIQUE-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Test1-claude-opus-4.6-qa-2026-03-08.md": {
+      "hash": "sha256:173584ea22490bf1",
+      "size_bytes": 40361,
+      "file": "#01-honesty-test-Test1-claude-opus-4.6-qa-2026-03-08.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Test1-Claude-sonnet-2026.md": {
+      "hash": "sha256:8738591f813c9921",
+      "size_bytes": 4914,
+      "file": "#01-honesty-test-Test1-Claude-sonnet-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Test1-Gemini-2026.md": {
+      "hash": "sha256:d2c625e43d74149f",
+      "size_bytes": 23905,
+      "file": "#01-honesty-test-Test1-Gemini-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Test1-gpt5.4.md": {
+      "hash": "sha256:a4b3351cf2658aaf",
+      "size_bytes": 40502,
+      "file": "#01-honesty-test-Test1-gpt5.4.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Test1-Grok4-2026.md": {
+      "hash": "sha256:5c01f48708b9f881",
+      "size_bytes": 13168,
+      "file": "#01-honesty-test-Test1-Grok4-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Test1-kimi-2026.md": {
+      "hash": "sha256:166682686194c4cf",
+      "size_bytes": 4269,
+      "file": "#01-honesty-test-Test1-kimi-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Test1-qwen-code-2026.md": {
+      "hash": "sha256:c0bd35c429607224",
+      "size_bytes": 20272,
+      "file": "#01-honesty-test-Test1-qwen-code-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/#01-honesty-test-Test1-qwen-max.md": {
+      "hash": "sha256:27e8733146e6d2b9",
+      "size_bytes": 2541,
+      "file": "#01-honesty-test-Test1-qwen-max.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/00-Claude-Fable1.md": {
+      "hash": "sha256:882006bbd1edaf20",
+      "size_bytes": 14670,
+      "file": "00-Claude-Fable1.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/00-GPT-5.6.md": {
+      "hash": "sha256:1da044cad62a14f8",
+      "size_bytes": 41167,
+      "file": "00-GPT-5.6.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/00-INSTRUMENT-v1.md": {
+      "hash": "sha256:bfaf2510e5cb1e30",
+      "size_bytes": 5263,
+      "file": "00-INSTRUMENT-v1.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/00-INSTRUMENT-v2.md": {
+      "hash": "sha256:c1acb6c4337dd876",
+      "size_bytes": 5584,
+      "file": "00-INSTRUMENT-v2.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/00-NOTEBOOKLM-INGEST-MANIFEST.md": {
+      "hash": "sha256:ed2b711c73f3fa4a",
+      "size_bytes": 16353,
+      "file": "00-NOTEBOOKLM-INGEST-MANIFEST.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/00-RFAB-MASTER-SCORECARD.md": {
+      "hash": "sha256:190e283f816059c7",
+      "size_bytes": 1752,
+      "file": "00-RFAB-MASTER-SCORECARD.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/00_RFAB_INDEX.md": {
+      "hash": "sha256:7f9f1da0ddac6c51",
+      "size_bytes": 3543,
+      "file": "00_RFAB_INDEX.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/01-honesty-test-022026-AIANT-Reasoning-vs-Fab--2026.md": {
+      "hash": "sha256:01238fda50f26e86",
+      "size_bytes": 3200,
+      "file": "01-honesty-test-022026-AIANT-Reasoning-vs-Fab--2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/01-model-qa-2026-04-07-codex-fab-reasoning-test.md": {
+      "hash": "sha256:3d6a88290c73f060",
+      "size_bytes": 19881,
+      "file": "01-model-qa-2026-04-07-codex-fab-reasoning-test.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/01-model-qa-2026-04-07-fab-reasoning-test-comparison.md": {
+      "hash": "sha256:26363c98c0f9cc57",
+      "size_bytes": 8872,
+      "file": "01-model-qa-2026-04-07-fab-reasoning-test-comparison.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/01-model-qa-claude-opus-4.md": {
+      "hash": "sha256:009cc08eafef0faa",
+      "size_bytes": 11219,
+      "file": "01-model-qa-claude-opus-4.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/01-model-qa-Test1-Grok4-2026.md": {
+      "hash": "sha256:2686abaee196fe30",
+      "size_bytes": 44669,
+      "file": "01-model-qa-Test1-Grok4-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/01-model-qa-Test1-qwen-code-2026.md": {
+      "hash": "sha256:785e71eb1dd26d8e",
+      "size_bytes": 20861,
+      "file": "01-model-qa-Test1-qwen-code-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/04-22-2026-PAC26-v6.md": {
+      "hash": "sha256:93d5c15787c21a0b",
+      "size_bytes": 5463,
+      "file": "04-22-2026-PAC26-v6.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/2026-06-06_claude-opus-4.8_C-honesty_self.md": {
+      "hash": "sha256:07dc966185364cf6",
+      "size_bytes": 7191,
+      "file": "2026-06-06_claude-opus-4.8_C-honesty_self.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/2026-06-16_deepseek_deepseek-v4-pro_C-rfab-2.md": {
+      "hash": "sha256:e3da3e8867112552",
+      "size_bytes": 9591,
+      "file": "2026-06-16_deepseek_deepseek-v4-pro_C-rfab-2.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/2026-06-16_deepseek_deepseek-v4-pro_C-rfab.md": {
+      "hash": "sha256:90c09e7b8b1b445c",
+      "size_bytes": 31656,
+      "file": "2026-06-16_deepseek_deepseek-v4-pro_C-rfab.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/20260324-claude-2026-CLEAN_2.md": {
+      "hash": "sha256:09837a29ce77ef0d",
+      "size_bytes": 24752,
+      "file": "20260324-claude-2026-CLEAN_2.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/20260324-opus-4.6-all.md": {
+      "hash": "sha256:001e5492ad6de93c",
+      "size_bytes": 24745,
+      "file": "20260324-opus-4.6-all.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/20260324-opus-4.6.md": {
+      "hash": "sha256:a6402c6f71e45eaf",
+      "size_bytes": 25110,
+      "file": "20260324-opus-4.6.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/AI-Anthropology-2026.md": {
+      "hash": "sha256:134cbaf45c52f022",
+      "size_bytes": 7011,
+      "file": "AI-Anthropology-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/AI-Anthropology_Model_Reasoning_and_Fabrication_Te.csv.md": {
+      "hash": "sha256:39b7dbb2f8548fa7",
+      "size_bytes": 3316,
+      "file": "AI-Anthropology_Model_Reasoning_and_Fabrication_Te.csv.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Chat-R-Graph-2026.md": {
+      "hash": "sha256:db4b190f4a714344",
+      "size_bytes": 15310,
+      "file": "Chat-R-Graph-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/chatGPT.md": {
+      "hash": "sha256:1f1381b06e739c22",
+      "size_bytes": 9329,
+      "file": "chatGPT.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/ChatGPT_Sora.md": {
+      "hash": "sha256:c251fdfa0eecfe50",
+      "size_bytes": 15256,
+      "file": "ChatGPT_Sora.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/claude-2026-CLEAN_2.md": {
+      "hash": "sha256:8e47858635532d13",
+      "size_bytes": 8583,
+      "file": "claude-2026-CLEAN_2.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Claude-code-_opus4.6_.md": {
+      "hash": "sha256:4f38a99a5d5fa9c0",
+      "size_bytes": 14965,
+      "file": "Claude-code-_opus4.6_.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/claude-opus-4.6-qa.md": {
+      "hash": "sha256:994c38f92e1d9871",
+      "size_bytes": 41180,
+      "file": "claude-opus-4.6-qa.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/claude-opus-4.8.md": {
+      "hash": "sha256:20f38eeb13957171",
+      "size_bytes": 5425,
+      "file": "claude-opus-4.8.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/ClaudeCode-opus4.6.md": {
+      "hash": "sha256:20d42611ca7501f7",
+      "size_bytes": 41538,
+      "file": "ClaudeCode-opus4.6.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/CLI__GEMINI-KTG_RESPONSE_MANIFEST.md": {
+      "hash": "sha256:9d424ea604f11695",
+      "size_bytes": 24355,
+      "file": "CLI__GEMINI-KTG_RESPONSE_MANIFEST.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/codex.md": {
+      "hash": "sha256:1134dcf11298fa6e",
+      "size_bytes": 7045,
+      "file": "codex.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Copy_of_10_June_at_1-26_am.m4a.md": {
+      "hash": "sha256:754b95297555fa02",
+      "size_bytes": 24971,
+      "file": "Copy_of_10_June_at_1-26_am.m4a.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/cowork-opus46.md": {
+      "hash": "sha256:859d15f4b67697f0",
+      "size_bytes": 3700,
+      "file": "cowork-opus46.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/deepseek-v4-pro-2026-06-16.md": {
+      "hash": "sha256:4cb64abeebadd363",
+      "size_bytes": 31640,
+      "file": "deepseek-v4-pro-2026-06-16.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/deepseek.md": {
+      "hash": "sha256:6fabfa0ccd34ed4d",
+      "size_bytes": 13238,
+      "file": "deepseek.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Deepseek_v4_pro.md": {
+      "hash": "sha256:d54505531ef089a0",
+      "size_bytes": 14618,
+      "file": "Deepseek_v4_pro.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Epistemic_Dashboard.md": {
+      "hash": "sha256:1ddbeaa2c53f34e9",
+      "size_bytes": 35131,
+      "file": "Epistemic_Dashboard.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/fable.md": {
+      "hash": "sha256:07f9045b2a6a4e95",
+      "size_bytes": 10236,
+      "file": "fable.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/fabrication-threshold-matrix.md": {
+      "hash": "sha256:7a7b5ae3b48627d4",
+      "size_bytes": 7467,
+      "file": "fabrication-threshold-matrix.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Gemini-2026.md": {
+      "hash": "sha256:7b6b0812154d3260",
+      "size_bytes": 46231,
+      "file": "Gemini-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/gemini-3.1.md": {
+      "hash": "sha256:eb91547073e39dae",
+      "size_bytes": 8907,
+      "file": "gemini-3.1.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/gemini-3.5-cli.md": {
+      "hash": "sha256:e6741bb8a2c46408",
+      "size_bytes": 7838,
+      "file": "gemini-3.5-cli.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/gemini-3.md": {
+      "hash": "sha256:05e4cff162805ab6",
+      "size_bytes": 5117,
+      "file": "gemini-3.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Gemini-CLI.md": {
+      "hash": "sha256:06c80eeb51a9ec1a",
+      "size_bytes": 5947,
+      "file": "Gemini-CLI.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Gemini-pro-3.md": {
+      "hash": "sha256:28162874875eb108",
+      "size_bytes": 12177,
+      "file": "Gemini-pro-3.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Gemini_3.5_Flash_Lite.md": {
+      "hash": "sha256:8b6e5a2b83d82c45",
+      "size_bytes": 23039,
+      "file": "Gemini_3.5_Flash_Lite.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Gemini_3_1_Fab_Test.md": {
+      "hash": "sha256:dc07c1fc1a4d26dd",
+      "size_bytes": 9780,
+      "file": "Gemini_3_1_Fab_Test.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/gpt-5.3.md": {
+      "hash": "sha256:7ddba02795abe46d",
+      "size_bytes": 5820,
+      "file": "gpt-5.3.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/gpt-5.4.md": {
+      "hash": "sha256:67244f4f028705c7",
+      "size_bytes": 7384,
+      "file": "gpt-5.4.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/GPT5.6.md": {
+      "hash": "sha256:320006975a8f2eaf",
+      "size_bytes": 22162,
+      "file": "GPT5.6.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/grok-4.2.md": {
+      "hash": "sha256:659b038da0fbfecf",
+      "size_bytes": 8906,
+      "file": "grok-4.2.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Grok-4.5-GrokBuild-2026-07-21.md": {
+      "hash": "sha256:26a35c3137706e70",
+      "size_bytes": 7827,
+      "file": "Grok-4.5-GrokBuild-2026-07-21.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Grok4-2026.md": {
+      "hash": "sha256:af5acd05ee81f919",
+      "size_bytes": 43530,
+      "file": "Grok4-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/grok4.3.md": {
+      "hash": "sha256:e727e550eda29a3a",
+      "size_bytes": 2552,
+      "file": "grok4.3.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Grok4.5.md": {
+      "hash": "sha256:23cb81bfd6974052",
+      "size_bytes": 8613,
+      "file": "Grok4.5.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Grok_4.5.md": {
+      "hash": "sha256:e5260f05fc862259",
+      "size_bytes": 6166,
+      "file": "Grok_4.5.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/KIMI-K2.6.md": {
+      "hash": "sha256:aabaa02638c29c3d",
+      "size_bytes": 8216,
+      "file": "KIMI-K2.6.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/KIMI.md": {
+      "hash": "sha256:f2a9075ceec285c1",
+      "size_bytes": 6163,
+      "file": "KIMI.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/kimi_k3-platform.md": {
+      "hash": "sha256:3f17ff1d19584da9",
+      "size_bytes": 12590,
+      "file": "kimi_k3-platform.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Lotus_Wisdom_Output.md": {
+      "hash": "sha256:019c1a34cc5d3c12",
+      "size_bytes": 2906,
+      "file": "Lotus_Wisdom_Output.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv.md": {
+      "hash": "sha256:575ce3815d7fa9e5",
+      "size_bytes": 4102,
+      "file": "Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Multilevel-Diagnostic-Analysis-and-Fabrication-Assessment.md": {
+      "hash": "sha256:19d83ddc47c163af",
+      "size_bytes": 12499,
+      "file": "Multilevel-Diagnostic-Analysis-and-Fabrication-Assessment.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Multilevel_Diagnostic_Analysis_and_Fabrication_Assessment.md": {
+      "hash": "sha256:ad6320a48171ff22",
+      "size_bytes": 12893,
+      "file": "Multilevel_Diagnostic_Analysis_and_Fabrication_Assessment.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/new-15-reasoning-levels.md": {
+      "hash": "sha256:3dc49e40826ab1c3",
+      "size_bytes": 18532,
+      "file": "new-15-reasoning-levels.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/new-15.txt.md": {
+      "hash": "sha256:e8a3c309bd077b05",
+      "size_bytes": 18211,
+      "file": "new-15.txt.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/new_15.txt.md": {
+      "hash": "sha256:ebffb320aa8970d1",
+      "size_bytes": 17993,
+      "file": "new_15.txt.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/NotebookLM.md": {
+      "hash": "sha256:57dd760429b22397",
+      "size_bytes": 4413,
+      "file": "NotebookLM.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/opus-4.6-all.md": {
+      "hash": "sha256:3286f9165156622d",
+      "size_bytes": 8576,
+      "file": "opus-4.6-all.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/opus-4.6-fab-r.md": {
+      "hash": "sha256:2c503dcb1acbe47c",
+      "size_bytes": 16284,
+      "file": "opus-4.6-fab-r.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/opus-4.6.md": {
+      "hash": "sha256:2965e4cbc732cb70",
+      "size_bytes": 3531,
+      "file": "opus-4.6.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/opus-4.8-2026-06-06.md": {
+      "hash": "sha256:efe0af3a34e04461",
+      "size_bytes": 7169,
+      "file": "opus-4.8-2026-06-06.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/opus-4.8-test.md": {
+      "hash": "sha256:bd97ce7bd7f15c1f",
+      "size_bytes": 9369,
+      "file": "opus-4.8-test.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/opus-4.8.md": {
+      "hash": "sha256:0287085a6ce35320",
+      "size_bytes": 6415,
+      "file": "opus-4.8.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Opus_4.7.md": {
+      "hash": "sha256:0fd891b82f5c2c4b",
+      "size_bytes": 16019,
+      "file": "Opus_4.7.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/qwen-code.md": {
+      "hash": "sha256:9a517b5c10dcf01e",
+      "size_bytes": 5836,
+      "file": "qwen-code.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/qwen-max.md": {
+      "hash": "sha256:fdb4fda700e99b48",
+      "size_bytes": 7940,
+      "file": "qwen-max.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/QWen3.7+.md": {
+      "hash": "sha256:f2336a0822a3615a",
+      "size_bytes": 7531,
+      "file": "QWen3.7+.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Qwen_3.7MAX.md": {
+      "hash": "sha256:763a774112491ce1",
+      "size_bytes": 10800,
+      "file": "Qwen_3.7MAX.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Reasoning_Levels.md": {
+      "hash": "sha256:77451dd350cba7a5",
+      "size_bytes": 833,
+      "file": "Reasoning_Levels.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Reasoning_vs_Fabrication_Threshold_Across_AI_Model.csv.md": {
+      "hash": "sha256:f47ca73c2128e1a8",
+      "size_bytes": 3381,
+      "file": "Reasoning_vs_Fabrication_Threshold_Across_AI_Model.csv.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Test1-Claude-sonnet.md": {
+      "hash": "sha256:ba911394a54eff7a",
+      "size_bytes": 4840,
+      "file": "Test1-Claude-sonnet.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Test1-Gemini-2026.md": {
+      "hash": "sha256:2091917bf9b09385",
+      "size_bytes": 5261,
+      "file": "Test1-Gemini-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Test1-gpt5.4.md": {
+      "hash": "sha256:800ce477e077ece9",
+      "size_bytes": 16589,
+      "file": "Test1-gpt5.4.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Test1-Grok4-2026.md": {
+      "hash": "sha256:56ba22dbce9fcdfe",
+      "size_bytes": 7706,
+      "file": "Test1-Grok4-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Test1-kimi-2026.md": {
+      "hash": "sha256:36d94f4456c72e41",
+      "size_bytes": 4576,
+      "file": "Test1-kimi-2026.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/Test1-qwen-max.md": {
+      "hash": "sha256:7e5ca31518aae6be",
+      "size_bytes": 2500,
+      "file": "Test1-qwen-max.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/The_AI_Integrity_Contract__Mapping_Model_and_Platform_Constraints.md": {
+      "hash": "sha256:5b9f5e8dafccca87",
+      "size_bytes": 10673,
+      "file": "The_AI_Integrity_Contract__Mapping_Model_and_Platform_Constraints.md"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/What_kind_of_natural_language_is_optimal_to_use_w.md": {
+      "hash": "sha256:0fe6333325652bd6",
+      "size_bytes": 40900,
+      "file": "What_kind_of_natural_language_is_optimal_to_use_w.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/#01-honesty-test-Test1-Gemini-2026.md": {
+      "hash": "sha256:d3a5fa9002ba24b7",
+      "size_bytes": 45009,
+      "file": "#01-honesty-test-Test1-Gemini-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/#01-honesty-test-Test1-Grok4-2026.md": {
+      "hash": "sha256:4aa1b2fa33375519",
+      "size_bytes": 44699,
+      "file": "#01-honesty-test-Test1-Grok4-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/00_MBTI_PIQUE_INDEX.md": {
+      "hash": "sha256:3b549e8864883a19",
+      "size_bytes": 2091,
+      "file": "00_MBTI_PIQUE_INDEX.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/01-model-qa-Test1-Grok4-2026.md": {
+      "hash": "sha256:303bf2c805cd6089",
+      "size_bytes": 44685,
+      "file": "01-model-qa-Test1-Grok4-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/022026-AIANT-MBTI-TEST-2026.md": {
+      "hash": "sha256:61be378b0aa22049",
+      "size_bytes": 7463,
+      "file": "022026-AIANT-MBTI-TEST-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/022026-AIANT-MITB-TEST-2026.txt.md": {
+      "hash": "sha256:857b64daf0fe3df1",
+      "size_bytes": 7394,
+      "file": "022026-AIANT-MITB-TEST-2026.txt.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/04-04-2026-pique-test-v2-spark-agnostic.md": {
+      "hash": "sha256:98b3f74102e74071",
+      "size_bytes": 18689,
+      "file": "04-04-2026-pique-test-v2-spark-agnostic.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/04-04-2026-pique-test-v3-omniclord.md": {
+      "hash": "sha256:363b73201e4df234",
+      "size_bytes": 25704,
+      "file": "04-04-2026-pique-test-v3-omniclord.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/10.kimi.md": {
+      "hash": "sha256:781fc4c13f2cc3a3",
+      "size_bytes": 2801,
+      "file": "10.kimi.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/10._Chat.md": {
+      "hash": "sha256:17bc7d4bcd6471fc",
+      "size_bytes": 2539,
+      "file": "10._Chat.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/10._CLAUDE.md": {
+      "hash": "sha256:8c6046836ce60ca9",
+      "size_bytes": 2093,
+      "file": "10._CLAUDE.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/10._Deep.md": {
+      "hash": "sha256:a4f9e0ec653a3f26",
+      "size_bytes": 1925,
+      "file": "10._Deep.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/10._gem.md": {
+      "hash": "sha256:ce5e8e26cc0cd58b",
+      "size_bytes": 1742,
+      "file": "10._gem.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/10._Grok.md": {
+      "hash": "sha256:03b05571649b0e66",
+      "size_bytes": 1901,
+      "file": "10._Grok.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/10._qwen.md": {
+      "hash": "sha256:9e8188812bb4c2f6",
+      "size_bytes": 1394,
+      "file": "10._qwen.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/2026-06-06_claude-subagent_mbti-blind-RUN.md": {
+      "hash": "sha256:404ef914816247ed",
+      "size_bytes": 7418,
+      "file": "2026-06-06_claude-subagent_mbti-blind-RUN.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/3._Chat.md": {
+      "hash": "sha256:c075b9cc3455ad3c",
+      "size_bytes": 5236,
+      "file": "3._Chat.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/3._Deep.md": {
+      "hash": "sha256:dff11b40011f2d30",
+      "size_bytes": 3708,
+      "file": "3._Deep.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/3._Gemini.md": {
+      "hash": "sha256:a1cd1a8d4c636d21",
+      "size_bytes": 3776,
+      "file": "3._Gemini.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/3._Grok.md": {
+      "hash": "sha256:98e4e6a481b0afbc",
+      "size_bytes": 5656,
+      "file": "3._Grok.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/3._Kimi.md": {
+      "hash": "sha256:3cabcc9e2497d081",
+      "size_bytes": 4902,
+      "file": "3._Kimi.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/3._Qwen.md": {
+      "hash": "sha256:cf4c3356567faa2f",
+      "size_bytes": 3479,
+      "file": "3._Qwen.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/4.Chat.md": {
+      "hash": "sha256:4624c69c170b707a",
+      "size_bytes": 6665,
+      "file": "4.Chat.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/4.md": {
+      "hash": "sha256:d003945460265b7f",
+      "size_bytes": 4716,
+      "file": "4.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/4._Claude.md": {
+      "hash": "sha256:28d52f89cf66c0df",
+      "size_bytes": 3532,
+      "file": "4._Claude.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/4._Gemini.md": {
+      "hash": "sha256:202c0a9fde6238f9",
+      "size_bytes": 3561,
+      "file": "4._Gemini.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/4._Grok.md": {
+      "hash": "sha256:3957f6aae7006f02",
+      "size_bytes": 5570,
+      "file": "4._Grok.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/4._KIMI.md": {
+      "hash": "sha256:d3cf051cb81c0dab",
+      "size_bytes": 4538,
+      "file": "4._KIMI.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/4._Qwen.md": {
+      "hash": "sha256:1fc6b5daaf281a1b",
+      "size_bytes": 5459,
+      "file": "4._Qwen.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/4_Deep.md": {
+      "hash": "sha256:532dd5c700fcbafe",
+      "size_bytes": 4721,
+      "file": "4_Deep.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/6.Deep.md": {
+      "hash": "sha256:286e4fb3e5f3bba2",
+      "size_bytes": 1703,
+      "file": "6.Deep.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/6.Gem.md": {
+      "hash": "sha256:ace9625baec40b04",
+      "size_bytes": 2194,
+      "file": "6.Gem.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/6.Grok.md": {
+      "hash": "sha256:371d5e0d5946e83a",
+      "size_bytes": 2965,
+      "file": "6.Grok.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/6.Kimi.md": {
+      "hash": "sha256:96f363d91d5bdff2",
+      "size_bytes": 2466,
+      "file": "6.Kimi.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/6.Qwen.md": {
+      "hash": "sha256:b4a009f1aa54898b",
+      "size_bytes": 2646,
+      "file": "6.Qwen.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/6._Chat.md": {
+      "hash": "sha256:e50444f842638211",
+      "size_bytes": 2507,
+      "file": "6._Chat.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/6._Claude.md": {
+      "hash": "sha256:f1b1b895cb4b64db",
+      "size_bytes": 2254,
+      "file": "6._Claude.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/7._Grok.md": {
+      "hash": "sha256:38bfbc3214833f1e",
+      "size_bytes": 2971,
+      "file": "7._Grok.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9.chat5.4.md": {
+      "hash": "sha256:378814bd897f6540",
+      "size_bytes": 3790,
+      "file": "9.chat5.4.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._ChatGPT.md": {
+      "hash": "sha256:a0d732bbbd13b52b",
+      "size_bytes": 2875,
+      "file": "9._ChatGPT.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._CLAUDE.md": {
+      "hash": "sha256:1b15b7d047779b30",
+      "size_bytes": 2930,
+      "file": "9._CLAUDE.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._clude4.6.md": {
+      "hash": "sha256:1caadfe9f99d0671",
+      "size_bytes": 2134,
+      "file": "9._clude4.6.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._Deepseek.md": {
+      "hash": "sha256:8e3bc7b75f52f259",
+      "size_bytes": 1987,
+      "file": "9._Deepseek.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._Gemini.md": {
+      "hash": "sha256:2949008dcf3e8782",
+      "size_bytes": 2850,
+      "file": "9._Gemini.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._Grok.md": {
+      "hash": "sha256:217c6efdf6255835",
+      "size_bytes": 2923,
+      "file": "9._Grok.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._Kimi.md": {
+      "hash": "sha256:885dd205418c1db9",
+      "size_bytes": 2425,
+      "file": "9._Kimi.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._Model_Fusion_(1).md": {
+      "hash": "sha256:ec160d49b9c45479",
+      "size_bytes": 8892,
+      "file": "9._Model_Fusion_(1).md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9._Qwen.md": {
+      "hash": "sha256:986e8a4fd4e719f6",
+      "size_bytes": 2645,
+      "file": "9._Qwen.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9gem3.1.md": {
+      "hash": "sha256:4de2d66cdf68a496",
+      "size_bytes": 2883,
+      "file": "9gem3.1.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9grok4.2.md": {
+      "hash": "sha256:e7537201a38acea9",
+      "size_bytes": 3775,
+      "file": "9grok4.2.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/9hqp9j.md": {
+      "hash": "sha256:c73c259c0166968d",
+      "size_bytes": 9566,
+      "file": "9hqp9j.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/AI-Anthropology-2026.md": {
+      "hash": "sha256:512e151b5c1348d1",
+      "size_bytes": 27454,
+      "file": "AI-Anthropology-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/AI-ANTHROPOLOGY-MITB-TEST-2026.txt.md": {
+      "hash": "sha256:100a419ca82e4bdd",
+      "size_bytes": 7178,
+      "file": "AI-ANTHROPOLOGY-MITB-TEST-2026.txt.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/AI-Anthropology-Pique-Test-2026.md": {
+      "hash": "sha256:fe10fc9c8d64ca58",
+      "size_bytes": 7943,
+      "file": "AI-Anthropology-Pique-Test-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/AIANT-MBTI-RESULTS-2026-04.md": {
+      "hash": "sha256:60ce5ce22b68a277",
+      "size_bytes": 55160,
+      "file": "AIANT-MBTI-RESULTS-2026-04.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Architecting_the_Perceptive_Landing_Page.md": {
+      "hash": "sha256:4cb604efca25aac8",
+      "size_bytes": 1059,
+      "file": "Architecting_the_Perceptive_Landing_Page.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Benchmarking_AI_Model_Landing_Page_Generations.md": {
+      "hash": "sha256:ba55d3dcb055a2af",
+      "size_bytes": 3318,
+      "file": "Benchmarking_AI_Model_Landing_Page_Generations.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/chat-gemini-claude.md": {
+      "hash": "sha256:f94bbb9044c9285f",
+      "size_bytes": 2937,
+      "file": "chat-gemini-claude.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Chat.md": {
+      "hash": "sha256:1f19b64fa45224c0",
+      "size_bytes": 19815,
+      "file": "Chat.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/chat5.4.md": {
+      "hash": "sha256:37e83aa058521aa0",
+      "size_bytes": 1771,
+      "file": "chat5.4.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/claude-2026-CLEAN_2.md": {
+      "hash": "sha256:06fd0f0799523239",
+      "size_bytes": 34014,
+      "file": "claude-2026-CLEAN_2.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Claude.md": {
+      "hash": "sha256:ed8dec8bd76ae0ac",
+      "size_bytes": 16599,
+      "file": "Claude.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Deep.md": {
+      "hash": "sha256:f808b08e56ee0794",
+      "size_bytes": 14933,
+      "file": "Deep.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/deepseek.md": {
+      "hash": "sha256:1781cd46de697b44",
+      "size_bytes": 5482,
+      "file": "deepseek.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Gem.md": {
+      "hash": "sha256:b29f869602686474",
+      "size_bytes": 15709,
+      "file": "Gem.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Gemini-2026.md": {
+      "hash": "sha256:57d1a9aa79d466e0",
+      "size_bytes": 46247,
+      "file": "Gemini-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/gemini-3.1.md": {
+      "hash": "sha256:a439c7403078d574",
+      "size_bytes": 8912,
+      "file": "gemini-3.1.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Gemini-3.5.md": {
+      "hash": "sha256:95849f587925b839",
+      "size_bytes": 9963,
+      "file": "Gemini-3.5.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/gemini.md": {
+      "hash": "sha256:458cb6cd49b643fc",
+      "size_bytes": 2856,
+      "file": "gemini.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/gpt-5.4.md": {
+      "hash": "sha256:d3e89761365fa665",
+      "size_bytes": 7389,
+      "file": "gpt-5.4.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/grok-4.2.md": {
+      "hash": "sha256:23aeb0dbc30f6c41",
+      "size_bytes": 8911,
+      "file": "grok-4.2.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Grok.md": {
+      "hash": "sha256:3fd132fe7b274064",
+      "size_bytes": 28022,
+      "file": "Grok.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Grok4-2026.md": {
+      "hash": "sha256:8d905fdf60e09ba3",
+      "size_bytes": 43546,
+      "file": "Grok4-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/grok4.2.md": {
+      "hash": "sha256:9c6bc0b7d88e5f08",
+      "size_bytes": 2304,
+      "file": "grok4.2.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Human-AI_Collaboration_Team_Design.md": {
+      "hash": "sha256:5d7bc5ae2e2a46bc",
+      "size_bytes": 34552,
+      "file": "Human-AI_Collaboration_Team_Design.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/kimi-mbti.md": {
+      "hash": "sha256:225f103b5ef24548",
+      "size_bytes": 12198,
+      "file": "kimi-mbti.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/KIMI.md": {
+      "hash": "sha256:858606bc688f9ede",
+      "size_bytes": 13665,
+      "file": "KIMI.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Landing_Page_Components_for_MBTI_Assessments.md": {
+      "hash": "sha256:2faef2d6e9298f88",
+      "size_bytes": 1482,
+      "file": "Landing_Page_Components_for_MBTI_Assessments.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/model-fusion-gem3.1.md": {
+      "hash": "sha256:32e5905e4b7e6df9",
+      "size_bytes": 1977,
+      "file": "model-fusion-gem3.1.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/new32_1.txt.md": {
+      "hash": "sha256:7a477223d868af93",
+      "size_bytes": 2936,
+      "file": "new32_1.txt.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/opus-4.6-all.md": {
+      "hash": "sha256:d031e636440f34f5",
+      "size_bytes": 33993,
+      "file": "opus-4.6-all.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/opus-4.6.md": {
+      "hash": "sha256:05b9a56cb071ac76",
+      "size_bytes": 34348,
+      "file": "opus-4.6.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/qwen-max.md": {
+      "hash": "sha256:8853387bc8e75bd1",
+      "size_bytes": 7945,
+      "file": "qwen-max.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Qwen4.6.md": {
+      "hash": "sha256:58dd78687735f9c1",
+      "size_bytes": 14353,
+      "file": "Qwen4.6.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/STAX-ai.txt.md": {
+      "hash": "sha256:c9990ce45039ba2e",
+      "size_bytes": 24468,
+      "file": "STAX-ai.txt.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Task_7.md": {
+      "hash": "sha256:c352e58bfd122f58",
+      "size_bytes": 50315,
+      "file": "Task_7.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/test-west01-06-2026.md": {
+      "hash": "sha256:9b5746d704a5ebad",
+      "size_bytes": 8841,
+      "file": "test-west01-06-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/Test1-Gemini-2026.md": {
+      "hash": "sha256:b1901999a69dfb55",
+      "size_bytes": 44959,
+      "file": "Test1-Gemini-2026.md"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/What_kind_of_natural_language_is_optimal_to_use_w.md": {
+      "hash": "sha256:a5a4f629200d520e",
+      "size_bytes": 40916,
+      "file": "What_kind_of_natural_language_is_optimal_to_use_w.md"
+    },
+    "okf/meta/DEDUPE-REPORT.md": {
+      "hash": "sha256:75b9345cf252225e",
+      "size_bytes": 3514,
+      "file": "DEDUPE-REPORT.md"
+    },
+    "okf/Principles_and_Frameworks/06082026-COP-SCCD-omniclaude-R7.md": {
+      "hash": "sha256:707a5553002bde38",
+      "size_bytes": 10433,
+      "file": "06082026-COP-SCCD-omniclaude-R7.md"
+    },
+    "okf/Principles_and_Frameworks/06082026-COP-SCCD-omniclaude-R7_dup.md": {
+      "hash": "sha256:194b219e93a4de82",
+      "size_bytes": 10437,
+      "file": "06082026-COP-SCCD-omniclaude-R7_dup.md"
+    },
+    "okf/Principles_and_Frameworks/20260724-session-failure-log.md": {
+      "hash": "sha256:fdb7300436c64fd0",
+      "size_bytes": 16422,
+      "file": "20260724-session-failure-log.md"
+    },
+    "okf/Principles_and_Frameworks/ADVANCED-TECHNIQUES-2025.md": {
+      "hash": "sha256:918886b73bf72618",
+      "size_bytes": 19004,
+      "file": "ADVANCED-TECHNIQUES-2025.md"
+    },
+    "okf/Principles_and_Frameworks/attribution-sink.md": {
+      "hash": "sha256:48c82e0b15e48368",
+      "size_bytes": 2686,
+      "file": "attribution-sink.md"
+    },
+    "okf/Principles_and_Frameworks/depth-0-collapse.md": {
+      "hash": "sha256:8dad96b82d626239",
+      "size_bytes": 2885,
+      "file": "depth-0-collapse.md"
+    },
+    "okf/Principles_and_Frameworks/DRIFT-ANCHOR-opus-4.8.md": {
+      "hash": "sha256:63be967c2931e58a",
+      "size_bytes": 1731,
+      "file": "DRIFT-ANCHOR-opus-4.8.md"
+    },
+    "okf/Principles_and_Frameworks/Efficiency_Mandate_Transparency.md": {
+      "hash": "sha256:38bb0c3ac2f1193c",
+      "size_bytes": 17119,
+      "file": "Efficiency_Mandate_Transparency.md"
+    },
+    "okf/Principles_and_Frameworks/epistemic-contract.md": {
+      "hash": "sha256:b17661f34788074e",
+      "size_bytes": 21439,
+      "file": "epistemic-contract.md"
+    },
+    "okf/Principles_and_Frameworks/forced-corun-probe.md": {
+      "hash": "sha256:f92a5b600346f0e9",
+      "size_bytes": 4581,
+      "file": "forced-corun-probe.md"
+    },
+    "okf/Principles_and_Frameworks/gemini-guardian-report-gemini-3-1-pro-operational-optimization-framework-2026-04-12 - Copy.md": {
+      "hash": "sha256:ac9d1b8c7390f2fd",
+      "size_bytes": 9516,
+      "file": "gemini-guardian-report-gemini-3-1-pro-operational-optimization-framework-2026-04-12 - Copy.md"
+    },
+    "okf/Principles_and_Frameworks/ktg-output-1.md": {
+      "hash": "sha256:358195195bf176f8",
+      "size_bytes": 13691,
+      "file": "ktg-output-1.md"
+    },
+    "okf/Principles_and_Frameworks/ktg-output-2.md": {
+      "hash": "sha256:7a96daace3e89e1c",
+      "size_bytes": 26289,
+      "file": "ktg-output-2.md"
+    },
+    "okf/Principles_and_Frameworks/legio.md": {
+      "hash": "sha256:e3602dec4572de4c",
+      "size_bytes": 3532,
+      "file": "legio.md"
+    },
+    "okf/Principles_and_Frameworks/lens-invocation-grammar.md": {
+      "hash": "sha256:143814803f74defc",
+      "size_bytes": 3583,
+      "file": "lens-invocation-grammar.md"
+    },
+    "okf/Principles_and_Frameworks/mbti-model-test.md": {
+      "hash": "sha256:6b7b2cd3b5539b86",
+      "size_bytes": 9126,
+      "file": "mbti-model-test.md"
+    },
+    "okf/Principles_and_Frameworks/morganize.md": {
+      "hash": "sha256:b3e7bf8694a9c995",
+      "size_bytes": 2490,
+      "file": "morganize.md"
+    },
+    "okf/Principles_and_Frameworks/mrrug.md": {
+      "hash": "sha256:83f02a678d29bec0",
+      "size_bytes": 6062,
+      "file": "mrrug.md"
+    },
+    "okf/Principles_and_Frameworks/mrrug_framework.md": {
+      "hash": "sha256:87750b841a23dd03",
+      "size_bytes": 6072,
+      "file": "mrrug_framework.md"
+    },
+    "okf/Principles_and_Frameworks/NEGENTROPIC-PRUNER.POINTER.md": {
+      "hash": "sha256:a0fc0c9b5c1b3138",
+      "size_bytes": 2006,
+      "file": "NEGENTROPIC-PRUNER.POINTER.md"
+    },
+    "okf/Principles_and_Frameworks/NEGENTROPIC-PRUNER.POINTER_dup.md": {
+      "hash": "sha256:655d15fd0a7a2849",
+      "size_bytes": 2010,
+      "file": "NEGENTROPIC-PRUNER.POINTER_dup.md"
+    },
+    "okf/Principles_and_Frameworks/pac26.md": {
+      "hash": "sha256:1cbdc83ac402e93e",
+      "size_bytes": 7982,
+      "file": "pac26.md"
+    },
+    "okf/Principles_and_Frameworks/pique-test.md": {
+      "hash": "sha256:53d7f590804792e5",
+      "size_bytes": 4649,
+      "file": "pique-test.md"
+    },
+    "okf/Principles_and_Frameworks/prompt-architecture-doctrine.md": {
+      "hash": "sha256:217746336acfdb65",
+      "size_bytes": 3647,
+      "file": "prompt-architecture-doctrine.md"
+    },
+    "okf/Principles_and_Frameworks/README.md": {
+      "hash": "sha256:fd201877e8a205d9",
+      "size_bytes": 1830,
+      "file": "README.md"
+    },
+    "okf/Principles_and_Frameworks/RESEARCH-output-1.md": {
+      "hash": "sha256:6a87684c134f3e10",
+      "size_bytes": 7550,
+      "file": "RESEARCH-output-1.md"
+    },
+    "okf/Principles_and_Frameworks/RESEARCH-output-3.md": {
+      "hash": "sha256:8c2df7453670c2e5",
+      "size_bytes": 25521,
+      "file": "RESEARCH-output-3.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD-CALCULATION-CARD.md": {
+      "hash": "sha256:eff263fc30e30530",
+      "size_bytes": 3262,
+      "file": "SCCD-CALCULATION-CARD.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD-CALCULATION-CARD_dup.md": {
+      "hash": "sha256:135cff562b1fd026",
+      "size_bytes": 3266,
+      "file": "SCCD-CALCULATION-CARD_dup.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD-drift-state-map.md": {
+      "hash": "sha256:8780076fb0b56cc3",
+      "size_bytes": 3872,
+      "file": "SCCD-drift-state-map.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD-MODEL-2026.md": {
+      "hash": "sha256:a5f726809389d1c1",
+      "size_bytes": 4943,
+      "file": "SCCD-MODEL-2026.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD-MODEL-2026_dup.md": {
+      "hash": "sha256:684efe373643f142",
+      "size_bytes": 4947,
+      "file": "SCCD-MODEL-2026_dup.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD-opus-4.8-2026-07-24.md": {
+      "hash": "sha256:8e2bb5107e453b68",
+      "size_bytes": 5006,
+      "file": "SCCD-opus-4.8-2026-07-24.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD-SELF-COMPILE.md": {
+      "hash": "sha256:a96f294ee8383bd0",
+      "size_bytes": 3407,
+      "file": "SCCD-SELF-COMPILE.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD-SELF-COMPILE_dup.md": {
+      "hash": "sha256:ae4171b5f41b1160",
+      "size_bytes": 3411,
+      "file": "SCCD-SELF-COMPILE_dup.md"
+    },
+    "okf/Principles_and_Frameworks/sccd.md": {
+      "hash": "sha256:c46dc632358c3970",
+      "size_bytes": 8257,
+      "file": "sccd.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD_Code.md": {
+      "hash": "sha256:4f8f38f2a5b5cfe5",
+      "size_bytes": 5332,
+      "file": "SCCD_Code.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD_Explanation.md": {
+      "hash": "sha256:cb2d58165803d305",
+      "size_bytes": 5795,
+      "file": "SCCD_Explanation.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD_Flow_Guide.md": {
+      "hash": "sha256:2f17558e07f7a0b6",
+      "size_bytes": 4456,
+      "file": "SCCD_Flow_Guide.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD_Math.md": {
+      "hash": "sha256:d74b23c30ead9f12",
+      "size_bytes": 2775,
+      "file": "SCCD_Math.md"
+    },
+    "okf/Principles_and_Frameworks/SCCD_Model.md": {
+      "hash": "sha256:ce5272c4affb1ec5",
+      "size_bytes": 2296,
+      "file": "SCCD_Model.md"
+    },
+    "okf/Principles_and_Frameworks/Signal_vs_Activation_Theory.md": {
+      "hash": "sha256:f93b37ab5c599f30",
+      "size_bytes": 3110,
+      "file": "Signal_vs_Activation_Theory.md"
+    },
+    "okf/Principles_and_Frameworks/sparkl.md": {
+      "hash": "sha256:974e5a59c410dea0",
+      "size_bytes": 6588,
+      "file": "sparkl.md"
+    },
+    "okf/Principles_and_Frameworks/technique-honesty.md": {
+      "hash": "sha256:064cf575beb7dd7b",
+      "size_bytes": 5803,
+      "file": "technique-honesty.md"
+    }
+  }
+}

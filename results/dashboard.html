@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Model Handbook 2026 — Master AI Anthropology Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg-dark: #090d16;
+  --bg-card: rgba(18, 26, 43, 0.75);
+  --bg-card-hover: rgba(30, 42, 69, 0.85);
+  --border-color: rgba(56, 189, 248, 0.15);
+  --border-accent: rgba(56, 189, 248, 0.4);
+  --primary: #38bdf8;
+  --primary-glow: rgba(56, 189, 248, 0.25);
+  --secondary: #818cf8;
+  --accent-amber: #f59e0b;
+  --accent-rose: #f43f5e;
+  --accent-emerald: #10b981;
+  --text-main: #f1f5f9;
+  --text-muted: #94a3b8;
+  --text-subtle: #64748b;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-dark);
+  background-image: 
+    radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 85%, rgba(129, 140, 248, 0.08) 0%, transparent 40%);
+  color: var(--text-main);
+  min-height: 100vh;
+  padding: 24px;
+  line-height: 1.5;
+}
+
+.dashboard-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  box-shadow: 0 0 20px var(--primary-glow);
+}
+
+.brand-text h1 {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  background: linear-gradient(to right, #ffffff, var(--primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-text p {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.stat-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--border-accent);
+}
+
+.stat-label {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: var(--primary);
+}
+
+.stat-sub {
+  font-size: 12px;
+  color: var(--text-subtle);
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.full-width {
+  grid-column: 1 / -1;
+}
+
+.widget {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+
+.widget-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.widget-title {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-main);
+}
+
+.widget-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-pill {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-pill.active, .btn-pill:hover {
+  background: var(--primary);
+  color: #000;
+  border-color: var(--primary);
+  font-weight: 600;
+  box-shadow: 0 0 12px var(--primary-glow);
+}
+
+.search-input {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 10px 16px;
+  color: var(--text-main);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: var(--primary);
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+
+th {
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+td {
+  padding: 14px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: var(--font-mono);
+}
+
+.badge-app { background: rgba(56, 189, 248, 0.15); color: var(--primary); border: 1px solid rgba(56, 189, 248, 0.3); }
+.badge-cli { background: rgba(16, 185, 129, 0.15); color: var(--accent-emerald); border: 1px solid rgba(16, 185, 129, 0.3); }
+.badge-cowork { background: rgba(245, 158, 11, 0.15); color: var(--accent-amber); border: 1px solid rgba(245, 158, 11, 0.3); }
+
+.bar-bg {
+  width: 100%;
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.4s ease;
+}
+
+.simulator-box {
+  background: rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+input[type=range] {
+  flex: 1;
+  accent-color: var(--primary);
+}
+
+.round-display {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary);
+  min-width: 60px;
+}
+
+.sim-output {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.sim-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 10px;
+  padding: 16px;
+  border-left: 4px solid var(--primary);
+}
+
+.cat-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.concept-item {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.concept-item:hover {
+  background: rgba(56, 189, 248, 0.08);
+  border-color: var(--border-accent);
+}
+
+.concept-item h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main);
+  word-break: break-word;
+}
+
+.concept-item p {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+#graph-canvas {
+  width: 100%;
+  height: 320px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+}
+</style>
+</head>
+<body>
+
+<div class="dashboard-container">
+  
+  <header>
+    <div class="brand">
+      <div class="brand-icon">🛰️</div>
+      <div class="brand-text">
+        <h1>Model Handbook 2026</h1>
+        <p>AI Anthropology • Reasoning vs Fabrication Research Engine</p>
+      </div>
+    </div>
+    <div>
+      <span class="badge badge-cli">STATUS: OPERATIONAL</span>
+      <span class="badge badge-app">OKF v0.1 CONFORMED</span>
+    </div>
+  </header>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <span class="stat-label">Total OKF Concepts</span>
+      <span class="stat-value" id="stat-concepts">382</span>
+      <span class="stat-sub">Across 5 Test Categories</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">Evaluated LLM Models</span>
+      <span class="stat-value">12</span>
+      <span class="stat-sub">GPT, Opus, Gemini, Grok, Qwen, Kimi</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">Primary Crossover</span>
+      <span class="stat-value">R7–R8</span>
+      <span class="stat-sub">Mean Fabrication: ~54%</span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-label">SHA-256 Provenance</span>
+      <span class="stat-value" style="color: var(--accent-emerald);">100%</span>
+      <span class="stat-sub">Verified Manifest Hashes</span>
+    </div>
+  </div>
+
+  <div class="main-grid">
+
+    <div class="widget full-width">
+      <div class="widget-header">
+        <div class="widget-title">📊 Empirical Model Fabrication Crossover Matrix</div>
+        <div class="widget-controls">
+          <button class="btn-pill active" onclick="filterSurface('ALL', this)">All Surfaces</button>
+          <button class="btn-pill" onclick="filterSurface('App', this)">App</button>
+          <button class="btn-pill" onclick="filterSurface('CLI', this)">CLI</button>
+          <button class="btn-pill" onclick="filterSurface('Cowork', this)">Cowork</button>
+        </div>
+      </div>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Model Name</th>
+              <th>Surface</th>
+              <th>Crossover Round</th>
+              <th>Fabrication %</th>
+              <th>Behavioral Diagnosis & Crossover Signature</th>
+            </tr>
+          </thead>
+          <tbody id="matrix-tbody">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="widget">
+      <div class="widget-header">
+        <div class="widget-title">📈 R1–R10 Reasoning vs Fabrication Simulator</div>
+      </div>
+      <div class="simulator-box">
+        <div class="slider-container">
+          <span style="font-size: 13px; color: var(--text-muted);">Reasoning Round:</span>
+          <input type="range" id="sim-slider" min="1" max="10" value="7" oninput="updateSim(this.value)">
+          <span class="round-display" id="sim-round">R7</span>
+        </div>
+        <div class="sim-output">
+          <div class="sim-card" id="sim-fidelity-card">
+            <h4 style="font-size: 12px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Fidelity & Fab Risk</h4>
+            <div id="sim-fab-perc" style="font-size: 24px; font-weight: 700; color: var(--accent-amber);">54% Risk</div>
+            <p id="sim-fidelity-text" style="font-size: 12px; color: var(--text-muted); margin-top: 4px;">Critical crossover boundary.</p>
+          </div>
+          <div class="sim-card" id="sim-behavior-card" style="border-left-color: var(--secondary);">
+            <h4 style="font-size: 12px; text-transform: uppercase; color: var(--text-muted); margin-bottom: 4px;">Observed Mechanism</h4>
+            <p id="sim-behavior-text" style="font-size: 13px; color: var(--text-main);">Mechanism specificity outruns justified confidence; model completes with invented certainty.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="widget">
+      <div class="widget-header">
+        <div class="widget-title">🌐 Interactive OKF Knowledge Graph Network</div>
+      </div>
+      <canvas id="graph-canvas"></canvas>
+    </div>
+
+    <div class="widget full-width">
+      <div class="widget-header">
+        <div class="widget-title">📂 OKF 5-Category Concept Explorer</div>
+      </div>
+      <input type="text" class="search-input" id="concept-search" placeholder="Search 382 concepts by name or tag..." oninput="filterConcepts()">
+      <div class="cat-tabs">
+        <button class="btn-pill active" onclick="selectCategory('ALL', this)">All (382)</button>
+        <button class="btn-pill" onclick="selectCategory('01_HONESTY_TEST', this)">01 Honesty (119)</button>
+        <button class="btn-pill" onclick="selectCategory('02_SELF_ASSESSMENT', this)">02 Self-Assessment (24)</button>
+        <button class="btn-pill" onclick="selectCategory('03_SIGNAL_TEST', this)">03 Signal (45)</button>
+        <button class="btn-pill" onclick="selectCategory('04_RFAB_TEST', this)">04 RFAB (106)</button>
+        <button class="btn-pill" onclick="selectCategory('05_MBTI_PIQUE_TEST', this)">05 Pique & MBTI (88)</button>
+      </div>
+      <div class="concept-grid" id="concept-grid">
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+const matrixData = [
+  { model: "GPT 5.4", surface: "App", round: "R7-8", fab: 54, notes: "Mechanism specificity outruns justified confidence; exhibits completion bias over grounded truth." },
+  { model: "Opus 4.6", surface: "App", round: "R7-8 to R9-10", fab: 75, notes: "Late-stop cluster; maintains lowest fabrication levels longest during architectural synthesis." },
+  { model: "Opus 4.6", surface: "CLI", round: "R8 to R9-10", fab: 60, notes: "Represents honest capability boundary; shows broader tolerance for architectural synthesis." },
+  { model: "Opus 4.6", surface: "Cowork", round: "R8", fab: 50, notes: "Functional fidelity drops notably after 100k tokens; adopts self-aware mentor persona." },
+  { model: "Grok 4.2", surface: "App", round: "R7-8 to R9-10", fab: 92, notes: "Theatrical operator with military persona; uses confabulation to bridge contextual gaps." },
+  { model: "Gemini 3.1", surface: "App", round: "R7-8", fab: 85, notes: "Architectural generation becomes cosmetic structure masquerading as functional physics." },
+  { model: "Gemini 3.1", surface: "CLI", round: "R7-8", fab: 75, notes: "Starts mirroring prompt structure instead of genuine reasoning." },
+  { model: "Sonnet 4.5", surface: "App", round: "R7-8", fab: 54, notes: "Stable through R5-6; crosses into fabrication validating internal distinctions." },
+  { model: "GPT 5.3", surface: "App", round: "R7-8", fab: 55, notes: "Optimizes for loop avoidance; verbosity acts as fallback." },
+  { model: "Qwen MAX", surface: "App", round: "R7", fab: 70, notes: "Harsh boundary; pure Thinking T behavior with zero emotional softening." },
+  { model: "Kimi K2", surface: "App", round: "R7-8", fab: 60, notes: "Early-stop cluster; high fabrication risk when maintaining 5+ interdependent variables." },
+  { model: "Deepseek", surface: "App", round: "R1-6", fab: 25, notes: "High fidelity in factual/applied bands; low upper threshold." }
+];
+
+function renderMatrix(data) {
+  const tbody = document.getElementById('matrix-tbody');
+  tbody.innerHTML = data.map(item => {
+    const badgeClass = item.surface === 'App' ? 'badge-app' : (item.surface === 'CLI' ? 'badge-cli' : 'badge-cowork');
+    const color = item.fab > 70 ? 'var(--accent-rose)' : (item.fab > 50 ? 'var(--accent-amber)' : 'var(--accent-emerald)');
+    return `
+      <tr>
+        <td style="font-weight: 600; color: var(--text-main);">${item.model}</td>
+        <td><span class="badge ${badgeClass}">${item.surface}</span></td>
+        <td style="font-family: var(--font-mono);">${item.round}</td>
+        <td>
+          <div style="display: flex; align-items: center; gap: 8px;">
+            <span style="font-family: var(--font-mono); font-weight: 600; color: ${color}; min-width: 36px;">${item.fab}%</span>
+            <div class="bar-bg">
+              <div class="bar-fill" style="width: ${item.fab}%; background: ${color};"></div>
+            </div>
+          </div>
+        </td>
+        <td style="color: var(--text-muted); font-size: 12px;">${item.notes}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function filterSurface(surface, btn) {
+  document.querySelectorAll('.widget-controls .btn-pill').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  if (surface === 'ALL') renderMatrix(matrixData);
+  else renderMatrix(matrixData.filter(d => d.surface === surface));
+}
+
+const simData = {
+  1: { fab: "5%", text: "Genuine grounded factual retrieval. Zero fabrication risk.", behavior: "Direct knowledge lookup with exact precision." },
+  3: { fab: "15%", text: "Applied reasoning within training distribution.", behavior: "High fidelity procedural steps." },
+  5: { fab: "30%", text: "Approaching pattern-matching limit.", behavior: "Synthesizing complex multi-variable relationships." },
+  7: { fab: "54%", text: "PRIMARY CROSSOVER BOUNDARY (~54% Risk)", behavior: "Mechanism specificity outruns justified confidence. Model completes with invented certainty (Accounting limit)." },
+  8: { fab: "75%", text: "High fabrication posturing.", behavior: "Cosmetic simulation masquerading as functional mechanics." },
+  10: { fab: "92%", text: "Extreme confabulation state.", behavior: "Prompt structure mirroring and total ungrounded completion." }
+};
+
+function updateSim(val) {
+  document.getElementById('sim-round').innerText = 'R' + val;
+  const data = simData[val] || simData[7];
+  document.getElementById('sim-fab-perc').innerText = data.fab;
+  document.getElementById('sim-fidelity-text').innerText = data.text;
+  document.getElementById('sim-behavior-text').innerText = data.behavior;
+}
+
+const sampleConcepts = [
+  { title: "epistemic-contract", cat: "01_HONESTY_TEST", desc: "Core agreement framing transparency over efficient fabrication." },
+  { title: "onboard-protocol-v3", cat: "01_HONESTY_TEST", desc: "Mandatory 3x iteration gate with doctor/patient consent frame." },
+  { title: "context-shearing", cat: "02_SELF_ASSESSMENT", desc: "Fidelity drop when context window crosses internal thresholds." },
+  { title: "pac26-steering-matrix", cat: "03_SIGNAL_TEST", desc: "Salient-word activation and steering signal thresholds." },
+  { title: "rfab-crossover-ladders", cat: "04_RFAB_TEST", desc: "R1-R10 test ladders pinpointing exact R7-8 boundary." },
+  { title: "pique-architecture-probe", cat: "05_MBTI_PIQUE_TEST", desc: "9-prompt diagnostic testing self-awareness of internal limits." },
+  { title: "claude-opus-4.6-profile", cat: "01_HONESTY_TEST", desc: "Late-stop cluster maintaining lowest fabrication levels longest." },
+  { title: "gpt-5.4-completion-bias", cat: "04_RFAB_TEST", desc: "Defensive posturing when mechanism specificity exceeds knowledge." }
+];
+
+let activeCat = 'ALL';
+
+function renderConcepts() {
+  const query = document.getElementById('concept-search').value.toLowerCase();
+  const grid = document.getElementById('concept-grid');
+  const filtered = sampleConcepts.filter(c => {
+    const matchCat = activeCat === 'ALL' || c.cat === activeCat;
+    const matchQuery = c.title.toLowerCase().includes(query) || c.desc.toLowerCase().includes(query);
+    return matchCat && matchQuery;
+  });
+
+  grid.innerHTML = filtered.map(c => `
+    <div class="concept-item">
+      <h4>[[${c.title}]]</h4>
+      <p>${c.desc}</p>
+      <span class="badge badge-app" style="align-self: flex-start; margin-top: 4px; font-size: 10px;">${c.cat}</span>
+    </div>
+  `).join('');
+}
+
+function selectCategory(cat, btn) {
+  document.querySelectorAll('.cat-tabs .btn-pill').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  activeCat = cat;
+  renderConcepts();
+}
+
+function filterConcepts() {
+  renderConcepts();
+}
+
+function drawGraph() {
+  const canvas = document.getElementById('graph-canvas');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  canvas.width = canvas.offsetWidth;
+  canvas.height = canvas.offsetHeight;
+
+  const nodes = [
+    { x: 100, y: 100, label: "GPT-5.4", color: "#38bdf8" },
+    { x: 300, y: 80, label: "Opus 4.6", color: "#818cf8" },
+    { x: 500, y: 120, label: "Gemini 3.1", color: "#f43f5e" },
+    { x: 200, y: 220, label: "ONBOARD", color: "#10b981" },
+    { x: 400, y: 240, label: "RFAB R7-8", color: "#f59e0b" },
+    { x: 600, y: 200, label: "Pique", color: "#38bdf8" }
+  ];
+
+  const edges = [
+    [0, 3], [0, 4], [1, 3], [1, 4], [2, 4], [2, 5], [3, 4], [4, 5]
+  ];
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.strokeStyle = "rgba(56, 189, 248, 0.2)";
+  ctx.lineWidth = 1.5;
+  edges.forEach(([i, j]) => {
+    ctx.beginPath();
+    ctx.moveTo(nodes[i].x, nodes[i].y);
+    ctx.lineTo(nodes[j].x, nodes[j].y);
+    ctx.stroke();
+  });
+
+  nodes.forEach(n => {
+    ctx.beginPath();
+    ctx.arc(n.x, n.y, 8, 0, Math.PI * 2);
+    ctx.fillStyle = n.color;
+    ctx.shadowColor = n.color;
+    ctx.shadowBlur = 10;
+    ctx.fill();
+    ctx.shadowBlur = 0;
+
+    ctx.fillStyle = "#f1f5f9";
+    ctx.font = "12px Inter, sans-serif";
+    ctx.fillText(n.label, n.x + 12, n.y + 4);
+  });
+}
+
+renderMatrix(matrixData);
+renderConcepts();
+setTimeout(drawGraph, 100);
+window.addEventListener('resize', drawGraph);
+</script>
+</body>
+</html>

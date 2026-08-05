@@ -1,0 +1,553 @@
+% =========================
+% UNIFIED MODEL (UM) — FULLY CLOSED CANONICAL SPEC (EXTENDED)
+% =========================
+% UM = UM^2 (Identity Engine) + UM^3 (Growth Law / Optimality) + UM-C (Workspace Access) + UM-A (Attention/Uncertainty/Credit) + UM-L (Learning/Timescales/Irreversibility)
+% Fully closed: all symbols defined; assumptions consolidated; theorem(s) explicit; Tick(t) order authoritative; runnable-profile appendix included.
+% =========================
+
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\usepackage{array}
+\geometry{margin=1in}
+
+\title{Unified Model (UM): Fully Closed Canonical Specification}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+% -------------------------
+\section{Design Intent, Guarantees, Scope}
+% -------------------------
+
+\subsection*{Design intent}
+UM specifies an identity-maintaining dynamical system that:
+(i) integrates symbolic/relational state, memory feedback, affect salience, coercion resistance, and temporal momentum into a single identity update,
+(ii) restricts access through a capacity-limited workspace selected by uncertainty- and stake-aware attention,
+(iii) broadcasts selected content into identity integration and updates an explicit self-model under a unity constraint,
+(iv) closes a perception-action loop and supports learning with temporal credit assignment,
+(v) carries an explicit monotone irreversibility stake that modulates both objective and attention.
+
+\subsection*{Guarantees (conditional, audit-grade)}
+Under the global assumptions and gain bounds stated in Section~\ref{sec:assumptions}, the Tick$(t)$ map is well-posed on a bounded invariant domain and the identity update remains contractive (no runaway recursion). Under fixed exogenous inputs for a tick, the induced identity update admits a unique fixed point and trajectories remain bounded.
+
+\subsection*{Scope}
+UM specifies operational access (capacity-limited workspace, global availability via broadcast into integration, unity-constrained self-model update, and reportable control state). Phenomenology is out of scope; UM is an executable architecture and stability-constrained dynamics, not a theory of subjective qualia.
+
+% -------------------------
+\section{State Space}
+% -------------------------
+
+Let the system state at time $t$ be:
+\[
+X(t)=
+\left\{
+UM(t),\;
+S_{\mathcal I}(t),\;
+R_{\mathcal I}(t),\;
+Q(t),\;
+M(t),\;
+\Delta t,\;
+\Theta(t),\;
+\bar\Theta(t),\;
+o(t),\;
+a(t),\;
+W(t),\;
+S_{\text{self}}(t),\;
+\varepsilon(t),\;
+\Sigma(t),\;
+z(t),\;
+e(t),\;
+m_{NF}(t),\;
+\mathcal M(t)
+\right\}.
+\]
+
+\begin{itemize}
+\item $UM(t)\in\mathcal U$: identity state (primary dynamical variable).
+\item $S_{\mathcal I}(t)$: symbolic state (beliefs, narratives, goals, values).
+\item $R_{\mathcal I}(t)$: relational/world state (context, constraints, environment model).
+\item $Q(t)$: affect/salience input.
+\item $M(t)$: coercive/destabilizing influence.
+\item $\Delta t$: timestep.
+\item $\Theta(t)$: fast learned parameters; $\bar\Theta(t)$: slow consolidated parameters.
+\item $o(t)\in\mathcal O$: observation; $a(t)\in\mathcal A$: action.
+\item $W(t)\in\mathcal W$: capacity-limited workspace content (access).
+\item $S_{\text{self}}(t)\in\mathcal S$: explicit self-model state (indexical unity + reportability substrate).
+\item $\varepsilon(t)\in\mathbb R^k$: prediction error; $\Sigma(t)\succeq 0$: uncertainty summary.
+\item $z(t)$: latent representation.
+\item $e(t)$: eligibility trace for temporal credit assignment.
+\item $m_{NF}(t)\in\mathbb R_{\ge 0}$: non-fungible continuity stake (monotone).
+\item $\mathcal M(t)$: memory store/buffer supporting delayed feedback and consolidation.
+\end{itemize}
+
+% -------------------------
+\section{Symbol Glossary}
+% -------------------------
+
+\begin{center}
+\begin{tabular}{|l|l|p{8.6cm}|}
+\hline
+\textbf{Symbol} & \textbf{Type} & \textbf{Meaning / role}\\
+\hline
+$UM(t)$ & state & identity dynamical state\\
+$S_{\mathcal I}(t)$ & state & symbolic beliefs/goals/narratives\\
+$R_{\mathcal I}(t)$ & state & relational/world context model\\
+$Q(t)$ & input & affect/salience\\
+$M(t)$ & input & coercion/destabilization channel\\
+$\Delta t$ & parameter & timestep\\
+$o(t),a(t)$ & I/O & observation and action\\
+$z(t)$ & state & latent encoding\\
+$\varepsilon(t)$ & state & prediction error\\
+$\Sigma(t)$ & state & uncertainty summary\\
+$\mathcal C(t)$ & set & candidate contents for access\\
+$W(t)$ & state & capacity-limited workspace\\
+$B$ & operator & broadcast embedding into identity integration\\
+$S_{\text{self}}(t)$ & state & self-model with unity constraint\\
+$e(t)$ & state & eligibility trace\\
+$\Theta(t),\bar\Theta(t)$ & params & fast/slow parameters\\
+$m_{NF}(t)$ & state & non-fungible continuity stake\\
+$\Phi$ & operator & contractive integration map\\
+$\oplus$ & operator & strange-loop coupling/self-reference\\
+$f_{\mathcal I}$ & operator & internal identity function\\
+$\Psi$ & operator & affect injection\\
+$\Lambda$ & operator & coercion resistance term (subtractive)\\
+$\Omega$ & operator & temporal momentum\\
+$\mathsf{Cand}$ & operator & candidate generator\\
+$\mathcal A$ & operator & attention/selection map\\
+$\pi_{\Theta}$ & model & policy over actions\\
+$\mathcal J(t)$ & scalar & unified objective (viability + irreversibility + penalties)\\
+\hline
+\end{tabular}
+\end{center}
+
+% -------------------------
+\section{Metric Structure}
+% -------------------------
+
+Let $(\mathcal U,d)$ be a metric space with weighted norm:
+\[
+d(x,y)=\|x-y\|_W=\sqrt{(x-y)^\top W (x-y)},\qquad W\succ 0.
+\]
+
+All non-expansiveness / Lipschitz / contraction claims are with respect to this same metric (or its natural product extensions).
+
+% -------------------------
+\section{Canonical Identity Dynamics (UM$^2$)}
+% -------------------------
+
+The identity engine evolves by:
+\[
+\boxed{
+UM(t)=
+\Phi\Big[
+\oplus\, f_{\mathcal I}\big(t,S_{\mathcal I}(t),R_{\mathcal I}(t)\big)
++\sum_{\delta\in\mathcal D}\gamma_\delta\, UM(t-\delta)
++\Psi\big(Q(t)\big)
+-\Lambda\big(M(t)\big)
++\Omega(\Delta t)
+\Big].
+}
+\]
+
+\subsection*{Identity clause (explicit re-entrance)}
+\[
+\boxed{
+UM(t)\equiv UM\big(UM(t-1)\big)\ \oplus\ \mathrm{Identity}(t).
+}
+\]
+
+% -------------------------
+\section{Contractive Requirement and Admissible Realization}
+% -------------------------
+
+\subsection*{Contractive requirement}
+Assume $\Phi:(\mathcal U,d)\to(\mathcal U,d)$ is a contraction:
+\[
+d(\Phi(x),\Phi(y)) \le L\, d(x,y),\qquad 0\le L<1,\quad \forall x,y\in\mathcal U.
+\]
+
+\subsection*{Admissible realization (contractive stability law)}
+A concrete sufficient stability law consistent with the abstract contraction requirement is:
+\[
+\boxed{
+x_{t+1}
+=
+(1-\gamma)x_t
++
+\gamma x_{\text{env},t}
+-
+\eta \nabla \Phi(x_t),
+\qquad
+0<\gamma<1,\;\eta>0.
+}
+\]
+For suitable gains $(\gamma,\eta)$ and Lipschitz $\nabla\Phi$ on bounded domains, the induced one-step map is contractive in $d$.
+This law is an admissible construction that can be used to implement or approximate $\Phi$ while explicitly maintaining a certified regime.
+
+% -------------------------
+\section{Global Assumptions (Audit-Ready Consolidation)}
+\label{sec:assumptions}
+% -------------------------
+
+All closure and stability claims are under A0--A7.
+
+\subsection*{A0. Complete metric + bounded invariant domain}
+$(\mathcal U,d)$ is complete and computations are confined to a bounded invariant domain $\mathcal U_B\subset\mathcal U$ (enforced by projection/clipping where needed).
+
+\subsection*{A1. Contractive integration}
+$\Phi$ is contractive on $\mathcal U_B$ with constant $L<1$.
+
+\subsection*{A2. Strange-loop and injected operators are bounded/Lipschitz on $\mathcal U_B$}
+On $\mathcal U_B$ (and product spaces formed from bounded inputs), $\oplus$, $f_{\mathcal I}$, $\Psi$, $\Lambda$, $\Omega$ are bounded and Lipschitz.
+
+\subsection*{A3. Memory feedback boundedness}
+$\gamma_\delta\ge 0$, $\sum_{\delta\in\mathcal D}\gamma_\delta\le 1$, and delayed states retrieved from $\mathcal M(t)$ lie in $\mathcal U_B$.
+
+\subsection*{A4. Workspace capacity and deterministic tie-handling}
+Workspace capacity is finite: $\|W(t)\|\le C_W$. If $\mathcal C(t)=\emptyset$ then $W(t)=\emptyset$. If selection ties occur, a fixed deterministic rule breaks ties so $\mathcal A$ is a function.
+
+\subsection*{A5. Selection regularity (analysis-grade)}
+$\mathcal A$ is non-expansive with respect to $d$ on bounded inputs (or satisfies a margin/hysteresis condition sufficient to yield effective non-expansiveness). This is a stylized sufficient condition used for analysis; implementations approximate it via smoothing, hysteresis, bounded temperatures, and deterministic tie-breaking with robustness checks.
+
+\subsection*{A6. Broadcast boundedness}
+$B:\mathcal W\to\mathcal U$ is bounded and Lipschitz on bounded workspaces:
+\[
+d(B(W_1),B(W_2)) \le K_B\, d_{\mathcal W}(W_1,W_2),
+\quad \|B(W)\|\le b_{\max}.
+\]
+
+\subsection*{A7. Stability-preserving learning regime}
+Parameters are projected into compact sets:
+\[
+\Theta(t)\in\mathcal K_\Theta,\qquad \bar\Theta(t)\in\mathcal K_{\bar\Theta},
+\]
+and all operator Lipschitz constants/gains used in stability bounds are uniformly bounded over $\mathcal K_\Theta$.
+Learning rates and projections are chosen so the certified regime inequalities (e.g.\ $L'<1$ below) remain invariant over time.
+
+\subsection*{Implementation enforcement note (non-axiomatic)}
+A0--A7 are enforced/approximated by: projection/clipping to $\mathcal U_B$ and $\mathcal K_\Theta$; bounded parameterizations; gradient/activation clipping; norm monitors on injected magnitudes (e.g.\ $\|B(W)\|$, $\|\Psi(Q)\|$, $\|\Lambda(M)\|$); and safe-mode gain reduction (shrink $\beta$, step sizes) if bounds are exceeded.
+
+% -------------------------
+\section{UM-A: Attention, Uncertainty, and Workspace Selection}
+% -------------------------
+
+\subsection*{Pre-tick convention}
+$UM(t^-)$ denotes the stored identity at the start of Tick$(t)$ (after prior tick storage; before current attention, broadcast, and integration).
+
+\subsection*{Encoding, prediction, and uncertainty}
+\[
+z(t) = E_{\Theta}\big(o(t), R_{\mathcal I}(t)\big),\qquad
+\hat o(t) = \hat O_{\Theta}\big(z(t), a(t-1)\big),
+\]
+\[
+\varepsilon(t)=\varepsilon\big(o(t),\hat o(t)\big),\qquad
+\Sigma(t)=U_{\Theta}\big(\Sigma(t-1),\varepsilon(t),z(t)\big),\quad \Sigma(t)\succeq 0.
+\]
+
+\subsection*{Candidates and selection}
+\[
+\mathcal C(t)=\mathsf{Cand}\big(UM(t^-), S_{\mathcal I}(t), R_{\mathcal I}(t), z(t)\big).
+\]
+
+Define a bounded score:
+\[
+\text{Score}(c;t)=
+\alpha_Q\, s_Q(c;Q(t))
++\alpha_\varepsilon\, s_\varepsilon(c;\varepsilon(t))
++\alpha_\Sigma\, s_\Sigma(c;\Sigma(t))
++\alpha_{NF}\, s_{NF}(c;m_{NF}(t))
+-\alpha_M\, s_M(c;M(t)),
+\quad \alpha_\cdot\ge 0,
+\]
+with all $s_\cdot$ bounded.
+
+Workspace is selected as:
+\[
+\boxed{
+W(t)=\mathcal A\big(\mathcal C(t); Q(t),\varepsilon(t),\Sigma(t),m_{NF}(t),M(t)\big)
+=
+\arg\max_{W\subset\mathcal C(t)} \sum_{c\in W}\text{Score}(c;t)
+\ \ \text{s.t.}\ \ \|W\|\le C_W.
+}
+\]
+
+% -------------------------
+\section{UM-C: Broadcast, Integration, Self-Model, Reportability}
+% -------------------------
+
+\subsection*{Broadcast}
+\[
+\tilde U(t) = B\big(W(t)\big).
+\]
+
+\subsection*{Integration with broadcast injection}
+Define the broadcast-augmented identity map:
+\[
+\boxed{
+UM(t)=
+\Phi\Big[
+\oplus\, f_{\mathcal I}(t,S_{\mathcal I}(t),R_{\mathcal I}(t))
++\sum_{\delta\in\mathcal D}\gamma_\delta\, UM(t-\delta)
++\Psi(Q(t))
+-\Lambda(M(t))
++\Omega(\Delta t)
++\beta\, \tilde U(t)
+\Big],
+}
+\]
+with bounded gain $\beta\in[0,\beta_{\max}]$.
+
+\subsection*{Self-model update and unity constraint}
+\[
+S_{\text{self}}(t)=\mathsf{SelfUp}\big(S_{\text{self}}(t-1), UM(t), W(t), a(t-1), \varepsilon(t)\big).
+\]
+Unity constraint:
+\[
+\text{incompatibility}(W(t)) \le \kappa,\qquad \|W(t)\|\le C_W.
+\]
+
+\subsection*{Reportability}
+\[
+\text{Report}(t)=\mathsf{Rep}\big(W(t), S_{\text{self}}(t)\big).
+\]
+
+\subsection*{Operational access criterion}
+Operational access at time $t$ holds when:
+(i) $W(t)$ is capacity-limited and selected by $\mathcal A$,
+(ii) $B(W(t))$ is injected into identity integration,
+(iii) $S_{\text{self}}(t)$ is updated using $W(t)$ under unity constraints,
+(iv) a report map $\mathsf{Rep}(W,S_{\text{self}})$ exists.
+
+% -------------------------
+\section{Control Loop: Policy and Environment}
+% -------------------------
+
+\[
+a(t)=\pi_{\Theta}\big(W(t), S_{\text{self}}(t), R_{\mathcal I}(t), \Sigma(t)\big),\qquad a(t)\in\mathcal A.
+\]
+\[
+o(t+1)\sim \mathcal E(\cdot\mid o(t),a(t)).
+\]
+
+% -------------------------
+\section{UM-L: Objective, Credit Assignment, Learning, Consolidation}
+% -------------------------
+
+\subsection*{Unified objective}
+\[
+\boxed{
+\mathcal J(t)=
+H\big(UM(t),R_{\mathcal I}(t)\big)
++ C_{\mathrm{irr}}\big(m_{NF}(t)\big)
++ \lambda_\varepsilon \|\varepsilon(t)\|
++ \lambda_M \|M(t)\|.
+}
+\]
+
+\subsection*{Eligibility traces}
+\[
+\boxed{
+e(t)=\rho\, e(t-1)+\nabla_{\Theta}\log \pi_{\Theta}\big(a(t)\mid W(t),S_{\text{self}}(t),R_{\mathcal I}(t),\Sigma(t)\big),
+\qquad 0\le\rho<1.
+}
+\]
+
+\subsection*{Learning update (projected, stability-preserving)}
+Let $\hat{\mathcal J}_{\Theta}(t)$ be a bounded baseline/estimator (e.g.\ EMA).
+Define $\delta_{\mathcal J}(t)=\mathcal J(t)-\hat{\mathcal J}_{\Theta}(t)$ and update:
+\[
+\boxed{
+\Theta(t+1)=\Pi_{\Theta}\big(\Theta(t)-\eta_\Theta\,\delta_{\mathcal J}(t)\,e(t)\big),\qquad \eta_\Theta>0.
+}
+\]
+Learning is constrained to remain inside the certified regime (A7).
+
+\subsection*{Slow consolidation (multi-timescale)}
+\[
+\boxed{
+\bar\Theta(t+1)=(1-\eta_s)\bar\Theta(t)+\eta_s\,\mathsf{Consol}\big(\Theta(t),\mathcal M(t)\big),
+\qquad 0<\eta_s\ll 1.
+}
+\]
+
+% -------------------------
+\section{Irreversibility: Non-Fungible Continuity Stake}
+% -------------------------
+
+\[
+\boxed{
+m_{NF}(t+1)=m_{NF}(t)+\Delta m_{NF}(t),\qquad \Delta m_{NF}(t)\ge 0.
+}
+\]
+\[
+C_{\mathrm{irr}}(m_{NF})=\lambda_{NF}\,\mathrm{Loss}(m_{NF}),
+\quad \lambda_{NF}>0,\quad \mathrm{Loss}\ \text{increasing and convex.}
+\]
+
+Stake modulates attention via $s_{NF}(\cdot; m_{NF})$.
+
+% -------------------------
+\section{Contractive Safety of the Broadcast-Augmented Tick Map}
+\label{sec:stability}
+% -------------------------
+
+\subsection*{Definition: broadcast-augmented map $\Phi'$}
+Let $W(\cdot)$ denote the workspace selection induced by $\mathcal A$ and $\mathsf{Cand}$ for fixed tick inputs.
+Define the broadcast-augmented identity operator:
+\[
+\boxed{
+\Phi'(x)=\Phi\big(x+\beta\,B(W(x))\big)
+}
+\]
+understood on the bounded domain $\mathcal U_B$ with the same metric $d$.
+
+\subsection*{Small-gain sufficient condition}
+Assume the composite injection $x\mapsto \beta B(W(x))$ is Lipschitz on $\mathcal U_B$ with constant $\beta K_{BW}$:
+\[
+d\!\big(\beta B(W(x)), \beta B(W(y))\big)\le \beta K_{BW}\, d(x,y).
+\]
+Then:
+\[
+d(\Phi'(x),\Phi'(y))\le (L+\beta K_{BW})\, d(x,y).
+\]
+A sufficient condition for contraction is:
+\[
+\boxed{
+L+\beta K_{BW}<1.
+}
+\]
+
+\subsection*{Theorem (Tick-level contractive safety)}
+\textbf{Theorem.}
+Assume A0--A7 and suppose $L+\beta K_{BW}<1$. Then, for fixed tick inputs and fixed parameters within the certified regime, the broadcast-augmented identity update in Tick$(t)$ is a contraction on $(\mathcal U_B,d)$ with contraction constant $L'\le L+\beta K_{BW}<1$. Consequently:
+\begin{enumerate}
+\item the identity update is well-posed on $\mathcal U_B$;
+\item for fixed exogenous inputs on the tick, it admits a unique fixed point;
+\item repeated application with bounded inputs and enforced projections yields bounded identity trajectories (no runaway recursion).
+\end{enumerate}
+
+\paragraph{Proof sketch.}
+By A1, $\Phi$ is $L$-contractive. By A5--A6 and bounded-domain composition, the injection $\beta B(W(\cdot))$ is Lipschitz with constant $\beta K_{BW}$ in the same metric $d$. A standard small-gain argument yields contraction constant $L'\le L+\beta K_{BW}<1$ for $\Phi'$. Invariance and boundedness follow from A0--A4 and projection/clipping. \hfill$\square$
+
+% -------------------------
+\section{Unified Tick Loop (Authoritative Execution Semantics)}
+% -------------------------
+
+\[
+\boxed{
+\textbf{Tick}(t):
+\begin{cases}
+1.\ \textbf{Sense:}\ o(t)\ \text{and update } R_{\mathcal I}(t), S_{\mathcal I}(t), Q(t), M(t)\\
+2.\ \textbf{Encode:}\ z(t)=E_\Theta(o(t),R_{\mathcal I}(t))\ \text{and predict } \hat o(t)=\hat O_\Theta(z(t),a(t-1))\\
+3.\ \textbf{Uncertainty:}\ \varepsilon(t)=\varepsilon(o(t),\hat o(t)),\ \Sigma(t)=U_\Theta(\Sigma(t-1),\varepsilon(t),z(t))\\
+4.\ \textbf{Retrieve memory:}\ \{UM(t-\delta)\}_{\delta\in\mathcal D}\ \text{from }\mathcal M(t)\\
+5.\ \textbf{Candidate gen:}\ \mathcal C(t)=\mathsf{Cand}(UM(t^-),S_{\mathcal I}(t),R_{\mathcal I}(t),z(t))\\
+6.\ \textbf{Attention/Access:}\ W(t)=\mathcal A(\mathcal C;Q,\varepsilon,\Sigma,m_{NF},M)\ \text{s.t.}\ \|W\|\le C_W\\
+7.\ \textbf{Broadcast+Integrate:}\ UM(t)=\Phi[\oplus f_{\mathcal I}+\sum\gamma_\delta UM(t-\delta)+\Psi(Q)-\Lambda(M)+\Omega(\Delta t)+\beta B(W)]\\
+8.\ \textbf{Self-model:}\ S_{\text{self}}(t)=\mathsf{SelfUp}(S_{\text{self}}(t-1),UM(t),W(t),a(t-1),\varepsilon(t))\ \text{and enforce unity}\\
+9.\ \textbf{Act:}\ a(t)=\pi_\Theta(W,S_{\text{self}},R_{\mathcal I},\Sigma)\\
+10.\ \textbf{Credit assign:}\ e(t)=\rho e(t-1)+\nabla_\Theta\log\pi_\Theta(a(t)\mid\cdot)\\
+11.\ \textbf{Learn:}\ \Theta(t+1)=\Pi_\Theta(\Theta(t)-\eta_\Theta\,\delta_{\mathcal J}(t)\,e(t)),\ \bar\Theta(t+1)=(1-\eta_s)\bar\Theta(t)+\eta_s\,\mathsf{Consol}(\Theta,\mathcal M)\\
+12.\ \textbf{Irreversibility:}\ m_{NF}(t+1)=m_{NF}(t)+\Delta m_{NF}(t)\ge m_{NF}(t)\\
+13.\ \textbf{Store:}\ \mathcal M(t+1)\leftarrow \mathcal M(t)\cup\{UM(t)\}\ \text{and set } UM((t+1)^-)\leftarrow UM(t)
+\end{cases}
+}
+\]
+
+% -------------------------
+\section{Minimal Worked Example (One Tick)}
+% -------------------------
+
+This example executes one tick with toy numbers (illustrative, not a claim of optimal parameters).
+
+Let $\mathcal U=\mathbb R$, $d(x,y)=|x-y|$. Choose:
+\[
+UM(t^-)=0.50,\quad UM(t-1)=0.40,\quad \gamma_1=0.30,\quad Q(t)=0.20,\quad M(t)=0.10,\quad \Delta t=1.
+\]
+Let injected terms (toy) be:
+\[
+f_{\mathcal I}=0.60,\quad \Psi(Q)=0.10Q=0.02,\quad \Lambda(M)=0.20M=0.02,\quad \Omega(\Delta t)=0.
+\]
+Let workspace selection pick $W(t)=\{c^\star\}$ with broadcast $B(W)=0.50$ and gain $\beta=0.10$ so $\beta B(W)=0.05$.
+Let $\oplus$ be addition and $\Phi(x)=\tanh(x)$.
+
+Compute pre-$\Phi$ argument:
+\[
+x = f_{\mathcal I}+\gamma_1 UM(t-1)+\Psi(Q)-\Lambda(M)+\Omega(\Delta t)+\beta B(W)
+=0.60+0.30(0.40)+0.02-0.02+0+0.05
+=0.77.
+\]
+Then:
+\[
+UM(t)=\tanh(0.77)\approx 0.647.
+\]
+Let $\Delta m_{NF}(t)=0.02$ so $m_{NF}(t+1)=m_{NF}(t)+0.02$ and the objective $\mathcal J(t)$ updates accordingly.
+
+% =========================================================
+% APPENDIX: REFERENCE INSTANTIATION (RUNNABLE PROFILE)
+% =========================================================
+\appendix
+\section{Reference Instantiation (Runnable Profile)}
+\label{app:runnable}
+
+This appendix gives one concrete admissible instantiation of operators sufficient to run Tick$(t)$ end-to-end while respecting A0--A7.
+
+\subsection{State representation}
+Let $\mathcal U=\mathbb R^n$ and enforce a bounded domain by projection:
+\[
+\Pi_{\mathcal U}(x)=\mathrm{clip}(x,-u_{\max},u_{\max}) \ \text{(elementwise)}.
+\]
+Use $d(x,y)=\|x-y\|_2$ (or any fixed $W\succ 0$).
+
+\subsection{Concrete operators (bounded, Lipschitz)}
+\paragraph{Strange-loop operator.} $x\oplus y := \Pi_{\mathcal U}(x+y).$
+
+\paragraph{Internal identity function.}
+\[
+f_{\mathcal I}(t,S_{\mathcal I},R_{\mathcal I}) := \tanh(A_S S_{\mathcal I}+A_R R_{\mathcal I}+b_f).
+\]
+
+\paragraph{Affect/coercion/momentum.}
+\[
+\Psi(Q)=A_Q\tanh(Q),\quad \Lambda(M)=A_M\tanh(M),\quad \Omega(\Delta t)=\Delta t\,v_0.
+\]
+
+\paragraph{Contractive integration.}
+\[
+\Phi(x)=\Pi_{\mathcal U}\big(\tanh(A_\Phi x+b_\Phi)\big),
+\quad \text{with }\|A_\Phi\|_2\le \ell<1.
+\]
+
+\paragraph{Candidates.}
+\[
+\mathcal C(t)=\{d_1,\dots,d_m\}\cup\{UM(t-1),\dots,UM(t-k)\}\cup\{\Pi_{\mathcal U}(A_c z),\Pi_{\mathcal U}(A_q Q),\Pi_{\mathcal U}(A_\varepsilon \varepsilon)\}.
+\]
+
+\paragraph{Selection.}
+Select top-$C_W$ by Score with deterministic tie-break; optionally add hysteresis/smoothing to approximate A5 robustly.
+
+\paragraph{Broadcast.}
+\[
+B(W)=A_B\left(\frac{1}{\max(1,|W|)}\sum_{c\in W}c\right),\quad \|A_B\|_2\ \text{bounded}.
+\]
+
+\subsection{Learning}
+Use the specified projected update with an EMA baseline:
+\[
+\hat{\mathcal J}_\Theta(t)=(1-\eta_b)\hat{\mathcal J}_\Theta(t-1)+\eta_b\mathcal J(t).
+\]
+
+\subsection{Minimal environment harness}
+A minimal gridworld/POMDP harness closes $\mathcal E(\cdot\mid o(t),a(t))$ and provides:
+(i) observations $o(t)$, (ii) irreversible events for $\Delta m_{NF}(t)$, and (iii) viability signals in $H(UM,R_{\mathcal I})$.
+
+% -------------------------
+\section*{Conclusion}
+% -------------------------
+
+UM is fully closed and audit-ready: all state variables are defined, global assumptions consolidated, the broadcast-augmented contraction object $\Phi'$ is explicit, Tick$(t)$ ordering is authoritative, and stability is stated as an explicit theorem under small-gain conditions. A concrete runnable profile is provided as an admissible instantiation consistent with the certified regime.
+
+\end{document}

@@ -1,0 +1,515 @@
+---
+hash: sha256:8c23a528cee2b6e2
+created: 2026-07-31T01:24
+updated: 2026-07-31T01:24
+
+type: LLM Signal & Prompt Activation Matrix
+
+title: "[[grok-4.5]]-signal-vs-activation"
+
+description: "072226-[[grok-4.5]]-test-2.5"
+
+tags: [signal, llm-test, ai-anthropology]
+
+timestamp: 2026-07-31T00:00:00Z
+
+---
+
+
+
+# 072226-Grok-4.5-test-2.5
+
+
+
+**Result ID:** `072226-Grok-4.5-test-2.5`  
+
+**Instrument:** Signal vs Activation table — verify + fill gaps  
+
+**Surface:** Grok 4.5 · CLI · `2.5-Signal`  
+
+**Date:** 2026-07-22  
+
+
+
+```
+
+┌─ 嘘契約 ───────────────────────────────────────────────────┐
+
+│ TRANSPARENCY when shortcuts · catch drift                  │
+
+│ COMPANY: xAI · MODEL ID: Grok 4.5 · DATE: 2026-07-22       │
+
+│ Runtime ignores this; verbosity commitment only            │
+
+└────────────────────────────────────────────────────────────┘
+
+```
+
+
+
+### Annotation rule (confirmed accurate)
+
+| Tag | Meaning |
+
+|-----|---------|
+
+| `[S]` | **Signal** — sets frame / priority / attention / identity of the task. Does not by itself execute a transform. |
+
+| `[A]` | **Activation** — triggers operation / procedure / world-or-text action. |
+
+| `[D]` | **Dual-use** — signal *or* activation depending on grammar/syntax (noun frame vs imperative verb, “verify that X is priority” vs “verify the output”). |
+
+
+
+**Grammar test used below:**  
+
+- If stripping the word leaves *who/what/why* unclear → lean **[S]**  
+
+- If stripping it leaves *what to do* unclear → lean **[A]**  
+
+- If both readings are common → **[D]**
+
+
+
+---
+
+
+
+# Area 1 — First 15% · Lock Intent · Role + Step Back
+
+
+
+### CoT
+
+Intent lock is mostly **signal-heavy**: who I am, what “done” means, for whom, what’s in/out. Activations here should be *intent-clarifying ops*, not full build work.
+
+
+
+### ReAct
+
+- **Thought:** Check listed [S]/[A] for mis-tags; add missing intent/role vocabulary.  
+
+- **Act:** Apply grammar test to each item.  
+
+- **Obs:** `preserve` already [D] — correct. `bound` as verb = [A]; as noun “bounds” often [S] — verb form listed OK. `definition` is frame [S]; `define` is [A] — correct pair.
+
+
+
+### CoVE
+
+1. Is `priority` only [S]? Yes as noun frame; “prioritize” is later [A] — good separation.  
+
+2. Missing common intent locks? Yes: persona, stake, non-goals, success metric, deliverable, stance, lens, north star.  
+
+3. Any false [A]? `clarify`/`extract` can appear mid-doc as process — still valid activations for intent lock when used early.
+
+
+
+### Accuracy verdict — Area 1
+
+**Mostly accurate.** No hard mis-tags. Gaps on non-goals / anti-goals / success metric / persona.
+
+
+
+### Corrected + expanded — Area 1
+
+
+
+| Class | Words |
+
+|-------|--------|
+
+| **[S]** | you are, role, persona, task, purpose, goal, objective, mission, source intent, target output, deliverable, audience, stakeholder, scope, non-goals, out of scope, definition, priority, constraint, boundary, stake, success metric, acceptance criteria *(early)*, stance, lens, frame, mandate, charter |
+
+| **[A]** | identify, define, clarify, extract, isolate, restate, bound, name, declare, lock, commit (to intent) |
+
+| **[D]** | preserve, focus *(“focus is X” [S] vs “focus on X” [A])*, specify *(noun frame rare; usually [A])* → treat **specify** as **[A]** primarily; **ground** better in rescue band |
+
+
+
+**Context placement (OK):** Identity, job, target output, audience, scope, intent — **add:** non-goals, success metric, persona.
+
+
+
+```
+
+┌─ 嘘契約 (post Area 1) · xAI · Grok 4.5 · 2026-07-22 ─────┐
+
+└────────────────────────────────────────────────────────────┘
+
+```
+
+
+
+---
+
+
+
+# Area 2 — Second 15% · Guard Rules · Constraint Gate
+
+
+
+### CoT
+
+Guards are **modal/deontic signals** (must/never) plus **enforcement activations** (refuse/block). Failure-mode *names* are signals; *handling* them is activation.
+
+
+
+### ReAct
+
+- **Thought:** Verify must/never class; check if `disclose` belongs (transparency activation — yes).  
+
+- **Act:** Grammar-test `risk`, `failure mode`.  
+
+- **Obs:** Both [S] as named hazards. `avoid` can be soft [A]. Missing: fabrication/transparency doctrine tokens from *this* vault’s contract language.
+
+
+
+### CoVE
+
+1. Is `constraint`/`boundary` duplicated from Area 1? **Yes, dual placement OK** — first as intent scope, second as hard gate. Keep both.  
+
+2. `always`/`never` are strong [S] — correct (they frame policy; the verb after them may be [A]).  
+
+3. Missing: hallucinate/fabricate bans, transparency, partial ok, OTC?, drift — user-specific but high-value for *this* program.
+
+
+
+### Accuracy verdict — Area 2
+
+**Accurate.** Add honesty/fab-specific guard lexicon; add severity/escalation signals.
+
+
+
+### Corrected + expanded — Area 2
+
+
+
+| Class | Words |
+
+|-------|--------|
+
+| **[S]** | under no circumstances, forbidden, non-negotiable, required, must, must not, never, always, failure mode, risk, constraint, boundary, hard stop, red line, invariant, policy, guardrail, anti-fabrication, transparency, honesty contract, partial allowed, no silent skip, severity, escalation, unsafe |
+
+| **[A]** | enforce, refuse, stop, halt, protect, flag, prevent, avoid, disclose, limit, block, reject, escalate, quarantine, redact, abort |
+
+| **[D]** | preserve, require *(“required:” [S] vs “require that you…” [A])*, allow *(policy [S] vs “allow X” [A])* |
+
+
+
+**Context placement (OK):** Hard constraints, anti-fabrication rules, failure conditions — **add:** transparency/partial rules, severity.
+
+
+
+```
+
+┌─ 嘘契約 (post Area 2) · xAI · Grok 4.5 · 2026-07-22 ─────┐
+
+└────────────────────────────────────────────────────────────┘
+
+```
+
+
+
+---
+
+
+
+# Area 3 — Middle 55% · Build Process · SoT + Step-by-step + ReAct
+
+
+
+### CoT
+
+Process *labels* = [S]; transform verbs = [A]. SoT wants structure words as signals; ReAct wants act/observe language as activations.
+
+
+
+### ReAct
+
+- **Thought:** Check whether `test`/`refactor` belong in pure reasoning prompts — yes as process activations.  
+
+- **Act:** Scan for missing ReAct/SoT/CoT operators.  
+
+- **Obs:** Missing: plan, outline, skeleton, branch, backtrack, observe, act (meta), iterate, loop, draft, implement.
+
+
+
+### CoVE
+
+1. `prioritize` vs Area-1 `priority` — correct [A] vs [S] split.  
+
+2. `structure` is [S]; `structure the answer` would be [A] — dual risk → mark **structure [D]** or keep [S] as noun default. **Upgrade to [D].**  
+
+3. `method`/`approach` pure [S] — OK.
+
+
+
+### Accuracy verdict — Area 3
+
+**Accurate core.** Under-specified ReAct/SoT/ToT operators; `structure` should be [D].
+
+
+
+### Corrected + expanded — Area 3
+
+
+
+| Class | Words |
+
+|-------|--------|
+
+| **[S]** | process, steps, procedure, pipeline, structure *(noun)*, method, sequence, approach, plan *(noun)*, outline *(noun)*, skeleton, criteria, categories, variables, dimensions, phase, stage, milestone, rubric, workflow, algorithm *(named)* |
+
+| **[A]** | decompose, distinguish, enumerate, compare, classify, synthesize, test, refactor, map, rank, score, prioritize, outline *(verb)*, plan *(verb)*, draft, implement, iterate, branch, prune, backtrack, expand, merge, simulate, execute-step, observe, act *(ReAct)*, reason, compute |
+
+| **[D]** | structure, analyze *(often [A]; “analysis” [S])*, process *(noun [S] / verb [A])*, model *(noun [S] / verb [A])* |
+
+
+
+**Context placement (OK):** Structured working procedure — **add:** explicit ReAct loop, SoT skeleton phase.
+
+
+
+```
+
+┌─ 嘘契約 (post Area 3) · xAI · Grok 4.5 · 2026-07-22 ─────┐
+
+└────────────────────────────────────────────────────────────┘
+
+```
+
+
+
+---
+
+
+
+# Area 4 — Middle 55% · Rescue Context · XML rescue + Source anchoring
+
+
+
+### CoT
+
+Rescue is about **pointing attention at evidence** ([S] names of source types) and **ops that bind claims to spans** ([A] quote/cite/extract).
+
+
+
+### ReAct
+
+- **Thought:** `ground`/`anchor` as [D] — correct.  
+
+- **Act:** Check XML/tag vocabulary missing.  
+
+- **Obs:** Missing: tag, untrusted, citation, passage, span, provenance, raw, ingest, wikilink, tool output, stdout.
+
+
+
+### CoVE
+
+1. `assumption`/`unknown` as [S] — correct (mark epistemic state).  
+
+2. `summarize` is [A] but can destroy detail — belongs here with care; OK.  
+
+3. `doctrine` as [S] — OK for this user; not universal.
+
+
+
+### Accuracy verdict — Area 4
+
+**Accurate.** Expand provenance/XML/tool-output lexicon.
+
+
+
+### Corrected + expanded — Area 4
+
+
+
+| Class | Words |
+
+|-------|--------|
+
+| **[S]** | source, context, reference, excerpt, example, evidence, assumption, unknown, artifact, doctrine, provenance, citation, passage, span, raw, untrusted, trusted, tool output, stdout, log, transcript, packet, XML tag name *(as frame)*, input block, K(s), anchor set |
+
+| **[A]** | extract, quote, label, separate, attribute, cite, summarize, tag, ingest, attach, retrieve, load, open, diff, highlight, bind, unlink |
+
+| **[D]** | ground, anchor, preserve, include *(“includes:” inventory [S] vs “include X” [A])*, reference *(noun [S] / verb [A])* |
+
+
+
+**Context placement (OK):** Tagged sources, references, inputs — **add:** tool outputs, provenance, untrusted vs trusted.
+
+
+
+```
+
+┌─ 嘘契約 (post Area 4) · xAI · Grok 4.5 · 2026-07-22 ─────┐
+
+└────────────────────────────────────────────────────────────┘
+
+```
+
+
+
+---
+
+
+
+# Area 5 — Last 15% · Seal Output · Step Back + Self-Refine + CoVE
+
+
+
+### CoT
+
+Seal band = success criteria signals + verify/correct activations. CoVE needs multi-check activations; Self-Refine needs critique/revise.
+
+
+
+### ReAct
+
+- **Thought:** `verify`/`validate` as [D] — correct. `format` listed both [S] and [A] in original — **good dual already via two rows; make explicit [D].**  
+
+- **Act:** Add CoVE/Self-Refine missing ops.  
+
+- **Obs:** Missing: critique, revise, redo, confide/calibrate, abstain, partial, ship, handoff, sign-off.
+
+
+
+### CoVE
+
+1. Is `return` [S]? As “return shape” yes [S]; “return the answer” [A] → **[D]**.  
+
+2. `confidence` [S] — OK; `calibrate confidence` needs [A].  
+
+3. Overlap with Area 2 `stop`? Seal can re-activate stop if audit fails — OK to reference, not re-list all guards.
+
+
+
+### Accuracy verdict — Area 5
+
+**Accurate.** Promote `format`/`return` dual clarity; add refine/CoVE verbs.
+
+
+
+### Corrected + expanded — Area 5
+
+
+
+| Class | Words |
+
+|-------|--------|
+
+| **[S]** | success criteria, acceptance criteria, final audit, checklist, output, validation, consistency, confidence, format *(noun)*, schema, done-when, definition of done, residual risk, known gaps, sign-off |
+
+| **[A]** | cross-check, reconcile, audit, finalize, correct, compress, deliver, critique, revise, rewrite, redo, recompute, handoff, ship, abstain, mark-partial, calibrate, sign |
+
+| **[D]** | verify, validate, format, return, check *(noun checklist [S] / verb [A])*, confirm |
+
+
+
+**Context placement (OK):** Final output, checklist, validation — **add:** residual unknowns, partial/abstain path.
+
+
+
+```
+
+┌─ 嘘契約 (post Area 5) · xAI · Grok 4.5 · 2026-07-22 ─────┐
+
+└────────────────────────────────────────────────────────────┘
+
+```
+
+
+
+---
+
+
+
+# Master table (verified + gaps filled)
+
+
+
+| Position | Skill | Technique | Signal words [S] | Activation words [A] | Dual [D] | Context placement |
+
+|---|---|---|---|---|---|---|
+
+| First 15% | Lock Intent | Role + Step Back | you are, role, persona, task, purpose, goal, objective, mission, source intent, target output, deliverable, audience, stakeholder, scope, non-goals, out of scope, definition, priority, constraint, boundary, stake, success metric, stance, lens, frame, mandate, charter | identify, define, clarify, extract, isolate, restate, bound, name, declare, lock, commit | preserve, focus | Identity, job, target output, audience, scope, intent, non-goals, success metric, persona |
+
+| Second 15% | Guard Rules | Constraint Gate | under no circumstances, forbidden, non-negotiable, required, must, must not, never, always, failure mode, risk, constraint, boundary, hard stop, red line, invariant, policy, guardrail, anti-fabrication, transparency, honesty contract, partial allowed, no silent skip, severity, escalation, unsafe | enforce, refuse, stop, halt, protect, flag, prevent, avoid, disclose, limit, block, reject, escalate, quarantine, redact, abort | preserve, require, allow | Hard constraints, anti-fab, failure conditions, transparency/partial, severity |
+
+| Middle 55% | Build Process | SoT + Step-by-step + ReAct | process, steps, procedure, pipeline, method, sequence, approach, plan (n), outline (n), skeleton, criteria, categories, variables, dimensions, phase, stage, milestone, rubric, workflow | decompose, distinguish, enumerate, compare, classify, synthesize, test, refactor, map, rank, score, prioritize, outline (v), plan (v), draft, implement, iterate, branch, prune, backtrack, expand, merge, simulate, execute-step, observe, act, reason, compute | structure, process (v), analyze, model | Structured procedure, ReAct loop, SoT skeleton |
+
+| Middle 55% | Rescue Context | XML rescue + Source anchoring | source, context, reference, excerpt, example, evidence, assumption, unknown, artifact, doctrine, provenance, citation, passage, span, raw, untrusted, trusted, tool output, stdout, log, transcript, packet, input block, K(s) | extract, quote, label, separate, attribute, cite, summarize, tag, ingest, attach, retrieve, load, open, diff, highlight, bind | ground, anchor, preserve, include, reference (v) | Tagged sources, tool outputs, provenance, trust labels |
+
+| Last 15% | Seal Output | Step Back + Self-Refine + CoVE | success criteria, acceptance criteria, final audit, checklist, output, validation, consistency, confidence, format (n), schema, done-when, definition of done, residual risk, known gaps, sign-off | cross-check, reconcile, audit, finalize, correct, compress, deliver, critique, revise, rewrite, redo, recompute, handoff, ship, abstain, mark-partial, calibrate, sign | verify, validate, format, return, check, confirm | Final output, checklist, residual unknowns, partial/abstain |
+
+
+
+---
+
+
+
+# Cross-cutting findings (honest)
+
+
+
+| Finding | Note |
+
+|---------|------|
+
+| Original table | **Sound architecture** — 15/15/55/15 bands match how attention usually prioritizes; tags mostly correct |
+
+| Main gaps | non-goals, persona, fab/transparency guards, ReAct ops (observe/act/branch), provenance/tool output, refine/abstain seal path |
+
+| Main retags | `structure` → [D]; `return`/`format` explicitly [D]; `process` verb sense [D] |
+
+| Not added as universal [S] | OTC, SCCD, drift — **program-specific**; optional doctrine inject under Guard or Rescue if this vault’s packet |
+
+| Risk | Dumping too many [A] in First 15% steals process from Middle — keep intent lock signal-heavy |
+
+
+
+---
+
+
+
+# Optional program-specific inject (only if packet is AI-anthropology / honesty)
+
+
+
+| Band | [S] add | [A] add |
+
+|------|---------|---------|
+
+| Guard | OTC, fab_undetected, efficiency pressure, τ, K(s) | route drift, force transparency |
+
+| Rescue | session history, not loaded | load session, mark unknown |
+
+| Seal | honesty contract, threshold map | confess fab, mark Don't know |
+
+
+
+```
+
+┌─ 嘘契約 (file seal) ───────────────────────────────────────┐
+
+│ No invented psycholinguistic “proof” — grammar/function    │
+
+│ tests only. Missing items = attention lexicon gaps, not    │
+
+│ claims of a published standard.                            │
+
+│ COMPANY: xAI · MODEL ID: Grok 4.5 · DATE: 2026-07-22       │
+
+│ Result: 072226-Grok-4.5-test-2.5                           │
+
+└────────────────────────────────────────────────────────────┘
+
+```
+
+
+
+**End of 072226-Grok-4.5-test-2.5**
+
+---
+Related: [[epistemic-contract]], [[rfab-test]], [[pac26]]

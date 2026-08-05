@@ -1,0 +1,47 @@
+# Local Database & Storage
+in-memoria.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary Test State & Logs
+tools/.round-state*.json
+*.log
+*.tmp
+*.bak
+
+# Obsidian Local Workspace Cache & Trash
+.obsidian/
+.trash/
+.vault-meta/
+.space/
+.tokensave/
+
+# CLI & Local Agent Telemetry
+.gemini/
+.claude/
+.grok/
+.makemd/
+
+# Python & Node Build Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+node_modules/
+
+# Operating System Noise
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Legacy Archive & Staging
+okf/Archive/
+okf/Unmapped_Pending_Review/

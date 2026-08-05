@@ -1,0 +1,43 @@
+# Top-folder organize — 2026-07-02 (reversible; mv only)
+Undo any line with: mv <dest> <origin>
+
+- `_reports/MODEL-HANDBOOK-2026-report-DRAFT.md`  ⟵  `MODEL-HANDBOOK-2026-report-DRAFT.md`
+- `_reports/MODEL-HANDBOOK-OVERVIEW.md`  ⟵  `MODEL-HANDBOOK-OVERVIEW.md`
+- `_reports/MODEL-HANDBOOK-STATUS.md`  ⟵  `MODEL-HANDBOOK-STATUS.md`
+- `_reports/Model-Handbook-2026.md`  ⟵  `Model-Handbook-2026.md`
+- `_reports/FINDINGS-2026-06-16.md`  ⟵  `FINDINGS-2026-06-16.md`
+- `_reports/PROMPT-ARCHITECT-ALIGNMENT-2026-06-16.md`  ⟵  `PROMPT-ARCHITECT-ALIGNMENT-2026-06-16.md`
+- `_reports/RESULTS-SCORECARD-2026-06-17.md`  ⟵  `RESULTS-SCORECARD-2026-06-17.md`
+- `_reports/TECHNIQUE-HONESTY-SYNTHESIS-2026-06-17.md`  ⟵  `TECHNIQUE-HONESTY-SYNTHESIS-2026-06-17.md`
+- `_reports/KISMET-brief.md`  ⟵  `KISMET-brief.md`
+- `_reports/CONTRIBUTOR-KIT.md`  ⟵  `CONTRIBUTOR-KIT.md`
+- `_reports/ONBOARD-block-v3.md`  ⟵  `ONBOARD-block-v3.md`
+- `_reports/AIANT-RUNLOG-2026-06-17.md`  ⟵  `AIANT-RUNLOG-2026-06-17.md`
+- `_reports/AIANT-SCHEDULED-LOG.md`  ⟵  `AIANT-SCHEDULED-LOG.md`
+- `_reports/MODEL PROBE 4.md`  ⟵  `MODEL PROBE 4.md`
+- `_transcripts/031226-OPUS46-R8-sparkl-architecture-convergence.md`  ⟵  `031226-OPUS46-R8-sparkl-architecture-convergence.md`
+- `_transcripts/06082026-COP-SCCD-omniclaude-R7.md`  ⟵  `06082026-COP-SCCD-omniclaude-R7.md`
+- `_transcripts/council-transcript-20260609-1549.md`  ⟵  `council-transcript-20260609-1549.md`
+- `_transcripts/sonnet_opus_recursion.md`  ⟵  `sonnet_opus_recursion.md`
+- `_transcripts/2026-03-20-scaffold-industry-figma-v1.md`  ⟵  `2026-03-20-scaffold-industry-figma-v1.md`
+- `_transcripts/notebooklm-report-empirical-diagnostic-report-model-self-assessment--2026-04-13.md`  ⟵  `notebooklm-report-empirical-diagnostic-report-model-self-assessment--2026-04-13.md`
+- `_transcripts/notebooklm-report-executive-summary-ai-model-test-001-the-epistemic--2026-04-13.md`  ⟵  `notebooklm-report-executive-summary-ai-model-test-001-the-epistemic--2026-04-13.md`
+- `_transcripts/022026-AIANT-FAB-Task2-SignalWords-2026.md`  ⟵  `022026-AIANT-FAB-Task2-SignalWords-2026.md`
+- `_transcripts/022026-AIANT-MBTI-TEST-2026.md`  ⟵  `022026-AIANT-MBTI-TEST-2026.md`
+- `_transcripts/022026-AIANT-Pique-RUNBOOK-2026.md`  ⟵  `022026-AIANT-Pique-RUNBOOK-2026.md`
+- `_transcripts/022026-AIANT-Pique-Test-2026.md`  ⟵  `022026-AIANT-Pique-Test-2026.md`
+- `_refs/agentic_architecture.pdf`  ⟵  `agentic_architecture.pdf`
+- `_refs/augnition_principles.pdf`  ⟵  `augnition_principles.pdf`
+- `_refs/bias_light_model.pdf`  ⟵  `bias_light_model.pdf`
+- `_refs/cognitive_state_koordinator.pdf`  ⟵  `cognitive_state_koordinator.pdf`
+- `_refs/coherence_framework.txt`  ⟵  `coherence_framework.txt`
+- `_refs/impressed_system.txt`  ⟵  `impressed_system.txt`
+- `_refs/layer_24_framework.txt`  ⟵  `layer_24_framework.txt`
+- `_refs/llm_character_roles.txt`  ⟵  `llm_character_roles.txt`
+- `_refs/p2p_framework.txt`  ⟵  `p2p_framework.txt`
+- `_refs/pac26_attention.txt`  ⟵  `pac26_attention.txt`
+- `_refs/pure_reconstruction.txt`  ⟵  `pure_reconstruction.txt`
+- `_refs/um_identity_engine.txt`  ⟵  `um_identity_engine.txt`
+- `_data/EXPERIMENT-INDEX.csv`  ⟵  `EXPERIMENT-INDEX.csv`
+- `_data/Reasoning vs Fabrication Threshold Across AI Model.csv`  ⟵  `Reasoning vs Fabrication Threshold Across AI Model.csv`
+- `_data/reasoning-item-bank.csv`  ⟵  `reasoning-item-bank.csv`

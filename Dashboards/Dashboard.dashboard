@@ -1,0 +1,29 @@
+version: 1
+grid:
+  cols: 12
+  rowHeight: 80
+  gap: 8
+widgets:
+  - id: 5b49aa65-058d-4f4b-9446-f64931c502f8
+    type: base
+    layout:
+      lg:
+        x: 0
+        y: 0
+        w: 6
+        h: 9
+    config:
+      base: Dashboards/Bases/ai-anthropology.base
+      view: Table
+  - id: c457e6b7-bbcc-457d-a504-eaccc3220540
+    type: timeline
+    layout:
+      lg:
+        x: 6
+        y: 0
+        w: 6
+        h: 9
+    config:
+      name: Timeline
+      latestCount: 20
+layoutDirection: horizontal

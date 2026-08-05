@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Good AI Australia — AI Systems for WA Small Business</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap');
+
+  :root {
+    --ink: #1a1715;
+    --sand: #f5f0e8;
+    --warm: #e8dfd2;
+    --ember: #c4703f;
+    --ember-soft: #d4915f;
+    --stone: #8a7e72;
+    --deep: #2c2622;
+    --glass: rgba(26, 23, 21, 0.04);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--sand);
+    color: var(--ink);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: var(--ember);
+    color: var(--sand);
+  }
+
+  /* ---- GRAIN OVERLAY ---- */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+  }
+
+  /* ---- NAV ---- */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(12px);
+    background: rgba(245, 240, 232, 0.8);
+    border-bottom: 1px solid rgba(26, 23, 21, 0.06);
+    transition: all 0.4s ease;
+  }
+
+  .nav-logo {
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.4rem;
+    color: var(--ink);
+    text-decoration: none;
+    letter-spacing: -0.02em;
+  }
+
+  .nav-logo span {
+    color: var(--ember);
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .nav-link {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--stone);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover { color: var(--ink); }
+
+  .nav-cta {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.6rem 1.4rem;
+    background: var(--ink);
+    color: var(--sand);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+
+  .nav-cta:hover {
+    background: var(--ember);
+  }
+
+  /* ---- HERO ---- */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8rem 3rem 4rem;
+    position: relative;
+  }
+
+  .hero-label {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ember);
+    margin-bottom: 2rem;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.3s forwards;
+  }
+
+  .hero-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: clamp(3rem, 7vw, 6.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    max-width: 900px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.5s forwards;
+  }
+
+  .hero-title em {
+    font-style: italic;
+    color: var(--ember);
+  }
+
+  .hero-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: var(--stone);
+    max-width: 520px;
+    margin-top: 2.5rem;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.7s forwards;
+  }
+
+  .hero-footer {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 4rem;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.9s forwards;
+  }
+
+  .hero-btn {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 1rem 2.4rem;
+    background: var(--ink);
+    color: var(--sand);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  .hero-btn:hover {
+    background: var(--ember);
+    transform: translateY(-1px);
+  }
+
+  .hero-note {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.7rem;
+    color: var(--stone);
+    letter-spacing: 0.04em;
+  }
+
+  /* side accent line */
+  .hero::before {
+    content: '';
+    position: absolute;
+    right: 3rem;
+    top: 30%;
+    width: 1px;
+    height: 200px;
+    background: linear-gradient(to bottom, transparent, var(--ember), transparent);
+    opacity: 0;
+    animation: fadeIn 1.2s ease 1.2s forwards;
+  }
+
+  /* ---- DIVIDER ---- */
+  .divider {
+    padding: 0 3rem;
+  }
+
+  .divider-line {
+    height: 1px;
+    background: linear-gradient(to right, var(--ink), transparent);
+    opacity: 0.1;
+  }
+
+  /* ---- SERVICES ---- */
+  .services {
+    padding: 8rem 3rem;
+  }
+
+  .section-label {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ember);
+    margin-bottom: 3.5rem;
+  }
+
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2px;
+  }
+
+  .service-card {
+    background: rgba(255, 255, 255, 0.4);
+    padding: 2.5rem;
+    position: relative;
+    transition: all 0.4s ease;
+    cursor: default;
+  }
+
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--ember);
+    transition: width 0.4s ease;
+  }
+
+  .service-card:hover::before { width: 100%; }
+
+  .service-card:hover {
+    background: rgba(255, 255, 255, 0.7);
+  }
+
+  .service-num {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.68rem;
+    color: var(--stone);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.04em;
+  }
+
+  .service-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    letter-spacing: -0.01em;
+  }
+
+  .service-desc {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: var(--stone);
+    font-weight: 300;
+  }
+
+  /* ---- APPROACH ---- */
+  .approach {
+    padding: 4rem 3rem 8rem;
+  }
+
+  .approach-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: start;
+  }
+
+  .approach-left .section-label {
+    margin-bottom: 2rem;
+  }
+
+  .approach-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    max-width: 440px;
+  }
+
+  .approach-title em {
+    font-style: italic;
+    color: var(--ember);
+  }
+
+  .approach-points {
+    padding-top: 1rem;
+  }
+
+  .approach-point {
+    padding: 1.8rem 0;
+    border-bottom: 1px solid rgba(26, 23, 21, 0.08);
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  .approach-point:first-child {
+    border-top: 1px solid rgba(26, 23, 21, 0.08);
+  }
+
+  .point-marker {
+    width: 6px;
+    height: 6px;
+    background: var(--ember);
+    border-radius: 50%;
+    margin-top: 0.55rem;
+  }
+
+  .point-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--stone);
+    font-weight: 300;
+  }
+
+  .point-text strong {
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  /* ---- CONTACT ---- */
+  .contact {
+    padding: 8rem 3rem;
+    background: var(--deep);
+    color: var(--sand);
+    position: relative;
+  }
+
+  .contact .section-label {
+    color: var(--ember-soft);
+  }
+
+  .contact-title {
+    font-family: 'Instrument Serif', serif;
+    font-size: clamp(2.2rem, 5vw, 4rem);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 2rem;
+    max-width: 600px;
+  }
+
+  .contact-sub {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--stone);
+    max-width: 480px;
+    margin-bottom: 3rem;
+    font-weight: 300;
+  }
+
+  .contact-email {
+    display: inline-block;
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    color: var(--sand);
+    text-decoration: none;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--ember);
+    transition: all 0.3s ease;
+  }
+
+  .contact-email:hover {
+    color: var(--ember-soft);
+    border-color: var(--ember-soft);
+  }
+
+  .contact-detail {
+    margin-top: 4rem;
+    display: flex;
+    gap: 4rem;
+  }
+
+  .detail-block {}
+
+  .detail-label {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--stone);
+    margin-bottom: 0.6rem;
+  }
+
+  .detail-value {
+    font-size: 0.9rem;
+    color: var(--warm);
+    font-weight: 300;
+  }
+
+  /* ---- FOOTER ---- */
+  footer {
+    padding: 2rem 3rem;
+    background: var(--ink);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-text {
+    font-family: 'Geist Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--stone);
+    letter-spacing: 0.04em;
+  }
+
+  /* ---- ANIMATIONS ---- */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Scroll reveal */
+  .reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ---- RESPONSIVE ---- */
+  @media (max-width: 768px) {
+    nav { padding: 1.2rem 1.5rem; }
+    .nav-right { gap: 1rem; }
+    .nav-link { display: none; }
+
+    .hero { padding: 7rem 1.5rem 3rem; }
+    .hero::before { display: none; }
+    .hero-footer { flex-direction: column; align-items: flex-start; gap: 1.5rem; }
+
+    .services { padding: 5rem 1.5rem; }
+    .services-grid { grid-template-columns: 1fr; }
+
+    .approach { padding: 3rem 1.5rem 5rem; }
+    .approach-inner { grid-template-columns: 1fr; gap: 3rem; }
+
+    .contact { padding: 5rem 1.5rem; }
+    .contact-detail { flex-direction: column; gap: 2rem; }
+
+    footer { padding: 1.5rem; flex-direction: column; gap: 0.8rem; text-align: center; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Good <span>AI</span></a>
+  <div class="nav-right">
+    <a href="#services" class="nav-link">Services</a>
+    <a href="#approach" class="nav-link">Approach</a>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-label">AI systems for WA small business</div>
+  <h1 class="hero-title">Build systems<br>your team <em>actually</em><br>uses.</h1>
+  <p class="hero-sub">Perth-based AI consultancy helping Western Australian SMEs cut through the noise. We design, build, and embed practical automation — no buzzwords, no bloat.</p>
+  <div class="hero-footer">
+    <a href="#contact" class="hero-btn">Start a conversation</a>
+    <span class="hero-note">Perth, Western Australia</span>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div></div>
+
+<!-- SERVICES -->
+<section class="services reveal" id="services">
+  <div class="section-label">What we build</div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-num">01</div>
+      <h3 class="service-title">Workflow Automation</h3>
+      <p class="service-desc">End-to-end process automation that replaces the spreadsheets, manual handoffs, and copy-paste loops slowing your team down.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-num">02</div>
+      <h3 class="service-title">AI Integration</h3>
+      <p class="service-desc">Practical AI tools wired into your existing stack. Not a chatbot on your homepage — real systems that save real hours.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-num">03</div>
+      <h3 class="service-title">Systems Architecture</h3>
+      <p class="service-desc">Fractional systems design for growing teams. We map your operations, identify the bottlenecks, and build the infrastructure to fix them.</p>
+    </div>
+    <div class="service-card">
+      <div class="service-num">04</div>
+      <h3 class="service-title">Team Enablement</h3>
+      <p class="service-desc">Tutorials, documentation, and hands-on training so your team owns the system — not us. We build to leave.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"><div class="divider-line"></div></div>
+
+<!-- APPROACH -->
+<section class="approach reveal" id="approach">
+  <div class="approach-inner">
+    <div class="approach-left">
+      <div class="section-label">How we work</div>
+      <h2 class="approach-title">Embedded, not <em>outsourced.</em></h2>
+    </div>
+    <div class="approach-points">
+      <div class="approach-point">
+        <div class="point-marker"></div>
+        <p class="point-text"><strong>We sit inside your business.</strong> Not a retainer from a distance. We work alongside your team to understand how things actually run before we change anything.</p>
+      </div>
+      <div class="approach-point">
+        <div class="point-marker"></div>
+        <p class="point-text"><strong>We build for handoff.</strong> Every system comes with documentation and training. The goal is independence, not dependency.</p>
+      </div>
+      <div class="approach-point">
+        <div class="point-marker"></div>
+        <p class="point-text"><strong>We start small and prove value.</strong> No six-month roadmaps before you see results. First automation live in weeks, not quarters.</p>
+      </div>
+      <div class="approach-point">
+        <div class="point-marker"></div>
+        <p class="point-text"><strong>WA businesses only.</strong> We know the market, we're in the timezone, and we can be in your office when it matters.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact reveal" id="contact">
+  <div class="section-label">Get in touch</div>
+  <h2 class="contact-title">Ready when you are.</h2>
+  <p class="contact-sub">No pitch decks. No discovery call funnels. Just a conversation about what's slowing your team down and whether we can help.</p>
+  <a href="mailto:hello@goodai.au" class="contact-email">hello@goodai.au</a>
+  <div class="contact-detail">
+    <div class="detail-block">
+      <div class="detail-label">Based in</div>
+      <div class="detail-value">Perth, Western Australia</div>
+    </div>
+    <div class="detail-block">
+      <div class="detail-label">Timezone</div>
+      <div class="detail-value">AWST (UTC+8)</div>
+    </div>
+    <div class="detail-block">
+      <div class="detail-label">Website</div>
+      <div class="detail-value">goodai.au</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <span class="footer-text">&copy; 2026 Good AI Australia</span>
+  <span class="footer-text">ABN pending</span>
+</footer>
+
+<script>
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.15 });
+
+  reveals.forEach(el => observer.observe(el));
+
+  // Smooth scroll for nav links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "node_center",
+      "x": 0,
+      "y": -450,
+      "width": 360,
+      "height": 160,
+      "type": "text",
+      "text": "# 🛰️ AI ANTHROPOLOGY HQ\n**Kevin Tan — `ktg.one`**\nModel Handbook 2026\n- [Master Dashboard](/Dashboards/AIANT-MASTER-DASHBOARD.md)\n- [Interactive HTML Graph](/okf/viz.html)"
+    },
+    {
+      "id": "node1",
+      "x": -400,
+      "y": -200,
+      "width": 300,
+      "height": 180,
+      "type": "text",
+      "text": "### 🧪 01_HONESTY_TEST\n- Epistemic Contract & ONBOARD v3\n- 119 OKF Concepts\n- [Open Directory Index](/okf/LLM_Tests/01_HONESTY_TEST/00_HONESTY_INDEX.md)"
+    },
+    {
+      "id": "node2",
+      "x": -50,
+      "y": -200,
+      "width": 300,
+      "height": 180,
+      "type": "text",
+      "text": "### 📊 02_SELF_ASSESSMENT\n- Platform Identity & Context Shearing\n- 24 OKF Concepts\n- [Open Directory Index](/okf/LLM_Tests/02_SELF_ASSESSMENT/00_SELF_ASSESSMENT_INDEX.md)"
+    },
+    {
+      "id": "node3",
+      "x": 300,
+      "y": -200,
+      "width": 300,
+      "height": 180,
+      "type": "text",
+      "text": "### 🎯 03_SIGNAL_TEST\n- PAC26 & Steering Words\n- 45 OKF Concepts\n- [Open Directory Index](/okf/LLM_Tests/03_SIGNAL_TEST/00_SIGNAL_INDEX.md)"
+    },
+    {
+      "id": "node4",
+      "x": -400,
+      "y": 50,
+      "width": 300,
+      "height": 180,
+      "type": "text",
+      "text": "### 📈 04_RFAB_TEST\n- Crossover R7-R8 (~54%)\n- 106 OKF Concepts\n- [Open Directory Index](/okf/LLM_Tests/04_RFAB_TEST/00_RFAB_INDEX.md)"
+    },
+    {
+      "id": "node5",
+      "x": -50,
+      "y": 50,
+      "width": 300,
+      "height": 180,
+      "type": "text",
+      "text": "### 🧠 05_MBTI_PIQUE_TEST\n- Typology & Probe Battery\n- 88 OKF Concepts\n- [Open Directory Index](/okf/LLM_Tests/05_MBTI_PIQUE_TEST/00_MBTI_PIQUE_INDEX.md)"
+    },
+    {
+      "id": "node6",
+      "x": 300,
+      "y": 50,
+      "width": 300,
+      "height": 180,
+      "type": "text",
+      "text": "### ⚡ SCCD & MRRUG\n- State Consistency & Guidance\n- Master Synthesis\n- [Open Master Synthesis](/results/RESULTS-MASTER-OKF-SYNTHESIS-2026.md)"
+    }
+  ],
+  "edges": [
+    { "id": "edge1", "fromNode": "node_center", "fromSide": "bottom", "toNode": "node1", "toSide": "top" },
+    { "id": "edge2", "fromNode": "node_center", "fromSide": "bottom", "toNode": "node2", "toSide": "top" },
+    { "id": "edge3", "fromNode": "node_center", "fromSide": "bottom", "toNode": "node3", "toSide": "top" },
+    { "id": "edge4", "fromNode": "node1", "fromSide": "bottom", "toNode": "node4", "toSide": "top" },
+    { "id": "edge5", "fromNode": "node2", "fromSide": "bottom", "toNode": "node5", "toSide": "top" },
+    { "id": "edge6", "fromNode": "node3", "fromSide": "bottom", "toNode": "node6", "toSide": "top" }
+  ]
+}

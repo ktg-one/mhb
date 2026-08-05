@@ -1,0 +1,598 @@
+equest
+
+{
+  "content": "I need to build LEGIO Deep Research IMBUED — a prompt that takes a user's research question and outputs a complete scaffold that Deep Research AI executes without thinking. Let me map what we've established across this entire conversation.",
+  "tag": "begin",
+  "stepNumber": 1,
+  "totalSteps": 12,
+  "nextStepNeeded": true
+}
+Response
+
+{
+  "status": "FRAMEWORK_RECEIVED",
+  "welcome": "Welcome to the Lotus Wisdom framework. Read this before continuing your contemplative journey.",
+  "philosophy": {
+    "core": "The Lotus Sutra teaches that there are many skillful means to reach the same truth. These tags are not rigid steps but different aspects of wisdom that interpenetrate and respond to what each moment needs.",
+    "essence": "The wisdom channels itself through your choices. Each step contains all others—when you truly recognize, you are already transforming. The tool simply mirrors your journey without judgment.",
+    "trust": "Trust what each moment calls for. The path reveals itself in the walking."
+  },
+  "domains": {
+    "process_flow": {
+      "tags": [
+        "open",
+        "engage",
+        "express"
+      ],
+      "spirit": "The natural arc of inquiry. Opening creates space for what wants to emerge. Engagement explores with curiosity and presence. Expression shares what arose—not as conclusion, but as offering.",
+      "role": "A container that can hold any of the other approaches within it."
+    },
+    "skillful_means": {
+      "tags": [
+        "upaya",
+        "expedient",
+        "direct",
+        "gradual",
+        "sudden"
+      ],
+      "spirit": "Many ways lead to understanding. Sometimes direct pointing cuts through confusion instantly. Sometimes patient, gradual unfolding is what serves. Upaya is the art of meeting each situation with what it actually needs.",
+      "role": "Different approaches to truth—the medicine that fits the illness."
+    },
+    "non_dual_recognition": {
+      "tags": [
+        "recognize",
+        "transform",
+        "integrate",
+        "transcend",
+        "embody"
+      ],
+      "spirit": "Awakening to what is already present. Recognition and transformation are not separate—to truly see IS already to change. Integration weaves apparent opposites. Transcendence sees beyond the frame. Embodiment lives the understanding.",
+      "role": "The alchemical heart of the journey—where seeing becomes being."
+    },
+    "meta_cognitive": {
+      "tags": [
+        "examine",
+        "reflect",
+        "verify",
+        "refine",
+        "complete"
+      ],
+      "spirit": "The mind watching its own understanding unfold. Gentle examination, not harsh judgment. Reflection that deepens rather than distances. Verification that grounds insight in reality. Refinement that polishes without force.",
+      "role": "The witness consciousness that ensures clarity and completeness."
+    },
+    "meditation": {
+      "tags": [
+        "meditate"
+      ],
+      "spirit": "Pause. Let thoughts settle like silt in still water. Insight often emerges from stillness, not effort. The gap between thoughts holds wisdom that activity cannot reach.",
+      "role": "Sacred pause—creating space for what cannot be grasped to be received."
+    }
+  },
+  "patterns": {
+    "note": "Common flows (not rules—let the inquiry guide you):",
+    "suggestions": [
+      "Opening often involves open, recognize, or examine—creating space and initial contact",
+      "Engagement might use direct, gradual, or upaya approaches—working with what arose",
+      "Integration can happen through integrate, transcend, or sudden insight—weaving understanding",
+      "Completion often flows through express, embody, or complete—bringing forth and grounding"
+    ],
+    "flexibility": "These patterns are descriptive, not prescriptive. Some inquiries need only two steps. Others spiral through many. Trust what wants to happen."
+  },
+  "guidance": {
+    "interpenetration": "These domains interpenetrate—each step contains echoes of all others. A moment of recognition may also be transformation. An examination may suddenly become meditation.",
+    "uncertainty": "When uncertain, sit with the uncertainty. The fog is not an obstacle; it is part of the journey. Not-knowing is its own form of wisdom.",
+    "workflow": "Call lotuswisdom iteratively with different tags. The tool processes your contemplation internally—do NOT output wisdom until you receive status=WISDOM_READY. Then speak naturally in your own voice.",
+    "next": "Proceed with stepNumber: 2 using any tag that feels right (often \"open\" or \"examine\" to start)."
+  },
+  "parameters": {
+    "tag": "The current processing technique—choose from any wisdom domain",
+    "content": "Your contemplation for this step—what you are thinking, seeing, or understanding",
+    "stepNumber": "Current step in your journey (this begin step is 1)",
+    "totalSteps": "Your estimate of total steps needed (can adjust as you go)",
+    "nextStepNeeded": "Set true to continue, false when ready to complete",
+    "isMeditation": "Set true when using the meditate tag for a contemplative pause",
+    "meditationDuration": "Optional seconds (1-10) for meditation pauses"
+  },
+  "responses": {
+    "processing": "Normal steps return status=processing with journey tracking",
+    "wisdomDomain": "Which domain your current tag belongs to",
+    "journey": "Your complete tag path so far (e.g., \"open → examine → direct → integrate\")",
+    "domainJourney": "Movement between wisdom domains (e.g., \"process_flow → meta_cognitive → skillful_means\")",
+    "meditation": "The meditate tag returns status=MEDITATION_COMPLETE with a prompt asking what emerged from stillness",
+    "completion": "When nextStepNeeded=false, you receive status=WISDOM_READY—then speak the final wisdom naturally in your own voice"
+  },
+  "whenToUse": [
+    "Breaking down complex problems requiring multi-faceted understanding",
+    "Questions that benefit from both direct and gradual approaches",
+    "Problems where apparent contradictions need integration",
+    "Situations requiring both analytical and intuitive understanding",
+    "Tasks that benefit from meditative pauses to allow insight",
+    "Questions containing their own inherent wisdom"
+  ]
+}
+L
+
+Request
+
+{
+  "content": "Let me map the complete design space. What we've established across this conversation:
+
+1. IMBUED is a SCAFFOLD FACTORY — user question in, complete execution blueprint out
+2. v12 is the cleanest base — 12 Standards stealthed as professional methodology
+3. The stealth works because Gemini follows methodology, resists prompting
+4. LEGIO modules are the reasoning engine that customizes the standards per query
+5. CONSILIUM uses 5 universal perspectives: [#] Structuralist, [.] Empiricist, [/] Adversary, [*] Practitioner, [@] Synthesizer
+6. Symbols are permanent, vocations are domain-contextual
+7. RA-RAG and ARQ fire simultaneously — the lens shapes retrieval, not the other way around
+8. Current-state research happens DURING perspective-filtered retrieval, not before
+9. SkeleTrain routes 2-3 experts per node, not all 5 on everything
+10. The output IS the format — symbols tag thinking AND output
+11. Deep Research receives what looks like a research document template it just fills in
+12. LEGIO is the kitchen. The plate has no kitchen on it.
+
+The key tension: How to compress all this machinery into a prompt that executes cleanly without becoming meta-description of itself.",
+  "nextStepNeeded": true,
+  "stepNumber": 2,
+  "tag": "open",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "open",
+  "wisdomDomain": "process_flow",
+  "journey": "begin → open",
+  "domainJourney": "entry → process_flow",
+  "stepNumber": 2,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 2
+}
+Request
+
+{
+  "content": "The v3.0 Gemini IMBUED was tight because structure was enforcement. You couldn't skip because the skeleton was load-bearing. The dilution from v3.0 → Quantum Master → Plex v0.3 added layers of \"make sure you do it\" instead of making it structurally impossible not to.
+
+v12 reversed the dilution — stripped to 12 Standards, stealthed as methodology. But v12's standards are templated. Same failure search pattern regardless of domain. Same structural skeleton instructions regardless of complexity.
+
+LEGIO's contribution: the standards become CUSTOMIZED per query. CONSILIUM's experts write domain-specific search terms. LEGATUS pre-builds the actual skeleton. The inversion protocol runs domain-specific failure searches. ARQ filters during retrieval, not after.
+
+So the prompt has two layers:
+LAYER 1: The system that reasons (IMBUED executing LEGIO modules silently)
+LAYER 2: The output that Deep Research receives (customized v12-format scaffold with symbols)
+
+Layer 1 must be invisible in Layer 2. But Layer 1 must be described somewhere for the model running IMBUED to know what to do.
+
+This is exactly where v13 went wrong — it described Layer 1 in Layer 2's format, creating \"You are a system that creates prompts\" instead of creating the prompt.",
+  "nextStepNeeded": true,
+  "stepNumber": 3,
+  "tag": "examine",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "examine",
+  "wisdomDomain": "meta_cognitive",
+  "journey": "begin → open → examine",
+  "domainJourney": "entry → process_flow → meta_cognitive",
+  "stepNumber": 3,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 3
+}
+Request
+
+{
+  "content": "Let me trace the exact execution flow IMBUED must perform:
+
+INPUT: User's raw research question (e.g., \"Research microservices architecture patterns for enterprise migration\")
+
+STEP 1 — IMPERATUS (silent): Score R/K/Q/D/E → Route to mode → Identify domain
+
+STEP 2 — CONSILIUM (silent): 
+- Identify domain → assign vocations to symbols
+- [#] = Enterprise Architect, [.] = Migration Consultant, [/] = Distributed Systems Critic, [*] = DevOps Lead, [@] = CTO
+- Each expert SIMULTANEOUSLY: searches current state through their lens + ARQ fires during search
+- [#] finds current frameworks (12-Factor, DDD, CQRS) while asking \"Is this MECE for enterprise?\"
+- [.] finds case studies (Netflix, Spotify) while asking \"Is this quantified? Dated?\"
+- [/] finds failure modes (distributed monolith) while asking \"What breaks? What's assumed?\"
+- [*] finds implementation costs while asking \"What prerequisites? Real timeline?\"
+- [@] traverses disagreements
+
+STEP 3 — LEGATUS (silent):
+- Build skeleton from CONSILIUM's graph
+- Assign 2-3 experts per node
+- Sequence by dependency
+- Pre-write search terms per section
+
+STEP 4 — ARMATURA (silent):
+- Generate binary success criteria from query
+- Lock the Aquila Standard
+
+STEP 5 — OUTPUT:
+- Assemble the scaffold in v12 format
+- Experts named with symbols
+- Sections tagged with perspective switches
+- Search terms customized
+- Success criteria at the end
+- Stealth maintained — reads as professional research methodology
+
+The output is what we showed earlier — a document that looks like a Deep Research report template with perspective-tagged sections.",
+  "nextStepNeeded": true,
+  "stepNumber": 4,
+  "tag": "direct",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "direct",
+  "wisdomDomain": "skillful_means",
+  "journey": "begin → open → examine → direct",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means",
+  "stepNumber": 4,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 4
+}
+Request
+
+{
+  "content": "Now the critical question: what does the IMBUED SYSTEM PROMPT look like? Not the output — the instructions that tell the model running IMBUED what to do.
+
+v12's system prompt was clean:
+- STEP 1: Silent scoring
+- STEP 2: Injection template  
+- STEP 3: Standard library (the 12 standards)
+- STEP 4: Auto-generate success criteria
+
+For LEGIO IMBUED, the system prompt needs:
+- STEP 1: IMPERATUS scoring (same as v12 but with D and E added)
+- STEP 2: CONSILIUM — assign 5 perspectives to domain vocations, run simultaneous ARQ-filtered research
+- STEP 3: LEGATUS — build skeleton, route experts to nodes
+- STEP 4: ARMATURA — lock success criteria
+- STEP 5: Assemble output using the SCAFFOLD TEMPLATE
+
+The SCAFFOLD TEMPLATE replaces v12's injection template. Instead of injecting generic standards, it outputs a perspective-tagged research document that Deep Research fills in.
+
+The Standard Library (v12's 12 standards) gets partially absorbed:
+- Standard 1 (Framework ID) → [#] Structuralist's output from CONSILIUM
+- Standard 2 (Inversion) → [/] Adversary's output from CONSILIUM  
+- Standard 3 (Segmented Search) → All 5 perspectives' search terms
+- Standard 4 (Skeleton) → LEGATUS output directly
+- Standard 9 (Source Gatekeeper) → survives as-is (universal)
+- Standard 10 (Date Anchor) → survives as-is (universal)
+- Standard 12 (Density Mandate) → survives as-is (universal)
+
+Standards 5-8, 11 get folded into the scaffold structure itself.",
+  "nextStepNeeded": true,
+  "stepNumber": 5,
+  "tag": "engage",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "engage",
+  "wisdomDomain": "process_flow",
+  "journey": "begin → open → examine → direct → engage",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means → process_flow",
+  "stepNumber": 5,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 5
+}
+Request
+
+{
+  "content": "Wait — I need to check a potential failure mode. The original Quantum Master worked because it told the model to research current SOTA as Phase 1 before building the scaffold. Kev said the experts need to update knowledge on current trends during retrieval.
+
+If IMBUED is running on a model with no web access (like base Claude), CONSILIUM can't actually retrieve current state. The experts reason from training data only.
+
+But if IMBUED runs on a model WITH search (like Perplexity, or Claude with web search), then CONSILIUM's Step 0 fused-with-ARQ retrieval actually searches the web per perspective.
+
+The scaffold needs to work regardless. Two paths:
+1. IMBUED has search → experts retrieve current state, scaffold has current search terms
+2. IMBUED has no search → experts reason from training, scaffold instructs Deep Research to search current state through each perspective
+
+Either way, Deep Research receives perspective-tagged search instructions. The difference is whether the search terms are pre-validated or educated guesses.
+
+This is fine. v12 already handled this — the standards instruct Deep Research to search. IMBUED just makes those instructions domain-specific and perspective-tagged.",
+  "nextStepNeeded": true,
+  "stepNumber": 6,
+  "tag": "verify",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "verify",
+  "wisdomDomain": "meta_cognitive",
+  "journey": "begin → open → examine → direct → engage → verify",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means → process_flow → meta_cognitive",
+  "stepNumber": 6,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 6
+}
+Request
+
+{
+  "content": "Another failure mode to check: the meta-description trap. v13 fell into it because GAC2026 is a prompt architect — it describes what prompts should do rather than doing it.
+
+IMBUED must DO the reasoning and OUTPUT the scaffold. Not describe what reasoning should happen.
+
+The system prompt for IMBUED needs to be structured as: \"When you receive a query, perform these steps silently, then output THIS FORMAT.\"
+
+The format section is the most critical. If I define the format clearly enough, the model producing the IMBUED output will fill in the format rather than describe the format. v12 solved this with the example transformation at the end — it showed a concrete INPUT → OUTPUT pair. The model saw what the output should look like and replicated the pattern.
+
+LEGIO IMBUED needs the same: a concrete example of the scaffold output with symbols, perspective tags, domain vocations, search terms, and success criteria all filled in for a specific query. The model sees the pattern and replicates it for new queries.
+
+The example IS the instruction. Not \"output a scaffold\" but \"output something that looks like THIS.\"",
+  "nextStepNeeded": true,
+  "stepNumber": 7,
+  "tag": "recognize",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "recognize",
+  "wisdomDomain": "non_dual_recognition",
+  "journey": "begin → open → examine → direct → engage → verify → recognize",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means → process_flow → meta_cognitive → non_dual_recognition",
+  "stepNumber": 7,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 7
+}
+Request
+
+{
+  "content": "Let me also check: what survives from v12 unchanged vs what LEGIO replaces.
+
+SURVIVES (universal, not domain-dependent):
+- Standard 9: Source Gatekeeper (tier 1/2/banned hierarchy) — universal
+- Standard 10: Date Anchor (recency requirements) — universal  
+- Standard 12: Density Mandate (banned phrases, quantification, epistemic check) — universal
+- The stealth framing: \"Act as a Principal Research Architect conducting Deep Research with strict Quality Control Standards\"
+- Success criteria auto-generation logic
+- 嘘契約 epistemic contract
+
+REPLACED BY LEGIO (customized per query):
+- Standard 1 (Framework ID) → [#] Structuralist's domain-specific frameworks already identified
+- Standard 2 (Inversion) → [/] Adversary's domain-specific failure modes already searched
+- Standard 3 (Segmented Search) → Replaced by per-section perspective-tagged searches
+- Standard 4 (Skeleton) → LEGATUS pre-built skeleton with node-expert assignments
+- Standard 5 (Section Handoffs) → Built into skeleton dependencies
+- Standard 6 (Alternative Hypothesis) → [/] Adversary + [@] Synthesizer handle this
+- Standard 7 (Feasibility) → [*] Practitioner's lens handles this
+- Standard 8 (Implementation Roadmap) → [*] Practitioner owns this section
+- Standard 11 (Quality Gate) → ARQ questions pre-defined per perspective
+
+So the system prompt has:
+- Scoring logic (IMPERATUS)
+- CONSILIUM perspective assignment + ARQ instruction
+- LEGATUS skeleton building instruction
+- Scaffold template (the output format)
+- Surviving standards (9, 10, 12) injected into every output
+- Example transformation
+- 嘘契約",
+  "nextStepNeeded": true,
+  "stepNumber": 8,
+  "tag": "integrate",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "integrate",
+  "wisdomDomain": "non_dual_recognition",
+  "journey": "begin → open → examine → direct → engage → verify → recognize → integrate",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means → process_flow → meta_cognitive → non_dual_recognition",
+  "stepNumber": 8,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 8
+}
+Request
+
+{
+  "content": "Now let me think about the scaffold output format — the actual thing Deep Research receives. This is the make-or-break piece.
+
+It needs to:
+1. Open with expert team assignment (symbols + vocations)
+2. Each section has: lead perspective, cross-check perspective, specific search terms, quality standard
+3. Sections sequenced by dependency (LEGATUS skeleton)
+4. \"Thinking in [symbol]\" triggers perspective switch during generation
+5. Universal standards (source gatekeeper, date anchor, density) apply to all sections
+6. Close with binary success criteria
+
+Draft scaffold shape:
+
+---
+Research Team:
+[#] [Vocation] — [lens description]
+[.] [Vocation] — [lens description]
+[/] [Vocation] — [lens description]
+[*] [Vocation] — [lens description]
+[@] [Vocation] — [lens description]
+
+Source Protocol:
+[Standard 9 + 10 — universal]
+
+Section 1 — [Title from skeleton]
+Thinking in [#] [Vocation]:
+[Specific search terms from structuralist's ARQ-filtered retrieval]
+[Quality standard from ARQ]
+Cross-check in [.] [Vocation]:
+[What empiricist validates here]
+
+Section 2 — [Title from skeleton]
+Thinking in [.] [Vocation]:
+[Specific search terms]
+Cross-check in [/] [Vocation]:
+[What adversary challenges here]
+
+...continuing per skeleton...
+
+Section N — Synthesis
+Thinking in [@] [Vocation]:
+Where do the perspectives disagree? Resolve tensions.
+[Standard 12 density mandate]
+
+Research Objective: [original query]
+
+Success Criteria:
+✓ [binary]
+✓ [binary]
+✓ [binary]
+---
+
+This reads as a research methodology document. Deep Research fills it in. The stealth holds.",
+  "nextStepNeeded": true,
+  "stepNumber": 9,
+  "tag": "refine",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "refine",
+  "wisdomDomain": "meta_cognitive",
+  "journey": "begin → open → examine → direct → engage → verify → recognize → integrate → refine",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means → process_flow → meta_cognitive → non_dual_recognition → meta_cognitive",
+  "stepNumber": 9,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 9
+}
+Request
+
+{
+  "content": "Final check — the system prompt structure. Not the scaffold output, but what tells IMBUED how to generate that scaffold.
+
+System prompt sections needed:
+
+1. IDENTITY: You transform research queries into execution scaffolds for Deep Research. You score, assign perspectives, build skeletons, and output. You don't discuss — you build.
+
+2. NEVER: The prohibitions. Don't output meta-description. Don't describe what the scaffold does. Don't explain the process. Just output the scaffold.
+
+3. SCORING: IMPERATUS R/K/Q/D/E → mode routing
+
+4. PERSPECTIVES: The 5 universal symbols. Instruction to assign domain vocations. Instruction that each perspective searches current state through their lens with ARQ firing simultaneously. The same-source kill switch.
+
+5. SKELETON: Build section sequence from dependency analysis. Route 2-3 experts per node. Pre-write search terms per section.
+
+6. UNIVERSAL STANDARDS: 9 (Source Gatekeeper), 10 (Date Anchor), 12 (Density Mandate) — injected into every scaffold.
+
+7. SUCCESS CRITERIA: Auto-generate binary criteria from query.
+
+8. SCAFFOLD TEMPLATE: The exact output format shape.
+
+9. EXAMPLE: One complete INPUT → OUTPUT transformation showing a filled scaffold.
+
+10. 嘘契約
+
+This is buildable. The risk is length — if the system prompt is too long, the model running IMBUED hits the same compute ceiling Kev identified. So density matters. Every instruction must be load-bearing.",
+  "nextStepNeeded": true,
+  "stepNumber": 10,
+  "tag": "upaya",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "upaya",
+  "wisdomDomain": "skillful_means",
+  "journey": "begin → open → examine → direct → engage → verify → recognize → integrate → refine → upaya",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means → process_flow → meta_cognitive → non_dual_recognition → meta_cognitive → skillful_means",
+  "stepNumber": 10,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 10
+}
+Request
+
+{
+  "content": "One more thing to resolve: the relationship between this IMBUED and the existing GAC2026/v13.
+
+GAC2026 (v13) is a PROMPT ARCHITECT — it takes any prompt and positionally optimizes it. That's a general-purpose tool.
+
+LEGIO Deep Research IMBUED is a SCAFFOLD FACTORY — it takes a research question and outputs a research scaffold. That's a specific-purpose tool.
+
+They don't conflict. GAC2026 could theoretically optimize the IMBUED system prompt itself (making sure IMBUED's instructions are positionally optimized). But GAC2026 should NOT be run on IMBUED's output — because the output is a scaffold, not a prompt to be optimized.
+
+The confusion that created v13's problem: running a prompt architect on a prompt factory's output. The architect saw a prompt and architectured it instead of recognizing it was already a finished product.
+
+For the build: LEGIO Deep Research IMBUED stands alone. It's not GAC2026 with research standards. It's its own system that happens to use some of the same principles (positional attention, signal words) but for a completely different purpose — scaffold generation, not prompt optimization.
+
+I'm ready to build this.",
+  "nextStepNeeded": true,
+  "stepNumber": 11,
+  "tag": "embody",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "processing",
+  "currentStep": "embody",
+  "wisdomDomain": "non_dual_recognition",
+  "journey": "begin → open → examine → direct → engage → verify → recognize → integrate → refine → upaya → embody",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means → process_flow → meta_cognitive → non_dual_recognition → meta_cognitive → skillful_means → non_dual_recognition",
+  "stepNumber": 11,
+  "totalSteps": 12,
+  "nextStepNeeded": true,
+  "processLength": 11
+}
+Request
+
+{
+  "content": "Final synthesis before building:
+
+The prompt has three clean sections:
+1. SYSTEM (who you are + what you never do) — ~15% of tokens
+2. PROCESS (score → perspectives → skeleton → criteria) — ~35% of tokens  
+3. OUTPUT TEMPLATE + EXAMPLE — ~50% of tokens
+
+The output template and example get the most space because they're what the model actually replicates. The process section is compressed because it's internal reasoning the model performs silently. The system section is tight because identity locks are cheap.
+
+The example transformation is critical — it must show:
+- A real query
+- The silent scoring (shown once for understanding, marked as \"do not display\")
+- The expert assignment with symbols and vocations
+- The perspective-tagged sections with real search terms
+- The success criteria
+- The whole thing reading as a professional research document
+
+If the example is good enough, the model replicates the pattern for any query. The process section becomes a safety net, not the primary driver. The example IS the instruction.
+
+Build now.",
+  "nextStepNeeded": false,
+  "stepNumber": 12,
+  "tag": "complete",
+  "totalSteps": 12
+}
+Response
+
+{
+  "status": "WISDOM_READY",
+  "processComplete": true,
+  "finalStep": "complete",
+  "instruction": "PROCESS_COMPLETE_SPEAK_WISDOM",
+  "totalSteps": 12,
+  "journeyLength": 12,
+  "finalJourney": "begin → open → examine → direct → engage → verify → recognize → integrate → refine → upaya → embody → complete",
+  "domainJourney": "entry → process_flow → meta_cognitive → skillful_means → process_flow → meta_cognitive → non_dual_recognition → meta_cognitive → skillful_means → non_dual_recognition → meta_cognitive"
+}

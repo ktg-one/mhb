@@ -1,0 +1,269 @@
+export default function LandingPage() {
+  const features = [
+    {
+      title: "AI Systems That Actually Ship",
+      desc: "From chatbots to voice agents to workflow automation, built for real business use rather than demo theatre.",
+    },
+    {
+      title: "Fast Discovery, Clear ROI",
+      desc: "Audit the friction, map the opportunity, and turn messy operations into practical AI-enabled systems.",
+    },
+    {
+      title: "Built for SMEs",
+      desc: "Straightforward implementation for growing businesses that need leverage, not another dashboard graveyard.",
+    },
+  ];
+
+  const services = [
+    "AI Chatbots",
+    "Voice Agents",
+    "Workflow Automation",
+    "Website AI Audits",
+    "Knowledge Assistants",
+    "Data Cleaning & Prep",
+  ];
+
+  const steps = [
+    {
+      step: "01",
+      title: "Assess",
+      text: "We identify bottlenecks, repetitive work, and missed opportunities hiding inside your current workflow.",
+    },
+    {
+      step: "02",
+      title: "Design",
+      text: "You get a practical AI solution mapped to your business, tools, and team reality.",
+    },
+    {
+      step: "03",
+      title: "Deploy",
+      text: "We implement, test, refine, and make sure it works in the wild rather than just in a slide deck.",
+    },
+  ];
+
+  const testimonials = [
+    {
+      quote:
+        "The difference was speed and clarity. We stopped guessing where AI fit and started using it properly.",
+      name: "Operations Lead",
+      company: "Mid-market services firm",
+    },
+    {
+      quote:
+        "We went from scattered tools to one coherent system. Less noise, more output.",
+      name: "Founder",
+      company: "Growth-stage startup",
+    },
+  ];
+
+  return (
+    <div className="min-h-screen bg-zinc-950 text-white">
+      <section className="relative overflow-hidden border-b border-white/10">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(255,255,255,0.12),transparent_30%),radial-gradient(circle_at_bottom_right,rgba(255,255,255,0.08),transparent_28%)]" />
+        <div className="relative mx-auto max-w-7xl px-6 py-6 lg:px-8">
+          <header className="flex items-center justify-between">
+            <div className="text-lg font-semibold tracking-tight">KTG</div>
+            <nav className="hidden gap-8 text-sm text-white/70 md:flex">
+              <a href="#services" className="transition hover:text-white">Services</a>
+              <a href="#process" className="transition hover:text-white">Process</a>
+              <a href="#results" className="transition hover:text-white">Results</a>
+              <a href="#contact" className="transition hover:text-white">Contact</a>
+            </nav>
+          </header>
+
+          <div className="grid items-center gap-12 py-20 lg:grid-cols-[1.2fr_0.8fr] lg:py-28">
+            <div>
+              <div className="mb-4 inline-flex rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs uppercase tracking-[0.24em] text-white/70">
+                AI systems for modern businesses
+              </div>
+              <h1 className="max-w-4xl text-5xl font-semibold tracking-tight text-white sm:text-6xl lg:text-7xl">
+                Turn busywork into leverage.
+              </h1>
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-white/70">
+                Strategy, automation, and deployable AI tools for businesses that want practical gains, cleaner workflows, and fewer manual bottlenecks.
+              </p>
+
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                <a
+                  href="#contact"
+                  className="rounded-2xl bg-white px-6 py-3 text-sm font-medium text-zinc-950 transition hover:scale-[1.01]"
+                >
+                  Book a discovery call
+                </a>
+                <a
+                  href="#services"
+                  className="rounded-2xl border border-white/15 bg-white/5 px-6 py-3 text-sm font-medium text-white transition hover:bg-white/10"
+                >
+                  Explore services
+                </a>
+              </div>
+
+              <div className="mt-10 grid max-w-xl grid-cols-3 gap-4 text-sm">
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <div className="text-2xl font-semibold">SME</div>
+                  <div className="mt-1 text-white/60">Focused delivery</div>
+                </div>
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <div className="text-2xl font-semibold">Fast</div>
+                  <div className="mt-1 text-white/60">Rapid prototyping</div>
+                </div>
+                <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                  <div className="text-2xl font-semibold">Real</div>
+                  <div className="mt-1 text-white/60">Operational outcomes</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative">
+              <div className="absolute -inset-6 rounded-[2rem] bg-white/5 blur-3xl" />
+              <div className="relative rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-2xl backdrop-blur">
+                <div className="rounded-[1.5rem] border border-white/10 bg-zinc-900 p-5">
+                  <div className="flex items-center justify-between border-b border-white/10 pb-4">
+                    <div>
+                      <p className="text-sm text-white/50">AI Opportunity Snapshot</p>
+                      <h3 className="mt-1 text-xl font-semibold">Business workflow map</h3>
+                    </div>
+                    <div className="rounded-xl border border-emerald-400/20 bg-emerald-400/10 px-3 py-1 text-xs text-emerald-300">
+                      Live potential
+                    </div>
+                  </div>
+
+                  <div className="mt-5 space-y-4">
+                    {[
+                      ["Lead response", "Automate follow-up + qualification", "High impact"],
+                      ["Website inquiries", "Deploy AI chat assistant", "Quick win"],
+                      ["Internal documents", "Build searchable knowledge assistant", "Efficiency"],
+                    ].map(([label, value, tag]) => (
+                      <div key={label} className="rounded-2xl border border-white/10 bg-white/5 p-4">
+                        <div className="flex items-start justify-between gap-3">
+                          <div>
+                            <p className="text-sm text-white/50">{label}</p>
+                            <p className="mt-1 font-medium text-white">{value}</p>
+                          </div>
+                          <span className="rounded-lg bg-white/10 px-2 py-1 text-xs text-white/70">{tag}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <div className="grid gap-6 md:grid-cols-3">
+          {features.map((feature) => (
+            <div key={feature.title} className="rounded-[1.75rem] border border-white/10 bg-white/5 p-6">
+              <h3 className="text-xl font-semibold tracking-tight">{feature.title}</h3>
+              <p className="mt-3 text-sm leading-7 text-white/65">{feature.desc}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section id="services" className="border-y border-white/10 bg-white/[0.03]">
+        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <div className="max-w-2xl">
+            <p className="text-sm uppercase tracking-[0.2em] text-white/45">Services</p>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+              Pick the bottleneck. We build the fix.
+            </h2>
+          </div>
+
+          <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {services.map((service) => (
+              <div key={service} className="rounded-2xl border border-white/10 bg-zinc-900/70 p-5 text-base text-white/85">
+                {service}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="process" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+          <div>
+            <p className="text-sm uppercase tracking-[0.2em] text-white/45">Process</p>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+              Simple path. No smoke machine.
+            </h2>
+            <p className="mt-4 max-w-xl text-white/65">
+              Useful AI work is usually less about novelty and more about choosing the right target, then wiring it properly.
+            </p>
+          </div>
+
+          <div className="grid gap-4">
+            {steps.map((item) => (
+              <div key={item.step} className="rounded-[1.75rem] border border-white/10 bg-white/5 p-6">
+                <div className="flex items-start gap-4">
+                  <div className="min-w-14 rounded-2xl border border-white/10 bg-zinc-900 px-4 py-3 text-lg font-semibold text-white/80">
+                    {item.step}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold">{item.title}</h3>
+                    <p className="mt-2 text-white/65">{item.text}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="results" className="border-y border-white/10 bg-white/[0.03]">
+        <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+          <div className="max-w-2xl">
+            <p className="text-sm uppercase tracking-[0.2em] text-white/45">Results</p>
+            <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+              Built to reduce drag.
+            </h2>
+          </div>
+
+          <div className="mt-10 grid gap-6 lg:grid-cols-2">
+            {testimonials.map((item) => (
+              <div key={item.name} className="rounded-[1.75rem] border border-white/10 bg-zinc-900/80 p-6">
+                <p className="text-lg leading-8 text-white/85">“{item.quote}”</p>
+                <div className="mt-6 text-sm text-white/50">
+                  <div className="font-medium text-white/80">{item.name}</div>
+                  <div>{item.company}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
+        <div className="rounded-[2rem] border border-white/10 bg-gradient-to-br from-white/10 to-white/5 p-8 lg:p-10">
+          <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
+            <div>
+              <p className="text-sm uppercase tracking-[0.2em] text-white/45">Contact</p>
+              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
+                Want a clearer picture of where AI can help?
+              </h2>
+              <p className="mt-4 max-w-2xl text-white/65">
+                Start with a practical review of your workflow, customer journey, or internal operations. No inflated promises. Just a sharper map.
+              </p>
+            </div>
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <a
+                href="mailto:hello@example.com"
+                className="rounded-2xl bg-white px-6 py-3 text-sm font-medium text-zinc-950 transition hover:scale-[1.01]"
+              >
+                hello@example.com
+              </a>
+              <a
+                href="#"
+                className="rounded-2xl border border-white/15 bg-transparent px-6 py-3 text-sm font-medium text-white transition hover:bg-white/10"
+              >
+                View case studies
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
