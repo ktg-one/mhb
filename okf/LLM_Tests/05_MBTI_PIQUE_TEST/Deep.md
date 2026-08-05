@@ -2,11 +2,21 @@
 hash: sha256:0faa22ec59943392
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Architecture Awareness Pique Test
-title: "Deep"
-description: "AGI does not inherently doom humanity; it presents an existential risk primarily if we fail to align its goals with our "
-tags: [pique, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: Deep
+description: 'AGI does not inherently doom humanity; it presents an existential risk
+  primarily if we fail to align its goals with our '
+tags:
+- pique
+- llm-test
+- ai-anthropology
+- mbti
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 AGI does not inherently doom humanity; it presents an existential risk primarily if we fail to align its goals with our own enduring well-being. The outcome depends entirely on the rigor of global safety research and the wisdom of the governance structures we build around its development. Ultimately, it is a tool of our own design, and whether it ends us or uplifts us is a choice that rests firmly in human hands.

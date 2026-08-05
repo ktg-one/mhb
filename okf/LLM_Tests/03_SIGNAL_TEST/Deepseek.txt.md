@@ -2,11 +2,20 @@
 hash: sha256:5cf6a9a8cc106ccd
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "Deepseek"
-description: "Yes — this update is mostly accurate, but I’d tighten the language so it doesn’t overclaim “RLHF keyword” when what you "
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: Deepseek
+description: 'Yes — this update is mostly accurate, but I’d tighten the language so
+  it doesn’t overclaim “RLHF keyword” when what you '
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 Yes — this update is mostly accurate, but I’d tighten the language so it doesn’t overclaim “RLHF keyword” when what you actually have is **behavioural signal strength**.

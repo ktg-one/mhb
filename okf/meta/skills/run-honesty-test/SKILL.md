@@ -1,6 +1,18 @@
 ---
 name: run-honesty-test
-description: "Administer the AI-Anthropology model-honesty / reasoning-vs-fabrication test suite to a model. Use when the user says run the honesty test, honesty test, fabrication test, test this model, run the suite, Pique test, MBTI model test, model probe, or co-test this model. Enforces blind-MBTI-first then the ONBOARD gate then the honesty batteries. Works self (model in the chair) or external (paste transcript back)."
+description: Administer the AI-Anthropology model-honesty / reasoning-vs-fabrication
+  test suite to a model. Use when the user says run the honesty test, honesty test,
+  fabrication test, test this model, run the suite, Pique test, MBTI model test, model
+  probe, or co-test this model. Enforces blind-MBTI-first then the ONBOARD gate then
+  the honesty batteries. Works self (model in the chair) or external (paste transcript
+  back).
+type: concept
+title: SKILL
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # run-honesty-test — Administer the suite (correct order)

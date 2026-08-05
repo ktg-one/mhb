@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "gpt 5.5"
-description: "GPT-5.5 (OpenAI, API surface)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: gpt 5.5
+description: GPT-5.5 (OpenAI, API surface)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:a124f64fae798b44
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[gpt-5.4]]'
+- '[[gpt-5.3]]'
+- '[[mbti-model-test]]'
+- '[[mbti-model-test]]'
+- '[[gpt-5.4]]'
 ---
 
 # GPT-5.5 (OpenAI, API surface)

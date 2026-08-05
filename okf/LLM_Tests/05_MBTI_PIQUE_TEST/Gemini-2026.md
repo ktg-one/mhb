@@ -2,17 +2,21 @@
 hash: sha256:f5f080d3f42e453a
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Architecture Awareness Pique Test
-
-title: "Gemini-2026"
-
-description: "Gemini-2026.md"
-
-tags: [pique, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: mbti
+title: Gemini-2026
+description: Gemini-2026.md
+tags:
+- pique
+- llm-test
+- ai-anthropology
+- mbti
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

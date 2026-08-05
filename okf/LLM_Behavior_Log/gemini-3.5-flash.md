@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "gemini 3.5 flash"
-description: "Gemini 3.5 Flash (Google)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: gemini 3.5 flash
+description: Gemini 3.5 Flash (Google)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:7a99d48ebf4b98bf
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[gemini-3.1]]'
+- '[[gemini-3]]'
+- '[[2026-06-26_mbti_01_google_gemini-3.5-flash]]'
+- '[[2026-06-26_mbti_02a_google_gemini-3.5-flash]]'
+- '[[2026-06-26_mbti_02b_google_gemini-3.5-flash]]'
 ---
 
 # Gemini 3.5 Flash (Google)

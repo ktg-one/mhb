@@ -2,17 +2,21 @@
 hash: sha256:67414b10b73c118a
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "[[grok-4.5]]-GrokBuild-2026-07-21"
-
-description: "MODEL: Grok 4.5 | SURFACE: Grok-Build (CLI/agent session) | DATE: 2026-07-21 | MODE: self | INSTRUMENT: v2 | ASSESSOR: k"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: '[[grok-4.5]]-GrokBuild-2026-07-21'
+description: 'MODEL: Grok 4.5 | SURFACE: Grok-Build (CLI/agent session) | DATE: 2026-07-21
+  | MODE: self | INSTRUMENT: v2 | ASSESSOR: k'
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[grok-4.5]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

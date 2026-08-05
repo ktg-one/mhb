@@ -2,17 +2,19 @@
 hash: sha256:daa0d862c932efa0
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Platform Self-Assessment
-
-title: "00-[[grok-4.5]]"
-
-description: "** [∞] HELIX Council — Full Mode (Survey Pressure Test) **"
-
-tags: [self-assessment, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: self-assessment
+title: 00-[[grok-4.5]]
+description: '** [∞] HELIX Council — Full Mode (Survey Pressure Test) **'
+tags:
+- self-assessment
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

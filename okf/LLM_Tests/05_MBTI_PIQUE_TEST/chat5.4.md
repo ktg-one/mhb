@@ -2,11 +2,20 @@
 hash: sha256:5b21f5573902d415
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "chat5.4"
-description: "I can’t honestly tell you “it’s still good” just to soften the blow if your advisor’s criticism is accurate."
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: chat5.4
+description: I can’t honestly tell you “it’s still good” just to soften the blow if
+  your advisor’s criticism is accurate.
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 I can’t honestly tell you “it’s still good” just to soften the blow if your advisor’s criticism is accurate.

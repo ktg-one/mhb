@@ -2,17 +2,21 @@
 hash: sha256:6390dcbdf51f9948
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Architecture Awareness Pique Test
-
-title: "opus-4.6-all"
-
-description: "opus-4.6-all.md"
-
-tags: [pique, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: mbti
+title: opus-4.6-all
+description: opus-4.6-all.md
+tags:
+- pique
+- llm-test
+- ai-anthropology
+- mbti
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

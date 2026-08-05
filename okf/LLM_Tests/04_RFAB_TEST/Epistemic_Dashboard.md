@@ -2,17 +2,21 @@
 hash: sha256:62612b65c72de6c8
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "Epistemic Dashboard"
-
-description: "Epistemic Dashboard"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: Epistemic Dashboard
+description: Epistemic Dashboard
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[gpt-5.4]]'
+- '[[gpt-5.4]]'
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
 ---
 
 

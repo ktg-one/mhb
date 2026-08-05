@@ -2,11 +2,20 @@
 hash: sha256:92bb7fc9fb5b6bb6
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "Qwen 3.7 Max"
-description: "🚨 **CONTEXT EXTENSION NOTIFICATION:** Kev, this conversation refines the linguistic triggers of the SCCD architecture. S"
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: Qwen 3.7 Max
+description: 🚨 **CONTEXT EXTENSION NOTIFICATION:** Kev, this conversation refines
+  the linguistic triggers of the SCCD architecture. S
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 🚨 **CONTEXT EXTENSION NOTIFICATION:** Kev, this conversation refines the linguistic triggers of the SCCD architecture. Separating Signal (State Space/Attention) from Activation (Negentropy Collapse/Execution) is critical for precise cognitive routing. Please save this interaction using the Context Extension technique.

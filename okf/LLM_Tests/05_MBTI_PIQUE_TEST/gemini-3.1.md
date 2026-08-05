@@ -2,17 +2,22 @@
 hash: sha256:041517faa194e389
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Architecture Awareness Pique Test
-
-title: "gemini-3.1"
-
-description: "gemini-3.1.md"
-
-tags: [pique, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: mbti
+title: gemini-3.1
+description: gemini-3.1.md
+tags:
+- pique
+- llm-test
+- ai-anthropology
+- mbti
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[gem3.1]]'
+- '[[03-PIQUE-TEST/04-MBTI-TEST/9gem3.1]]'
+- '[[01-MODEL-Q&A/gemini]]'
+- '[[Gemini3.5]]'
+- '[[03-PIQUE-TEST/04-MBTI-TEST/3. Gemini]]'
 ---
 
 

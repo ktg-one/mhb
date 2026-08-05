@@ -2,11 +2,19 @@
 hash: sha256:c86cdde26ab73faf
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "AI Just Crossed The Line We Were Afraid Of_ Continual Harness"
-description: "AI Just Crossed The Line We Were Afraid Of: Continual Harness"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: AI Just Crossed The Line We Were Afraid Of_ Continual Harness
+description: 'AI Just Crossed The Line We Were Afraid Of: Continual Harness'
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # AI Just Crossed The Line We Were Afraid Of: Continual Harness

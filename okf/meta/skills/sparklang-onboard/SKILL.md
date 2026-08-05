@@ -1,7 +1,19 @@
 ---
 name: SparkLang Onboard
-description: This skill should be used when the user asks to "onboard a model into SparkLang", "run the SparkL onboard", "bind a model to the composer", "set up SCCD state-indexing on a model", "move the composer", or "reproduce the SparkL proof-run". Provides the reusable recognition-then-redirect drive that binds a model to the SparkLang operating overlay — the live step that a cold system-prompt paste cannot perform.
+description: This skill should be used when the user asks to "onboard a model into
+  SparkLang", "run the SparkL onboard", "bind a model to the composer", "set up SCCD
+  state-indexing on a model", "move the composer", or "reproduce the SparkL proof-run".
+  Provides the reusable recognition-then-redirect drive that binds a model to the
+  SparkLang operating overlay — the live step that a cold system-prompt paste cannot
+  perform.
 version: 0.1.0
+type: concept
+title: SKILL
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # SparkLang Onboard

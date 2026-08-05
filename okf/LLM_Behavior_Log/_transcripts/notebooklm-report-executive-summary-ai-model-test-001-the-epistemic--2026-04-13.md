@@ -1,8 +1,14 @@
 ---
-exported: 2026-04-13T18:45:28.873Z
+exported: 2026-04-13 18:45:28.873000+00:00
 source: NotebookLM
-type: report
-title: "Executive Summary: AI Model Test 001 — The Epistemic Contract & Self-Diagnostic"
+type: concept
+title: 'Executive Summary: AI Model Test 001 — The Epistemic Contract & Self-Diagnostic'
+description: '导出时间: 14/04/2026, 02:45:28'
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # Executive Summary: AI Model Test 001 — The Epistemic Contract & Self-Diagnostic

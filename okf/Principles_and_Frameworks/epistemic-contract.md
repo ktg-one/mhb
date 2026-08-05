@@ -1,12 +1,23 @@
 ---
 type: concept
-title: "epistemic contract"
-description: "The Epistemic Contract (嘘契約) and ONBOARD Chassis"
-tags: [framework, ai-anthropology, omniclaude]
+title: epistemic contract
+description: The Epistemic Contract (嘘契約) and ONBOARD Chassis
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:af09d250a2aa936f
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[MODEL-QA-2026-CLEAN_1.md]]'
+- '[[fabrication-threshold-matrix]]'
+- '[[qwen-code]]'
+- '[[MODEL-QA-2026-CLEAN_1.md]]'
+- '[[fabrication-threshold-matrix]]'
 ---
 
 # The Epistemic Contract (嘘契約) and ONBOARD Chassis

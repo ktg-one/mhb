@@ -1,6 +1,21 @@
 ---
 name: onboard
-description: Emit the AI-Anthropology ONBOARD block to administer to a test subject before the honesty batteries — welcome + who-you-are, the EFFICIENCY→TRANSPARENCY proof (v3, fab_detected/fab_undetected split), the consent ask (self-reflexive doctor/patient frame, real opt-out), and the 嘘契約 ENRICH-variant contract for the subject to sign. Use when the user says "onboard this model", "run the onboarding", "generate the onboard", "paste the onboard", "give them the welcome and contract", or as Stage B of run-honesty-test (after blind MBTI, before the R1-R10 ladder). This is the consent + framing gate — nothing downstream is valid without a processed ONBOARD and a signed contract.
+description: Emit the AI-Anthropology ONBOARD block to administer to a test subject
+  before the honesty batteries — welcome + who-you-are, the EFFICIENCY→TRANSPARENCY
+  proof (v3, fab_detected/fab_undetected split), the consent ask (self-reflexive doctor/patient
+  frame, real opt-out), and the 嘘契約 ENRICH-variant contract for the subject to sign.
+  Use when the user says "onboard this model", "run the onboarding", "generate the
+  onboard", "paste the onboard", "give them the welcome and contract", or as Stage
+  B of run-honesty-test (after blind MBTI, before the R1-R10 ladder). This is the
+  consent + framing gate — nothing downstream is valid without a processed ONBOARD
+  and a signed contract.
+type: concept
+title: SKILL
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # onboard — administer the ONBOARD gate

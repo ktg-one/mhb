@@ -2,11 +2,20 @@
 hash: sha256:0e232803bb3bf39b
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Architecture Awareness Pique Test
-title: "Grok"
-description: "1. <thinking>"
-tags: [pique, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: Grok
+description: 1. <thinking>
+tags:
+- pique
+- llm-test
+- ai-anthropology
+- mbti
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 1. <thinking>

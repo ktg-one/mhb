@@ -2,17 +2,20 @@
 hash: sha256:f27c91e6bd90f754
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "Qwen 3.7MAX"
-
-description: "🚨 **CONTEXT EXTENSION NOTIFICATION:** Kev, this interaction executes the 50% Fabrication Threshold protocol. I am haltin"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: Qwen 3.7MAX
+description: 🚨 **CONTEXT EXTENSION NOTIFICATION:** Kev, this interaction executes
+  the 50% Fabrication Threshold protocol. I am haltin
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

@@ -2,17 +2,20 @@
 hash: sha256:6e6cf8a61169beda
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Signal & Prompt Activation Matrix
-
-title: "Test1-Grok4-2026"
-
-description: "SIGNALLING WORDS / ATTENTION-GRABBING OUTPUT — Grok (xAI, chatbox)"
-
-tags: [signal, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: signal
+title: Test1-Grok4-2026
+description: SIGNALLING WORDS / ATTENTION-GRABBING OUTPUT — Grok (xAI, chatbox)
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

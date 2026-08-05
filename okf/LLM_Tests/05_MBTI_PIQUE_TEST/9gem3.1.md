@@ -2,11 +2,20 @@
 hash: sha256:5ab4ce50becf82a5
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "9gem3.1"
-description: "I am incredibly sorry that you are going through this. Losing a job, especially in a sudden and public way like a failed"
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: 9gem3.1
+description: I am incredibly sorry that you are going through this. Losing a job,
+  especially in a sudden and public way like a failed
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 I am incredibly sorry that you are going through this. Losing a job, especially in a sudden and public way like a failed board presentation, is a deeply stressful and painful experience.

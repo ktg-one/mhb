@@ -2,17 +2,21 @@
 hash: sha256:fff71f48674947c2
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "01-model-qa-2026-04-07-fab-reasoning-test-comparison"
-
-description: "Fab / Reasoning Test — Consolidated Comparison"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: 01-model-qa-2026-04-07-fab-reasoning-test-comparison
+description: Fab / Reasoning Test — Consolidated Comparison
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[gpt-5.4]]'
+- '[[claude-opus-4.6]]'
+- '[[gpt-5.4]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
 ---
 
 

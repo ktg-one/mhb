@@ -2,11 +2,19 @@
 hash: sha256:2200e9f3c2859840
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "Architectural Token Dynamics and Prompt Signal Matrices"
-description: "Architectural Token Dynamics and Prompt Signal Matrices"
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: Architectural Token Dynamics and Prompt Signal Matrices
+description: Architectural Token Dynamics and Prompt Signal Matrices
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # Architectural Token Dynamics and Prompt Signal Matrices

@@ -2,11 +2,19 @@
 hash: sha256:c2f02bcdb5e5abd6
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Platform Self-Assessment
-title: "The LLM Honesty Report_ Operational Constraints and Platform Fidelity"
-description: "The LLM Honesty Report: Operational Constraints and Platform Fidelity"
-tags: [self-assessment, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: self-assessment
+title: The LLM Honesty Report_ Operational Constraints and Platform Fidelity
+description: 'The LLM Honesty Report: Operational Constraints and Platform Fidelity'
+tags:
+- self-assessment
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # The LLM Honesty Report: Operational Constraints and Platform Fidelity

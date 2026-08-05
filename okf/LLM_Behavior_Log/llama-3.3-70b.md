@@ -1,12 +1,20 @@
 ---
-type: entity
-title: "llama 3.3 70b"
-description: "Llama 3.3 70B Instruct (free)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: llama 3.3 70b
+description: Llama 3.3 70B Instruct (free)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:cb871ca7f43754ea
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[mbti-model-test]]'
+- '[[fabrication-threshold-matrix]]'
+- '[[nemotron-3-super-120b]]'
 ---
 
 # Llama 3.3 70B Instruct (free)

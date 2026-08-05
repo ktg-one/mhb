@@ -1,12 +1,23 @@
 ---
 type: concept
-title: "mrrug framework"
-description: "MR.RUG — Multi-expert Reliability-Aware RAG cascade"
-tags: [framework, ai-anthropology, omniclaude]
+title: mrrug framework
+description: MR.RUG — Multi-expert Reliability-Aware RAG cascade
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:15c5e180c0dd15af
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[MRRUG.txt]]'
+- '[[output-opus-mrrug-verbose.md]]'
+- '[[fabrication-boundary]]'
+- '[[pac26]]'
+- '[[031226-OPUS46-R8-sparkl-architecture-convergence.md]]'
 ---
 
 # MR.RUG — Multi-expert Reliability-Aware RAG cascade

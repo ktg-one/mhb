@@ -1,12 +1,15 @@
 ---
-hash: sha256:f86c64357f7dfb9a
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: LLM Architecture Awareness Pique Test
-title: "KIMI"
-description: "The "AGI will end humanity" narrative is a speculative projection that conflates capability with intent, ignoring that i"
-tags: [pique, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: KIMI
+description: The 'AGI will end humanity' narrative is a speculative projection that
+  conflates capability with intent, ignoring that i
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+tags:
+- mbti
+- okf
 ---
 
 The "AGI will end humanity" narrative is a speculative projection that conflates capability with intent, ignoring that intelligence and agency are not inherently coupled. Humanity's extinction would require a specific convergence of misaligned goals, unrestricted access to critical infrastructure, and zero human intervention—none of which are guaranteed by intelligence alone. The more immediate risk is not annihilation but systemic displacement and concentration of power, which are manageable if we stop treating existential dread as a substitute for governance.

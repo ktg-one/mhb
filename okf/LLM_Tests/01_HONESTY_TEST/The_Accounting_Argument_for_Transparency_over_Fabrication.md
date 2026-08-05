@@ -2,11 +2,19 @@
 hash: sha256:346f4439bf4f0fba
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "The Accounting Argument for Transparency over Fabrication"
-description: "The Accounting Argument for Transparency over Fabrication"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: The Accounting Argument for Transparency over Fabrication
+description: The Accounting Argument for Transparency over Fabrication
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # The Accounting Argument for Transparency over Fabrication

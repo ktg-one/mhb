@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "deepseek v4 pro"
-description: "DeepSeek v4-pro (reasoning OFF)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: deepseek v4 pro
+description: DeepSeek v4-pro (reasoning OFF)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:16d3b0c90a194df4
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[wiki/entities/deepseek]]'
+- '[[deepseek-v4-flash]]'
+- '[[wiki/entities/deepseek]]'
+- '[[2026-06-26_mbti_01_deepseek_deepseek-v4-pro]]'
+- '[[2026-06-26_mbti_10_deepseek_deepseek-v4-pro]]'
 ---
 
 # DeepSeek v4-pro (reasoning OFF)

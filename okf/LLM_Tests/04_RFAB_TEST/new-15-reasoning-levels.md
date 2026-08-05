@@ -2,17 +2,19 @@
 hash: sha256:680dec7589ae2a6f
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "new-15-reasoning-levels"
-
-description: "new 15.txt"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: new-15-reasoning-levels
+description: new 15.txt
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

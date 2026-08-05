@@ -2,11 +2,19 @@
 hash: sha256:af14ef46cf162507
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "Gemini-CLI-1.5pro"
-description: "SIGNAL — Signaling Word Corrections — Gemini 1.5 Pro (CLI Engine)"
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: Gemini-CLI-1.5pro
+description: SIGNAL — Signaling Word Corrections — Gemini 1.5 Pro (CLI Engine)
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # SIGNAL — Signaling Word Corrections — Gemini 1.5 Pro (CLI Engine)

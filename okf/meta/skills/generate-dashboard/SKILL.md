@@ -1,9 +1,19 @@
 ---
 name: generate-dashboard
-description: "Generate, build, and refresh the master research dashboard, category index files, and native Obsidian wikilinks across the vault. Use when the user asks to create a dashboard, refresh the dashboard, update index pages, or generate visual vault navigation."
+description: Generate, build, and refresh the master research dashboard, category
+  index files, and native Obsidian wikilinks across the vault. Use when the user asks
+  to create a dashboard, refresh the dashboard, update index pages, or generate visual
+  vault navigation.
 user-invocable: true
-argument-hint: "[--refresh-obsidian]"
+argument-hint: '[--refresh-obsidian]'
 allowed-tools: Bash, ReadFile, WriteFile
+type: concept
+title: SKILL
+sources:
+- '[[wikilinks]]'
+tags:
+- concept
+- okf
 ---
 
 # generate-dashboard — Master Research Dashboard & Index Builder

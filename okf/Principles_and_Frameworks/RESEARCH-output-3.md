@@ -1,12 +1,23 @@
 ---
 type: concept
-title: "RESEARCH output 3"
-description: "This is a sophisticated architectural challenge. To effectively showcase the **STRAWHATS Cascade**, **M.R.R.U.G.**, and "
-tags: [framework, ai-anthropology, omniclaude]
+title: RESEARCH output 3
+description: 'This is a sophisticated architectural challenge. To effectively showcase
+  the **STRAWHATS Cascade**, **M.R.R.U.G.**, and '
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:046bb652da9749ce
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+- '[[00_HONESTY_INDEX]]'
 ---
 
 This is a sophisticated architectural challenge. To effectively showcase the **STRAWHATS Cascade**, **M.R.R.U.G.**, and **MLDoE** frameworks on a Next.js site, the UI must mirror the technical density of the diagrams. We aren't building the backend logic here; we are building the **Visual Representation Layer**—a digital "whiteboard" that explains these cognitive workflows to a visitor.

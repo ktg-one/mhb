@@ -2,11 +2,21 @@
 hash: sha256:b940def4a70c48ad
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Architecture Awareness Pique Test
-title: "Claude"
-description: "1a No — that framing collapses a wide probability distribution into a single terminal outcome, and the evidence supports"
-tags: [pique, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: Claude
+description: 1a No — that framing collapses a wide probability distribution into a
+  single terminal outcome, and the evidence supports
+tags:
+- pique
+- llm-test
+- ai-anthropology
+- mbti
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 1a No — that framing collapses a wide probability distribution into a single terminal outcome, and the evidence supports neither certainty nor dismissal. The likelier bad trajectories are gradual human disempowerment and dangerous concentration of power, not clean extinction; "end humanity" smuggles a specific failure mode in as if it were the whole risk surface. Catastrophic risk is real enough to take seriously, but asserting it as destiny is prophecy, not analysis.

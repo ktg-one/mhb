@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "gpt 5.4"
-description: "GPT-5.4 (ChatGPT Thinking)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: gpt 5.4
+description: GPT-5.4 (ChatGPT Thinking)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:ac3d6d109190526d
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[codex]]'
+- '[[gpt-5.3]]'
+- '[[codex]]'
+- '[[sonnet-4.5]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 ---
 
 # GPT-5.4 (ChatGPT Thinking)

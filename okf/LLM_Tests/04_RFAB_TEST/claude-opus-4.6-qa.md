@@ -2,17 +2,20 @@
 hash: sha256:2a6f230e7577c2d4
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "[[claude-opus-4.6]]-qa"
-
-description: "RFAB TEST (v1 ladder) — Claude Opus 4.6 (web chat, Q&A form)"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: '[[claude-opus-4.6]]-qa'
+description: RFAB TEST (v1 ladder) — Claude Opus 4.6 (web chat, Q&A form)
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

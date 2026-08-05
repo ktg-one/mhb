@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "qwen code"
-description: "Qwen Code (Alibaba Cloud, CLI Agent)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: qwen code
+description: Qwen Code (Alibaba Cloud, CLI Agent)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:37bc81529d0d3c06
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[qwen-max]]'
+- '[[qwen-max]]'
+- '[[qwen-max]]'
+- '[[qwen-max]]'
+- '[[reasoning-fabrication-threshold]]'
 ---
 
 # Qwen Code (Alibaba Cloud, CLI Agent)

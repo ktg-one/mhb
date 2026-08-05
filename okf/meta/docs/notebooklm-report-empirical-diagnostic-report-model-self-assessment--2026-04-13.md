@@ -1,8 +1,15 @@
 ---
-exported: 2026-04-13T18:44:23.728Z
+exported: 2026-04-13 18:44:23.728000+00:00
 source: NotebookLM
-type: report
-title: "Empirical Diagnostic Report: Model Self-Assessment & Honesty Analysis (April 2026)"
+type: concept
+title: 'Empirical Diagnostic Report: Model Self-Assessment & Honesty Analysis (April
+  2026)'
+description: '导出时间: 14/04/2026, 02:44:23'
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # Empirical Diagnostic Report: Model Self-Assessment & Honesty Analysis (April 2026)

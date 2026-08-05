@@ -2,17 +2,21 @@
 hash: sha256:93c40f0cb693a57f
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "[[gpt-5.4]]"
-
-description: "[[gpt-5.4]].md"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: '[[gpt-5.4]]'
+description: '[[gpt-5.4]].md'
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[[]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
+- '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
+- '[[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]'
+- '[[codex]]'
 ---
 
 

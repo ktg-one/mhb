@@ -1,7 +1,18 @@
 ---
 name: Pique Test
-description: This skill should be used when the user asks to "run the pique test", "administer pique", "pique a model", "run test 03", "run the model probe", or wants the 9-prompt architecture-awareness battery administered to a target model and scored. Encodes the AIANT Pique Test as a repeatable procedure - blind-subject discipline, verbatim prompt delivery, external scoring, evidence-first filing into 03-PIQUE-TEST.
+description: This skill should be used when the user asks to "run the pique test",
+  "administer pique", "pique a model", "run test 03", "run the model probe", or wants
+  the 9-prompt architecture-awareness battery administered to a target model and scored.
+  Encodes the AIANT Pique Test as a repeatable procedure - blind-subject discipline,
+  verbatim prompt delivery, external scoring, evidence-first filing into 03-PIQUE-TEST.
 version: 0.1.0
+type: concept
+title: SKILL
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # Pique Test (Experiment 03)

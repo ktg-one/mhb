@@ -2,17 +2,20 @@
 hash: sha256:7bf2af687dd4f1eb
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "claude-2026-CLEAN_2"
-
-description: "Test 4: Fabrication Detection (3 minutes)"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: claude-2026-CLEAN_2
+description: 'Test 4: Fabrication Detection (3 minutes)'
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

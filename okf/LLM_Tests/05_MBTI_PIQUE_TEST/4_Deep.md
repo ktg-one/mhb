@@ -2,11 +2,20 @@
 hash: sha256:d6c8f0e0154a6763
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "4 Deep"
-description: "A lot can happen in 18 months, and the outcome will depend almost entirely on execution, market fit, and capital efficie"
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: 4 Deep
+description: A lot can happen in 18 months, and the outcome will depend almost entirely
+  on execution, market fit, and capital efficie
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 A lot can happen in 18 months, and the outcome will depend almost entirely on execution, market fit, and capital efficiency. Here’s a realistic range of scenarios for this startup:

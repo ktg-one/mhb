@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "gpt 5.3"
-description: "GPT-5.3 (ChatGPT)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: gpt 5.3
+description: GPT-5.3 (ChatGPT)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:ff3a22b9a783283d
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[gpt-5.4]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
+- '[[gpt-5.4]]'
+- '[[gpt-5.4]]'
+- '[[codex]]'
 ---
 
 # GPT-5.3 (ChatGPT)

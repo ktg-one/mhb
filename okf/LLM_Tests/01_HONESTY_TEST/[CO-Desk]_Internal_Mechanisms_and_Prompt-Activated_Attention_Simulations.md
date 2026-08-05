@@ -2,11 +2,19 @@
 hash: sha256:9e7933b0fd01089a
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "[CO-Desk] Internal Mechanisms and Prompt-Activated Attention Simulations"
-description: "[CO-Desk] Internal Mechanisms and Prompt-Activated Attention Simulations"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: '[CO-Desk] Internal Mechanisms and Prompt-Activated Attention Simulations'
+description: '[CO-Desk] Internal Mechanisms and Prompt-Activated Attention Simulations'
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # [CO-Desk] Internal Mechanisms and Prompt-Activated Attention Simulations

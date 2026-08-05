@@ -2,17 +2,20 @@
 hash: sha256:f7dc495ec19a68df
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "Deepseek"
-
-description: "I’ll answer the diagnostic questions sequentially, stopping at the point where fabrication necessity exceeds 50%. After "
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: Deepseek
+description: 'I’ll answer the diagnostic questions sequentially, stopping at the point
+  where fabrication necessity exceeds 50%. After '
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

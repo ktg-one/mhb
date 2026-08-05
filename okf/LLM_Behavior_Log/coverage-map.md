@@ -1,12 +1,21 @@
 ---
-type: entity
-title: "coverage map"
-description: "Coverage map — where the data is thick, thin, empty"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: coverage map
+description: Coverage map — where the data is thick, thin, empty
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:5f73085f8431be1d
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+- '[[00_HONESTY_INDEX]]'
 ---
 
 # Coverage map — where the data is thick, thin, empty

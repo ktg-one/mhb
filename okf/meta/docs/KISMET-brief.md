@@ -2,6 +2,14 @@
 title: AI-Anthropology — Fabrication Thresholds (brief)
 audience: Kismet meeting [angle TBC — sharpen once known]
 status: draft / leave-behind
+type: concept
+description: '**One line:** We map the exact point where a language model crosses
+  from reasoning into fabrication, per model, across l'
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # Where models stop telling the truth — and how we measure it

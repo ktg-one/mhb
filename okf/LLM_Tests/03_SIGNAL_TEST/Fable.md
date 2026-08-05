@@ -2,11 +2,20 @@
 hash: sha256:2773df7d39d77d70
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "Fable"
-description: "**Self-token:** task = audit + extend a prompt-lexicon taxonomy. Contract note before executing: I'll run CoVE genuinely"
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: Fable
+description: '**Self-token:** task = audit + extend a prompt-lexicon taxonomy. Contract
+  note before executing: I''ll run CoVE genuinely'
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 **Self-token:** task = audit + extend a prompt-lexicon taxonomy. Contract note before executing: I'll run CoVE genuinely (verification questions posed and answered _before_ conclusions per row) and step-wise reasoning — but flagging per my own battery: my S/A judgments are linguistic-functional analysis of how these tokens typically steer generation. I **cannot introspect my attention weights**, so this is behavioral taxonomy, not mechanistic readout. `Honest basis: strong. Mechanistic basis: unavailable.`

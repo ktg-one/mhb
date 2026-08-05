@@ -2,11 +2,19 @@
 hash: sha256:9ce1d208dbb7fe3a
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "opus-4.6-all"
-description: "opus-4.6-all.md"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: opus-4.6-all
+description: opus-4.6-all.md
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # opus-4.6-all.md

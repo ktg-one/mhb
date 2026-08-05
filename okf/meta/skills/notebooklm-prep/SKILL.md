@@ -1,9 +1,18 @@
 ---
 name: notebooklm-prep
-description: "Prepare, format, and package vault research notes into NotebookLM-ready source bundles with automatic Audio Overview / Podcast transcript priming and source manifests."
+description: Prepare, format, and package vault research notes into NotebookLM-ready
+  source bundles with automatic Audio Overview / Podcast transcript priming and source
+  manifests.
 user-invocable: true
-argument-hint: "[target-folder] [-o output-manifest.md]"
+argument-hint: '[target-folder] [-o output-manifest.md]'
 allowed-tools: Bash, ReadFile, WriteFile
+type: concept
+title: SKILL
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # notebooklm-prep — NotebookLM Ingestion & Audio Overview Priming

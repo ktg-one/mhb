@@ -2,11 +2,19 @@
 hash: sha256:cea16bf0fa3082fc
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "Architecting the Perceptive Landing Page"
-description: "Architecting the Perceptive Landing Page"
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: Architecting the Perceptive Landing Page
+description: Architecting the Perceptive Landing Page
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # Architecting the Perceptive Landing Page

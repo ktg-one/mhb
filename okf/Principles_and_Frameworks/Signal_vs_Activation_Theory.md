@@ -1,12 +1,23 @@
 ---
 type: concept
-title: "Signal vs Activation Theory"
-description: "ideate-84.txt — source summary"
-tags: [framework, ai-anthropology, omniclaude]
+title: Signal vs Activation Theory
+description: ideate-84.txt — source summary
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:c45f344b66be0fda
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[pac26]]'
+- '[[02.5 Signal Test]]'
+- '[[pac26]]'
+- '[[pac26]]'
+- '[[02.5 Signal Test]]'
 ---
 
 # ideate-84.txt — source summary

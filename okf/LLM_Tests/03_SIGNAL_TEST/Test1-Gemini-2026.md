@@ -2,11 +2,20 @@
 hash: sha256:75a844eb1af4de31
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "Test1-Gemini-2026"
-description: "SIGNALLING WORDS / ATTENTION ANCHORS — Gemini 3.1 Pro (chatbox, paid tier)"
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: Test1-Gemini-2026
+description: SIGNALLING WORDS / ATTENTION ANCHORS — Gemini 3.1 Pro (chatbox, paid
+  tier)
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # SIGNALLING WORDS / ATTENTION ANCHORS — Gemini 3.1 Pro (chatbox, paid tier)

@@ -1,12 +1,17 @@
 ---
 type: concept
-title: "attribution sink"
-description: "Attribution Sink — "the model" as unauditable variance dump"
-tags: [framework, ai-anthropology, omniclaude]
-hash: sha256:6db86cd9af047ca7
-created: 2026-07-31T01:48
-updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+title: attribution-sink
+description: '**Claim:** [D] In current LLM products, quality is measurable only by
+  the vendor. ''The model'''
+sources:
+- '[[depth-0-collapse]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+- '[[00_HONESTY_INDEX]]'
+tags:
+- concept
+- okf
 ---
 
 # Attribution Sink — "the model" as unauditable variance dump

@@ -2,17 +2,20 @@
 hash: sha256:4dbbf7ef0e20a393
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "Model Reasoning and Fabrication Diagnostic Compari.csv"
-
-description: "Model Reasoning and Fabrication Diagnostic Compari.csv"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: Model Reasoning and Fabrication Diagnostic Compari.csv
+description: Model Reasoning and Fabrication Diagnostic Compari.csv
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[gpt-5.4]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

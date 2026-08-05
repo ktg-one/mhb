@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "gemini 1.5 cli"
-description: "Gemini 1.5 Pro (CLI Engine)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: gemini 1.5 cli
+description: Gemini 1.5 Pro (CLI Engine)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:3edb5d478921d67e
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[gemini-3.1]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
+- '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
+- '[[gemini-3.1]]'
+- '[[wiki/entities/kimi]]'
 ---
 
 # Gemini 1.5 Pro (CLI Engine)

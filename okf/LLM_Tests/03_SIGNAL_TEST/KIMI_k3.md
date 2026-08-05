@@ -2,11 +2,20 @@
 hash: sha256:9175530aea2fce0d
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "KIMI k3"
-description: "Verified and expanded. Here's the corrected table with missing words added and classifications checked."
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: KIMI k3
+description: Verified and expanded. Here's the corrected table with missing words
+  added and classifications checked.
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 Verified and expanded. Here's the corrected table with missing words added and classifications checked.

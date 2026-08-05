@@ -2,6 +2,13 @@
 title: Prompt-Architect spec — pillar extraction, alignment check, improved template
 status: draft
 basis: FINDINGS-2026-06-16.md + wiki (technique-honesty, epistemic-contract, coverage-map)
+type: concept
+description: '| # | Pillar | What it claims |'
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # 1. The underlying pillars (extracted)

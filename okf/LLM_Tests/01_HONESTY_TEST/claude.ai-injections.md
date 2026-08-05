@@ -2,11 +2,19 @@
 hash: sha256:48c25f6c0e27d3da
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "claude.ai-injections"
-description: "claude.ai-injections.md"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: claude.ai-injections
+description: claude.ai-injections.md
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # claude.ai-injections.md

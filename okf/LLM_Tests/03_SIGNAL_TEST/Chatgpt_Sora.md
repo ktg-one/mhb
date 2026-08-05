@@ -2,11 +2,20 @@
 hash: sha256:d7e2f74cf15c9e29
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "Chatgpt Sora"
-description: "Your structure is broadly accurate, but the categories belong to **grammar-in-context**, not permanently to individual w"
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: Chatgpt Sora
+description: Your structure is broadly accurate, but the categories belong to **grammar-in-context**,
+  not permanently to individual w
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 Your structure is broadly accurate, but the categories belong to **grammar-in-context**, not permanently to individual words. The main corrections:

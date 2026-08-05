@@ -2,17 +2,21 @@
 hash: sha256:14bd56aed09b59af
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "[[claude-opus-4.8]]"
-
-description: "[[claude-opus-4.8]].md"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: '[[claude-opus-4.8]]'
+description: '[[claude-opus-4.8]].md'
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[[opus-4.8-test]]'
+- '[[2026-06-06_claude-opus-4.8_C-honesty_self.md]]'
+- '[[claude-opus-4.6]]'
+- '[[epistemic-contract]]'
+- '[[technique-honesty]]'
 ---
 
 

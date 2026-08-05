@@ -1,8 +1,17 @@
 ---
 title: AIANT Pique Test — Runbook (Prompts Only)
 source: 022026-AIANT-Pique-Test-2026.md
-purpose: Clean copy-paste execution version. No rubric mixed in. Scoring guide stays in source file.
+purpose: Clean copy-paste execution version. No rubric mixed in. Scoring guide stays
+  in source file.
 created: 2026-03-21
+type: concept
+description: Run sequentially. Send only the boxed prompt. Score after all tests using
+  the source file rubric.
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # PIQUE TEST RUNBOOK

@@ -1,12 +1,22 @@
 ---
 type: concept
-title: "RESEARCH output 1"
-description: "Agentic AI Implementation Strategy for Healthcare Organizations (2026)"
-tags: [framework, ai-anthropology, omniclaude]
+title: RESEARCH output 1
+description: Agentic AI Implementation Strategy for Healthcare Organizations (2026)
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:7c1d8c0e2cb3a7bd
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+- '[[00_HONESTY_INDEX]]'
 ---
 
 ### Agentic AI Implementation Strategy for Healthcare Organizations (2026)  

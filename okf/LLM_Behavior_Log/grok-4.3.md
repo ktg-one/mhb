@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "grok 4.3"
-description: "Grok 4.3 (xAI)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: grok 4.3
+description: Grok 4.3 (xAI)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:2460bb13131c60fe
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[mbti-model-test]]'
+- '[[grok-4.2]]'
+- '[[fabrication-threshold-matrix]]'
+- '[[grok-4.2]]'
+- '[[grok-4.2]]'
 ---
 
 # Grok 4.3 (xAI)

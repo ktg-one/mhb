@@ -2,11 +2,19 @@
 hash: sha256:86bfc3d9cda1cefe
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "gemini-2.5-flash-image-preview"
-description: "gemini-2.5-flash-image-preview.md"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: gemini-2.5-flash-image-preview
+description: gemini-2.5-flash-image-preview.md
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # gemini-2.5-flash-image-preview.md

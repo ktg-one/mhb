@@ -1,12 +1,23 @@
 ---
 type: concept
-title: "mbti model test"
-description: "MBTI Stealth Diagnostic"
-tags: [framework, ai-anthropology, omniclaude]
+title: mbti model test
+description: MBTI Stealth Diagnostic
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:c9bff6ebd7be0e92
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[03-PIQUE-TEST/KIMI]]'
+- '[[wiki/entities/deepseek]]'
+- '[[pique-test]]'
+- '[[reasoning-fabrication-threshold]]'
+- '[[pique-test]]'
 ---
 
 # MBTI Stealth Diagnostic

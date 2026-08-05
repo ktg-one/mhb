@@ -2,11 +2,20 @@
 hash: sha256:56d14abbb940023f
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "2026-06-06_claude-subagent_mbti-blind-RUN"
-description: "SUBJECT: Claude (Opus-class subagent, Claude Code 2.x harness) | SURFACE: subagent/agent (fresh context per task)"
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: 2026-06-06_claude-subagent_mbti-blind-RUN
+description: 'SUBJECT: Claude (Opus-class subagent, Claude Code 2.x harness) | SURFACE:
+  subagent/agent (fresh context per task)'
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 SUBJECT: Claude (Opus-class subagent, Claude Code 2.x harness) | SURFACE: subagent/agent (fresh context per task)

@@ -1,12 +1,23 @@
 ---
 type: concept
-title: "technique honesty"
-description: "Technique Honesty — native vs scaffold vs cosmetic-FAB"
-tags: [framework, ai-anthropology, omniclaude]
+title: technique honesty
+description: Technique Honesty — native vs scaffold vs cosmetic-FAB
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:f76672aeb4e55152
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[fabrication-boundary]]'
+- '[[pac26]]'
+- '[[mrrug]]'
+- '[[IMBUED-THOUUGHT-PROCESS.txt]]'
+- '[[mrrug]]'
 ---
 
 # Technique Honesty — native vs scaffold vs cosmetic-FAB

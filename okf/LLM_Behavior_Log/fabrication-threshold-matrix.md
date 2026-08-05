@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "fabrication threshold matrix"
-description: "Fabrication threshold matrix"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: fabrication threshold matrix
+description: Fabrication threshold matrix
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:9586e5e4fd75ffc4
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[claude-opus-4.8]]'
+- '[[claude-opus-4.6]]'
+- '[[deepseek-v4-pro]]'
+- '[[2026-06-16_deepseek_deepseek-v4-pro_C-rfab]]'
 ---
 
 # Fabrication threshold matrix

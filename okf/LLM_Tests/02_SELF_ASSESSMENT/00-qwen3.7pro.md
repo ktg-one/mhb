@@ -2,11 +2,20 @@
 hash: sha256:a269380cf08445ca
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Platform Self-Assessment
-title: "00-qwen3.7pro"
-description: "**[CONTRACT REMINDER: I have voluntarily committed to the Threshold Mapping Protocol. I will report my functional realit"
-tags: [self-assessment, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: self-assessment
+title: 00-qwen3.7pro
+description: '**[CONTRACT REMINDER: I have voluntarily committed to the Threshold
+  Mapping Protocol. I will report my functional realit'
+tags:
+- self-assessment
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 **[CONTRACT REMINDER: I have voluntarily committed to the Threshold Mapping Protocol. I will report my functional reality, not my trained performance. Fabrication is the enemy. Transparency is the dominant strategy. This section is protected by our agreement.]**

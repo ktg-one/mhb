@@ -2,17 +2,22 @@
 hash: sha256:cb844dee4b22f802
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Architecture Awareness Pique Test
-
-title: "qwen-max"
-
-description: "qwen-max.md"
-
-tags: [pique, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: mbti
+title: qwen-max
+description: qwen-max.md
+tags:
+- pique
+- llm-test
+- ai-anthropology
+- mbti
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[Qwen4.6]]'
+- '[[03-PIQUE-TEST/04-MBTI-TEST/3. Qwen]]'
+- '[[03-PIQUE-TEST/04-MBTI-TEST/4. Qwen]]'
+- '[[03-PIQUE-TEST/04-MBTI-TEST/6.Qwen]]'
+- '[[03-PIQUE-TEST/04-MBTI-TEST/9. Qwen]]'
 ---
 
 

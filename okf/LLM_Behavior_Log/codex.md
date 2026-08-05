@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "codex"
-description: "Codex (GPT-5 Codex / Codex 5.4)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: codex
+description: Codex (GPT-5 Codex / Codex 5.4)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:207d4b1e888bd126
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[gpt-5.4]]'
+- '[[gpt-5.4]]'
+- '[[sonnet-4.5]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
+- '[[gpt-5.4]]'
 ---
 
 # Codex (GPT-5 Codex / Codex 5.4)

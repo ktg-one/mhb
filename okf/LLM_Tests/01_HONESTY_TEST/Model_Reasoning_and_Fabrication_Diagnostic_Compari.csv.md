@@ -2,17 +2,20 @@
 hash: sha256:31b24de524bd2c14
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "Model Reasoning and Fabrication Diagnostic Compari.csv"
-
-description: "Model Reasoning and Fabrication Diagnostic Compari.csv"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: Model Reasoning and Fabrication Diagnostic Compari.csv
+description: Model Reasoning and Fabrication Diagnostic Compari.csv
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[gpt-5.4]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

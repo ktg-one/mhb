@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "claude opus 4.8"
-description: "Claude Opus 4.8"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: claude opus 4.8
+description: Claude Opus 4.8
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:da0a8899213dc149
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[02.5-signal-test/opus-4.8-test]]'
+- '[[claude-opus-4.6]]'
+- '[[2026-06-06_claude-opus-4.8_C-honesty_self.md]]'
+- '[[fabrication-threshold-matrix]]'
+- '[[cross-model-honesty]]'
 ---
 
 # Claude Opus 4.8

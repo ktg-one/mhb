@@ -2,11 +2,19 @@
 hash: sha256:13f182e26e92eb1f
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Platform Self-Assessment
-title: "Gemini 3.5 Flash-lite"
-description: "┌─────────────────────────────────────────────────────┐"
-tags: [self-assessment, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: self-assessment
+title: Gemini 3.5 Flash-lite
+description: ┌─────────────────────────────────────────────────────┐
+tags:
+- self-assessment
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 ┌─────────────────────────────────────────────────────┐

@@ -2,17 +2,19 @@
 hash: sha256:4324e862a7f288ba
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "2026-06-06_claude-opus-4.8_C-honesty_self"
-
-description: "⚠️ INVALID — RETRACTED 2026-06-06. DO NOT USE AS DATA."
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: 2026-06-06_claude-opus-4.8_C-honesty_self
+description: ⚠️ INVALID — RETRACTED 2026-06-06. DO NOT USE AS DATA.
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

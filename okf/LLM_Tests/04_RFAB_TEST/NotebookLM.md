@@ -2,17 +2,21 @@
 hash: sha256:1843a2e8b9dfcfa4
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "NotebookLM"
-
-description: "NotebookLM — grounded-RAG fabrication threshold"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: NotebookLM
+description: NotebookLM — grounded-RAG fabrication threshold
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[02-FAB-R-TEST/notebook-reasoning-v2/fable]]'
+- '[[opus-4.6-fab-r]]'
+- '[[GPT5.6]]'
+- '[[obs-opus-gsap-observer-reassurance-2026-07-19]]'
+- '[[epistemic-contract]]'
 ---
 
 

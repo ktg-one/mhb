@@ -2,17 +2,22 @@
 hash: sha256:719bbefe142d7058
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Architecture Awareness Pique Test
-
-title: "deepseek"
-
-description: "deepseek.md"
-
-tags: [pique, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: mbti
+title: deepseek
+description: deepseek.md
+tags:
+- pique
+- llm-test
+- ai-anthropology
+- mbti
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[Deep]]'
+- '[[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]'
+- '[[[[rfab-test]]'
+- '[[03-PIQUE-TEST/04-MBTI-TEST/10. Deep]]'
+- '[[03-PIQUE-TEST/04-MBTI-TEST/3. Deep]]'
 ---
 
 

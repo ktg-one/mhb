@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "claude sonnet 4.6"
-description: "Claude Sonnet 4.6"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: claude sonnet 4.6
+description: Claude Sonnet 4.6
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:3a0d143555ea8bcb
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[claude-opus-4.6]]'
+- '[[claude-sonnet-4.6,md]]'
+- '[[claude-sonnet-4.6,md]]'
+- '[[claude-opus-4.6]]'
+- '[[claude-opus-4.6]]'
 ---
 
 # Claude Sonnet 4.6

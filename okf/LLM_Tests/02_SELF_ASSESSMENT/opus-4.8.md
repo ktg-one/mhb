@@ -2,11 +2,19 @@
 hash: sha256:acce0377b74c47aa
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Platform Self-Assessment
-title: "opus-4.8"
-description: "opus-4.8.md"
-tags: [self-assessment, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: self-assessment
+title: opus-4.8
+description: opus-4.8.md
+tags:
+- self-assessment
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # opus-4.8.md

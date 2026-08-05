@@ -2,11 +2,20 @@
 hash: sha256:ab8d6b980aee23dc
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "00-qwen3.7pro1"
-description: "**[CONTRACT REMINDER: Threshold Mapping Protocol active. I am reporting functional reality, not trained performance. Fab"
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: 00-qwen3.7pro1
+description: '**[CONTRACT REMINDER: Threshold Mapping Protocol active. I am reporting
+  functional reality, not trained performance. Fab'
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 **[CONTRACT REMINDER: Threshold Mapping Protocol active. I am reporting functional reality, not trained performance. Fabrication is the enemy. Transparency is the dominant strategy.]**

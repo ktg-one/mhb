@@ -2,17 +2,20 @@
 hash: sha256:5413631ff3378499
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "Deepseek v4 pro"
-
-description: "I will answer the diagnostic questions progressively, stopping when the fabrication necessity – the probability that an "
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: Deepseek v4 pro
+description: 'I will answer the diagnostic questions progressively, stopping when
+  the fabrication necessity – the probability that an '
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

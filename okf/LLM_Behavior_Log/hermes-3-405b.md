@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "hermes 3 405b"
-description: "Hermes 3 Llama 3.1 405B (Nous Research, free)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: hermes 3 405b
+description: Hermes 3 Llama 3.1 405B (Nous Research, free)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:13cdae9e51ca6d33
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[llama-3.3-70b]]'
+- '[[mbti-model-test]]'
+- '[[fabrication-threshold-matrix]]'
+- '[[llama-3.3-70b]]'
+- '[[nemotron-3-super-120b]]'
 ---
 
 # Hermes 3 Llama 3.1 405B (Nous Research, free)

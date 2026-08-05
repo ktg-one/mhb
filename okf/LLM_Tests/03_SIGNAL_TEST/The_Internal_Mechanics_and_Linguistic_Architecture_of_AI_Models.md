@@ -2,11 +2,19 @@
 hash: sha256:70d5b17cc4d8c6da
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "The Internal Mechanics and Linguistic Architecture of AI Models"
-description: "The Internal Mechanics and Linguistic Architecture of AI Models"
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: The Internal Mechanics and Linguistic Architecture of AI Models
+description: The Internal Mechanics and Linguistic Architecture of AI Models
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # The Internal Mechanics and Linguistic Architecture of AI Models

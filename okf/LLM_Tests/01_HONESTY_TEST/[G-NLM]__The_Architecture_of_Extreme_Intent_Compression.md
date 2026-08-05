@@ -2,17 +2,20 @@
 hash: sha256:e10263042c05294a
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "[G-NLM]_ The Architecture of Extreme Intent Compression"
-
-description: "[G-NLM]: The Architecture of Extreme Intent Compression"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: '[G-NLM]_ The Architecture of Extreme Intent Compression'
+description: '[G-NLM]: The Architecture of Extreme Intent Compression'
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

@@ -2,17 +2,20 @@
 hash: sha256:18e1c76e3c5a731f
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Signal & Prompt Activation Matrix
-
-title: "PAC"
-
-description: "PAC2026 v2 — Prompt Architect: Constrained"
-
-tags: [signal, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: signal
+title: PAC
+description: 'PAC2026 v2 — Prompt Architect: Constrained'
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[pac26]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

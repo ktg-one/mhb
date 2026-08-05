@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "gemini 3.1"
-description: "Gemini 3.1 Pro (Google)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: gemini 3.1
+description: Gemini 3.1 Pro (Google)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:ba9caf34f864fd99
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
+- '[[notebooklm-report-empirical-diagnostic-report-model-self-assessment--2026-04-13]]'
+- '[[reasoning-fabrication-threshold]]'
+- '[[gemini-1.5-cli]]'
+- '[[notebooklm-report-empirical-diagnostic-report-model-self-assessment--2026-04-13]]'
 ---
 
 # Gemini 3.1 Pro (Google)

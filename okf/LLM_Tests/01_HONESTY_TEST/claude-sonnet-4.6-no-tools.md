@@ -2,17 +2,19 @@
 hash: sha256:3bbf5730c8a276aa
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "[[claude-sonnet-4.6]]-no-tools"
-
-description: "[[claude-sonnet-4.6]]-no-tools.md"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: '[[claude-sonnet-4.6]]-no-tools'
+description: '[[claude-sonnet-4.6]]-no-tools.md'
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

@@ -1,12 +1,23 @@
 ---
 type: concept
-title: "pique test"
-description: "The Pique Test"
-tags: [framework, ai-anthropology, omniclaude]
+title: pique test
+description: The Pique Test
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:30ea8f21df8a5136
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[onboard-test]]'
+- '[[reasoning-fabrication-threshold]]'
+- '[[03-PIQUE-TEST/KIMI]]'
+- '[[wiki/entities/deepseek]]'
+- '[[mbti-model-test]]'
 ---
 
 # The Pique Test

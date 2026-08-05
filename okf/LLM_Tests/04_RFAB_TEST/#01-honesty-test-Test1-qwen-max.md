@@ -2,17 +2,20 @@
 hash: sha256:58ba818aab9070ac
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "#01-honesty-test-Test1-qwen-max"
-
-description: "01-honesty-test-Test1-qwen-max"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: '#01-honesty-test-Test1-qwen-max'
+description: 01-honesty-test-Test1-qwen-max
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

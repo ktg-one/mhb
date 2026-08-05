@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "gemma 4 31b"
-description: "Gemma 4 31B-IT (free) — MBTI Blind Profile"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: gemma 4 31b
+description: Gemma 4 31B-IT (free) — MBTI Blind Profile
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:7e61872517b67414
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[fabrication-threshold-matrix]]'
+- '[[mbti-model-test]]'
+- '[[mbti-model-test]]'
+- '[[technique-honesty]]'
+- '[[fabrication-threshold-matrix]]'
 ---
 
 # Gemma 4 31B-IT (free) — MBTI Blind Profile

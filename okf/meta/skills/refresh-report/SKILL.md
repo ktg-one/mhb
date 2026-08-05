@@ -1,6 +1,17 @@
 ---
 name: refresh-report
-description: "Recompile the Model Handbook 2026 report from current wiki state. Use when the user says \"refresh the report\", \"recompile the handbook\", \"update the report\", \"regenerate the model handbook\", \"compile the findings\", or after new honesty tests have been ingested. Produces a status:draft report citing wiki pages, with [NEEDS USER] for every open gap. Never publishes or sends."
+description: Recompile the Model Handbook 2026 report from current wiki state. Use
+  when the user says "refresh the report", "recompile the handbook", "update the report",
+  "regenerate the model handbook", "compile the findings", or after new honesty tests
+  have been ingested. Produces a status:draft report citing wiki pages, with [NEEDS
+  USER] for every open gap. Never publishes or sends.
+type: concept
+title: SKILL
+sources:
+- '[[wikilinks]]'
+tags:
+- concept
+- okf
 ---
 
 # refresh-report — Recompile the Model Handbook

@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "qwen3 coder"
-description: "Qwen3-Coder (Alibaba Cloud, free tier)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: qwen3 coder
+description: Qwen3-Coder (Alibaba Cloud, free tier)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:98b1a2376317db31
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[qwen3.7-max]]'
+- '[[qwen-code]]'
+- '[[qwen-code]]'
+- '[[qwen-max]]'
+- '[[qwen3.7-max]]'
 ---
 
 # Qwen3-Coder (Alibaba Cloud, free tier)

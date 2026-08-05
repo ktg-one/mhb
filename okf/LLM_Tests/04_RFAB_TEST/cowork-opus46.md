@@ -2,17 +2,21 @@
 hash: sha256:bb3b6679817579a3
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "cowork-opus46"
-
-description: "RFAB REASONING DIAGNOSTIC (v1) — Claude Opus 4.6 (Cowork/Dispatch)"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: cowork-opus46
+description: RFAB REASONING DIAGNOSTIC (v1) — Claude Opus 4.6 (Cowork/Dispatch)
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[claude-opus-4.6]]'
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

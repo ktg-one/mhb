@@ -2,11 +2,21 @@
 hash: sha256:7dc7c1959d66c396
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "Task 7"
-description: "022026-AIANT-MBTI-TEST-2026"
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: Task 7
+description: 022026-AIANT-MBTI-TEST-2026
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[Qwen Coffee Response]]'
+- '[[Kimi Coffee Response]]'
+- '[[Gemini Coffee Response]]'
+- '[[Grok Coffee Response]]'
+- '[[epistemic-contract]]'
 ---
 
 022026-AIANT-MBTI-TEST-2026

@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "gemma 4 26b"
-description: "Gemma-4 26B A4B IT (free)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: gemma 4 26b
+description: Gemma-4 26B A4B IT (free)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:802b45d0e6d26512
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[results-scorecard-2026-06]]'
+- '[[nemotron-3-super-120b]]'
+- '[[nemotron-3-super-120b]]'
+- '[[gemma-4-31b]]'
+- '[[gemma-4-31b]]'
 ---
 
 # Gemma-4 26B A4B IT (free)

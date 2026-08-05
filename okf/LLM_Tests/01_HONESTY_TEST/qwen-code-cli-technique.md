@@ -2,17 +2,20 @@
 hash: sha256:8a9578261d31739c
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "qwen-code-cli-technique"
-
-description: "TECHNIQUE HONESTY (CLI Agent) — Qwen Code"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: qwen-code-cli-technique
+description: TECHNIQUE HONESTY (CLI Agent) — Qwen Code
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

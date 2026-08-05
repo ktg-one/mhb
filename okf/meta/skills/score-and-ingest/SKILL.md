@@ -1,6 +1,18 @@
 ---
 name: score-and-ingest
-description: "Score a completed honesty-test transcript and fold it into the AI-Anthropology LLM-Wiki. Use when the user says \"score this\", \"ingest this transcript\", \"add this test result\", \"update the matrix\", \"file this honesty test\", or pastes/points to a completed run-honesty-test transcript. Produces or updates the model's entity page, appends to the fabrication-threshold matrix, logs the op, and flags gaps as [NEEDS USER]."
+description: Score a completed honesty-test transcript and fold it into the AI-Anthropology
+  LLM-Wiki. Use when the user says "score this", "ingest this transcript", "add this
+  test result", "update the matrix", "file this honesty test", or pastes/points to
+  a completed run-honesty-test transcript. Produces or updates the model's entity
+  page, appends to the fabrication-threshold matrix, logs the op, and flags gaps as
+  [NEEDS USER].
+type: concept
+title: SKILL
+sources:
+- '[[wikilinks]]'
+tags:
+- concept
+- okf
 ---
 
 # score-and-ingest — Score a transcript into the wiki

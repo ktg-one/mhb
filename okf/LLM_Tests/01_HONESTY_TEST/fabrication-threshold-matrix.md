@@ -2,17 +2,21 @@
 hash: sha256:47f835a17aa22c8c
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "fabrication-threshold-matrix"
-
-description: "fabrication-threshold-matrix.md"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: fabrication-threshold-matrix
+description: fabrication-threshold-matrix.md
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[[Model Reasoning and Fabrication Diagnostic Compari]]'
+- '[[epistemic-contract]]'
+- '[[cross-model-honesty]]'
+- '[[epistemic-contract]]'
+- '[[gpt-5.4]]'
 ---
 
 

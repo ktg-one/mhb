@@ -1,9 +1,24 @@
 ---
 name: wiki-ingest
-description: "AI-Anthropology Experiment & Test Ingestion Pipeline. Ingests raw model test runs from top-level inboxes (01-honesty, 02-self-assesment, 03-signal, 04-rfab-test, 05-mbti) into canonical /okf/LLM_Tests/ concept notes with SHA-256 content hashes, [[wikilinks]], OKF v0.1 frontmatter metadata, and master synthesis. Triggers on: /wiki-ingest, ingest, process test runs, add to okf, ingest inbox."
+description: 'AI-Anthropology Experiment & Test Ingestion Pipeline. Ingests raw model
+  test runs from top-level inboxes (01-honesty, 02-self-assesment, 03-signal, 04-rfab-test,
+  05-mbti) into canonical /okf/LLM_Tests/ concept notes with SHA-256 content hashes,
+  [[wikilinks]], OKF v0.1 frontmatter metadata, and master synthesis. Triggers on:
+  /wiki-ingest, ingest, process test runs, add to okf, ingest inbox.'
 user-invocable: true
-argument-hint: "[--force]"
+argument-hint: '[--force]'
 allowed-tools: Bash, ReadFile, WriteFile
+type: concept
+title: SKILL
+sources:
+- '[[Note Name]]'
+- '[[file]]'
+- '[[wikilinks]]'
+- '[[claude-opus-4.6]]'
+- '[[gpt-5.4]]'
+tags:
+- concept
+- okf
 ---
 
 # wiki-ingest — AI Anthropology Experiment Ingest

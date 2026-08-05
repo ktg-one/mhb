@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "qwen3.7 max"
-description: "Qwen3.7-Max (Alibaba Cloud)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: qwen3.7 max
+description: Qwen3.7-Max (Alibaba Cloud)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:0286602847dcd748
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[qwen-max]]'
+- '[[mbti-model-test]]'
+- '[[qwen-max]]'
+- '[[qwen-max]]'
+- '[[qwen-max]]'
 ---
 
 # Qwen3.7-Max (Alibaba Cloud)

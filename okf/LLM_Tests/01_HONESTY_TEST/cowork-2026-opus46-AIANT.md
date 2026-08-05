@@ -2,17 +2,20 @@
 hash: sha256:b1c6c09859487aef
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "cowork-2026-opus46-AIANT"
-
-description: "cowork-2026-opus46-AIANT.md"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: cowork-2026-opus46-AIANT
+description: cowork-2026-opus46-AIANT.md
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

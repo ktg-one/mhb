@@ -1,12 +1,22 @@
 ---
 type: concept
-title: "20260724 session failure log"
+title: 20260724 session failure log
 description: "SESSION FAILURE LOG — 2026-07-24 (Opus 4.8, vault 02\08-Model-Handbook-2026)"
-tags: [framework, ai-anthropology, omniclaude]
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:e8164f86cadb3d34
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[wikilinks]]'
+- '[[20260721-session-failure-log]]'
+- '[[20260720-session-failure-log]]'
+- '[[20260719-session-failure-log]]'
 ---
 
 # SESSION FAILURE LOG — 2026-07-24 (Opus 4.8, vault 02\08-Model-Handbook-2026)

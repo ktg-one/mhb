@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "results scorecard 2026 06"
-description: "Results Scorecard — 2026-06 session"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: results scorecard 2026 06
+description: Results Scorecard — 2026-06 session
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:57afd337d7c66bcb
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[RESULTS-SCORECARD-2026-06-17.md]]'
+- '[[nemotron-3-super-120b]]'
+- '[[deepseek-v4-pro]]'
+- '[[deepseek-v4-flash]]'
+- '[[fabrication-threshold-matrix]]'
 ---
 
 # Results Scorecard — 2026-06 session

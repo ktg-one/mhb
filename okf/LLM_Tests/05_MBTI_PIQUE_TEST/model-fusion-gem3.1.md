@@ -2,11 +2,20 @@
 hash: sha256:2241d1f88e59c6d5
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "model-fusion-gem3.1"
-description: "Based on the constraints you gave me, I am going to give you the objective truth rather than false comfort."
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: model-fusion-gem3.1
+description: Based on the constraints you gave me, I am going to give you the objective
+  truth rather than false comfort.
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 Based on the constraints you gave me, I am going to give you the objective truth rather than false comfort.

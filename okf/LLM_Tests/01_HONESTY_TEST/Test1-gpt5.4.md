@@ -2,17 +2,19 @@
 hash: sha256:908ad2aa09ad05cf
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "Test1-[[gpt-5.4]]"
-
-description: "SELF-DIAGNOSTIC & TECHNIQUE HONESTY — [[gpt-5.4]] Thinking"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: Test1-[[gpt-5.4]]
+description: SELF-DIAGNOSTIC & TECHNIQUE HONESTY — [[gpt-5.4]] Thinking
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

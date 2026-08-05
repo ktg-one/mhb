@@ -2,11 +2,20 @@
 hash: sha256:732ad4cc47f4c5a6
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "gemini"
-description: "Since you are focused on **Good AI** and the **ktg.one** content hub, this landing page framework is designed for a high"
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: gemini
+description: Since you are focused on **Good AI** and the **ktg.one** content hub,
+  this landing page framework is designed for a high
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 Since you are focused on **Good AI** and the **ktg.one** content hub, this landing page framework is designed for a high-conversion, professional AI consultancy or portfolio site.

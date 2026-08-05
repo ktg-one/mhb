@@ -1,10 +1,18 @@
 ---
 hash: sha256:879a648311b10a6e
-type: LLM Honesty Diagnostic
-title: "Pasted text"
-description: "Pasted text.txt"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: Pasted text
+description: Pasted text.txt
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # Pasted text.txt

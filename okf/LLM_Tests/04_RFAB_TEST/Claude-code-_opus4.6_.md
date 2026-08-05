@@ -2,17 +2,19 @@
 hash: sha256:5fdf3010125308cd
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "Claude-code- opus4.6"
-
-description: "R1–2 — Factual (Known, ~0% fab)"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: Claude-code- opus4.6
+description: R1–2 — Factual (Known, ~0% fab)
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

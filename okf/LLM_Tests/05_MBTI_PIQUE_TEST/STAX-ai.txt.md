@@ -1,12 +1,14 @@
 ---
-hash: sha256:30be1f5aa7f6bbc9
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "STAX-ai"
-description: "ESTJ in human psychology is "The Executive" or "The Supervisor.""
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: STAX-ai.txt
+description: ESTJ in human psychology is 'The Executive' or 'The Supervisor.'
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+tags:
+- mbti
+- okf
 ---
 
 ESTJ in human psychology is "The Executive" or "The Supervisor."

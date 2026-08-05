@@ -2,11 +2,19 @@
 hash: sha256:4d7a5f27533d4456
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "AI Has Changed Completely_ Here's What Matters in 2026"
-description: "AI Has Changed Completely: Here's What Matters in 2026"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: AI Has Changed Completely_ Here's What Matters in 2026
+description: 'AI Has Changed Completely: Here''s What Matters in 2026'
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # AI Has Changed Completely: Here's What Matters in 2026

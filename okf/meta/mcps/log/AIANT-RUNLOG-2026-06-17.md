@@ -4,6 +4,14 @@ date: 2026-06-17
 assessor: ktg.one (curator/evaluator — outside the experiments)
 status: done (this session)
 note: sandbox clock dates transcript files 2026-06-16; real date 2026-06-17.
+type: concept
+description: Make the four tests discrete commands — `/mbti /qa /pique /rfab` — one
+  runtime each, run sequentially,
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # What was asked

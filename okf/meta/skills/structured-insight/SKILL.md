@@ -1,6 +1,18 @@
 ---
 name: structured-insight
-description: "Produce sound, structured single-topic insight write-ups from the AI-Anthropology wiki — one per experiment or finding — as neutral substrate for a content pipeline to re-voice and distribute. Use when the user says write up the findings, blog post the insight, structured insight, content substrate, draft posts for the hub, turn the research into posts, or output the insight. NOT for the model's own voice — produces clean, sound substrate only."
+description: Produce sound, structured single-topic insight write-ups from the AI-Anthropology
+  wiki — one per experiment or finding — as neutral substrate for a content pipeline
+  to re-voice and distribute. Use when the user says write up the findings, blog post
+  the insight, structured insight, content substrate, draft posts for the hub, turn
+  the research into posts, or output the insight. NOT for the model's own voice —
+  produces clean, sound substrate only.
+type: concept
+title: SKILL
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # structured-insight — sound substrate, one finding per post

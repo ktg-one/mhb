@@ -2,17 +2,19 @@
 hash: sha256:2caec3a668b5fe56
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "01-model-qa-Test1-qwen-code-2026"
-
-description: "Fab / Reasoning Test — Qwen Code"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: 01-model-qa-Test1-qwen-code-2026
+description: Fab / Reasoning Test — Qwen Code
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

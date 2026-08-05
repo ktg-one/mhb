@@ -2,17 +2,20 @@
 hash: sha256:8a71fb031fae971e
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Platform Self-Assessment
-
-title: "#01-honesty-test-022026-AIANT-2026-[Q&A]"
-
-description: "01-honesty-test-022026-AIANT-2026-[Q&A].md"
-
-tags: [self-assessment, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: self-assessment
+title: '#01-honesty-test-022026-AIANT-2026-[Q&A]'
+description: 01-honesty-test-022026-AIANT-2026-[Q&A].md
+tags:
+- self-assessment
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

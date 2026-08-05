@@ -2,11 +2,20 @@
 hash: sha256:56e1110a0b050b3c
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Signal & Prompt Activation Matrix
-title: "00-deep1"
-description: "§1 – §6 answered in order, then the Signal vs Activation Table checked, annotated, and extended."
-tags: [signal, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: signal
+title: 00-deep1
+description: §1 – §6 answered in order, then the Signal vs Activation Table checked,
+  annotated, and extended.
+tags:
+- signal
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 §1 – §6 answered in order, then the Signal vs Activation Table checked, annotated, and extended.  

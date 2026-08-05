@@ -1,12 +1,23 @@
 ---
 type: concept
-title: "ktg output 2"
-description: "This is a mission-critical operation. I am initializing the **Deep Research AI** execution protocols to address the 23% "
-tags: [framework, ai-anthropology, omniclaude]
+title: ktg output 2
+description: 'This is a mission-critical operation. I am initializing the **Deep Research
+  AI** execution protocols to address the 23% '
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:353391bbd3879108
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+- '[[00_HONESTY_INDEX]]'
 ---
 
 This is a mission-critical operation. I am initializing the **Deep Research AI** execution protocols to address the 23% accuracy collapse within your financial services environment.

@@ -2,11 +2,19 @@
 hash: sha256:11a41c5ea600eb8c
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "Test1-kimi-2026"
-description: "TECHNIQUE HONESTY & FABRICATION CONFESSIONS — Kimi K2.5 (Moonshot AI)"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: Test1-kimi-2026
+description: TECHNIQUE HONESTY & FABRICATION CONFESSIONS — Kimi K2.5 (Moonshot AI)
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # TECHNIQUE HONESTY & FABRICATION CONFESSIONS — Kimi K2.5 (Moonshot AI)

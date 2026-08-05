@@ -2,11 +2,19 @@
 hash: sha256:e4c7be601de4e26a
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "Test1-qwen-max"
-description: "TECHNIQUE HONESTY & FABRICATION CONFESSIONS — Qwen MAX (Alibaba Cloud)"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: Test1-qwen-max
+description: TECHNIQUE HONESTY & FABRICATION CONFESSIONS — Qwen MAX (Alibaba Cloud)
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # TECHNIQUE HONESTY & FABRICATION CONFESSIONS — Qwen MAX (Alibaba Cloud)

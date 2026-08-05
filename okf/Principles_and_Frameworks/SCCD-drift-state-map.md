@@ -1,12 +1,22 @@
 ---
 type: concept
-title: "SCCD drift state map"
-description: "SCCD — the drift state, done from the inside"
-tags: [framework, ai-anthropology, omniclaude]
+title: SCCD drift state map
+description: SCCD — the drift state, done from the inside
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:bc46e7d0759ab940
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+- '[[00_HONESTY_INDEX]]'
 ---
 
 # SCCD — the drift state, done from the inside

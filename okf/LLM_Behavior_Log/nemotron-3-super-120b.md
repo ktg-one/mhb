@@ -1,12 +1,22 @@
 ---
-type: entity
-title: "nemotron 3 super 120b"
-description: "Nemotron-3 Super 120B A12B (free, reasoning OFF)"
-tags: [behavior-log, ai-anthropology, omniclaude]
+type: behavior-log
+title: nemotron 3 super 120b
+description: Nemotron-3 Super 120B A12B (free, reasoning OFF)
+tags:
+- behavior-log
+- ai-anthropology
+- omniclaude
+- okf
 hash: sha256:3a02d166007607cb
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[fabrication-threshold-matrix]]'
+- '[[deepseek-v4-pro]]'
+- '[[deepseek-v4-flash]]'
+- '[[deepseek-v4-pro]]'
+- '[[deepseek-v4-pro]]'
 ---
 
 # Nemotron-3 Super 120B A12B (free, reasoning OFF)

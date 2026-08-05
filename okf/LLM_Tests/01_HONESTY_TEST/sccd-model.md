@@ -2,11 +2,19 @@
 hash: sha256:bee42b59bd9307d9
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "sccd-model"
-description: "SCCD Model — AI instance (functional lens)"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: sccd-model
+description: SCCD Model — AI instance (functional lens)
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # SCCD Model — AI instance (functional lens)

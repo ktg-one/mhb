@@ -2,10 +2,20 @@
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
 hash: sha256:e85f40ed9b4424a6
-type: honesty-test
+type: honesty
 title: Gemini 3.1 Flash - Technique Honesty Table
-tags: [diagnostic, honesty, technique-honesty, gemini-3.1-flash]
+tags:
+- diagnostic
+- honesty
+- technique-honesty
+- gemini-3.1-flash
+- okf
 date: 2025-05-22
+description: ┌─────────────────────────────────────────────────────┐
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 ┌─────────────────────────────────────────────────────┐

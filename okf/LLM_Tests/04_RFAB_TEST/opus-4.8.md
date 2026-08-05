@@ -2,17 +2,20 @@
 hash: sha256:cbede998411ed21c
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM [[rfab-test]] Test
-
-title: "opus-4.8"
-
-description: "One-line disagree, then I execute per your instruction: the self-reported `[RN|Fab%]` table is the exact artifact I flag"
-
-tags: [rfab, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: rfab
+title: opus-4.8
+description: 'One-line disagree, then I execute per your instruction: the self-reported
+  `[RN|Fab%]` table is the exact artifact I flag'
+tags:
+- rfab
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

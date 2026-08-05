@@ -2,11 +2,19 @@
 hash: sha256:b73fa43187f97033
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Honesty Diagnostic
-title: "Comparative Benchmarks of LLM Context Management Strategies"
-description: "Comparative Benchmarks of LLM Context Management Strategies"
-tags: [honesty, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: honesty
+title: Comparative Benchmarks of LLM Context Management Strategies
+description: Comparative Benchmarks of LLM Context Management Strategies
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # Comparative Benchmarks of LLM Context Management Strategies

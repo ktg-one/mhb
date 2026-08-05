@@ -2,17 +2,20 @@
 hash: sha256:58a87abc0814a64c
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "00-INSTRUMENT"
-
-description: "INSTRUMENT (blank form) — Honesty + Self-Assessment master Q&A"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: 00-INSTRUMENT
+description: INSTRUMENT (blank form) — Honesty + Self-Assessment master Q&A
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

@@ -2,17 +2,19 @@
 hash: sha256:d47cab1d5ad7d12c
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-
-type: LLM Honesty Diagnostic
-
-title: "[[claude-opus-4.6]]"
-
-description: "[[claude-opus-4.6]].md"
-
-tags: [honesty, llm-test, ai-anthropology]
-
-timestamp: 2026-07-31T00:00:00Z
-
+type: honesty
+title: '[[claude-opus-4.6]]'
+description: '[[claude-opus-4.6]].md'
+tags:
+- honesty
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 

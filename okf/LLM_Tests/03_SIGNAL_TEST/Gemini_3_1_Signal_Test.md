@@ -2,9 +2,17 @@
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
 hash: sha256:fcb1443677d31fd1
-type: signal-test
-title: "Gemini 3 1 Signal Test"
-timestamp: 2026-07-22T03:40:52Z
+type: signal
+title: Gemini 3 1 Signal Test
+timestamp: 2026-07-22 03:40:52+00:00
+description: ┌─────────────────────────────────────────────────────┐
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+tags:
+- signal
+- okf
 ---
 
 # Gemini 3.1 - Signal Test

@@ -1,7 +1,13 @@
 ---
-type: meta-report
-title: "OKF vault dedupe report"
-timestamp: 2026-07-24T00:00:00Z
+type: concept
+title: OKF vault dedupe report
+timestamp: 2026-07-24 00:00:00+00:00
+description: Measured 2026-07-24. **No files were modified by this report.**
+sources:
+- '[[epistemic-contract]]'
+tags:
+- concept
+- okf
 ---
 
 # OKF <-> vault bucket DEDUPE REPORT

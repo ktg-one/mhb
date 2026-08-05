@@ -1,12 +1,22 @@
 ---
 type: concept
-title: "SCCD Flow Guide"
-description: "SCCD Model - Flow, Install, Use-Case Guide"
-tags: [framework, ai-anthropology, omniclaude]
+title: SCCD Flow Guide
+description: SCCD Model - Flow, Install, Use-Case Guide
+tags:
+- framework
+- ai-anthropology
+- omniclaude
+- concept
+- okf
 hash: sha256:0fbeaf7b98f6426a
 created: 2026-07-31T01:48
 updated: 2026-07-31T01:48
-timestamp: 2026-07-31T01:48:00Z
+timestamp: 2026-07-31 01:48:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
+- '[[00_HONESTY_INDEX]]'
 ---
 
 # SCCD Model - Flow, Install, Use-Case Guide

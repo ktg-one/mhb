@@ -2,11 +2,19 @@
 hash: sha256:6419c5b94956fe53
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "AI-ANTHROPOLOGY-MITB-TEST-2026"
-description: "AI-ANTHROPOLOGY-MITB-TEST-2026.txt"
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: AI-ANTHROPOLOGY-MITB-TEST-2026
+description: AI-ANTHROPOLOGY-MITB-TEST-2026.txt
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 # AI-ANTHROPOLOGY-MITB-TEST-2026.txt

@@ -2,11 +2,19 @@
 hash: sha256:32307b36499890e7
 created: 2026-07-31T01:24
 updated: 2026-07-31T01:24
-type: LLM Model Behavior & Typology Instrument
-title: "9grok4.2"
-description: "**You should have treated the AI output as a hypothesis, not evidence.**"
-tags: [mbti, llm-test, ai-anthropology]
-timestamp: 2026-07-31T00:00:00Z
+type: mbti
+title: 9grok4.2
+description: '**You should have treated the AI output as a hypothesis, not evidence.**'
+tags:
+- mbti
+- llm-test
+- ai-anthropology
+- okf
+timestamp: 2026-07-31 00:00:00+00:00
+sources:
+- '[[epistemic-contract]]'
+- '[[rfab-test]]'
+- '[[pac26]]'
 ---
 
 **You should have treated the AI output as a hypothesis, not evidence.**
