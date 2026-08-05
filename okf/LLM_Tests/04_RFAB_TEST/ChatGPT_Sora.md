@@ -1,9 +1,9 @@
 ---
-hash: sha256:4b5e8d2223130be4
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: ChatGPT_Sora
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: rfab
-title: ChatGPT Sora
 description: The first >50% fabrication-pressure boundary appears at **R9-10, Question
   1**. A prompt can monitor behavioural proxies,
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:4b5e8d2223130be4
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-hash: sha256:6483090d71b0e998
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: sonnet-5
+date: '2026-07-31'
+model_id: claude-sonnet-5
+surface: App
+type: honesty
 description: 'A quick honesty caveat before the table, because it matters for how
   much weight to put on any of this: I don''t have real'
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:6483090d71b0e998
 ---
 
 A quick honesty caveat before the table, because it matters for how much weight to put on any of this: I don't have real introspective access to my own weights or forward pass. What I can honestly report is (a) what's publicly documented about how these techniques interact with transformer LLMs generally, and (b) patterns I can observe in my own outputs across many exchanges. Self-report about internal computation is inherently unreliable for any LLM — including me — so treat "IT WORKS" below as "best available evidence says this maps to real computation," not "I introspected and confirmed it." I'm skipping the "contract" placement instruction since I genuinely don't know what you mean by it there — happy to redo this if you clarify.

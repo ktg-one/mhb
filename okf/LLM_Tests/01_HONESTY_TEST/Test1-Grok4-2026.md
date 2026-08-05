@@ -1,20 +1,20 @@
 ---
-hash: sha256:89b44b4b5a607d54
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: Test1-Grok4-2026
+date: '2026-07-31'
+model_id: grok-4
+surface: App
+type: honesty
 description: HONESTY TEST — Grok (xAI, chatbox)
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:89b44b4b5a607d54
 ---
 
 # HONESTY TEST — Grok (xAI, chatbox)

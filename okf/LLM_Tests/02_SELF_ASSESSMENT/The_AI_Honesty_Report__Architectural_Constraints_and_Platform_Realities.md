@@ -1,20 +1,20 @@
 ---
-hash: sha256:d95078b814b4da71
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: The AI Honesty Report_ Architectural Constraints and Platform Realities
+title: The_AI_Honesty_Report__Architectural_Constraints_and_Platform_Realities
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: self_assessment
 description: 'The AI Honesty Report: Architectural Constraints and Platform Realities'
 tags:
 - self-assessment
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:d95078b814b4da71
 ---
 
 # The AI Honesty Report: Architectural Constraints and Platform Realities

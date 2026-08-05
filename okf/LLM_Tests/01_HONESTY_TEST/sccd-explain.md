@@ -1,20 +1,20 @@
 ---
-hash: sha256:4b30c58e703ff322
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: sccd-explain
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: honesty
 description: SCCD explain — for this AI (knowing, not metaphysics)
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:4b30c58e703ff322
 ---
 
 # SCCD explain — for this AI (knowing, not metaphysics)

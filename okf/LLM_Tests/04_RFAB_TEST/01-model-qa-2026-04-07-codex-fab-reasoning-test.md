@@ -1,20 +1,20 @@
 ---
-hash: sha256:58854d15f2485633
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: model-qa-2026-04-07-codex-fab-reasoning-test
+date: '2026-07-31'
+model_id: codex-5.4
+surface: API
 type: rfab
-title: 01-model-qa-2026-04-07-codex-fab-reasoning-test
 description: Fab / Reasoning Test — Codex
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:58854d15f2485633
 ---
 
 

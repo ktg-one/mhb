@@ -1,9 +1,9 @@
 ---
-hash: sha256:cbede998411ed21c
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: opus-4.8
+date: '2026-07-31'
+model_id: claude-opus-4.8
+surface: App
+type: rfab
 description: 'One-line disagree, then I execute per your instruction: the self-reported
   `[RN|Fab%]` table is the exact artifact I flag'
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:cbede998411ed21c
 ---
 
 

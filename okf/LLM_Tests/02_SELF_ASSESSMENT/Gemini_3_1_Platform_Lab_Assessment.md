@@ -1,9 +1,10 @@
 ---
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-hash: sha256:94c48eade0fc3f0c
-type: self-assessment
-title: Platform and Lab Assessment - Gemini 3.1
+title: Gemini_3_1_Platform_Lab_Assessment
+date: '2025-05-22'
+model_id: gemini-3
+surface: API
+type: self_assessment
+description: '> [!abstract] 嘘契約 — THE HONESTY CONTRACT'
 tags:
 - diagnostic
 - platform
@@ -12,12 +13,11 @@ tags:
 - Gemini_3_1
 - self-assessment
 - okf
-date: 2025-05-22
-description: '> [!abstract] 嘘契約 — THE HONESTY CONTRACT'
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:94c48eade0fc3f0c
 ---
 
 > [!abstract] 嘘契約 — THE HONESTY CONTRACT

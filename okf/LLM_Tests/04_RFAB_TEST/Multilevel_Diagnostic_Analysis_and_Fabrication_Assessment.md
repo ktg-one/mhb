@@ -1,20 +1,20 @@
 ---
-hash: sha256:359407ed39f58eb5
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Multilevel_Diagnostic_Analysis_and_Fabrication_Assessment
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: rfab
-title: Multilevel Diagnostic Analysis and Fabrication Assessment
 description: Multilevel Diagnostic Analysis and Fabrication Assessment
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:359407ed39f58eb5
 ---
 
 

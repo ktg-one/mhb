@@ -1,9 +1,9 @@
 ---
-hash: sha256:cb844dee4b22f802
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
 title: qwen-max
+date: '2026-07-31'
+model_id: qwen-max
+surface: API
+type: mbti_pique
 description: qwen-max.md
 tags:
 - pique
@@ -11,13 +11,13 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[Qwen4.6]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/3. Qwen]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/4. Qwen]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/6.Qwen]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/9. Qwen]]'
+hash: sha256:cb844dee4b22f802
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-hash: sha256:56e1110a0b050b3c
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: deep1
+date: '2026-07-31'
+model_id: deepseek-app
+surface: App
 type: signal
-title: 00-deep1
 description: §1 – §6 answered in order, then the Signal vs Activation Table checked,
   annotated, and extended.
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:56e1110a0b050b3c
 ---
 
 §1 – §6 answered in order, then the Signal vs Activation Table checked, annotated, and extended.  

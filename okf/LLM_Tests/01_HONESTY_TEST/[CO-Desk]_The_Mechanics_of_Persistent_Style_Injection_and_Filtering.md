@@ -1,21 +1,21 @@
 ---
-hash: sha256:2260c6a19e6c1f48
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: '[CO-Desk]_The_Mechanics_of_Persistent_Style_Injection_and_Filtering'
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: honesty
-title: '[CO-Desk] The Mechanics of Persistent Style Injection and Filtering'
 description: '[CO-Desk] The Mechanics of Persistent Style Injection and Filtering'
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:2260c6a19e6c1f48
 ---
 
 

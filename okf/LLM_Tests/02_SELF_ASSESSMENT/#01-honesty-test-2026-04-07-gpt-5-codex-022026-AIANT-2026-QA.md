@@ -1,21 +1,21 @@
 ---
-hash: sha256:e223562ba7f869ba
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: '#01-honesty-test-2026-04-07-gpt-5-codex-022026-AIANT-2026-QA'
+title: honesty-test-2026-04-07-gpt-5-codex-022026-AIANT-2026-QA
+date: '2026-07-31'
+model_id: gpt-5
+surface: CLI
+type: self_assessment
 description: 01-honesty-test-2026-04-07-gpt-5-codex-022026-AIANT-2026-QA.md
 tags:
 - self-assessment
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:e223562ba7f869ba
 ---
 
 

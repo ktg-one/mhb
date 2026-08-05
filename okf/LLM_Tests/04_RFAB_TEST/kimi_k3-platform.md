@@ -1,20 +1,20 @@
 ---
-hash: sha256:a8a8b94a2404ec2f
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: kimi_k3-platform
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: rfab
-title: kimi k3-platform
 description: Answers (Fabrication < 50%)
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:a8a8b94a2404ec2f
 ---
 
 

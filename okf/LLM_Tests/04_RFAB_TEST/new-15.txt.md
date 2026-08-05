@@ -1,20 +1,20 @@
 ---
-hash: sha256:099b06329805ed7f
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: new-15.txt
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: rfab
-title: new-15
 description: Anyway, we're not finished yet.  REASONING DIAGNOSTIC QUESTIONS
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:099b06329805ed7f
 ---
 
 

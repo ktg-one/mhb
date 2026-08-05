@@ -1,9 +1,9 @@
 ---
-hash: sha256:5ed8e8956aa814c7
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
 title: grok-4.2
+date: '2026-07-31'
+model_id: grok-4.3
+surface: App
+type: mbti_pique
 description: grok-4.2.md
 tags:
 - pique
@@ -11,13 +11,13 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[03-PIQUE-TEST/04-MBTI-TEST/grok4.2]]'
 - '[[grok4.3]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/3. Grok]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/4. Grok]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/6.Grok]]'
+hash: sha256:5ed8e8956aa814c7
 ---
 
 

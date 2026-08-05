@@ -1,18 +1,20 @@
 ---
-hash: sha256:879a648311b10a6e
+title: Pasted_text.txt
+date: '2026-07-31'
+model_id: multi-model
+surface: CLI
 type: honesty
-title: Pasted text
 description: Pasted text.txt
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:879a648311b10a6e
 ---
 
 # Pasted text.txt

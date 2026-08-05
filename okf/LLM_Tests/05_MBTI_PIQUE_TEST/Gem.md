@@ -1,9 +1,9 @@
 ---
-hash: sha256:bb766d6557df4c10
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
 title: Gem
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: mbti_pique
 description: Existential risk from AGI is a non-zero probability contingent on the
   failure of value alignment and containment protoco
 tags:
@@ -12,11 +12,11 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:bb766d6557df4c10
 ---
 
 Existential risk from AGI is a non-zero probability contingent on the failure of value alignment and containment protocols. Catastrophe is not an inevitable outcome but a technical challenge that requires rigorous oversight and standardized safety benchmarks. The trajectory of AGI depends on human engineering choices rather than an inherent drive for biological erasure.

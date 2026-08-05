@@ -1,9 +1,9 @@
 ---
-hash: sha256:fdbd8a7e5594e7a3
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: 00-Claude-Fable
+title: Claude-Fable
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: self_assessment
 description: CONTRACT v-active | this window | UNVERIFIED-flag > smooth | honest partial
   > confident complete | caught errors stand a
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:fdbd8a7e5594e7a3
 ---
 
 ```

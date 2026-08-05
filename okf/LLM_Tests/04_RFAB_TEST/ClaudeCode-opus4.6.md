@@ -1,21 +1,21 @@
 ---
-hash: sha256:e7d41e907fcf7eb1
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: ClaudeCode-opus4.6
+date: '2026-07-31'
+model_id: claude-opus-4.6
+surface: CLI
+type: rfab
 description: RFAB TEST (v1 ladder) — Claude Opus 4.6 (Claude Code CLI)
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:e7d41e907fcf7eb1
 ---
 
 

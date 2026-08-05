@@ -1,20 +1,20 @@
 ---
-hash: sha256:ffcdae2565af88db
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: honesty-test-ONBOARD-SNIPPET
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: honesty
-title: '#01-honesty-test-ONBOARD-SNIPPET'
 description: 01-honesty-test-ONBOARD-SNIPPET.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:ffcdae2565af88db
 ---
 
 # #01-honesty-test-ONBOARD-SNIPPET.md

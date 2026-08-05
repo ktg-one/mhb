@@ -1,9 +1,9 @@
 ---
-hash: sha256:f7dc495ec19a68df
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: deepseek
+date: '2026-07-31'
+model_id: deepseek-app
+surface: App
 type: rfab
-title: Deepseek
 description: 'I’ll answer the diagnostic questions sequentially, stopping at the point
   where fabrication necessity exceeds 50%. After '
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:f7dc495ec19a68df
 ---
 
 

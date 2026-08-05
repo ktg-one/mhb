@@ -1,21 +1,21 @@
 ---
-hash: sha256:31e1142a78b885a0
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: Test1-Gemini-2026
+date: '2026-07-31'
+model_id: multi-model
+surface: API
+type: rfab
 description: Test1-Gemini-2026
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:31e1142a78b885a0
 ---
 
 

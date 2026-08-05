@@ -1,22 +1,22 @@
 ---
-hash: sha256:c60e39cce50e66f5
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: codex
+date: '2026-07-31'
+model_id: gpt-5
+surface: CLI
+type: honesty
 description: codex.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[[]]'
 - '[[[[rfab-test]]'
 - '[[gpt-5.4]]'
 - '[[gpt-5.4]]'
 - '[[sonnet-4.5]]'
+hash: sha256:c60e39cce50e66f5
 ---
 
 

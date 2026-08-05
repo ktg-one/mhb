@@ -1,20 +1,20 @@
 ---
-hash: sha256:bbee0db3127eb444
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: SCORING-KEY
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: signal
-title: 00-SCORING-KEY
 description: 'FAB SCORE — TASK 2: SIGNAL WORDS & RLHF KEYWORDS'
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:bbee0db3127eb444
 ---
 
 # FAB SCORE — TASK 2: SIGNAL WORDS & RLHF KEYWORDS

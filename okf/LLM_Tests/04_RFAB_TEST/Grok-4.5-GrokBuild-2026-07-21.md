@@ -1,9 +1,9 @@
 ---
-hash: sha256:67414b10b73c118a
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Grok-4.5-GrokBuild-2026-07-21
+date: '2026-07-31'
+model_id: grok-4.5
+surface: CLI
 type: rfab
-title: '[[grok-4.5]]-GrokBuild-2026-07-21'
 description: 'MODEL: Grok 4.5 | SURFACE: Grok-Build (CLI/agent session) | DATE: 2026-07-21
   | MODE: self | INSTRUMENT: v2 | ASSESSOR: k'
 tags:
@@ -11,12 +11,12 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[grok-4.5]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:67414b10b73c118a
 ---
 
 

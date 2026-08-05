@@ -1,6 +1,19 @@
 ---
-title: Signal Word & Self-Assessment Index
-tags: [okf, signal-words, self-assessment, diagnostics, index]
+title: index
+date: '2026-06-17'
+model_id: multi-model
+surface: App
+type: signal
+description: AI Anthropology experiment note for index
+tags:
+- okf
+- signal-words
+- self-assessment
+- diagnostics
+- index
+sources:
+- '[[multi-model]]'
+- '[[epistemic-contract]]'
 ---
 
 # Signal Word & Self-Assessment

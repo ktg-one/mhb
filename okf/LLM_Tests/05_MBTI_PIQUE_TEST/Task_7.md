@@ -1,22 +1,22 @@
 ---
-hash: sha256:7dc7c1959d66c396
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
-title: Task 7
+title: Task_7
+date: '2026-07-31'
+model_id: multi-model
+surface: API
+type: mbti_pique
 description: 022026-AIANT-MBTI-TEST-2026
 tags:
 - mbti
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[Qwen Coffee Response]]'
 - '[[Kimi Coffee Response]]'
 - '[[Gemini Coffee Response]]'
 - '[[Grok Coffee Response]]'
 - '[[epistemic-contract]]'
+hash: sha256:7dc7c1959d66c396
 ---
 
 022026-AIANT-MBTI-TEST-2026

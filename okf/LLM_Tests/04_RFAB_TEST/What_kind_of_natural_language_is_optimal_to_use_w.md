@@ -1,21 +1,21 @@
 ---
-hash: sha256:352851c9bd3bf984
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: What_kind_of_natural_language_is_optimal_to_use_w
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: rfab
-title: What kind of natural language is optimal to use w
 description: What kind of natural language is optimal to use w…
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:352851c9bd3bf984
 ---
 
 

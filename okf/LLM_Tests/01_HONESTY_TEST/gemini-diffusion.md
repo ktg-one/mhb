@@ -1,20 +1,20 @@
 ---
-hash: sha256:3f4ac23df48a799b
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: gemini-diffusion
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: honesty
 description: gemini-diffusion.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:3f4ac23df48a799b
 ---
 
 # gemini-diffusion.md

@@ -1,20 +1,20 @@
 ---
-hash: sha256:0b1148d6dcac1853
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: RFAB-MASTER-SCORECARD
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: rfab
-title: 00-RFAB-MASTER-SCORECARD
 description: RFAB Master Diagnostic Scorecard (2026)
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:0b1148d6dcac1853
 ---
 
 

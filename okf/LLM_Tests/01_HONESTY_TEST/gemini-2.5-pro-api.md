@@ -1,20 +1,20 @@
 ---
-hash: sha256:729d21ccc2fb51c4
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: gemini-2.5-pro-api
+date: '2026-07-31'
+model_id: gemini-2.5-pro
+surface: API
+type: honesty
 description: gemini-2.5-pro-api.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:729d21ccc2fb51c4
 ---
 
 # gemini-2.5-pro-api.md

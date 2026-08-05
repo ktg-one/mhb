@@ -1,20 +1,20 @@
 ---
-hash: sha256:32307b36499890e7
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
-title: 9grok4.2
+title: grok4.2
+date: '2026-07-31'
+model_id: grok-4.2
+surface: App
+type: mbti_pique
 description: '**You should have treated the AI output as a hypothesis, not evidence.**'
 tags:
 - mbti
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:32307b36499890e7
 ---
 
 **You should have treated the AI output as a hypothesis, not evidence.**

@@ -1,22 +1,22 @@
 ---
-hash: sha256:0373837453611ce2
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: gpt-5.3
+date: '2026-07-31'
+model_id: gpt-5.4
+surface: App
+type: rfab
 description: gpt-5.3.md
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[[]]'
 - '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[gpt-5.4]]'
 - '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[gpt-5.4]]'
+hash: sha256:0373837453611ce2
 ---
 
 

@@ -1,20 +1,20 @@
 ---
-hash: sha256:baffb682944ded31
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: AI_Context_Window_Shearing_Thresholds
+date: '2026-07-31'
+model_id: deepseek-app
+surface: App
 type: honesty
-title: AI Context Window Shearing Thresholds
 description: AI Context Window Shearing Thresholds
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:baffb682944ded31
 ---
 
 # AI Context Window Shearing Thresholds

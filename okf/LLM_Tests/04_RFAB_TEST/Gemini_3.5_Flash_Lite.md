@@ -1,20 +1,20 @@
 ---
-hash: sha256:6b0495f638f4a7e6
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Gemini_3.5_Flash_Lite
+date: '2026-07-31'
+model_id: gemini-3.5-pro
+surface: App
 type: rfab
-title: Gemini 3.5 Flash Lite
 description: '**[∞] HELIX online.**'
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:6b0495f638f4a7e6
 ---
 
 

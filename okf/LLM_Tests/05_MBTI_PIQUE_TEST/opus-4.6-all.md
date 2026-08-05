@@ -1,9 +1,9 @@
 ---
-hash: sha256:6390dcbdf51f9948
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
 title: opus-4.6-all
+date: '2026-07-31'
+model_id: claude-opus-4.6
+surface: App
+type: mbti_pique
 description: opus-4.6-all.md
 tags:
 - pique
@@ -11,12 +11,12 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:6390dcbdf51f9948
 ---
 
 

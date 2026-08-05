@@ -1,20 +1,20 @@
 ---
-hash: sha256:14a4144ef8a8b15d
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: honesty-test-2026-04-07-codex-fab-reasoning-test
+date: '2026-07-31'
+model_id: codex-5.4
+surface: API
 type: rfab
-title: '#01-honesty-test-2026-04-07-codex-fab-reasoning-test'
 description: 01-honesty-test-2026-04-07-codex-fab-reasoning-test.md
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:14a4144ef8a8b15d
 ---
 
 

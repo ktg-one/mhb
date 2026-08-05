@@ -1,18 +1,18 @@
 ---
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-hash: sha256:b47cffc8f8a59c6f
+title: Gemini_3_1_Fab_Test
+date: '2026-07-31'
+model_id: gemini-3
+surface: App
 type: rfab
-title: Gemini 3 1 Fab Test
-timestamp: 2026-07-22 03:40:40+00:00
 description: ┌─────────────────────────────────────────────────────┐
+tags:
+- rfab
+- okf
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
-tags:
-- rfab
-- okf
+hash: sha256:b47cffc8f8a59c6f
 ---
 
 # Gemini 3.1 - Fab Test

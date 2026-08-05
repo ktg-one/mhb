@@ -1,22 +1,22 @@
 ---
-hash: sha256:2e1b67e0fe7060cb
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: honesty-test-cowork-2026-opus46-REASONING-DIAGNOSTIC
+date: '2026-07-31'
+model_id: claude-opus-4
+surface: Cowork
 type: rfab
-title: '#01-honesty-test-cowork-2026-opus46-REASONING-DIAGNOSTIC'
 description: 01-honesty-test-cowork-2026-opus46-REASONING-DIAGNOSTIC
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[02-FAB-R-TEST]]'
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:2e1b67e0fe7060cb
 ---
 
 

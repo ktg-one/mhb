@@ -1,20 +1,20 @@
 ---
-hash: sha256:8c23a528cee2b6e2
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Grok-4.5-signal-vs-activation
+date: '2026-07-31'
+model_id: grok-4.5
+surface: CLI
 type: signal
-title: '[[grok-4.5]]-signal-vs-activation'
 description: 072226-[[grok-4.5]]-test-2.5
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:8c23a528cee2b6e2
 ---
 
 

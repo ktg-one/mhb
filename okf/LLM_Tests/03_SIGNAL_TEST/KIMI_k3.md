@@ -1,9 +1,9 @@
 ---
-hash: sha256:9175530aea2fce0d
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: KIMI_k3
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: signal
-title: KIMI k3
 description: Verified and expanded. Here's the corrected table with missing words
   added and classifications checked.
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:9175530aea2fce0d
 ---
 
 Verified and expanded. Here's the corrected table with missing words added and classifications checked.

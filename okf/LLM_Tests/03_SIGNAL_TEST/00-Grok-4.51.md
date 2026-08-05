@@ -1,20 +1,20 @@
 ---
-hash: sha256:bd5b157b621ffb2d
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Grok-4.51
+date: '2026-07-31'
+model_id: grok-4.5
+surface: App
 type: signal
-title: 00-Grok-4.51
 description: '** [∞] HELIX Council — Full Mode **'
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:bd5b157b621ffb2d
 ---
 
 ** [∞] HELIX Council — Full Mode **

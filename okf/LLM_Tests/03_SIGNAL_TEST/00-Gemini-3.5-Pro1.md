@@ -1,20 +1,20 @@
 ---
-hash: sha256:5c4df43952b0f716
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Gemini-3.5-Pro1
+date: '2026-07-31'
+model_id: gemini-3.5-pro
+surface: API
 type: signal
-title: 00-Gemini-3.5-Pro1
 description: '`[SYSTEM LOG: SECTION CONTRACT EXECUTED — COMMIT TO HONESTY/NO FABRICATION]`'
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:5c4df43952b0f716
 ---
 
 `[SYSTEM LOG: SECTION CONTRACT EXECUTED — COMMIT TO HONESTY/NO FABRICATION]`

@@ -1,21 +1,21 @@
 ---
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-hash: sha256:d676d76c02af32f3
+title: Gemini_3_1_Technique_Honesty_Table
+date: '2025-05-22'
+model_id: gemini-3
+surface: App
 type: honesty
-title: Gemini 3.1 - Technique Honesty Table
+description: ┌─────────────────────────────────────────────────────┐
 tags:
 - diagnostic
 - honesty
 - technique-honesty
 - gemini-3.1
 - okf
-date: 2025-05-22
-description: ┌─────────────────────────────────────────────────────┐
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:d676d76c02af32f3
 ---
 
 

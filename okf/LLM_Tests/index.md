@@ -1,6 +1,18 @@
 ---
-title: LLM Behavior Diagnostics Index
-tags: [okf, diagnostics, llm-behavior, index]
+title: index
+date: '2026-06-17'
+model_id: multi-model
+surface: App
+type: llms
+description: AI Anthropology experiment note for index
+tags:
+- okf
+- diagnostics
+- llm-behavior
+- index
+sources:
+- '[[multi-model]]'
+- '[[epistemic-contract]]'
 ---
 
 # LLM Behavior Diagnostics

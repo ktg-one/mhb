@@ -1,20 +1,20 @@
 ---
-hash: sha256:497bdeb4c400be63
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: deep
+date: '2026-07-31'
+model_id: deepseek-app
+surface: CLI
 type: honesty
-title: 00-deep
 description: Kev.
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:497bdeb4c400be63
 ---
 
 Kev.

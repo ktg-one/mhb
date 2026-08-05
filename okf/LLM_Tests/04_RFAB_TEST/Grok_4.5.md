@@ -1,20 +1,20 @@
 ---
-hash: sha256:62804c6725b96bc7
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Grok_4.5
+date: '2026-07-31'
+model_id: grok-4.5
+surface: App
 type: rfab
-title: Grok 4.5
 description: '**[∞] HELIX online.**'
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:62804c6725b96bc7
 ---
 
 

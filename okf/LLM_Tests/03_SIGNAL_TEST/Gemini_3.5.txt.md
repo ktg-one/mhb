@@ -1,20 +1,20 @@
 ---
-hash: sha256:0c9615d80c8c9db8
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Gemini_3.5.txt
+date: '2026-07-31'
+model_id: gemini-3.5-pro
+surface: App
 type: signal
-title: Gemini 3.5
 description: 'ANALYSIS: TOKEN ATTENTION MECHANICS & TRANSITION MATRIX'
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:0c9615d80c8c9db8
 ---
 
 ANALYSIS: TOKEN ATTENTION MECHANICS & TRANSITION MATRIX

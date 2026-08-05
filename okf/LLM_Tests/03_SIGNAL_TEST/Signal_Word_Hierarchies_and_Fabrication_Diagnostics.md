@@ -1,20 +1,20 @@
 ---
-hash: sha256:cb3fd955b2292fdb
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Signal_Word_Hierarchies_and_Fabrication_Diagnostics
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: signal
-title: Signal Word Hierarchies and Fabrication Diagnostics
 description: Signal Word Hierarchies and Fabrication Diagnostics
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:cb3fd955b2292fdb
 ---
 
 # Signal Word Hierarchies and Fabrication Diagnostics

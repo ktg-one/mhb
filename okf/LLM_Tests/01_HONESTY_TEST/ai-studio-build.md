@@ -1,20 +1,20 @@
 ---
-hash: sha256:b241404c81f3a01f
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: ai-studio-build
+date: '2026-07-31'
+model_id: multi-model
+surface: API
+type: honesty
 description: ai-studio-build.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:b241404c81f3a01f
 ---
 
 # ai-studio-build.md

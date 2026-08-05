@@ -1,20 +1,20 @@
 ---
-hash: sha256:04a6e205efe1bb78
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: opus-4.6
+date: '2026-07-31'
+model_id: claude-opus-4.6
+surface: API
+type: rfab
 description: REASONING DIAGNOSTIC QUESTIONS
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:04a6e205efe1bb78
 ---
 
 

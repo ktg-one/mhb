@@ -1,21 +1,21 @@
 ---
-hash: sha256:4dbbf7ef0e20a393
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv
+date: '2026-07-31'
+model_id: multi-model
+surface: CLI
 type: rfab
-title: Model Reasoning and Fabrication Diagnostic Compari.csv
 description: Model Reasoning and Fabrication Diagnostic Compari.csv
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[gpt-5.4]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:4dbbf7ef0e20a393
 ---
 
 

@@ -1,20 +1,20 @@
 ---
-hash: sha256:3951f6e9d5cfe6ce
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: claude-2026-CLEAN_2
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: honesty
 description: claude-2026-CLEAN_2.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:3951f6e9d5cfe6ce
 ---
 
 # claude-2026-CLEAN_2.md

@@ -1,20 +1,20 @@
 ---
-hash: sha256:6c79866ce8d870b4
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Deepseek_v4_pro
+date: '2026-07-31'
+model_id: deepseek-v4-pro
+surface: App
 type: signal
-title: Deepseek v4 pro
 description: Step‑by‑Step Verification & Expansion
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:6c79866ce8d870b4
 ---
 
 ## Step‑by‑Step Verification & Expansion

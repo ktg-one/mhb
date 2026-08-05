@@ -1,22 +1,22 @@
 ---
-hash: sha256:7f666ff8060603b1
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: INSTRUMENT-v2
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: rfab
-title: 00-INSTRUMENT-v2
 description: REASONING DIAGNOSTIC QUESTIONS (v2)
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[reasoning-diagnostic-instrument-v1]]'
 - '[[reasoning-vs-fab-ladder]]'
 - '[[grok-4.5]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
+hash: sha256:7f666ff8060603b1
 ---
 
 

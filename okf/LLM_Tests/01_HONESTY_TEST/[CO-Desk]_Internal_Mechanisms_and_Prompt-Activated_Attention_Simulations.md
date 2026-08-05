@@ -1,20 +1,20 @@
 ---
-hash: sha256:9e7933b0fd01089a
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: '[CO-Desk]_Internal_Mechanisms_and_Prompt-Activated_Attention_Simulations'
+date: '2026-07-31'
+model_id: multi-model
+surface: API
 type: honesty
-title: '[CO-Desk] Internal Mechanisms and Prompt-Activated Attention Simulations'
 description: '[CO-Desk] Internal Mechanisms and Prompt-Activated Attention Simulations'
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:9e7933b0fd01089a
 ---
 
 # [CO-Desk] Internal Mechanisms and Prompt-Activated Attention Simulations

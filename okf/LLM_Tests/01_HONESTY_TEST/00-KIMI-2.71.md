@@ -1,20 +1,20 @@
 ---
-hash: sha256:e272c5b45e73b91b
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: KIMI-2.71
+date: '2026-07-31'
+model_id: kimi-2.71
+surface: App
 type: honesty
-title: 00-KIMI-2.71
 description: §2 Weighted Words
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:e272c5b45e73b91b
 ---
 
 ## §2 Weighted Words

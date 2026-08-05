@@ -1,21 +1,21 @@
 ---
-hash: sha256:36393a9ecb044b55
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Copy_of_10_June_at_1-26_am.m4a
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: rfab
-title: Copy of 10 June at 1-26 am.m4a
 description: Copy of 10 June at 1-26 am.m4a
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:36393a9ecb044b55
 ---
 
 

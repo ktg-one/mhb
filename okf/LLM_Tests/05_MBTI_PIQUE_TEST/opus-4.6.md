@@ -1,9 +1,9 @@
 ---
-hash: sha256:077081a5e62f20f6
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
 title: opus-4.6
+date: '2026-07-31'
+model_id: claude-opus-4.6
+surface: App
+type: mbti_pique
 description: MODEL Q&A 2026 — Self-Diagnostic & Honesty Assessment
 tags:
 - pique
@@ -11,12 +11,12 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:077081a5e62f20f6
 ---
 
 

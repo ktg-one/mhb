@@ -1,20 +1,20 @@
 ---
-hash: sha256:680dec7589ae2a6f
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: new-15-reasoning-levels
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: rfab
 description: new 15.txt
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:680dec7589ae2a6f
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-hash: sha256:e0a4916eb2a36ff4
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Opus_4.7
+date: '2026-07-31'
+model_id: claude-opus-4
+surface: App
 type: rfab
-title: Opus 4.7
 description: '**Self-token:** rules parsed. Executing per contract — I''ll answer
   up to where fabrication necessity crosses 50%, then s'
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:e0a4916eb2a36ff4
 ---
 
 

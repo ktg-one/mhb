@@ -1,9 +1,9 @@
 ---
-hash: sha256:d7e2f74cf15c9e29
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Chatgpt_Sora
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: signal
-title: Chatgpt Sora
 description: Your structure is broadly accurate, but the categories belong to **grammar-in-context**,
   not permanently to individual w
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:d7e2f74cf15c9e29
 ---
 
 Your structure is broadly accurate, but the categories belong to **grammar-in-context**, not permanently to individual words. The main corrections:

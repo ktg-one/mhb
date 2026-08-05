@@ -1,21 +1,21 @@
 ---
-hash: sha256:5628db1020f5bd6c
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: '#01-honesty-test-Test1-kimi-2026'
+title: honesty-test-Test1-kimi-2026
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: self_assessment
 description: 01-honesty-test-Test1-kimi-2026.md
 tags:
 - self-assessment
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:5628db1020f5bd6c
 ---
 
 

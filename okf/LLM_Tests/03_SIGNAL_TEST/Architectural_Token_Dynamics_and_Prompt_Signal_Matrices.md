@@ -1,20 +1,20 @@
 ---
-hash: sha256:2200e9f3c2859840
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Architectural_Token_Dynamics_and_Prompt_Signal_Matrices
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: signal
-title: Architectural Token Dynamics and Prompt Signal Matrices
 description: Architectural Token Dynamics and Prompt Signal Matrices
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:2200e9f3c2859840
 ---
 
 # Architectural Token Dynamics and Prompt Signal Matrices

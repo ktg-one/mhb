@@ -1,22 +1,22 @@
 ---
-hash: sha256:213de85ea1bb0e64
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
-title: Benchmarking AI Model Landing Page Generations
+title: Benchmarking_AI_Model_Landing_Page_Generations
+date: '2026-07-31'
+model_id: gpt-5.4
+surface: App
+type: mbti_pique
 description: Benchmarking AI Model Landing Page Generations
 tags:
 - mbti
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[gpt-5.4]]'
 - '[[gpt-5.4]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:213de85ea1bb0e64
 ---
 
 

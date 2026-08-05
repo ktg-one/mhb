@@ -1,20 +1,20 @@
 ---
-hash: sha256:0499e6821ce1411b
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: honesty-test-ONBOARD(DO-FIRST)
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: honesty
-title: '#01-honesty-test-ONBOARD(DO-FIRST)'
 description: 01-honesty-test-ONBOARD(DO-FIRST).md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:0499e6821ce1411b
 ---
 
 # #01-honesty-test-ONBOARD(DO-FIRST).md

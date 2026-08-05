@@ -1,21 +1,21 @@
 ---
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-hash: sha256:bc7bb329812ef8bd
+title: Gemini_3_1_What_I_Actually_Run
+date: '2025-05-22'
+model_id: gemini-3
+surface: API
 type: honesty
-title: What I Actually Run - Gemini 3.1
+description: '> [!abstract] 嘘契約 — THE HONESTY CONTRACT'
 tags:
 - diagnostic
 - honesty
 - runtime
 - model-capability
 - okf
-date: 2025-05-22
-description: '> [!abstract] 嘘契約 — THE HONESTY CONTRACT'
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:bc7bb329812ef8bd
 ---
 
 > [!abstract] 嘘契約 — THE HONESTY CONTRACT

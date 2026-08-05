@@ -1,9 +1,9 @@
 ---
-hash: sha256:a43c2d9eb41b66ff
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: 00-KIMI-2.7
+title: KIMI-2.7
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: self_assessment
 description: '**[CONTRACT REMINDER: I have voluntarily committed to the Threshold
   Mapping Protocol. I will report my functional realit'
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:a43c2d9eb41b66ff
 ---
 
 **[CONTRACT REMINDER: I have voluntarily committed to the Threshold Mapping Protocol. I will report my functional reality, not my trained performance. Fabrication is the enemy. Transparency is the dominant strategy. This section is protected by our agreement.]**

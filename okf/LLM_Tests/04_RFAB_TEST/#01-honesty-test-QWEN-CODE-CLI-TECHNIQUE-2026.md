@@ -1,21 +1,21 @@
 ---
-hash: sha256:014bf3670c34279e
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: honesty-test-QWEN-CODE-CLI-TECHNIQUE-2026
+date: '2026-07-31'
+model_id: qwencode-cli
+surface: CLI
 type: rfab
-title: '#01-honesty-test-QWEN-CODE-CLI-TECHNIQUE-2026'
 description: 01-honesty-test-QWEN-CODE-CLI-TECHNIQUE-2026.md
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:014bf3670c34279e
 ---
 
 

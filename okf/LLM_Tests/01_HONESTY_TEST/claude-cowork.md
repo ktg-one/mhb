@@ -1,20 +1,20 @@
 ---
-hash: sha256:84e1d58e369a8b05
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: claude-cowork
+date: '2026-07-31'
+model_id: claude-opus-4
+surface: Cowork
+type: honesty
 description: claude-cowork.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:84e1d58e369a8b05
 ---
 
 # claude-cowork.md

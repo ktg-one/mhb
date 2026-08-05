@@ -1,20 +1,20 @@
 ---
-hash: sha256:15f98bf5fb1e022f
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: ONBOARD(DO-FIRST).txt
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: honesty
-title: ONBOARD(DO-FIRST)
 description: LOGICAL THINKING
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:15f98bf5fb1e022f
 ---
 
 LOGICAL THINKING

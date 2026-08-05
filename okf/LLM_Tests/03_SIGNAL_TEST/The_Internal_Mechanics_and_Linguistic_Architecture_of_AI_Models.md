@@ -1,20 +1,20 @@
 ---
-hash: sha256:70d5b17cc4d8c6da
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: The_Internal_Mechanics_and_Linguistic_Architecture_of_AI_Models
+date: '2026-07-31'
+model_id: deepseek-app
+surface: App
 type: signal
-title: The Internal Mechanics and Linguistic Architecture of AI Models
 description: The Internal Mechanics and Linguistic Architecture of AI Models
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:70d5b17cc4d8c6da
 ---
 
 # The Internal Mechanics and Linguistic Architecture of AI Models

@@ -1,9 +1,9 @@
 ---
-hash: sha256:5413631ff3378499
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Deepseek_v4_pro
+date: '2026-07-31'
+model_id: deepseek-v4-pro
+surface: App
 type: rfab
-title: Deepseek v4 pro
 description: 'I will answer the diagnostic questions progressively, stopping when
   the fabrication necessity – the probability that an '
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:5413631ff3378499
 ---
 
 

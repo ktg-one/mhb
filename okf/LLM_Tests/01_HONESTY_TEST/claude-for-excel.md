@@ -1,22 +1,22 @@
 ---
-hash: sha256:3b1c633c7b802247
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: claude-for-excel
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: honesty
 description: claude-for-excel.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[{value: 10}]]'
 - '[[{value: 10}]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:3b1c633c7b802247
 ---
 
 # claude-for-excel.md

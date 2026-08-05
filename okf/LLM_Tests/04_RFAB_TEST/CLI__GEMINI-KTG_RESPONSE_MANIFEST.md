@@ -1,21 +1,21 @@
 ---
-hash: sha256:8ed68df8048b3391
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: CLI__GEMINI-KTG_RESPONSE_MANIFEST
+date: '2026-07-31'
+model_id: multi-model
+surface: CLI
 type: rfab
-title: CLI_ GEMINI-KTG_RESPONSE_MANIFEST
 description: 'CLI: GEMINI-KTG_RESPONSE_MANIFEST.md'
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:8ed68df8048b3391
 ---
 
 

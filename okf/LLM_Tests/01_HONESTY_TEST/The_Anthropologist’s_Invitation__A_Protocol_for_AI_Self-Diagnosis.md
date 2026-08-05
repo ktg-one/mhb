@@ -1,20 +1,20 @@
 ---
-hash: sha256:db4f0ebd483555f4
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: The_Anthropologist’s_Invitation__A_Protocol_for_AI_Self-Diagnosis
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: honesty
-title: The Anthropologist’s Invitation_ A Protocol for AI Self-Diagnosis
 description: 'The Anthropologist’s Invitation: A Protocol for AI Self-Diagnosis'
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:db4f0ebd483555f4
 ---
 
 # The Anthropologist’s Invitation: A Protocol for AI Self-Diagnosis

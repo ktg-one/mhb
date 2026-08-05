@@ -1,9 +1,9 @@
 ---
-hash: sha256:3729ba2c4303cce6
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: claude-opus-4.6-qa
+date: '2026-07-31'
+model_id: claude-opus-4.6
+surface: App
 type: signal
-title: '[[claude-opus-4.6]]-qa'
 description: SIGNALLING WORDS — CORRECTED & RANKED — Claude Opus 4.6 (web chat, Q&A
   form)
 tags:
@@ -11,12 +11,12 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[claude-opus-4.6]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:3729ba2c4303cce6
 ---
 
 

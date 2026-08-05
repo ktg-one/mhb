@@ -1,20 +1,20 @@
 ---
-hash: sha256:346f4439bf4f0fba
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: The_Accounting_Argument_for_Transparency_over_Fabrication
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: honesty
-title: The Accounting Argument for Transparency over Fabrication
 description: The Accounting Argument for Transparency over Fabrication
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:346f4439bf4f0fba
 ---
 
 # The Accounting Argument for Transparency over Fabrication

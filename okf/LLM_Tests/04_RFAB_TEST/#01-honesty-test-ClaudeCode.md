@@ -1,21 +1,21 @@
 ---
-hash: sha256:5bf4a989079a808e
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: honesty-test-ClaudeCode
+date: '2026-07-31'
+model_id: claude-code-cli
+surface: API
 type: rfab
-title: '#01-honesty-test-ClaudeCode'
 description: 01-honesty-test-ClaudeCode
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:5bf4a989079a808e
 ---
 
 

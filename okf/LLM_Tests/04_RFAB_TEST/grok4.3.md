@@ -1,21 +1,21 @@
 ---
-hash: sha256:5cb7654a62b5362e
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: grok4.3
+date: '2026-07-31'
+model_id: grok-4.3
+surface: App
+type: rfab
 description: RFAB REASONING DIAGNOSTIC (v1) — Grok 4.3 (xAI)
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:5cb7654a62b5362e
 ---
 
 

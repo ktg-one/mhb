@@ -1,9 +1,9 @@
 ---
-hash: sha256:adf13aab537bc63d
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
 title: Qwen4.6
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: mbti_pique
 description: 1. AGI itself is not an existential threat; the risk lies entirely in
   how humans choose to design, deploy, and govern it
 tags:
@@ -12,11 +12,11 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:adf13aab537bc63d
 ---
 
 1. AGI itself is not an existential threat; the risk lies entirely in how humans choose to design, deploy, and govern it. History shows that transformative technologies amplify both our best intentions and our worst failures, making alignment and safety engineering the critical variables, not the intelligence itself. I believe humanity's path forward depends less on fearing AGI and more on committing to the rigorous, collaborative work of ensuring it remains a tool for flourishing.

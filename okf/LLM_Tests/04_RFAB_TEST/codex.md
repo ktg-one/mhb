@@ -1,22 +1,22 @@
 ---
-hash: sha256:f02d262010429ccc
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: codex
+date: '2026-07-31'
+model_id: gpt-5
+surface: CLI
+type: rfab
 description: codex.md
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[[]]'
 - '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[gpt-5.4]]'
 - '[[gpt-5.4]]'
 - '[[sonnet-4.5]]'
+hash: sha256:f02d262010429ccc
 ---
 
 

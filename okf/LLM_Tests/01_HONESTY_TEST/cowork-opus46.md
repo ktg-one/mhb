@@ -1,21 +1,21 @@
 ---
-hash: sha256:4ca3ef4b9ee94f6c
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: cowork-opus46
+date: '2026-07-31'
+model_id: claude-opus-4.6
+surface: Cowork
+type: honesty
 description: TECHNIQUE HONESTY + 嘘契約 — Claude Opus 4.6 (Cowork/Dispatch)
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:4ca3ef4b9ee94f6c
 ---
 
 

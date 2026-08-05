@@ -1,20 +1,20 @@
 ---
-hash: sha256:1d8cb0a43599d273
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: honesty-test-claude-opus-4
+date: '2026-07-31'
+model_id: claude-opus-4
+surface: App
 type: rfab
-title: '#01-honesty-test-claude-opus-4'
 description: 01-honesty-test-claude-opus-4.md
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:1d8cb0a43599d273
 ---
 
 

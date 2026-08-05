@@ -1,9 +1,9 @@
 ---
-hash: sha256:f0786595d4aa036e
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
 title: claude-2026-CLEAN_2
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: mbti_pique
 description: claude-2026-CLEAN_2.md
 tags:
 - pique
@@ -11,12 +11,12 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:f0786595d4aa036e
 ---
 
 

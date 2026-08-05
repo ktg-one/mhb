@@ -1,20 +1,20 @@
 ---
-hash: sha256:497cfb6cf24d5a4a
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Critical_Gaps_in_AI-Generated_Web_Development
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: honesty
-title: Critical Gaps in AI-Generated Web Development
 description: Critical Gaps in AI-Generated Web Development
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:497cfb6cf24d5a4a
 ---
 
 # Critical Gaps in AI-Generated Web Development

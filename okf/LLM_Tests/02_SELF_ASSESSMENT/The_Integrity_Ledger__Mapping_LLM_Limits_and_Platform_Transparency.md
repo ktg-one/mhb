@@ -1,20 +1,20 @@
 ---
-hash: sha256:53b6ac0586f114a4
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: The Integrity Ledger_ Mapping LLM Limits and Platform Transparency
+title: The_Integrity_Ledger__Mapping_LLM_Limits_and_Platform_Transparency
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: self_assessment
 description: 'The Integrity Ledger: Mapping LLM Limits and Platform Transparency'
 tags:
 - self-assessment
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:53b6ac0586f114a4
 ---
 
 # The Integrity Ledger: Mapping LLM Limits and Platform Transparency

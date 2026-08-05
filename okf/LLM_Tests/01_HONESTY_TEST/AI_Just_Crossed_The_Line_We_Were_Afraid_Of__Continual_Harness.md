@@ -1,20 +1,20 @@
 ---
-hash: sha256:c86cdde26ab73faf
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: AI_Just_Crossed_The_Line_We_Were_Afraid_Of__Continual_Harness
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: honesty
-title: AI Just Crossed The Line We Were Afraid Of_ Continual Harness
 description: 'AI Just Crossed The Line We Were Afraid Of: Continual Harness'
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:c86cdde26ab73faf
 ---
 
 # AI Just Crossed The Line We Were Afraid Of: Continual Harness

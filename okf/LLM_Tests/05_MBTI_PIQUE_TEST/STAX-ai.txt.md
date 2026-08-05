@@ -1,14 +1,17 @@
 ---
-type: mbti
 title: STAX-ai.txt
+date: '2026-06-17'
+model_id: multi-model
+surface: App
+type: mbti_pique
 description: ESTJ in human psychology is 'The Executive' or 'The Supervisor.'
+tags:
+- mbti
+- okf
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
-tags:
-- mbti
-- okf
 ---
 
 ESTJ in human psychology is "The Executive" or "The Supervisor."

@@ -1,9 +1,9 @@
 ---
-hash: sha256:5cf6a9a8cc106ccd
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Deepseek.txt
+date: '2026-07-31'
+model_id: deepseek-app
+surface: App
 type: signal
-title: Deepseek
 description: 'Yes — this update is mostly accurate, but I’d tighten the language so
   it doesn’t overclaim “RLHF keyword” when what you '
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:5cf6a9a8cc106ccd
 ---
 
 Yes — this update is mostly accurate, but I’d tighten the language so it doesn’t overclaim “RLHF keyword” when what you actually have is **behavioural signal strength**.

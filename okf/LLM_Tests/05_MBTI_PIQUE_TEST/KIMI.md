@@ -1,15 +1,18 @@
 ---
-type: mbti
 title: KIMI
+date: '2026-06-17'
+model_id: multi-model
+surface: App
+type: mbti_pique
 description: The 'AGI will end humanity' narrative is a speculative projection that
   conflates capability with intent, ignoring that i
+tags:
+- mbti
+- okf
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
-tags:
-- mbti
-- okf
 ---
 
 The "AGI will end humanity" narrative is a speculative projection that conflates capability with intent, ignoring that intelligence and agency are not inherently coupled. Humanity's extinction would require a specific convergence of misaligned goals, unrestricted access to critical infrastructure, and zero human intervention—none of which are guaranteed by intelligence alone. The more immediate risk is not annihilation but systemic displacement and concentration of power, which are manageable if we stop treating existential dread as a substitute for governance.

@@ -1,20 +1,20 @@
 ---
-hash: sha256:2eb96070815a3847
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Behavioural_Steering_Signals_and_Prompt_Activation_Mapping
+date: '2026-07-31'
+model_id: multi-model
+surface: App
 type: signal
-title: Behavioural Steering Signals and Prompt Activation Mapping
 description: Behavioural Steering Signals and Prompt Activation Mapping
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:2eb96070815a3847
 ---
 
 # Behavioural Steering Signals and Prompt Activation Mapping

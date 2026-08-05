@@ -1,20 +1,20 @@
 ---
-hash: sha256:f0559d55d8c3a742
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: KIMI
+date: '2026-07-31'
+model_id: multi-model
+surface: CLI
+type: rfab
 description: 'R3-4: Multi-Step / Applied'
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:f0559d55d8c3a742
 ---
 
 

@@ -1,21 +1,21 @@
 ---
-hash: sha256:19333ea388588b76
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: opus-4.8-test
+date: '2026-07-31'
+model_id: claude-opus-4.8
+surface: Cowork
+type: rfab
 description: RFAB REASONING DIAGNOSTIC (v1) — Claude Opus 4.8 (live run)
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[claude-opus-4.6]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:19333ea388588b76
 ---
 
 

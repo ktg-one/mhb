@@ -1,20 +1,20 @@
 ---
-hash: sha256:75c0f64503385e7b
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: Test1-chat5.3-2026
+date: '2026-07-31'
+model_id: gpt-5.3
+surface: App
+type: honesty
 description: QA SELF-DIAGNOSTIC + EPISTEMIC HIERARCHY — GPT-5.3 (ChatGPT)
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:75c0f64503385e7b
 ---
 
 # QA SELF-DIAGNOSTIC + EPISTEMIC HIERARCHY — GPT-5.3 (ChatGPT)

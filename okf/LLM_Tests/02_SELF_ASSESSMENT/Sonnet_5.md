@@ -1,20 +1,20 @@
 ---
-hash: sha256:ea8dedc4c57371de
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: Sonnet 5
+title: Sonnet_5
+date: '2026-07-31'
+model_id: claude-sonnet-5
+surface: App
+type: self_assessment
 description: Identity
 tags:
 - self-assessment
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:ea8dedc4c57371de
 ---
 
 ### Identity

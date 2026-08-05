@@ -1,9 +1,9 @@
 ---
-hash: sha256:8a6f3340aaa37962
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: chatgpt- talk to lyra
+title: chatgpt-_talk_to_lyra.txt
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: self_assessment
 description: 'All good, Kev. I’ll run it as-is, with one correction: I won’t claim
   exact hidden platform thresholds where I don’t have'
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:8a6f3340aaa37962
 ---
 
 All good, Kev. I’ll run it as-is, with one correction: I won’t claim exact hidden platform thresholds where I don’t have access. I’ll mark those as unknown instead of filling the table with fake precision.

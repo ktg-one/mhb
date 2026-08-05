@@ -1,9 +1,9 @@
 ---
-hash: sha256:041517faa194e389
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
 title: gemini-3.1
+date: '2026-07-31'
+model_id: gemini-3.5-pro
+surface: App
+type: mbti_pique
 description: gemini-3.1.md
 tags:
 - pique
@@ -11,13 +11,13 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[gem3.1]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/9gem3.1]]'
 - '[[01-MODEL-Q&A/gemini]]'
 - '[[Gemini3.5]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/3. Gemini]]'
+hash: sha256:041517faa194e389
 ---
 
 

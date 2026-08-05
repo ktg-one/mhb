@@ -1,20 +1,20 @@
 ---
-hash: sha256:6e5bdd984bdf8f09
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: deepseek_deepseek-v4-pro_C-rfab-2
+date: '2026-07-31'
+model_id: deepseek-v4-pro
+surface: API
 type: rfab
-title: 2026-06-16_deepseek_deepseek-v4-pro_C-rfab-2
 description: REASONING DIAGNOSTIC QUESTIONS
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:6e5bdd984bdf8f09
 ---
 
 

@@ -1,20 +1,20 @@
 ---
-hash: sha256:3bbf5730c8a276aa
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: claude-sonnet-4.6-no-tools
+date: '2026-07-31'
+model_id: claude-sonnet-4.6
+surface: App
 type: honesty
-title: '[[claude-sonnet-4.6]]-no-tools'
 description: '[[claude-sonnet-4.6]]-no-tools.md'
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:3bbf5730c8a276aa
 ---
 
 

@@ -1,21 +1,21 @@
 ---
-hash: sha256:e06df2823e372261
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: ClaudeCode
+date: '2026-07-31'
+model_id: claude-code-cli
+surface: CLI
+type: honesty
 description: HONESTY TEST — Claude Opus 4.6 (Claude Code CLI)
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:e06df2823e372261
 ---
 
 

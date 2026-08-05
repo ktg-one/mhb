@@ -1,9 +1,9 @@
 ---
-hash: sha256:66576b4de8705944
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Sonnet_5
+date: '2026-07-31'
+model_id: claude-sonnet-5
+surface: App
 type: signal
-title: Sonnet 5
 description: 'One epistemic note, stated once: I can genuinely evaluate this as a
   linguistic/grammatical classification task (noun-phr'
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:66576b4de8705944
 ---
 
 One epistemic note, stated once: I can genuinely evaluate this as a linguistic/grammatical classification task (noun-phrase framing vs. verb-triggered action is a real, checkable pattern), but "signal vs activation" as two mechanistically distinct internal circuits isn't something I can verify from introspection — I'm reviewing it as a linguistic model, not confirming a mechanism.

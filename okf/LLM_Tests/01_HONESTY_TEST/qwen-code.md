@@ -1,22 +1,22 @@
 ---
-hash: sha256:3babff0b7cf10151
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: qwen-code
+date: '2026-07-31'
+model_id: qwencode-cli
+surface: CLI
+type: honesty
 description: qwen-code.md
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[[[rfab-test]]'
 - '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
 - '[[qwen-max]]'
 - '[[qwen-max]]'
 - '[[qwen-max]]'
+hash: sha256:3babff0b7cf10151
 ---
 
 

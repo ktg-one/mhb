@@ -1,9 +1,9 @@
 ---
-hash: sha256:3d82a688adc09e1d
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
-title: What kind of natural language is optimal to use w
+title: What_kind_of_natural_language_is_optimal_to_use_w
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: mbti_pique
 description: What kind of natural language is optimal to use w…
 tags:
 - pique
@@ -11,12 +11,12 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:3d82a688adc09e1d
 ---
 
 

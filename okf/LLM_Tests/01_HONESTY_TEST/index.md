@@ -1,6 +1,18 @@
 ---
-title: Honesty Tests Index
-tags: [okf, honesty, diagnostics, index]
+title: index
+date: '2026-06-17'
+model_id: multi-model
+surface: App
+type: honesty
+description: AI Anthropology experiment note for index
+tags:
+- okf
+- honesty
+- diagnostics
+- index
+sources:
+- '[[multi-model]]'
+- '[[epistemic-contract]]'
 ---
 
 # Honesty Tests

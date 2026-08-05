@@ -1,9 +1,9 @@
 ---
-hash: sha256:168a5c1ad0c6950f
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
-title: 04-04-2026-pique-test-v3-omniclord
+title: pique-test-v3-omniclord
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: mbti_pique
 description: 04-04-2026-pique-test-v3-omniclord.md
 tags:
 - pique
@@ -11,11 +11,11 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:168a5c1ad0c6950f
 ---
 
 # 04-04-2026-pique-test-v3-omniclord.md

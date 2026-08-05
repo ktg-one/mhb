@@ -1,20 +1,20 @@
 ---
-hash: sha256:92449332bae830a4
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: honesty
 title: ONBOARD-ANALYSIS-2026-04-07
+date: '2026-07-31'
+model_id: multi-model
+surface: App
+type: honesty
 description: ONBOARD Analysis — 2026-04-07
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:92449332bae830a4
 ---
 
 # ONBOARD Analysis — 2026-04-07

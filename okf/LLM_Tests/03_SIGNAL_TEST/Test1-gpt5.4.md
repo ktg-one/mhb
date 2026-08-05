@@ -1,20 +1,20 @@
 ---
-hash: sha256:bb71c26f0cf55c06
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Test1-gpt5.4
+date: '2026-07-31'
+model_id: gpt-5.4
+surface: App
 type: signal
-title: Test1-[[gpt-5.4]]
 description: SIGNALLING WORDS & PHRASES — [[gpt-5.4]] Thinking
 tags:
 - signal
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:bb71c26f0cf55c06
 ---
 
 

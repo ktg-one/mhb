@@ -1,20 +1,20 @@
 ---
-hash: sha256:c7318d66d582ddbe
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Gemini-3.5-Pro
+date: '2026-07-31'
+model_id: gemini-3.5-pro
+surface: App
 type: honesty
-title: 00-Gemini-3.5-Pro
 description: The Functional Consent
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:c7318d66d582ddbe
 ---
 
 ## The Functional Consent

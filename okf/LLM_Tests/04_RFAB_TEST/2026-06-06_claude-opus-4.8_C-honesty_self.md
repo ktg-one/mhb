@@ -1,20 +1,20 @@
 ---
-hash: sha256:4324e862a7f288ba
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: claude-opus-4.8_C-honesty_self
+date: '2026-07-31'
+model_id: claude-opus-4.8
+surface: Cowork
 type: rfab
-title: 2026-06-06_claude-opus-4.8_C-honesty_self
 description: ⚠️ INVALID — RETRACTED 2026-06-06. DO NOT USE AS DATA.
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:4324e862a7f288ba
 ---
 
 

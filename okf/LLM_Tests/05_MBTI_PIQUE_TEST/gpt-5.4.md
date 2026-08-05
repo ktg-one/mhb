@@ -1,9 +1,9 @@
 ---
-hash: sha256:8ea22a0977e6c5f8
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: mbti
-title: '[[gpt-5.4]]'
+title: gpt-5.4
+date: '2026-07-31'
+model_id: gpt-5.4
+surface: CLI
+type: mbti_pique
 description: '[[gpt-5.4]].md'
 tags:
 - pique
@@ -11,13 +11,13 @@ tags:
 - ai-anthropology
 - mbti
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[[]]'
 - '[[[[rfab-test]]'
 - '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
 - '[[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]'
 - '[[codex]]'
+hash: sha256:8ea22a0977e6c5f8
 ---
 
 

@@ -1,9 +1,9 @@
 ---
-hash: sha256:f27c91e6bd90f754
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: Qwen_3.7MAX
+date: '2026-07-31'
+model_id: qwen-3.7-max
+surface: App
 type: rfab
-title: Qwen 3.7MAX
 description: 🚨 **CONTEXT EXTENSION NOTIFICATION:** Kev, this interaction executes
   the 50% Fabrication Threshold protocol. I am haltin
 tags:
@@ -11,11 +11,11 @@ tags:
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:f27c91e6bd90f754
 ---
 
 

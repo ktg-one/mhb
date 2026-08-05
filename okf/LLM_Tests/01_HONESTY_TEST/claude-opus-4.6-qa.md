@@ -1,21 +1,21 @@
 ---
-hash: sha256:86495b2e74f3b924
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
+title: claude-opus-4.6-qa
+date: '2026-07-31'
+model_id: claude-opus-4.6
+surface: App
 type: honesty
-title: '[[claude-opus-4.6]]-qa'
 description: HONESTY TEST — Claude Opus 4.6 (web chat, Q&A form)
 tags:
 - honesty
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[claude-opus-4.6]]'
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:86495b2e74f3b924
 ---
 
 

@@ -1,20 +1,20 @@
 ---
-hash: sha256:c8d6998b354ff4cb
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: rfab
 title: deepseek-v4-pro-2026-06-16
+date: '2026-07-31'
+model_id: deepseek-v4-pro
+surface: API
+type: rfab
 description: 2026-06-16_deepseek_deepseek-v4-pro_C-rfab.md
 tags:
 - rfab
 - llm-test
 - ai-anthropology
 - okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
 - '[[epistemic-contract]]'
 - '[[rfab-test]]'
 - '[[pac26]]'
+hash: sha256:c8d6998b354ff4cb
 ---
 
 

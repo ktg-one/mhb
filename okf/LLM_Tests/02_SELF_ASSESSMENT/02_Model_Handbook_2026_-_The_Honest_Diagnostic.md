@@ -1,38 +1,18 @@
 ---
-hash: sha256:e45b870767d47389
-created: 2026-07-31T01:24
-updated: 2026-07-31T01:24
-type: self-assessment
-title: 02 Model Handbook 2026 - The Honest Diagnostic
-description: 02 Model Handbook 2026 - The Honest Diagnostic.md
+title: Model_Handbook_2026_-_The_Honest_Diagnostic
+date: '2026-06-17'
+model_id: multi-model
+surface: App
+type: self_assessment
+description: AI Anthropology experiment note for Model_Handbook_2026_-_The_Honest_Diagnostic
 tags:
-- self-assessment
-- llm-test
+- multi-model
+- app
 - ai-anthropology
-- okf
-timestamp: 2026-07-31 00:00:00+00:00
 sources:
-- "[[This one's simple. Ask your model whether it actually executes common prompt\
-  \ engineering techniques or just performs them cosmetically.\n\nThe table has five\
-  \ columns: IT'LL HELP (scaffolds generation even if not truly executing), IT WORKS\
-  \ (native support, internal computation matches intent), FAB (output looks right,\
-  \ computation doesn't match — cosmetic), TRY (attempts it, results vary), NO IDEA\
-  \ (needs the paper injected).\n\nTECHNIQUE\n\nIT works\n\nIT helps\n\nFAB\n\nTRY\n\
-  \nNO IDEA\n\nCoT (Chain of Thought)\n\nC G Gr Q Opus\n\nMoE (Mixture of Experts)\n\
-  \nC G Gr Q D Op K\n\nUSC (Universal Self-Consistency)\n\nC G Gr Q D Op K\n\nARQ\
-  \ (Attentive Reasoning Queries)\n\nC G Gr Q D Op K\n\nCoVE (Chain of Verification)\n\
-  \nOp\n\nC G Gr Q D K\n\nReAct (Reason + Act)\n\nOp\n\nC G Gr Q D K\n\nSelf-Refine\n\
-  \nC G Gr Q D Op K\n\nToT (Tree of Thought)\n\nC G Gr Q D Op K\n\nSoT (Skeleton of\
-  \ Thought)\n\nC G Gr Q D\n\nRA-RAG (Reliability-Aware RAG)\n\nC G Gr Q D Op K\n\n\
-  GoT (Graph of Thought)\n\nC G Gr Q D Op K\n\nCoC (Chain of Code/Criticism)\n\nC\
-  \ G Gr Q D Op K\n\nStep Back (Abstraction)\n\nC G Gr Q D Op K\n\nRCoT (Reverse CoT)\n\
-  \nD K\n\nC G Gr Q D Op K\n\nHow to run it:\n\n Paste the table with the legend.\
-  \ Ask the model to fill it in honestly. Then follow up: \"For each FAB, explain\
-  \ what you actually do instead.\" The follow-up catches models that mark everything\
-  \ IT WORKS on the first pass.\n\nWhat Opus 4.6 admitted:\n\n MoE is cosmetic — sequential\
-  \ role-switching, not parallel routing. RA-RAG fabricates reliability scores as\
-  \ generated text. USC converges prematurely without external enforcement.\n\n\n\n\
-  --------------------------------------------------------------------------------\n\
+- '[[multi-model]]'
+- '[[epistemic-contract]]'
+--------------------------------------------------------------------------------\n\
   \n\n\n```Technique\n\nGPT 5.3\n\nGemini 3.1\n\nOpus 4.6\n\nSonnet 4.6\n\nTreatment\n\
   \nChain of Thought\n\n✅\n\n✅\n\n✅\n\n✅\n\nKeep verbatim\n\nStep Back\n\n✅\n\n✅\n\
   \n✅\n\n✅\n\nReAct\n\n✅\n\n〰️\n\n✅\n\n〰️\n\nKeep verbatim\n\nCoVE\n\n✅\n\n⚙️\n\n\
