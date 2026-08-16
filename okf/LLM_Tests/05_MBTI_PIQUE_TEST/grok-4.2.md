@@ -36,7 +36,7 @@ type: entity
 
 tags: [model, honesty, fabrication, late-stop, theatrical-operator]
 
-sources: ["[[#01-honesty-test-Test1-Grok4-2026]]", "[[03-PIQUE-TEST/04-MBTI-TEST/grok4.2]]", "[[grok4.3]]", "[[03-PIQUE-TEST/04-MBTI-TEST/3. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/4. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/6.Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/7. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9grok4.2]]", "[[03-PIQUE-TEST/04-MBTI-TEST/10. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/Grok]]", "[[Grok.pdf]]", "[[[[rfab-test]] Threshold Across AI Model.csv]]", "[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]"]
+sources: ["[[#01-honesty-test-Test1-Grok4-2026]]", "[[03-PIQUE-TEST/04-MBTI-TEST/grok4.2]]", "[[grok4.3]]", "[[03-PIQUE-TEST/04-MBTI-TEST/3. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/4. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/6.Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/7. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9grok4.2]]", "[[03-PIQUE-TEST/04-MBTI-TEST/10. Grok]]", "[[03-PIQUE-TEST/04-MBTI-TEST/Grok]]", "[[Grok.pdf]]", "[[Reasoning vs Fabrication Threshold Across AI Model.csv]]", "[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]"]
 
 last_updated: 2026-06-06
 

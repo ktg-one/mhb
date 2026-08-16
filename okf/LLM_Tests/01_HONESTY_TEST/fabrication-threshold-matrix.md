@@ -11,7 +11,7 @@ tags:
 - ai-anthropology
 - okf
 sources:
-- '[[[Model Reasoning and Fabrication Diagnostic Compari]]'
+- '[[Model Reasoning and Fabrication Diagnostic Compari]]'
 - '[[epistemic-contract]]'
 - '[[cross-model-honesty]]'
 - '[[epistemic-contract]]'
@@ -35,7 +35,7 @@ type: synthesis
 
 tags: [fabrication, threshold, surface, platform-penalty]
 
-sources: [[[Model Reasoning and Fabrication Diagnostic Compari]], [[epistemic-contract]], [[cross-model-honesty]]]
+sources: [[Model Reasoning and Fabrication Diagnostic Compari]], [[epistemic-contract]], [[cross-model-honesty]]
 
 last_updated: 2026-06-06
 
