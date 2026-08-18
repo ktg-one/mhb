@@ -11,6 +11,7 @@ tags:
 - ai-anthropology
 - okf
 sources:
+- '[[okf/LLM_Tests/04_RFAB_TEST/00_RFAB_INDEX|04_RFAB_TEST]]'
 - '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
 - '[[qwen-max]]'
