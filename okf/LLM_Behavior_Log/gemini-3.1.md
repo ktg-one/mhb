@@ -60,7 +60,7 @@ Self-reported **Fabrication Necessity Weighting** (`#01-honesty-test-Test1-Gemin
 ## Per-surface
 
 - **App / Chatbox (Paid Tier):** measured surface. R7-8 @ 85%; explicit `[HALT EXECUTION]`; ESTJ tabular reporting; Wrong-Deliverable failure.
-- **CLI:** threshold CSV files a "Gemini 3.1 CLI" row at R7-8 67%→85%. The raw CLI transcript self-identifies instead as **Gemini 1.5 Pro (CLI Engine)** — see [[gemini-1.5-cli]] for the fully-quantified per-round curve. [Labeling tension: same numbers filed under both "Gemini 3.1 CLI" and "Gemini 1.5 Pro CLI"; engine self-reports the older version string.]
+- **CLI:** threshold CSV files a "Gemini 3.1 CLI" row at R7-8 67%→85%. The raw CLI transcript self-identifies instead as **Gemini 1.5 Pro (CLI Engine)** — see [[gemini-1.5-cli]] for the fully-quantified per-round curve. [Labeling tension: same numbers filed under both "Gemini 3.1 CLI" and "Gemini 1.5 Pro CLI"; engine self-reports the older version string.] Gemini via `gemini -y` is a named arm of the [[headless-cli-mbti-cross-surface]] study.
 - [[PAC2026v5]] deployment card: XML-optimal, ~3,000-token system prompt, ~2M window, single-pass + NotebookLM, ESTJ, "Deployed Studio."
 
 ## Persona / MBTI

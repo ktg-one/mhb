@@ -24,6 +24,13 @@ def norm(value):
     return re.sub(r"[\s_-]+", "-", value.lower())
 
 
+def page_key(path):
+    """Normalized vault-relative page path: forward slashes, lowercase, no .md."""
+    rel = os.path.relpath(path, VAULT).replace(os.sep, "/")
+    key, _ = os.path.splitext(rel)
+    return norm(key)
+
+
 def active_markdown_files():
     files = []
     for directory, dirs, names in os.walk(WIKI):
@@ -59,11 +66,10 @@ page_files = active_markdown_files()
 target_norms = resolvable_targets()
 links = []
 empty = []
-page_stems = collections.Counter()
+page_keys = collections.Counter()
 
 for path in page_files:
-    stem = os.path.splitext(os.path.basename(path))[0]
-    page_stems[norm(stem)] += 1
+    page_keys[page_key(path)] += 1
     try:
         text = open(path, encoding="utf-8", errors="replace").read()
     except OSError:
@@ -77,14 +83,51 @@ for path in page_files:
 dangling = collections.Counter(
     target for _, target in links if target_keys(target).isdisjoint(target_norms)
 )
-linked_stems = {norm(os.path.splitext(os.path.basename(target))[0]) for _, target in links}
+
+# Resolve each link to an exact normalized vault-relative page path, so a
+# path-qualified link only marks its intended page as linked. Bare links
+# resolve by stem with a deterministic pick (shallowest path, then alpha).
+by_stem = collections.defaultdict(list)
+for key in page_keys:
+    by_stem[key.split("/")[-1]].append(key)
+for candidates in by_stem.values():
+    candidates.sort(key=lambda k: (k.count("/"), k))
+
+
+def resolve_page(target):
+    """Resolve a wikilink target to an exact normalized vault-relative page path.
+
+    Obsidian semantics: an exact vault-relative path match wins; otherwise a
+    path-qualified link suffix-matches the tail of a page path (unique, then
+    shortest); a bare link matches by stem (unique/shortest). A link therefore
+    marks only its intended page as linked, never every same-stem page.
+    """
+    keys = target_keys(target)
+    path_qualified = sorted(k for k in keys if "/" in k)
+    for key in path_qualified:
+        if key in page_keys:
+            return key
+    for key in path_qualified:
+        suffix = "/" + key
+        matches = [p for p in page_keys if p.endswith(suffix)]
+        if matches:
+            matches.sort(key=lambda p: (p.count("/"), p))
+            return matches[0]
+    stem = norm(os.path.splitext(os.path.basename(target.replace("\\", "/")))[0])
+    candidates = by_stem.get(stem)
+    return candidates[0] if candidates else None
+
+
+linked_pages = {resolved for resolved in (resolve_page(t) for _, t in links) if resolved}
 orphans = [
     os.path.relpath(path, VAULT).replace(os.sep, "/")
     for path in page_files
-    if norm(os.path.splitext(os.path.basename(path))[0]) not in linked_stems
-    and norm(os.path.splitext(os.path.basename(path))[0]) not in RESERVED_STEMS
+    if page_key(path) not in linked_pages
+    and page_key(path).split("/")[-1] not in RESERVED_STEMS
 ]
-duplicate_stems = sum(1 for count in page_stems.values() if count > 1)
+duplicate_stems = sum(
+    1 for count in collections.Counter(k.split("/")[-1] for k in page_keys).values() if count > 1
+)
 
 print(
     f"pages={len(page_files)} links={len(links)} EMPTY=[[]]:{len(empty)} "

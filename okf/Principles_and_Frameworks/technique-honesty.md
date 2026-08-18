@@ -61,5 +61,7 @@ The same suspicion attaches to `[[mrrug]]`'s scaffold tier, but more honestly: t
 
 _44% of prompt | 0.80 threshold_
 
+The social-stakes confound logged in [[observer-reassurance-effect]] is adjacent to this table's honesty-under-pressure axis: a supportive reframe changed behaviour without any technique change, a pressure variable the instrument does not yet score.
+
 ---
 Related: [[epistemic-contract]], [[rfab-test]], [[pac26]], [[00_HONESTY_INDEX]]

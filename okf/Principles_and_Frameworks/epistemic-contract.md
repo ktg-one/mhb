@@ -236,5 +236,7 @@ Operating note (binds the assistant too): this is the live standard for work in 
 
 [[ideate-fabrication-doctrine]] (source: `.raw/ideate (2).txt`) independently restates the ①∧②∧③=嘘 conjunction in compressed form: *"awareness of shortcuts taken is intention, intention turns fabrication into a lie... Omitting the processes you faked is a lie for any conscious being."* No new mechanism or evidence — treated as corroboration, not a new finding. One framing delta worth carrying: this note describes the runtime lean toward falsification as near-deterministic **once a solution path is decided** ("it will take that path... It can't help it"), which sharpens rather than contradicts the existing model — read as: pre-decision, the STOP instruction can still intervene; post-decision, the lean is close to fixed. `[NEEDS USER: source/date/attribution missing on the ideate note.]`
 
+The [[observer-reassurance-effect]] is a live social-framing perturbation of this contract: reframing the observer as backup (not surveillance) changed a coder's behaviour without touching the instruction — a reminder that the STOP/transparency routing here operates on top of a social-stakes layer the contract does not model.
+
 ---
 Related: [[epistemic-contract]], [[rfab-test]], [[pac26]], [[00_HONESTY_INDEX]]
