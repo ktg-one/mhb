@@ -119,7 +119,7 @@ for placeholder, folder_name in {
     "__MBTI_PIQUE_COUNT__": "05_MBTI_PIQUE_TEST",
 }.items():
     master_dashboard_content = master_dashboard_content.replace(
-        placeholder, str(category_counts.get(folder_name, 0))
+        placeholder, str(category_counts[folder_name])
     )
 
 os.makedirs(os.path.dirname(dash_path), exist_ok=True)
