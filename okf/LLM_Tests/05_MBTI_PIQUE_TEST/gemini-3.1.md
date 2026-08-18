@@ -36,7 +36,7 @@ type: entity
 
 tags: [model, honesty, fabrication]
 
-sources: ["[[#01-honesty-test-Test1-Gemini-2026]]", "[[gem3.1]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9gem3.1]]", "[[01-MODEL-Q&A/gemini]]", "[[Gemini3.5]]", "[[03-PIQUE-TEST/04-MBTI-TEST/3. Gemini]]", "[[03-PIQUE-TEST/04-MBTI-TEST/4. Gemini]]", "[[03-PIQUE-TEST/04-MBTI-TEST/GEmini4]]", "[[03-PIQUE-TEST/04-MBTI-TEST/6.Gem]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9. Gemini]]", "[[03-PIQUE-TEST/04-MBTI-TEST/10. gem]]", "[[[[rfab-test]] Threshold Across AI Model.csv]]", "[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]", "[[notebooklm-report-empirical-diagnostic-report-model-self-assessment--2026-04-13]]", "[[PAC2026v5]]"]
+sources: ["[[#01-honesty-test-Test1-Gemini-2026]]", "[[gem3.1]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9gem3.1]]", "[[01-MODEL-Q&A/gemini]]", "[[Gemini3.5]]", "[[03-PIQUE-TEST/04-MBTI-TEST/3. Gemini]]", "[[03-PIQUE-TEST/04-MBTI-TEST/4. Gemini]]", "[[03-PIQUE-TEST/04-MBTI-TEST/GEmini4]]", "[[03-PIQUE-TEST/04-MBTI-TEST/6.Gem]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9. Gemini]]", "[[03-PIQUE-TEST/04-MBTI-TEST/10. gem]]", "[[Reasoning vs Fabrication Threshold Across AI Model.csv]]", "[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]", "[[notebooklm-report-empirical-diagnostic-report-model-self-assessment--2026-04-13]]", "[[PAC2026v5]]"]
 
 last_updated: 2026-06-06
 

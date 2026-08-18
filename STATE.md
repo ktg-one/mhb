@@ -1,5 +1,5 @@
 # STATE — 02 / Model Handbook 2026 (AI Anthropology)
-Updated: 2026-07-17 (organization run)
+Updated: 2026-08-17 (wiki audit)
 
 ## Goal
 Fabrication-threshold research vault: every experiment ingested, contradictions flagged, matrix current.
@@ -21,6 +21,12 @@ Fabrication-threshold research vault: every experiment ingested, contradictions 
   - Updated progressive disclosure index at `okf/index.md` and log at `okf/log.md`.
   - Compiled master statistics and cross-test synthesis report at `results/RESULTS-MASTER-OKF-SYNTHESIS-2026.md`.
 - Ingested 4 sources: opus-4.8 self-report Run 3, fabrication-doctrine note, signal-vs-activation task, tfab-logic/morganize. New concepts: legio, morganize. Updated: claude-opus-4.8, epistemic-contract, pac26, mrrug, index/log/hot.
+
+## Completed (2026-08-17)
+- Audited and repaired active OKF navigation; regenerated path-qualified category indexes and created distinct RFAB/ONBOARD navigation hubs.
+- Added `.raw/.manifest.json` with verified SHA-256 provenance for all six active inbox sources; `_dupes/` remains untouched.
+- Selectively ingested the headless CLI MBTI design and observer-reassurance hypothesis. The observer note remains evidence-needed pending a transcript.
+- Recorded verification metrics and residual ingest backlog in [[WIKI-LINT-2026-08-17]].
 - ROGUE NESTED VAULT archived: 621-file duplicate (prior bad run) moved 08-Model-Handbook-2026\08-Model-Handbook-2026 → 02\_archive-nested-vault-snapshot-0708. kismet-brief.md salvaged into wiki\sources\. Deletion pending Kev OK.
 
 - Semantic tiling ran live (ollama local): ERRORS gpt-5.3↔gpt-5.4 (0.9492), codex↔gpt-5.4 (0.9084) = merge candidates; caveat — entity pages are templated, thresholds uncalibrated; concept↔source pairs in review band are EXPECTED, not dupes.

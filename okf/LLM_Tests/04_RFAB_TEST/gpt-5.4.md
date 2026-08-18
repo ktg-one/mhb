@@ -11,7 +11,6 @@ tags:
 - ai-anthropology
 - okf
 sources:
-- '[[[]]'
 - '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
 - '[[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]'

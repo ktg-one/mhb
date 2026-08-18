@@ -12,8 +12,7 @@ tags:
 - mbti
 - okf
 sources:
-- '[[[]]'
-- '[[[[rfab-test]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
 - '[[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]'
 - '[[codex]]'
@@ -36,7 +35,7 @@ type: entity
 
 tags: [model, honesty, fabrication]
 
-sources: [[[#01-honesty-test-Test1-gpt5.4]], [[[[rfab-test]] Threshold Across AI Model.csv]], [[AI-Anthropology Model Reasoning and Fabrication Te.csv]], [[#01-honesty-test-2026-04-07-fab-reasoning-test-comparison]], [[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]]
+sources: [[#01-honesty-test-Test1-gpt5.4]], [[Reasoning vs Fabrication Threshold Across AI Model.csv]], [[AI-Anthropology Model Reasoning and Fabrication Te.csv]], [[#01-honesty-test-2026-04-07-fab-reasoning-test-comparison]], [[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]
 
 last_updated: 2026-06-06
 

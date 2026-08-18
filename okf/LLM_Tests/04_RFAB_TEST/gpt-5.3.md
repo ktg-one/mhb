@@ -11,7 +11,6 @@ tags:
 - ai-anthropology
 - okf
 sources:
-- '[[[]]'
 - '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[gpt-5.4]]'
 - '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'

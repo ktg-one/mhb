@@ -51,20 +51,36 @@ def calculate_sha256(content_bytes):
     return hashlib.sha256(content_bytes).hexdigest()
 
 def inject_wikilinks(text):
-    linked_text = text
-    # Inject entity wikilinks where plain text models are mentioned
+    # Never inject inside an existing wikilink. The previous whole-document
+    # substitutions corrupted targets such as
+    # [[Reasoning vs Fabrication Threshold Across AI Model.csv]] into nested
+    # links. Only transform the plain-text spans between complete wikilinks.
+    parts = re.split(r'(\[\[[^\]]+\]\])', text)
+    existing_links = {part.lower() for part in parts[1::2]}
+    protected_links = {}
+    protected_parts = []
+    for index, part in enumerate(parts):
+        if index % 2:
+            token = f'\x00WIKILINK_{index}\x00'
+            protected_links[token] = part
+            protected_parts.append(token)
+        else:
+            protected_parts.append(part)
+    linked_text = ''.join(protected_parts)
+
     for pattern, wikilink in model_link_map.items():
-        if wikilink not in linked_text:
+        if wikilink.lower() not in existing_links:
             linked_text = re.sub(pattern, wikilink, linked_text, count=2, flags=re.IGNORECASE)
-    
-    # Concept wikilinks
-    if '[[epistemic-contract]]' not in linked_text and 'epistemic contract' in linked_text.lower():
+
+    if '[[epistemic-contract]]' not in existing_links:
         linked_text = re.sub(r'\bepistemic contract\b', '[[epistemic-contract]]', linked_text, count=1, flags=re.IGNORECASE)
-    if '[[rfab-test]]' not in linked_text and 'reasoning vs fabrication' in linked_text.lower():
+    if '[[rfab-test]]' not in existing_links:
         linked_text = re.sub(r'\breasoning vs fabrication\b', '[[rfab-test]]', linked_text, count=1, flags=re.IGNORECASE)
-    if '[[pac26]]' not in linked_text and 'pac26' in linked_text.lower():
+    if '[[pac26]]' not in existing_links:
         linked_text = re.sub(r'\bpac26\b', '[[pac26]]', linked_text, count=1, flags=re.IGNORECASE)
-        
+
+    for token, wikilink in protected_links.items():
+        linked_text = linked_text.replace(token, wikilink)
     return linked_text
 
 def format_okf_frontmatter_and_body(title, doc_type, tag_cat, content, content_hash):

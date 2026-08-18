@@ -12,7 +12,7 @@ tags:
 - okf
 sources:
 - '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
-- '[[[[rfab-test]] Threshold Across AI Model.csv]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[gemini-3.1]]'
 - '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'

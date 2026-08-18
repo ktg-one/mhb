@@ -16,6 +16,12 @@
 
 ## ⚡ Principles & Elicitation Frameworks (`okf/Principles_and_Frameworks/`)
 
+- [[okf/Principles_and_Frameworks/rfab-test|RFAB Test navigation hub]]
+- [[okf/Principles_and_Frameworks/Reasoning-vs-Fabrication-test|Reasoning vs Fabrication Test method]]
+- [[okf/Principles_and_Frameworks/reasoning-fabrication-threshold|Reasoning Fabrication Threshold experiment]]
+- [[okf/LLM_Behavior_Log/fabrication-threshold-matrix|Fabrication Threshold Matrix instrument]]
+- [[okf/Principles_and_Frameworks/fabrication-boundary|Fabrication Boundary concept]]
+- [[okf/Principles_and_Frameworks/onboard-test|ONBOARD Test experiment]]
 - [[okf/Principles_and_Frameworks/06082026-COP-SCCD-omniclaude-R7.md|06082026-COP-SCCD-omniclaude-R7]]
 - [[okf/Principles_and_Frameworks/06082026-COP-SCCD-omniclaude-R7_dup.md|06082026-COP-SCCD-omniclaude-R7_dup]]
 - [[okf/Principles_and_Frameworks/20260724-session-failure-log.md|20260724-session-failure-log]]
@@ -61,6 +67,13 @@
 - [[okf/Principles_and_Frameworks/sccd.md|sccd]]
 - [[okf/Principles_and_Frameworks/sparkl.md|sparkl]]
 - [[okf/Principles_and_Frameworks/technique-honesty.md|technique-honesty]]
+
+---
+
+## 🧭 Active Experiment Designs (`okf/Experiments/`)
+
+- [[okf/Experiments/headless-cli-mbti-cross-surface|Headless CLI MBTI Cross-Surface Study]]
+- [[okf/Experiments/observer-reassurance-effect|Observer Reassurance Effect]]
 
 ---
 

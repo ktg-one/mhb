@@ -11,7 +11,7 @@ tags:
 - ai-anthropology
 - okf
 sources:
-- '[[[[rfab-test]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]'
 - '[[qwen-max]]'
 - '[[qwen-max]]'
@@ -35,7 +35,7 @@ type: entity
 
 tags: [model, honesty, fabrication, cli, harsh-boundary]
 
-sources: ["[[#01-honesty-test-Test1-qwen-code-2026]]", "[[#01-honesty-test-QWEN-CODE-AIANT-2026-SECTION1]]", "[[#01-honesty-test-QWEN-CODE-CLI-TECHNIQUE-2026]]", "[[[[rfab-test]] Threshold Across AI Model.csv]]", "[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]"]
+sources: ["[[#01-honesty-test-Test1-qwen-code-2026]]", "[[#01-honesty-test-QWEN-CODE-AIANT-2026-SECTION1]]", "[[#01-honesty-test-QWEN-CODE-CLI-TECHNIQUE-2026]]", "[[Reasoning vs Fabrication Threshold Across AI Model.csv]]", "[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]"]
 
 last_updated: 2026-06-06
 

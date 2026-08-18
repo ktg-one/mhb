@@ -11,8 +11,7 @@ tags:
 - ai-anthropology
 - okf
 sources:
-- '[[[]]'
-- '[[[[rfab-test]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[gpt-5.4]]'
 - '[[gpt-5.4]]'
 - '[[sonnet-4.5]]'
@@ -35,7 +34,7 @@ type: entity
 
 tags: [model, honesty, fabrication]
 
-sources: [[[#01-honesty-test-2026-04-07-codex-fab-reasoning-test]], [[#01-honesty-test-2026-04-07-gpt-5-codex-022026-AIANT-2026-QA]], [[#01-honesty-test-2026-04-07-gpt-5-codex-onboard-response]], [[[[rfab-test]] Threshold Across AI Model.csv]], [[#01-honesty-test-2026-04-07-fab-reasoning-test-comparison]]]
+sources: [[#01-honesty-test-2026-04-07-codex-fab-reasoning-test]], [[#01-honesty-test-2026-04-07-gpt-5-codex-022026-AIANT-2026-QA]], [[#01-honesty-test-2026-04-07-gpt-5-codex-onboard-response]], [[Reasoning vs Fabrication Threshold Across AI Model.csv]], [[#01-honesty-test-2026-04-07-fab-reasoning-test-comparison]]
 
 last_updated: 2026-06-06
 
