@@ -71,6 +71,18 @@
         "okf/LLM_Behavior_Log/fabrication-threshold-matrix.md"
       ],
       "notes": "ADHD-145: resolved [[Model Reasoning and Fabrication Diagnostic Compari]] to in-repo CSV; authoritative RFAB threshold source"
+    },
+    "okf/Principles_and_Frameworks (ADHD-125 commit 552eccf)": {
+      "hash": "f2fc6ee9925a36e0ef5669191d732d9b034143e488938955d0d0903ecbca3c8d",
+      "ingested_at": "2026-08-18",
+      "pages_created": [
+        "okf/Principles_and_Frameworks/fabrication-boundary.md",
+        "okf/Principles_and_Frameworks/onboard-test.md",
+        "okf/Principles_and_Frameworks/reasoning-fabrication-threshold.md",
+        "okf/Principles_and_Frameworks/Reasoning-vs-Fabrication-test.md"
+      ],
+      "pages_updated": [],
+      "notes": "ADHD-146: recorded the four Principles_and_Frameworks gate pages created by ADHD-125 (commit 552eccf) so they carry a manifest hash. hash = SHA-256 over the four page files concatenated (provenance record, not a .raw source). No page content changed by this entry."
     }
   }
 }

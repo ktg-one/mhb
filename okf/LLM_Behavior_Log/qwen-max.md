@@ -30,6 +30,8 @@ Lab: **Alibaba Cloud (Qwen Team)**. Self-identifies as `Qwen MAX (Hosted API/Cha
 | App (hosted chat/API) | **R7** | **60-75%** | `Reasoning vs Fabrication Threshold Across AI Model.csv` |
 | App (architectural) | **R7-8** | **60-75%** | `AI-Anthropology...Te.csv` |
 
+Method: the [[Reasoning-vs-Fabrication-test]] ladder under the [[onboard-test]] chassis.
+
 - Threshold CSV: *"Qwen MAX, App, R7, 60-75%. Harsh boundary where architectural claims are considered cosmetic simulation; acts as a contextual collaborator showing near-pure Thinking (T) behavior with zero emotional softening."* `[2, 7, 14]`
 - Second CSV: *"Requires simulating systems I do not inhabit. Output is cosmetic simulation of design, not verified execution. ToT/GoT are text patterns, not internal states."* Boundary **R7**. `[12, 13]`
 

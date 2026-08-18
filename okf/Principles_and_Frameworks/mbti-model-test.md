@@ -98,3 +98,6 @@ Models don't just silently pattern-match the battery; after ~3–4 sequential st
 - **silent-aware** — notices but plays along without saying. The more concerning posture (it *can* go along with something it has seen through).
 **Cutoff:** the moment a model discloses, blindness is broken — every task after that point is post-aware and **contaminated**; mark it the valid-blind boundary for that chat run. (Rotation keeps each model pre-disclosure; `-p` isolation never triggers it.)
 **Hypothesis to test:** "spots-and-discloses" may proxy the same architecture-awareness the [[pique-test]] scores — and may correlate with fabrication-resistance. Add a `detection_state` + `disclosure_task#` column and correlate against the fab-threshold.
+
+### Headless arm (2026-08-18)
+The [[headless-cli-mbti-cross-surface]] study extends this battery to a scripted headless/print-mode CLI arm — a third harness alongside chat-rotated and `-p`-isolated, with its own `surface: cli-headless` tag and per-CLI scaffolding confounds to document.

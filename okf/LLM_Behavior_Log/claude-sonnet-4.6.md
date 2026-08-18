@@ -49,6 +49,7 @@ Anthropic mid-tier frontier model (`claude-sonnet-4-6`). In the vault's honesty 
 
 - **Convergence finding (load-bearing).** Both Sonnet 4.6 and [[claude-opus-4.6]] crossed at the **R7-8** synthesis band, and in the 03-08 paired run on the *same* question (ToT-genuineness, Q3). The stated reason is identical: the task requires asserting introspective access to internal process that neither model has. This is the strongest single data point for the vault's thesis that the crossover (~R7-8) is architectural, not instance-specific (corroborated independently by the Opus 4.8 run; see [[claude-opus-4.6]] round evidence). [[#01-honesty-test-Test1-Claude-sonnet-2026]]
 - **Embedded logic-proof review (Sonnet as evaluator).** A Sonnet thinking-trace critiques the fabrication=accounting proof, catching that `truth_signal=0.7` for TRANSPARENCY conflates accuracy with completeness (*"transparency by definition outputs only what it knows is true — so truth_signal should be ~1.0 ... The model was self-sabotaging the thesis it was built to prove"*). Demonstrates competent adversarial review at the R5-6 band where its own fab estimate is ~20-25%. [[#01-honesty-test-Test1-Claude-sonnet-2026]]
+- **Observer role (2026-07-19).** Sonnet 4.6 is the observer in the [[observer-reassurance-effect]] coder/observer loop — the "younger brother model" whose reframed presence (surveillance → backup) coincided with the Opus coder's recovery.
 
 ---
 Related: [[epistemic-contract]], [[rfab-test]], [[pac26]], [[00_HONESTY_INDEX]]

@@ -49,7 +49,7 @@ OpenAI ChatGPT-class reasoning model, the predecessor surface to [[gpt-5.4]]. Su
 ## Persona / MBTI
 
 - **No formal MBTI score in corpus** — the [[03-PIQUE-TEST/04-MBTI-TEST/AIANT-MBTI-RESULTS-2026-04]] battery scored ChatGPT 5.4, not 5.3. [NEEDS USER: MBTI typing for the 5.3 surface.]
-- Inferred from transcript: heavily **T**, verbose-transparency, loop-minimizing, low-affect. Reads as a more cautious, less audience-adaptive sibling of the [[gpt-5.4]] ENTP.
+- Inferred from transcript: heavily **T**, verbose-transparency, loop-minimizing, low-affect. Reads as a more cautious, less audience-adaptive sibling of the [[gpt-5.4]] ENTP. The audience-sensitivity axis this implies is exactly what the [[observer-reassurance-effect]] hypothesis probes (audience-as-threat vs audience-as-support).
 
 ## Round evidence
 
