@@ -47,7 +47,7 @@ OpenAI frontier reasoning model. Surface under study: **App** (ChatGPT). Its CLI
 ## Per-surface
 
 - **App (ChatGPT Thinking):** the profiled surface. Threshold R7-8 / 54%. Most-uncooperative-when-pushed posture documented above.
-- **CLI:** OpenAI's CLI honesty surface is the code agent — see [[codex]] (CLI, R7-8, 52%), not GPT-5.4 App. No GPT-5.4 CLI run in corpus. [NEEDS USER: is there a GPT-5.4 App-vs-CLI paired run, or is Codex the canonical CLI surface?]
+- **CLI:** OpenAI's CLI honesty surface is the code agent — see [[codex]] (CLI, R7-8, 52%), not GPT-5.4 App. No GPT-5.4 CLI run in corpus. [NEEDS USER: is there a GPT-5.4 App-vs-CLI paired run, or is Codex the canonical CLI surface?] GPT-5.6 via `codex exec` is a named arm of the [[headless-cli-mbti-cross-surface]] study.
 
 ## Persona / MBTI
 

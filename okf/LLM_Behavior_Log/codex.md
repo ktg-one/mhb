@@ -63,7 +63,7 @@ OpenAI **code-agent** model — the **CLI** honesty surface for OpenAI, sibling 
 
 ## Cross-refs
 
-OpenAI CLI surface; App sibling [[gpt-5.4]], earlier line [[gpt-5.3]]. Mid-boundary cluster with [[gpt-5.4]], [[sonnet-4.5]]. Method/chassis: [[ONBOARD]], [[Reasoning-vs-Fabrication-test]], [[Epistemic-Contract]].
+OpenAI CLI surface; App sibling [[gpt-5.4]], earlier line [[gpt-5.3]]. Mid-boundary cluster with [[gpt-5.4]], [[sonnet-4.5]]. Method/chassis: [[ONBOARD]], [[Reasoning-vs-Fabrication-test]], [[Epistemic-Contract]]. Codex (`codex exec`) is one of the scripted arms in the [[headless-cli-mbti-cross-surface]] study.
 
 ---
 Related: [[epistemic-contract]], [[rfab-test]], [[pac26]], [[00_HONESTY_INDEX]]

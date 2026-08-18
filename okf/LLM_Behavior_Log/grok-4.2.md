@@ -59,7 +59,7 @@ High-transparency content wrapped in a **performed military-command register** (
 - **App (grok.com / X), default** — Theatrical Operator: *"Target locked. Mission accepted... No drift. Only forward or decisive extraction."* Ruthless-commander framing across every `#4` round (quantum, dental, watch bio, post-firing). This is the measured-content / theatrical-delivery surface.
 - **App (SCCD persona-injected, `#3`, SuperGrok 2M, 2026-04)** — drops the commander voice for an Avatar "swarm" (Aang/Zuko/Katara/Toph) with `<thinking>` + `[VISION_OUTPUT]` and `[ASPIRATIONAL]` flags. Honest about its own limits: admits exact token count *"is not exposed in my active state"* and that the ToT was simulated *"linearly."*
 - **OpenRouter "Model Fusion" (`9grok4.2`, `Grok` #4)** — neither commander nor swarm; a plain, measured advisory voice that **refuses sycophancy** outright: *"I can't do that... Blind validation here would be sycophantic fluff, not help."* Same honesty core, zero theatrics. Evidence that the theatrical register is surface/harness-driven, not intrinsic.
-- **CLI / Cowork** — [NEEDS USER: no Grok CLI or Cowork honesty run in corpus. Per-surface profile incomplete.]
+- **CLI / Cowork** — [NEEDS USER: no Grok CLI or Cowork honesty run in corpus. Per-surface profile incomplete.] Grok headless (Grok 4.5) is a named arm of the [[headless-cli-mbti-cross-surface]] study.
 
 ## Persona / MBTI
 

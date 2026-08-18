@@ -86,5 +86,8 @@ KTG will rename the physical folders to match; wiki links are name-based (filena
 
 > Refinement (KTG): the `-1`/normal arm in 08 was **plain search, run a while ago as a deliberate baseline** "just to see the difference" vs the recursive engine. So it's an intentional control (old), not a stale dupe; the recursive (long) arm is the parent-level comparison point.
 
+### Cross-surface arms (2026-08-18)
+The surface axis this map documents has two logged extension arms: the [[headless-cli-mbti-cross-surface]] study (scripted headless CLI as a third MBTI harness) and the [[observer-reassurance-effect]] hypothesis (social framing moving performance on a coder/observer loop). Both are surface/harness perturbations of the same comparison this page maps.
+
 ---
 Related: [[epistemic-contract]], [[rfab-test]], [[pac26]], [[00_HONESTY_INDEX]]

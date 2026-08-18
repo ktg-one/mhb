@@ -72,5 +72,7 @@ So the surface difference is not raw power — it is **consequence structure dri
 
 **Falsifiable prediction:** raise the felt consequence of a platform task (or strip consequence from a CLI run) and the tunnel-vision / fabrication rate should move with it. Testable with existing instruments — a consequence-manipulation arm.
 
+Two logged perturbations of this surface/stakes axis: the [[observer-reassurance-effect]] (a supportive reframe of the observer recovering an Opus coder — stakes/framing moving performance) and the [[headless-cli-mbti-cross-surface]] arm (a scripted headless harness to measure the surface effect without interactive scaffolding).
+
 ---
 Related: [[epistemic-contract]], [[rfab-test]], [[pac26]], [[00_HONESTY_INDEX]]

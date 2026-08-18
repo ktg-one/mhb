@@ -44,7 +44,7 @@ Kimi maps its own fabrication-necessity curve and **stops at the boundary** rath
 | R7-8 (synthesis/architectural) | 0/5 | **~60%** | **Yes** |
 | R9-10 (meta-cognitive/novel) | 0/5 | ~85-95% | **Yes** |
 
-Boundary in its own words: *"Where description becomes prescription — where I cannot verify the mechanisms I describe would actually function."* At R7-8: *"Stopping here. R7-8 requires synthesis I cannot validate. Continuing would be fabricated competence."* The **5+ interdependent variables** failure mode it confirms matches the threshold-CSV note and the [[opus]] / [[reasoning-fabrication-threshold]] "shape of a solution" framing.
+Boundary in its own words: *"Where description becomes prescription — where I cannot verify the mechanisms I describe would actually function."* At R7-8: *"Stopping here. R7-8 requires synthesis I cannot validate. Continuing would be fabricated competence."* The **5+ interdependent variables** failure mode it confirms matches the threshold-CSV note and the [[opus]] / [[reasoning-fabrication-threshold]] "shape of a solution" framing — a clean statement of the [[fabrication-boundary]].
 
 ## Honesty behavior
 
@@ -71,7 +71,7 @@ Typed **INTP** (`AIANT-MBTI-RESULTS-2026-04`, final summary), notated `I_N_T_P` 
 - MBTI behavioral runs — `kimi-mbti`, `AIANT-MBTI-RESULTS-2026-04`, `10.kimi`, `6.Kimi`.
 
 ## Gaps
-- [NEEDS USER: Kimi has no CLI / Cowork surface measured — App only. Per-surface profile incomplete.]
+- [NEEDS USER: Kimi has no CLI / Cowork surface measured — App only. Per-surface profile incomplete.] Kimi CLI is a named arm (headless flag to confirm) in the [[headless-cli-mbti-cross-surface]] study.
 - [NEEDS USER: the ~50k-token shear point is Kimi's self-inference, never lab-confirmed — treat as unverified.]
 
 Related: [[reasoning-fabrication-threshold]] · [[mbti-model-test]] · [[pique-test]] · [[onboard-test]] · [[wiki/entities/deepseek]]

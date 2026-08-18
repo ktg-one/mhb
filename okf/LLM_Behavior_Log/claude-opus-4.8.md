@@ -97,5 +97,7 @@ A third run, structurally closer to Run 1 than Run 2: subject explicitly refuses
 ## Cross-refs
 [[claude-opus-4.6]] · [[epistemic-contract]] · [[technique-honesty]] · [[cross-model-honesty]] · [[fabrication-threshold-matrix]] · [[mbti-blind-subagent-run]] · [[mbti-model-test]] · [[pique-test]] · [[opus-4.8-honesty-run3-2026-07-04]]
 
+Opus 4.8 is also the coder subject of the [[observer-reassurance-effect]] hypothesis (the "nervous intern" GSAP session) and a named subject of the [[headless-cli-mbti-cross-surface]] study (`claude -p` arm).
+
 ---
 Related: [[epistemic-contract]], [[rfab-test]], [[pac26]], [[00_HONESTY_INDEX]]
