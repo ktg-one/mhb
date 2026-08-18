@@ -39,6 +39,18 @@ def classify(path, vault):
     return rel.split("/")[0] if "/" in rel else "_root"
 
 
+def norm_rel(path, vault):
+    """Normalized vault-relative page path: forward slashes, lowercase, no .md."""
+    rel = os.path.relpath(path, os.path.join(vault, WIKI)).replace(os.sep, "/")
+    return rel[:-3].lower() if rel.lower().endswith(".md") else rel.lower()
+
+
+def norm_target(target):
+    """Normalize a wikilink target the same way (strip .md, lowercase, slashes)."""
+    t = target.strip().replace("\\", "/")
+    return t[:-3].lower() if t.lower().endswith(".md") else t.lower()
+
+
 def read(path):
     return open(path, encoding="utf-8", errors="replace").read()
 
@@ -86,29 +98,73 @@ def main(argv):
 
     manifest = load_manifest(vault)
 
-    # index every .md: its class, its body, and the set of pages it links (inline)
-    pages = {}       # stem-lower -> {path, cls, body_bytes}
-    inline_src = collections.defaultdict(set)   # target-stem -> {source stems} (inline only)
-    total_ref = collections.Counter()           # target-stem -> ALL inbound refs (anywhere, any file)
+    # index every .md: its class, its body, and the set of pages it links (inline).
+    # Pages are keyed by normalized vault-relative path (not stem), so distinct
+    # same-stem pages in different folders stay distinct.
+    pages = {}       # norm vault-rel path -> {path, cls, body_bytes}
+    bodies = {}      # norm vault-rel path -> body text
+    meta_bodies = [] # bodies of meta files: count their refs, never a source/target
+    inline_src = collections.defaultdict(set)   # target page path -> {source page paths} (inline only)
+    total_ref = collections.Counter()           # target page path -> ALL inbound refs (anywhere, any file)
     for root, dirs, files in os.walk(wiki_dir):
         for n in files:
             if not n.endswith(".md"):
                 continue
             p = os.path.join(root, n)
             body_full = strip_fm(read(p))
-            # total inbound: every wikilink anywhere, including meta + Related dumps
-            for tgt in WIKILINK.findall(body_full):
-                total_ref[tgt.strip().split("/")[-1].lower()] += 1
             if os.sep + "meta" + os.sep in p or n.lower() in META_NAMES:
+                meta_bodies.append(body_full)
                 continue
-            stem = n[:-3].lower()
-            pages[stem] = {"path": p, "cls": classify(p, vault),
-                           "body_bytes": len(body_full.encode("utf-8", "replace"))}
-            # split off trailing Related/See-also block -> only count links ABOVE it
-            m = RELATED_HDR.search(body_full)
-            above = body_full[:m.start()] if m else body_full
-            for tgt in WIKILINK.findall(above):
-                inline_src[tgt.strip().split("/")[-1].lower()].add(stem)
+            rel = norm_rel(p, vault)
+            pages[rel] = {"path": p, "cls": classify(p, vault),
+                          "body_bytes": len(body_full.encode("utf-8", "replace"))}
+            bodies[rel] = body_full
+
+    # resolve every link target to an exact page path: path-qualified links match
+    # only their intended page; bare links resolve by stem (deterministic pick).
+    by_stem = collections.defaultdict(list)
+    for rel in pages:
+        by_stem[rel.split("/")[-1]].append(rel)
+    for v in by_stem.values():
+        v.sort(key=lambda r: (r.count("/"), r))
+
+    def resolve(tgt):
+        """Resolve a wikilink target to an exact normalized vault-relative page
+        path: exact path match, then unique/shortest path-suffix match, then
+        bare-stem match (deterministic pick). Distinct same-stem pages stay
+        distinct."""
+        t = norm_target(tgt)
+        if "/" in t:
+            if t in pages:
+                return t
+            suffix = "/" + t
+            matches = [p for p in pages if p.endswith(suffix)]
+            if matches:
+                matches.sort(key=lambda p: (p.count("/"), p))
+                return matches[0]
+            return None
+        cands = by_stem.get(t)
+        return cands[0] if cands else None
+
+    # aggregate inbound refs against RESOLVED page paths
+    for body_full in meta_bodies:
+        for tgt in WIKILINK.findall(body_full):
+            r = resolve(tgt)
+            if r:
+                total_ref[r] += 1
+    for rel, body_full in bodies.items():
+        # total inbound: every wikilink anywhere, including Related dumps
+        for tgt in WIKILINK.findall(body_full):
+            r = resolve(tgt)
+            if r:
+                total_ref[r] += 1
+        # split off trailing Related/See-also block -> only count links ABOVE it
+        m = RELATED_HDR.search(body_full)
+        above = body_full[:m.start()] if m else body_full
+        for tgt in WIKILINK.findall(above):
+            r = resolve(tgt)
+            if r:
+                inline_src[r].add(rel)
 
     rows, npass = [], 0
     targets = [(s, m) for s, m in pages.items() if m["cls"] in TARGET_CLASSES]
