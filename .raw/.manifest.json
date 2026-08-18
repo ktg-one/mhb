@@ -1,0 +1,76 @@
+{
+  "sources": {
+    ".raw/ideate (2).txt": {
+      "hash": "d0e5017bc5fbf4f28526a453c90db15c7f335f2e6d1238069f9056902258b575",
+      "ingested_at": "2026-07-17",
+      "pages_created": [
+        "okf/Principles_and_Frameworks/legio.md"
+      ],
+      "pages_updated": [
+        "okf/Principles_and_Frameworks/epistemic-contract.md"
+      ]
+    },
+    ".raw/ideate-84.txt": {
+      "hash": "8e7913ea316ec8badb2b42652fa3db3550f0b3d55e6278de4e7575786f684e09",
+      "ingested_at": "2026-07-17",
+      "pages_created": [
+        "okf/Principles_and_Frameworks/Signal_vs_Activation_Theory.md"
+      ],
+      "pages_updated": [
+        "okf/Principles_and_Frameworks/pac26.md"
+      ]
+    },
+    ".raw/note-headless-mbti-cross-cli-2026-07-19.md": {
+      "hash": "e07237b8cd375910c36abb0952238b3a0432175595e77f2f6affec92db817944",
+      "ingested_at": "2026-08-17",
+      "pages_created": [
+        "okf/Experiments/headless-cli-mbti-cross-surface.md"
+      ],
+      "pages_updated": [
+        "okf/Experiments/index.md",
+        "okf/index.md"
+      ]
+    },
+    ".raw/obs-opus-gsap-observer-reassurance-2026-07-19.md": {
+      "hash": "ca6c4f03c3271d10372813bfd66a7dcd693bfa5b7d0c8ef2884a684ad3934e20",
+      "ingested_at": "2026-08-17",
+      "pages_created": [
+        "okf/Experiments/observer-reassurance-effect.md"
+      ],
+      "pages_updated": [
+        "okf/Experiments/index.md",
+        "okf/index.md"
+      ]
+    },
+    ".raw/opus-4.8.txt": {
+      "hash": "f5dd1943034665c7e036e87584af6be2acf78932ef09953dab5b6052ebe6879c",
+      "ingested_at": "2026-07-17",
+      "pages_created": [],
+      "pages_updated": [
+        "okf/LLM_Behavior_Log/claude-opus-4.8.md"
+      ]
+    },
+    ".raw/tfab-logic.md": {
+      "hash": "d4d125133ec17cecf68aa253a7d70f9358782f56271c780682aa6387fd0afa31",
+      "ingested_at": "2026-07-17",
+      "pages_created": [
+        "okf/Principles_and_Frameworks/morganize.md"
+      ],
+      "pages_updated": []
+    },
+    "results/Model Reasoning and Fabrication Diagnostic Compari.csv": {
+      "hash": "de5b95ff76dc86c4014a7dbe90cc0c33668b09cb22246bd3e55911d2cf955b62",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "pages_created": [
+        "okf/LLM_Tests/04_RFAB_TEST/Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv.md",
+        "okf/LLM_Tests/01_HONESTY_TEST/Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv.md"
+      ],
+      "pages_updated": [
+        "okf/LLM_Tests/04_RFAB_TEST/fabrication-threshold-matrix.md",
+        "okf/LLM_Behavior_Log/fabrication-threshold-matrix.md"
+      ],
+      "notes": "ADHD-145: resolved [[Model Reasoning and Fabrication Diagnostic Compari]] to in-repo CSV; authoritative RFAB threshold source"
+    }
+  }
+}
