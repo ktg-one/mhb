@@ -57,12 +57,19 @@ def inject_wikilinks(text):
         if wikilink not in linked_text:
             linked_text = re.sub(pattern, wikilink, linked_text, count=2, flags=re.IGNORECASE)
     
+    # Canonical targets of wikilinks already present (strip any | label or
+    # # anchor, normalize case) so suffixed links also prevent re-injection.
+    existing_links = {
+        m.group(1).split('|', 1)[0].split('#', 1)[0].strip().lower()
+        for m in re.finditer(r'\[\[([^\[\]]+)\]\]', linked_text)
+    }
+
     # Concept wikilinks
-    if '[[epistemic-contract]]' not in linked_text and 'epistemic contract' in linked_text.lower():
+    if 'epistemic-contract' not in existing_links and 'epistemic contract' in linked_text.lower():
         linked_text = re.sub(r'\bepistemic contract\b', '[[epistemic-contract]]', linked_text, count=1, flags=re.IGNORECASE)
-    if '[[rfab-test]]' not in linked_text and 'reasoning vs fabrication' in linked_text.lower():
+    if 'rfab-test' not in existing_links and 'reasoning vs fabrication' in linked_text.lower():
         linked_text = re.sub(r'\breasoning vs fabrication\b', '[[rfab-test]]', linked_text, count=1, flags=re.IGNORECASE)
-    if '[[pac26]]' not in linked_text and 'pac26' in linked_text.lower():
+    if 'pac26' not in existing_links and 'pac26' in linked_text.lower():
         linked_text = re.sub(r'\bpac26\b', '[[pac26]]', linked_text, count=1, flags=re.IGNORECASE)
         
     return linked_text
