@@ -57,6 +57,20 @@
         "okf/Principles_and_Frameworks/morganize.md"
       ],
       "pages_updated": []
+    },
+    "results/Model Reasoning and Fabrication Diagnostic Compari.csv": {
+      "hash": "de5b95ff76dc86c4014a7dbe90cc0c33668b09cb22246bd3e55911d2cf955b62",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "pages_created": [
+        "okf/LLM_Tests/04_RFAB_TEST/Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv.md",
+        "okf/LLM_Tests/01_HONESTY_TEST/Model_Reasoning_and_Fabrication_Diagnostic_Compari.csv.md"
+      ],
+      "pages_updated": [
+        "okf/LLM_Tests/04_RFAB_TEST/fabrication-threshold-matrix.md",
+        "okf/LLM_Behavior_Log/fabrication-threshold-matrix.md"
+      ],
+      "notes": "ADHD-145: resolved [[Model Reasoning and Fabrication Diagnostic Compari]] to in-repo CSV; authoritative RFAB threshold source"
     }
   }
 }
