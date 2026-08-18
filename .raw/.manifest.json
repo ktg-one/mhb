@@ -83,6 +83,78 @@
       ],
       "pages_updated": [],
       "notes": "ADHD-146: recorded the four Principles_and_Frameworks gate pages created by ADHD-125 (commit 552eccf) so they carry a manifest hash. hash = SHA-256 over the four page files concatenated (provenance record, not a .raw source). No page content changed by this entry."
+    },
+    "okf/LLM_Tests/01_HONESTY_TEST/codex.md": {
+      "hash": "22a8d9f4b28df2ffe2f7376baf3e5ef4dc0f8c8373f3cb3a1efe7f96e3d233bf",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-144: fixed broken category wikilinks; manifest entry required"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/grok-4.2.md": {
+      "hash": "a4ea7e2a1b092e414aaba9e82603430845f1501097826495ee3c71287503d962",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-144: fixed broken category wikilinks; manifest entry required"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/qwen-code.md": {
+      "hash": "02032004648deaa33fdd0e63616a4cebddf8f4fca5e011e474bc4dabb2111677",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-144: fixed broken category wikilinks; manifest entry required"
+    },
+    "okf/LLM_Tests/04_RFAB_TEST/qwen-max.md": {
+      "hash": "8bcb5da389f0d33878aaccb2303d8ae3d59e1cd1800fb9a1f2f1f4528758e755",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-144: fixed broken category wikilinks; manifest entry required"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/deepseek.md": {
+      "hash": "5c68e32d7d4a12b64eb62ac3cc87fa1d1d58d0c6358c7afe39d0fbadaeeb32bb",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-144: fixed broken category wikilinks; manifest entry required"
+    },
+    "okf/LLM_Tests/05_MBTI_PIQUE_TEST/gemini-3.1.md": {
+      "hash": "8514c4d0a2ee1f2e61a15c76391e9603c52e4822710537d2f02219ec72b25295",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-144: fixed broken category wikilinks; manifest entry required"
+    },
+    "okf/Principles_and_Frameworks/fabrication-boundary.md": {
+      "hash": "7db346c9142e28af447621a99f1f02d52dd7e484e10efc01cdd3575b950b4f99",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-146: created page; >=8 distinct inline crosslinks; manifest entry required"
+    },
+    "okf/Principles_and_Frameworks/onboard-test.md": {
+      "hash": "ee1f754ba99dd63e36a49956d476322ccd02c26d11d008ebb6d62c6affa13565",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-146: created page; >=8 distinct inline crosslinks; manifest entry required"
+    },
+    "okf/Principles_and_Frameworks/reasoning-fabrication-threshold.md": {
+      "hash": "5f118c868756e81e6c393c9eb436044f341dc1116d9512e85684570dba7a8330",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-146: created page; >=8 distinct inline crosslinks; manifest entry required"
+    },
+    "okf/Principles_and_Frameworks/Reasoning-vs-Fabrication-test.md": {
+      "hash": "afd620ab7d2ab8b5a51bb7576321a4e06cccd8adebbc32d6f42b81b55ad4b879",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-146: created page; >=8 distinct inline crosslinks; manifest entry required"
+    },
+    "okf/Experiments/headless-cli-mbti-cross-surface.md": {
+      "hash": "551c3f6574965f88b38d78343ec9d2fe8a139808fcfecf227536cf607a490a73",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-146: ingested from .raw/note-headless-mbti-cross-cli-2026-07-19.md; >=8 distinct inline crosslinks; manifest entry required"
+    },
+    "okf/Experiments/observer-reassurance-effect.md": {
+      "hash": "505e95555ef07aad95f6b702a34faac90265dfce44860be75366da0318c98858",
+      "ingested_at": "2026-08-18",
+      "status": "ingested",
+      "notes": "ADHD-146: ingested from .raw/obs-opus-gsap-observer-reassurance-2026-07-19.md; >=8 distinct inline crosslinks; manifest entry required"
     }
   }
 }
