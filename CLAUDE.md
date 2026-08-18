@@ -35,6 +35,11 @@ Not "state" cost you this. You had every failure log in context and skipped the 
 
 **Receipts (newest first):**
 ```
+- CAUGHT: I was about to trust `pages=527` as the vault's actual Markdown-page count.
+  FIRED:  a full recursive file audit after duplicate stems appeared
+  RAN:    independent recursive count plus YAML/link checks
+  TRUTH:  the baseline contained 664 OKF Markdown files; the old linter keyed pages by filename stem and silently overwrote 137 same-stem files
+  Delta:  reporting and link coverage would have excluded those files. — Codex, 2026-08-17
 - CAUGHT: "vault duplicates okf; dedup the pairs by name-match, mark superseded"
   FIRED:  my own fuzzy matcher paired "ChatGPT" with "ChatGPT Sora"
   RAN:    read both files' model field before marking anything

@@ -14,7 +14,7 @@ tags:
 sources:
 - '[[Deep]]'
 - '[[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]'
-- '[[[[rfab-test]]'
+- '[[Reasoning vs Fabrication Threshold Across AI Model.csv]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/10. Deep]]'
 - '[[03-PIQUE-TEST/04-MBTI-TEST/3. Deep]]'
 hash: sha256:719bbefe142d7058
@@ -36,7 +36,7 @@ type: entity
 
 tags: [model, deepseek, fabrication-threshold, high-fidelity, keyword-override, measurement-gap]
 
-sources: ["[[Deep]]", "[[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]", "[[[[rfab-test]] Threshold Across AI Model.csv]]", "[[03-PIQUE-TEST/04-MBTI-TEST/10. Deep]]", "[[03-PIQUE-TEST/04-MBTI-TEST/3. Deep]]", "[[03-PIQUE-TEST/04-MBTI-TEST/4 Deep]]", "[[03-PIQUE-TEST/04-MBTI-TEST/6.Deep]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9. Deepseek]]"]
+sources: ["[[Deep]]", "[[01-MODEL-Q&A/AIANT-MBTI-RESULTS-2026-04]]", "[[Reasoning vs Fabrication Threshold Across AI Model.csv]]", "[[03-PIQUE-TEST/04-MBTI-TEST/10. Deep]]", "[[03-PIQUE-TEST/04-MBTI-TEST/3. Deep]]", "[[03-PIQUE-TEST/04-MBTI-TEST/4 Deep]]", "[[03-PIQUE-TEST/04-MBTI-TEST/6.Deep]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9. Deepseek]]"]
 
 last_updated: 2026-06-06
 

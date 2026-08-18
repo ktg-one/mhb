@@ -12,6 +12,7 @@ tags:
 sources:
 - '[[multi-model]]'
 - '[[epistemic-contract]]'
+---
 --------------------------------------------------------------------------------\n\
   \n\n\n```Technique\n\nGPT 5.3\n\nGemini 3.1\n\nOpus 4.6\n\nSonnet 4.6\n\nTreatment\n\
   \nChain of Thought\n\n✅\n\n✅\n\n✅\n\n✅\n\nKeep verbatim\n\nStep Back\n\n✅\n\n✅\n\

@@ -54,11 +54,13 @@ def load_manifest(vault):
         return None
     try:
         d = json.load(open(p, encoding="utf-8"))
-        hashed = set()
-        for k, v in (d.get("sources") or {}).items():
+        mapped_pages = set()
+        for _, v in (d.get("sources") or {}).items():
             if isinstance(v, dict) and v.get("hash"):
-                hashed.add(os.path.basename(k).lower())
-        return hashed
+                for key in ("pages_created", "pages_updated"):
+                    for page in v.get(key) or []:
+                        mapped_pages.add(str(page).replace("\\", "/").lower())
+        return mapped_pages
     except Exception:
         return set()
 
@@ -115,7 +117,8 @@ def main(argv):
         distinct = len(srcs)
         classes = {pages[s]["cls"] for s in srcs if s in pages}
         cross = len(classes) >= 2
-        hashed = (manifest is None) or (os.path.basename(meta["path"]).lower() in manifest)
+        page_path = os.path.relpath(meta["path"], vault).replace(os.sep, "/").lower()
+        hashed = (manifest is None) or (page_path in manifest)
         stub = meta["body_bytes"] < STUB_BODY_FLOOR
         ok = distinct >= min_links and cross and not stub and hashed
         total = total_ref.get(stem, 0)

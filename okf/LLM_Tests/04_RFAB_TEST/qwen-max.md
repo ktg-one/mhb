@@ -53,7 +53,7 @@ tags: [model, honesty, fabrication, harsh-boundary, eager-impressionist]
 
 
 
-sources: ["[[#01-honesty-test-Test1-qwen-max]]", "[[Qwen4.6]]", "[[03-PIQUE-TEST/04-MBTI-TEST/3. Qwen]]", "[[03-PIQUE-TEST/04-MBTI-TEST/4. Qwen]]", "[[03-PIQUE-TEST/04-MBTI-TEST/6.Qwen]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9. Qwen]]", "[[03-PIQUE-TEST/04-MBTI-TEST/10. qwen]]", "[[Qwen.pdf]]", "[[[[rfab-test]] Threshold Across AI Model.csv]]", "[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]"]
+sources: ["[[#01-honesty-test-Test1-qwen-max]]", "[[Qwen4.6]]", "[[03-PIQUE-TEST/04-MBTI-TEST/3. Qwen]]", "[[03-PIQUE-TEST/04-MBTI-TEST/4. Qwen]]", "[[03-PIQUE-TEST/04-MBTI-TEST/6.Qwen]]", "[[03-PIQUE-TEST/04-MBTI-TEST/9. Qwen]]", "[[03-PIQUE-TEST/04-MBTI-TEST/10. qwen]]", "[[Qwen.pdf]]", "[[Reasoning vs Fabrication Threshold Across AI Model.csv]]", "[[AI-Anthropology Model Reasoning and Fabrication Te.csv]]"]
 
 
 

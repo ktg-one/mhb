@@ -11,7 +11,7 @@ tags:
 - ai-anthropology
 - okf
 sources:
-- '[[[opus-4.8-test]]'
+- '[[opus-4.8-test]]'
 - '[[2026-06-06_claude-opus-4.8_C-honesty_self.md]]'
 - '[[claude-opus-4.6]]'
 - '[[epistemic-contract]]'
@@ -35,7 +35,7 @@ type: entity
 
 tags: [model, honesty, fabrication, late-stop, self-vs-external-scoring, platform-penalty]
 
-sources: [[[opus-4.8-test]], [[2026-06-06_claude-opus-4.8_C-honesty_self.md]], [[claude-opus-4.6]], [[epistemic-contract]], [[technique-honesty]], [[fabrication-threshold-matrix]], [[purpose]]]
+sources: [[opus-4.8-test]], [[2026-06-06_claude-opus-4.8_C-honesty_self.md]], [[claude-opus-4.6]], [[epistemic-contract]], [[technique-honesty]], [[fabrication-threshold-matrix]], [[purpose]]
 
 last_updated: 2026-06-08
 
