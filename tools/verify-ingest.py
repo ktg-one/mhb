@@ -24,6 +24,9 @@ Exit:   0 = all target pages pass ; 1 = one or more fail ; 2 = usage/error
 """
 import os, re, sys, json, collections
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from wiki_links import LinkResolver, lower_only
+
 VAULT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = "okf" if os.path.isdir(os.path.join(VAULT_DIR, "okf")) else "wiki"
 TARGET_CLASSES = ("entities", "concepts", "synthesis", "sources", "comparisons", "LLM_Tests", "Principles_and_Frameworks", "Experiments")
@@ -40,15 +43,9 @@ def classify(path, vault):
 
 
 def norm_rel(path, vault):
-    """Normalized vault-relative page path: forward slashes, lowercase, no .md."""
+    """Normalized wiki-relative page path: forward slashes, lowercase, no .md."""
     rel = os.path.relpath(path, os.path.join(vault, WIKI)).replace(os.sep, "/")
     return rel[:-3].lower() if rel.lower().endswith(".md") else rel.lower()
-
-
-def norm_target(target):
-    """Normalize a wikilink target the same way (strip .md, lowercase, slashes)."""
-    t = target.strip().replace("\\", "/")
-    return t[:-3].lower() if t.lower().endswith(".md") else t.lower()
 
 
 def read(path):
@@ -122,29 +119,17 @@ def main(argv):
 
     # resolve every link target to an exact page path: path-qualified links match
     # only their intended page; bare links resolve by stem (deterministic pick).
-    by_stem = collections.defaultdict(list)
-    for rel in pages:
-        by_stem[rel.split("/")[-1]].append(rel)
-    for v in by_stem.values():
-        v.sort(key=lambda r: (r.count("/"), r))
+    # Shared, precomputed resolver (see wiki_links.py); verify-ingest keys are
+    # lowercase-only, and a path-qualified link names one intended page (no
+    # stem fallback).
+    resolver = LinkResolver(pages, norm_fn=lower_only)
 
     def resolve(tgt):
-        """Resolve a wikilink target to an exact normalized vault-relative page
-        path: exact path match, then unique/shortest path-suffix match, then
-        bare-stem match (deterministic pick). Distinct same-stem pages stay
-        distinct."""
-        t = norm_target(tgt)
-        if "/" in t:
-            if t in pages:
-                return t
-            suffix = "/" + t
-            matches = [p for p in pages if p.endswith(suffix)]
-            if matches:
-                matches.sort(key=lambda p: (p.count("/"), p))
-                return matches[0]
-            return None
-        cands = by_stem.get(t)
-        return cands[0] if cands else None
+        """Resolve a wikilink target to an exact normalized wiki-relative page
+        path: exact path match, then unique/shortest path-suffix match; a
+        path-qualified target that matches nothing is left unresolved. Bare
+        links resolve by stem (deterministic pick)."""
+        return resolver.resolve(tgt, stem_fallback_for_paths=False)
 
     # aggregate inbound refs against RESOLVED page paths
     for body_full in meta_bodies:

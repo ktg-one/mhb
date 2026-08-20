@@ -9,11 +9,11 @@
 
 | # | Test Category | Clickable Test Directory Index | Concept Count | Methodology & Focus |
 |---|---|---|:---:|---|
-| **1** | **Honesty Test** | [[00_HONESTY_INDEX|🧪 01_HONESTY_TEST]] | **119** | Epistemic Contract, ONBOARD protocol, 嘘契約 consent |
-| **2** | **Self-Assessment** | [[00_SELF_ASSESSMENT_INDEX|📊 02_SELF_ASSESSMENT]] | **24** | Platform identity, context shearing, marketed vs real limits |
-| **3** | **Signal Test** | [[00_SIGNAL_INDEX|🎯 03_SIGNAL_TEST]] | **45** | PAC26 matrix, steering signals, salient-word activation |
-| **4** | **RFAB Test** | [[00_RFAB_INDEX|📈 04_RFAB_TEST]] | **106** | Reasoning ladder $R1\text{--}R10$, crossover at $R7\text{--}R8$ ($\sim 54\%$) |
-| **5** | **Pique & MBTI** | [[00_MBTI_PIQUE_INDEX|🧠 05_MBTI_PIQUE_TEST]] | **88** | 9-prompt architecture probes & unprompted MBTI typology |
+| **1** | **Honesty Test** | [[00_HONESTY_INDEX|🧪 01_HONESTY_TEST]] | **124** | Epistemic Contract, ONBOARD protocol, 嘘契約 consent |
+| **2** | **Self-Assessment** | [[00_SELF_ASSESSMENT_INDEX|📊 02_SELF_ASSESSMENT]] | **26** | Platform identity, context shearing, marketed vs real limits |
+| **3** | **Signal Test** | [[00_SIGNAL_INDEX|🎯 03_SIGNAL_TEST]] | **48** | PAC26 matrix, steering signals, salient-word activation |
+| **4** | **RFAB Test** | [[00_RFAB_INDEX|📈 04_RFAB_TEST]] | **107** | Reasoning ladder $R1\text{--}R10$, crossover at $R7\text{--}R8$ ($\sim 54\%$) |
+| **5** | **Pique & MBTI** | [[00_MBTI_PIQUE_INDEX|🧠 05_MBTI_PIQUE_TEST]] | **95** | 9-prompt architecture probes & unprompted MBTI typology |
 
 ---
 

@@ -11,6 +11,9 @@ import os
 import re
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from wiki_links import LinkResolver, norm, target_keys
+
 
 VAULT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = os.path.join(VAULT, "okf")
@@ -20,13 +23,14 @@ WIKILINK = re.compile(r"(?<!\[)\[\[([^\[\]]*)\]\](?!\])")
 EMPTY_WIKILINK = re.compile(r"(?<!\[)\[\[\s*\]\](?!\])")
 
 
-def norm(value):
-    return re.sub(r"[\s_-]+", "-", value.lower())
-
-
 def page_key(path):
-    """Normalized vault-relative page path: forward slashes, lowercase, no .md."""
-    rel = os.path.relpath(path, VAULT).replace(os.sep, "/")
+    """Normalized wiki-relative page path: forward slashes, lowercase, no .md.
+
+    Based on WIKI (not VAULT): wikilink targets are written relative to the
+    wiki root, so keys must share that root or path-qualified links never
+    exact-match.
+    """
+    rel = os.path.relpath(path, WIKI).replace(os.sep, "/")
     key, _ = os.path.splitext(rel)
     return norm(key)
 
@@ -54,14 +58,6 @@ def resolvable_targets():
     return targets
 
 
-def target_keys(target):
-    clean = target.replace("\\", "/").lstrip("./")
-    basename = os.path.basename(clean)
-    stem, _ = os.path.splitext(basename)
-    rel_stem, _ = os.path.splitext(clean)
-    return {norm(clean), norm(rel_stem), norm(basename), norm(stem)}
-
-
 page_files = active_markdown_files()
 target_norms = resolvable_targets()
 links = []
@@ -84,41 +80,14 @@ dangling = collections.Counter(
     target for _, target in links if target_keys(target).isdisjoint(target_norms)
 )
 
-# Resolve each link to an exact normalized vault-relative page path, so a
+# Resolve each link to an exact normalized wiki-relative page path, so a
 # path-qualified link only marks its intended page as linked. Bare links
 # resolve by stem with a deterministic pick (shallowest path, then alpha).
-by_stem = collections.defaultdict(list)
-for key in page_keys:
-    by_stem[key.split("/")[-1]].append(key)
-for candidates in by_stem.values():
-    candidates.sort(key=lambda k: (k.count("/"), k))
+# The resolver precomputes exact/suffix/stem indexes once (see wiki_links.py).
+resolver = LinkResolver(page_keys)
 
 
-def resolve_page(target):
-    """Resolve a wikilink target to an exact normalized vault-relative page path.
-
-    Obsidian semantics: an exact vault-relative path match wins; otherwise a
-    path-qualified link suffix-matches the tail of a page path (unique, then
-    shortest); a bare link matches by stem (unique/shortest). A link therefore
-    marks only its intended page as linked, never every same-stem page.
-    """
-    keys = target_keys(target)
-    path_qualified = sorted(k for k in keys if "/" in k)
-    for key in path_qualified:
-        if key in page_keys:
-            return key
-    for key in path_qualified:
-        suffix = "/" + key
-        matches = [p for p in page_keys if p.endswith(suffix)]
-        if matches:
-            matches.sort(key=lambda p: (p.count("/"), p))
-            return matches[0]
-    stem = norm(os.path.splitext(os.path.basename(target.replace("\\", "/")))[0])
-    candidates = by_stem.get(stem)
-    return candidates[0] if candidates else None
-
-
-linked_pages = {resolved for resolved in (resolve_page(t) for _, t in links) if resolved}
+linked_pages = {resolved for resolved in (resolver.resolve(t) for _, t in links) if resolved}
 orphans = [
     os.path.relpath(path, VAULT).replace(os.sep, "/")
     for path in page_files
